@@ -1,4 +1,3 @@
--- Міграція для створення таблиці user_workout_progress
 CREATE TABLE user_workout_progress (
     progressid SERIAL PRIMARY KEY,
     userid INT REFERENCES users(userid) ON DELETE CASCADE,
