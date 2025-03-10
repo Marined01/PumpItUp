@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PumpItUp.Core.Entities
 {
-    internal class UserEntity: BaseEntity
+    internal class UserEntity : BaseEntity
     {
         public string Name { get; set; } = string.Empty;
     }
