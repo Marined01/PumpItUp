@@ -1,0 +1,6 @@
+CREATE TABLE posts (
+    postid SERIAL PRIMARY KEY,
+    userid INT REFERENCES users(userid) ON DELETE CASCADE,
+    content TEXT NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
