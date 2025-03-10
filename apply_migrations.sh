@@ -6,6 +6,7 @@ if [ -f .env ]; then
     fi
   done < .env
 else
+
   echo ".env файл не знайдений!"
   exit 1
 fi
