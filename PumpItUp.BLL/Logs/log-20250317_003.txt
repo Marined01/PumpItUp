@@ -1,0 +1,1111 @@
+2025-03-17 19:36:58.228 +02:00 [WRN] Failed to determine the https port for redirect.
+2025-03-17 20:03:30.736 +02:00 [INF] User profile is available. Using 'C:\Users\Green\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-17 20:03:30.828 +02:00 [INF] Now listening on: http://localhost:5227
+2025-03-17 20:03:30.832 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-17 20:03:30.835 +02:00 [INF] Hosting environment: Development
+2025-03-17 20:03:30.836 +02:00 [INF] Content root path: D:\WebProjectDotNetUni\PumpItUp\PumpItUp.BLL
+2025-03-17 20:03:31.246 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/ - null null
+2025-03-17 20:03:31.269 +02:00 [WRN] Failed to determine the https port for redirect.
+2025-03-17 20:03:31.292 +02:00 [INF] Executing endpoint 'PumpItUp.BLL.Controllers.HomeController.Index (PumpItUp.BLL)'
+2025-03-17 20:03:31.330 +02:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller PumpItUp.BLL.Controllers.HomeController (PumpItUp.BLL).
+2025-03-17 20:03:31.349 +02:00 [INF] Executing ViewResult, running view Index.
+2025-03-17 20:03:31.414 +02:00 [INF] Executed ViewResult - view Index executed in 72.1016ms.
+2025-03-17 20:03:31.420 +02:00 [INF] Executed action PumpItUp.BLL.Controllers.HomeController.Index (PumpItUp.BLL) in 86.2498ms
+2025-03-17 20:03:31.422 +02:00 [INF] Executed endpoint 'PumpItUp.BLL.Controllers.HomeController.Index (PumpItUp.BLL)'
+2025-03-17 20:03:31.428 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/ - 200 null text/html; charset=utf-8 185.6989ms
+2025-03-17 20:03:31.442 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2025-03-17 20:03:31.448 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - null null
+2025-03-17 20:03:31.448 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/PumpItUp.BLL.styles.css?v=GbSapkM_6-KSLkIOvEIwJB_Fn8xS8NioFjqXxTNHNic - null null
+2025-03-17 20:03:31.449 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/lib/jquery/dist/jquery.min.js - null null
+2025-03-17 20:03:31.449 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2025-03-17 20:03:31.450 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - null null
+2025-03-17 20:03:31.747 +02:00 [INF] The file /css/site.css was not modified
+2025-03-17 20:03:31.748 +02:00 [INF] The file /lib/jquery/dist/jquery.min.js was not modified
+2025-03-17 20:03:31.748 +02:00 [INF] The file /lib/bootstrap/dist/css/bootstrap.min.css was not modified
+2025-03-17 20:03:31.748 +02:00 [INF] The file /js/site.js was not modified
+2025-03-17 20:03:31.748 +02:00 [INF] The file /lib/bootstrap/dist/js/bootstrap.bundle.min.js was not modified
+2025-03-17 20:03:31.748 +02:00 [INF] The file /PumpItUp.BLL.styles.css was not modified
+2025-03-17 20:03:31.750 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - 304 null text/css 301.7935ms
+2025-03-17 20:03:31.751 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/lib/jquery/dist/jquery.min.js - 304 null text/javascript 302.0618ms
+2025-03-17 20:03:31.753 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/lib/bootstrap/dist/css/bootstrap.min.css - 304 null text/css 311.5054ms
+2025-03-17 20:03:31.754 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - 304 null text/javascript 304.044ms
+2025-03-17 20:03:31.755 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 304 null text/javascript 306.0344ms
+2025-03-17 20:03:31.757 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/PumpItUp.BLL.styles.css?v=GbSapkM_6-KSLkIOvEIwJB_Fn8xS8NioFjqXxTNHNic - 304 null text/css 308.2429ms
+2025-03-17 20:03:39.271 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/User/CreateUser - null null
+2025-03-17 20:03:39.276 +02:00 [INF] Executing endpoint 'PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL)'
+2025-03-17 20:03:39.280 +02:00 [INF] Route matched with {action = "CreateUser", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateUser() on controller PumpItUp.BLL.Controllers.UserController (PumpItUp.BLL).
+2025-03-17 20:03:39.287 +02:00 [INF] Executed action PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL) in 2.9838ms
+2025-03-17 20:03:39.291 +02:00 [INF] Executed endpoint 'PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL)'
+2025-03-17 20:03:39.295 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'PumpItUp.BLL.Services.UserService' while attempting to activate 'PumpItUp.BLL.Controllers.UserController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method19(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-03-17 20:03:39.330 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/User/CreateUser - 500 null text/html; charset=utf-8 59.1793ms
+2025-03-17 20:05:35.597 +02:00 [INF] Application is shutting down...
+2025-03-17 20:05:41.725 +02:00 [INF] User profile is available. Using 'C:\Users\Green\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-17 20:05:41.813 +02:00 [INF] Now listening on: http://localhost:5227
+2025-03-17 20:05:41.817 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-17 20:05:41.819 +02:00 [INF] Hosting environment: Development
+2025-03-17 20:05:41.821 +02:00 [INF] Content root path: D:\WebProjectDotNetUni\PumpItUp\PumpItUp.BLL
+2025-03-17 20:05:42.207 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/ - null null
+2025-03-17 20:05:42.227 +02:00 [WRN] Failed to determine the https port for redirect.
+2025-03-17 20:05:42.249 +02:00 [INF] Executing endpoint 'PumpItUp.BLL.Controllers.HomeController.Index (PumpItUp.BLL)'
+2025-03-17 20:05:42.289 +02:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller PumpItUp.BLL.Controllers.HomeController (PumpItUp.BLL).
+2025-03-17 20:05:42.306 +02:00 [INF] Executing ViewResult, running view Index.
+2025-03-17 20:05:42.371 +02:00 [INF] Executed ViewResult - view Index executed in 70.7774ms.
+2025-03-17 20:05:42.378 +02:00 [INF] Executed action PumpItUp.BLL.Controllers.HomeController.Index (PumpItUp.BLL) in 85.7028ms
+2025-03-17 20:05:42.379 +02:00 [INF] Executed endpoint 'PumpItUp.BLL.Controllers.HomeController.Index (PumpItUp.BLL)'
+2025-03-17 20:05:42.384 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/ - 200 null text/html; charset=utf-8 178.1375ms
+2025-03-17 20:05:54.439 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/User/CreateUser - null null
+2025-03-17 20:05:54.445 +02:00 [INF] Executing endpoint 'PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL)'
+2025-03-17 20:05:54.450 +02:00 [INF] Route matched with {action = "CreateUser", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateUser() on controller PumpItUp.BLL.Controllers.UserController (PumpItUp.BLL).
+2025-03-17 20:05:55.502 +02:00 [INF] Executing ViewResult, running view CreateUser.
+2025-03-17 20:05:55.574 +02:00 [INF] Executed ViewResult - view CreateUser executed in 73.3992ms.
+2025-03-17 20:05:55.577 +02:00 [INF] Executed action PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL) in 1123.9245ms
+2025-03-17 20:05:55.579 +02:00 [INF] Executed endpoint 'PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL)'
+2025-03-17 20:05:55.583 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/User/CreateUser - 200 null text/html; charset=utf-8 1144.4375ms
+2025-03-17 20:06:41.985 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:5227/User/CreateUser - application/x-www-form-urlencoded 495
+2025-03-17 20:06:41.993 +02:00 [INF] Executing endpoint 'PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL)'
+2025-03-17 20:06:42.014 +02:00 [INF] Route matched with {action = "CreateUser", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateUser(PumpItUp.DAL.DTOs.UserRequest) on controller PumpItUp.BLL.Controllers.UserController (PumpItUp.BLL).
+2025-03-17 20:06:42.081 +02:00 [INF] Executed action PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL) in 62.3011ms
+2025-03-17 20:06:42.085 +02:00 [INF] Executed endpoint 'PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL)'
+2025-03-17 20:06:42.087 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at PumpItUp.BLL.Services.UserService.CreateUserAsync(UserRequest userRequest) in D:\WebProjectDotNetUni\PumpItUp\PumpItUp.BLL\Services\UserService.cs:line 14
+   at PumpItUp.BLL.Controllers.UserController.CreateUser(UserRequest userRequest) in D:\WebProjectDotNetUni\PumpItUp\PumpItUp.BLL\Controllers\UserController.cs:line 25
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-03-17 20:06:42.126 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:5227/User/CreateUser - 500 null text/html; charset=utf-8 140.3541ms
+2025-03-17 20:17:47.106 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:5227/User/CreateUser - application/x-www-form-urlencoded 495
+2025-03-17 20:17:47.112 +02:00 [INF] Executing endpoint 'PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL)'
+2025-03-17 20:17:47.115 +02:00 [INF] Route matched with {action = "CreateUser", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateUser(PumpItUp.DAL.DTOs.UserRequest) on controller PumpItUp.BLL.Controllers.UserController (PumpItUp.BLL).
+2025-03-17 20:17:47.123 +02:00 [INF] Executed action PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL) in 4.7342ms
+2025-03-17 20:17:47.125 +02:00 [INF] Executed endpoint 'PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL)'
+2025-03-17 20:17:47.127 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at PumpItUp.BLL.Services.UserService.CreateUserAsync(UserRequest userRequest) in D:\WebProjectDotNetUni\PumpItUp\PumpItUp.BLL\Services\UserService.cs:line 14
+   at PumpItUp.BLL.Controllers.UserController.CreateUser(UserRequest userRequest) in D:\WebProjectDotNetUni\PumpItUp\PumpItUp.BLL\Controllers\UserController.cs:line 25
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-03-17 20:17:47.141 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:5227/User/CreateUser - 500 null text/html; charset=utf-8 35.5118ms
+2025-03-17 20:17:47.218 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/favicon.ico - null null
+2025-03-17 20:17:47.227 +02:00 [INF] The file /favicon.ico was not modified
+2025-03-17 20:17:47.230 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/favicon.ico - 304 null image/x-icon 12.8071ms
+2025-03-17 20:17:48.638 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/User/CreateUser - null null
+2025-03-17 20:17:48.643 +02:00 [INF] Executing endpoint 'PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL)'
+2025-03-17 20:17:48.645 +02:00 [INF] Route matched with {action = "CreateUser", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateUser() on controller PumpItUp.BLL.Controllers.UserController (PumpItUp.BLL).
+2025-03-17 20:17:48.650 +02:00 [INF] Executing ViewResult, running view CreateUser.
+2025-03-17 20:17:48.655 +02:00 [INF] Executed ViewResult - view CreateUser executed in 5.7861ms.
+2025-03-17 20:17:48.658 +02:00 [INF] Executed action PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL) in 9.1122ms
+2025-03-17 20:17:48.661 +02:00 [INF] Executed endpoint 'PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL)'
+2025-03-17 20:17:48.664 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/User/CreateUser - 200 null text/html; charset=utf-8 26.0498ms
+2025-03-17 20:17:49.341 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/User/CreateUser - null null
+2025-03-17 20:17:49.346 +02:00 [INF] Executing endpoint 'PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL)'
+2025-03-17 20:17:49.347 +02:00 [INF] Route matched with {action = "CreateUser", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateUser() on controller PumpItUp.BLL.Controllers.UserController (PumpItUp.BLL).
+2025-03-17 20:17:49.349 +02:00 [INF] Executing ViewResult, running view CreateUser.
+2025-03-17 20:17:49.352 +02:00 [INF] Executed ViewResult - view CreateUser executed in 3.1667ms.
+2025-03-17 20:17:49.355 +02:00 [INF] Executed action PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL) in 5.6212ms
+2025-03-17 20:17:49.357 +02:00 [INF] Executed endpoint 'PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL)'
+2025-03-17 20:17:49.360 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/User/CreateUser - 200 null text/html; charset=utf-8 18.3216ms
+2025-03-17 20:17:50.054 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/User/CreateUser - null null
+2025-03-17 20:17:50.058 +02:00 [INF] Executing endpoint 'PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL)'
+2025-03-17 20:17:50.060 +02:00 [INF] Route matched with {action = "CreateUser", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateUser() on controller PumpItUp.BLL.Controllers.UserController (PumpItUp.BLL).
+2025-03-17 20:17:50.063 +02:00 [INF] Executing ViewResult, running view CreateUser.
+2025-03-17 20:17:50.065 +02:00 [INF] Executed ViewResult - view CreateUser executed in 2.7705ms.
+2025-03-17 20:17:50.069 +02:00 [INF] Executed action PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL) in 6.4976ms
+2025-03-17 20:17:50.071 +02:00 [INF] Executed endpoint 'PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL)'
+2025-03-17 20:17:50.074 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/User/CreateUser - 200 null text/html; charset=utf-8 19.6015ms
+2025-03-17 20:17:50.505 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/User/CreateUser - null null
+2025-03-17 20:17:50.509 +02:00 [INF] Executing endpoint 'PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL)'
+2025-03-17 20:17:50.510 +02:00 [INF] Route matched with {action = "CreateUser", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateUser() on controller PumpItUp.BLL.Controllers.UserController (PumpItUp.BLL).
+2025-03-17 20:17:50.512 +02:00 [INF] Executing ViewResult, running view CreateUser.
+2025-03-17 20:17:50.515 +02:00 [INF] Executed ViewResult - view CreateUser executed in 2.1503ms.
+2025-03-17 20:17:50.516 +02:00 [INF] Executed action PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL) in 4.2437ms
+2025-03-17 20:17:50.519 +02:00 [INF] Executed endpoint 'PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL)'
+2025-03-17 20:17:50.521 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/User/CreateUser - 200 null text/html; charset=utf-8 15.8144ms
+2025-03-17 20:17:50.777 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/User/CreateUser - null null
+2025-03-17 20:17:50.783 +02:00 [INF] Executing endpoint 'PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL)'
+2025-03-17 20:17:50.786 +02:00 [INF] Route matched with {action = "CreateUser", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateUser() on controller PumpItUp.BLL.Controllers.UserController (PumpItUp.BLL).
+2025-03-17 20:17:50.789 +02:00 [INF] Executing ViewResult, running view CreateUser.
+2025-03-17 20:17:50.791 +02:00 [INF] Executed ViewResult - view CreateUser executed in 2.3648ms.
+2025-03-17 20:17:50.794 +02:00 [INF] Executed action PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL) in 4.9958ms
+2025-03-17 20:17:50.796 +02:00 [INF] Executed endpoint 'PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL)'
+2025-03-17 20:17:50.798 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/User/CreateUser - 200 null text/html; charset=utf-8 20.4198ms
+2025-03-17 20:17:51.131 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/User/CreateUser - null null
+2025-03-17 20:17:51.136 +02:00 [INF] Executing endpoint 'PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL)'
+2025-03-17 20:17:51.138 +02:00 [INF] Route matched with {action = "CreateUser", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateUser() on controller PumpItUp.BLL.Controllers.UserController (PumpItUp.BLL).
+2025-03-17 20:17:51.141 +02:00 [INF] Executing ViewResult, running view CreateUser.
+2025-03-17 20:17:51.143 +02:00 [INF] Executed ViewResult - view CreateUser executed in 1.8867ms.
+2025-03-17 20:17:51.144 +02:00 [INF] Executed action PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL) in 3.6373ms
+2025-03-17 20:17:51.147 +02:00 [INF] Executed endpoint 'PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL)'
+2025-03-17 20:17:51.149 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/User/CreateUser - 200 null text/html; charset=utf-8 17.5251ms
+2025-03-17 20:17:51.396 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/User/CreateUser - null null
+2025-03-17 20:17:51.401 +02:00 [INF] Executing endpoint 'PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL)'
+2025-03-17 20:17:51.403 +02:00 [INF] Route matched with {action = "CreateUser", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateUser() on controller PumpItUp.BLL.Controllers.UserController (PumpItUp.BLL).
+2025-03-17 20:17:51.406 +02:00 [INF] Executing ViewResult, running view CreateUser.
+2025-03-17 20:17:51.409 +02:00 [INF] Executed ViewResult - view CreateUser executed in 3.0539ms.
+2025-03-17 20:17:51.412 +02:00 [INF] Executed action PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL) in 6.011ms
+2025-03-17 20:17:51.414 +02:00 [INF] Executed endpoint 'PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL)'
+2025-03-17 20:17:51.416 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/User/CreateUser - 200 null text/html; charset=utf-8 19.9564ms
+2025-03-17 20:17:51.579 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/User/CreateUser - null null
+2025-03-17 20:17:51.582 +02:00 [INF] Executing endpoint 'PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL)'
+2025-03-17 20:17:51.584 +02:00 [INF] Route matched with {action = "CreateUser", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateUser() on controller PumpItUp.BLL.Controllers.UserController (PumpItUp.BLL).
+2025-03-17 20:17:51.586 +02:00 [INF] Executing ViewResult, running view CreateUser.
+2025-03-17 20:17:51.588 +02:00 [INF] Executed ViewResult - view CreateUser executed in 2.219ms.
+2025-03-17 20:17:51.591 +02:00 [INF] Executed action PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL) in 4.5614ms
+2025-03-17 20:17:51.593 +02:00 [INF] Executed endpoint 'PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL)'
+2025-03-17 20:17:51.595 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/User/CreateUser - 200 null text/html; charset=utf-8 16.1198ms
+2025-03-17 20:17:51.753 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/User/CreateUser - null null
+2025-03-17 20:17:51.756 +02:00 [INF] Executing endpoint 'PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL)'
+2025-03-17 20:17:51.758 +02:00 [INF] Route matched with {action = "CreateUser", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateUser() on controller PumpItUp.BLL.Controllers.UserController (PumpItUp.BLL).
+2025-03-17 20:17:51.761 +02:00 [INF] Executing ViewResult, running view CreateUser.
+2025-03-17 20:17:51.764 +02:00 [INF] Executed ViewResult - view CreateUser executed in 3.2162ms.
+2025-03-17 20:17:51.766 +02:00 [INF] Executed action PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL) in 5.6699ms
+2025-03-17 20:17:51.768 +02:00 [INF] Executed endpoint 'PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL)'
+2025-03-17 20:17:51.770 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/User/CreateUser - 200 null text/html; charset=utf-8 17.2128ms
+2025-03-17 20:17:51.950 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/User/CreateUser - null null
+2025-03-17 20:17:51.953 +02:00 [INF] Executing endpoint 'PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL)'
+2025-03-17 20:17:51.955 +02:00 [INF] Route matched with {action = "CreateUser", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateUser() on controller PumpItUp.BLL.Controllers.UserController (PumpItUp.BLL).
+2025-03-17 20:17:51.958 +02:00 [INF] Executing ViewResult, running view CreateUser.
+2025-03-17 20:17:51.961 +02:00 [INF] Executed ViewResult - view CreateUser executed in 2.77ms.
+2025-03-17 20:17:51.964 +02:00 [INF] Executed action PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL) in 5.8597ms
+2025-03-17 20:17:51.966 +02:00 [INF] Executed endpoint 'PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL)'
+2025-03-17 20:17:51.968 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/User/CreateUser - 200 null text/html; charset=utf-8 18.0669ms
+2025-03-17 20:17:52.086 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/User/CreateUser - null null
+2025-03-17 20:17:52.090 +02:00 [INF] Executing endpoint 'PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL)'
+2025-03-17 20:17:52.092 +02:00 [INF] Route matched with {action = "CreateUser", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateUser() on controller PumpItUp.BLL.Controllers.UserController (PumpItUp.BLL).
+2025-03-17 20:17:52.095 +02:00 [INF] Executing ViewResult, running view CreateUser.
+2025-03-17 20:17:52.098 +02:00 [INF] Executed ViewResult - view CreateUser executed in 3.3056ms.
+2025-03-17 20:17:52.101 +02:00 [INF] Executed action PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL) in 5.8448ms
+2025-03-17 20:17:52.103 +02:00 [INF] Executed endpoint 'PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL)'
+2025-03-17 20:17:52.105 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/User/CreateUser - 200 null text/html; charset=utf-8 19.2194ms
+2025-03-17 20:17:54.884 +02:00 [INF] Application is shutting down...
+2025-03-17 20:18:09.076 +02:00 [INF] User profile is available. Using 'C:\Users\Green\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-17 20:18:09.164 +02:00 [INF] Now listening on: http://localhost:5227
+2025-03-17 20:18:09.168 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-17 20:18:09.169 +02:00 [INF] Hosting environment: Development
+2025-03-17 20:18:09.171 +02:00 [INF] Content root path: D:\WebProjectDotNetUni\PumpItUp\PumpItUp.BLL
+2025-03-17 20:18:09.605 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/ - null null
+2025-03-17 20:18:09.622 +02:00 [WRN] Failed to determine the https port for redirect.
+2025-03-17 20:18:09.644 +02:00 [INF] Executing endpoint 'PumpItUp.BLL.Controllers.HomeController.Index (PumpItUp.BLL)'
+2025-03-17 20:18:09.673 +02:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller PumpItUp.BLL.Controllers.HomeController (PumpItUp.BLL).
+2025-03-17 20:18:09.688 +02:00 [INF] Executing ViewResult, running view Index.
+2025-03-17 20:18:09.748 +02:00 [INF] Executed ViewResult - view Index executed in 64.2953ms.
+2025-03-17 20:18:09.754 +02:00 [INF] Executed action PumpItUp.BLL.Controllers.HomeController.Index (PumpItUp.BLL) in 76.8188ms
+2025-03-17 20:18:09.756 +02:00 [INF] Executed endpoint 'PumpItUp.BLL.Controllers.HomeController.Index (PumpItUp.BLL)'
+2025-03-17 20:18:09.762 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/ - 200 null text/html; charset=utf-8 159.6357ms
+2025-03-17 20:18:09.772 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2025-03-17 20:18:09.779 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - null null
+2025-03-17 20:18:09.779 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/PumpItUp.BLL.styles.css?v=GbSapkM_6-KSLkIOvEIwJB_Fn8xS8NioFjqXxTNHNic - null null
+2025-03-17 20:18:09.779 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/lib/jquery/dist/jquery.min.js - null null
+2025-03-17 20:18:09.779 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2025-03-17 20:18:09.781 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - null null
+2025-03-17 20:18:09.782 +02:00 [INF] The file /lib/bootstrap/dist/css/bootstrap.min.css was not modified
+2025-03-17 20:18:09.785 +02:00 [INF] The file /css/site.css was not modified
+2025-03-17 20:18:09.788 +02:00 [INF] The file /PumpItUp.BLL.styles.css was not modified
+2025-03-17 20:18:09.796 +02:00 [INF] The file /lib/jquery/dist/jquery.min.js was not modified
+2025-03-17 20:18:09.800 +02:00 [INF] The file /lib/bootstrap/dist/js/bootstrap.bundle.min.js was not modified
+2025-03-17 20:18:09.805 +02:00 [INF] The file /js/site.js was not modified
+2025-03-17 20:18:09.807 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/lib/bootstrap/dist/css/bootstrap.min.css - 304 null text/css 35.2311ms
+2025-03-17 20:18:09.809 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - 304 null text/css 29.3569ms
+2025-03-17 20:18:09.810 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/PumpItUp.BLL.styles.css?v=GbSapkM_6-KSLkIOvEIwJB_Fn8xS8NioFjqXxTNHNic - 304 null text/css 31.1092ms
+2025-03-17 20:18:09.812 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/lib/jquery/dist/jquery.min.js - 304 null text/javascript 32.6484ms
+2025-03-17 20:18:09.814 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 304 null text/javascript 34.5103ms
+2025-03-17 20:18:09.815 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - 304 null text/javascript 34.7072ms
+2025-03-17 20:19:19.823 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/User/CreateUser - null null
+2025-03-17 20:19:19.828 +02:00 [INF] Executing endpoint 'PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL)'
+2025-03-17 20:19:19.831 +02:00 [INF] Route matched with {action = "CreateUser", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateUser() on controller PumpItUp.BLL.Controllers.UserController (PumpItUp.BLL).
+2025-03-17 20:19:19.934 +02:00 [INF] Executing ViewResult, running view CreateUser.
+2025-03-17 20:19:20.001 +02:00 [INF] Executed ViewResult - view CreateUser executed in 67.9698ms.
+2025-03-17 20:19:20.003 +02:00 [INF] Executed action PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL) in 169.5327ms
+2025-03-17 20:19:20.006 +02:00 [INF] Executed endpoint 'PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL)'
+2025-03-17 20:19:20.009 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/User/CreateUser - 200 null text/html; charset=utf-8 186.7099ms
+2025-03-17 20:22:00.279 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/User/CreateUser - null null
+2025-03-17 20:22:00.286 +02:00 [INF] Executing endpoint 'PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL)'
+2025-03-17 20:22:00.288 +02:00 [INF] Route matched with {action = "CreateUser", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateUser() on controller PumpItUp.BLL.Controllers.UserController (PumpItUp.BLL).
+2025-03-17 20:22:00.295 +02:00 [INF] Executing ViewResult, running view CreateUser.
+2025-03-17 20:22:00.304 +02:00 [INF] Executed ViewResult - view CreateUser executed in 9.5251ms.
+2025-03-17 20:22:00.307 +02:00 [INF] Executed action PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL) in 16.8047ms
+2025-03-17 20:22:00.309 +02:00 [INF] Executed endpoint 'PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL)'
+2025-03-17 20:22:00.312 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/User/CreateUser - 200 null text/html; charset=utf-8 32.3706ms
+2025-03-17 20:22:01.350 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/User/CreateUser - null null
+2025-03-17 20:22:01.354 +02:00 [INF] Executing endpoint 'PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL)'
+2025-03-17 20:22:01.356 +02:00 [INF] Route matched with {action = "CreateUser", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateUser() on controller PumpItUp.BLL.Controllers.UserController (PumpItUp.BLL).
+2025-03-17 20:22:01.360 +02:00 [INF] Executing ViewResult, running view CreateUser.
+2025-03-17 20:22:01.364 +02:00 [INF] Executed ViewResult - view CreateUser executed in 3.8614ms.
+2025-03-17 20:22:01.367 +02:00 [INF] Executed action PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL) in 9.2483ms
+2025-03-17 20:22:01.369 +02:00 [INF] Executed endpoint 'PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL)'
+2025-03-17 20:22:01.372 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/User/CreateUser - 200 null text/html; charset=utf-8 21.5766ms
+2025-03-17 20:22:08.105 +02:00 [INF] Application is shutting down...
+2025-03-17 20:22:14.476 +02:00 [INF] User profile is available. Using 'C:\Users\Green\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-17 20:22:14.572 +02:00 [INF] Now listening on: http://localhost:5227
+2025-03-17 20:22:14.576 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-17 20:22:14.578 +02:00 [INF] Hosting environment: Development
+2025-03-17 20:22:14.580 +02:00 [INF] Content root path: D:\WebProjectDotNetUni\PumpItUp\PumpItUp.BLL
+2025-03-17 20:22:15.284 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/ - null null
+2025-03-17 20:22:15.303 +02:00 [WRN] Failed to determine the https port for redirect.
+2025-03-17 20:22:15.331 +02:00 [INF] Executing endpoint 'PumpItUp.BLL.Controllers.HomeController.Index (PumpItUp.BLL)'
+2025-03-17 20:22:15.365 +02:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller PumpItUp.BLL.Controllers.HomeController (PumpItUp.BLL).
+2025-03-17 20:22:15.381 +02:00 [INF] Executing ViewResult, running view Index.
+2025-03-17 20:22:15.452 +02:00 [INF] Executed ViewResult - view Index executed in 76.912ms.
+2025-03-17 20:22:15.459 +02:00 [INF] Executed action PumpItUp.BLL.Controllers.HomeController.Index (PumpItUp.BLL) in 90.1841ms
+2025-03-17 20:22:15.460 +02:00 [INF] Executed endpoint 'PumpItUp.BLL.Controllers.HomeController.Index (PumpItUp.BLL)'
+2025-03-17 20:22:15.465 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/ - 200 null text/html; charset=utf-8 184.011ms
+2025-03-17 20:22:31.391 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/User/CreateUser - null null
+2025-03-17 20:22:31.398 +02:00 [INF] Executing endpoint 'PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL)'
+2025-03-17 20:22:31.402 +02:00 [INF] Route matched with {action = "CreateUser", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateUser() on controller PumpItUp.BLL.Controllers.UserController (PumpItUp.BLL).
+2025-03-17 20:22:31.491 +02:00 [INF] Executing ViewResult, running view CreateUser.
+2025-03-17 20:22:31.555 +02:00 [INF] Executed ViewResult - view CreateUser executed in 64.1479ms.
+2025-03-17 20:22:31.558 +02:00 [INF] Executed action PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL) in 151.599ms
+2025-03-17 20:22:31.561 +02:00 [INF] Executed endpoint 'PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL)'
+2025-03-17 20:22:31.565 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/User/CreateUser - 200 null text/html; charset=utf-8 173.8721ms
+2025-03-17 20:22:57.190 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/User/CreateUser - null null
+2025-03-17 20:22:57.195 +02:00 [INF] Executing endpoint 'PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL)'
+2025-03-17 20:22:57.198 +02:00 [INF] Route matched with {action = "CreateUser", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateUser() on controller PumpItUp.BLL.Controllers.UserController (PumpItUp.BLL).
+2025-03-17 20:22:57.209 +02:00 [INF] Executing ViewResult, running view CreateUser.
+2025-03-17 20:22:57.214 +02:00 [INF] Executed ViewResult - view CreateUser executed in 5.5494ms.
+2025-03-17 20:22:57.217 +02:00 [INF] Executed action PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL) in 14.5977ms
+2025-03-17 20:22:57.219 +02:00 [INF] Executed endpoint 'PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL)'
+2025-03-17 20:22:57.222 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/User/CreateUser - 200 null text/html; charset=utf-8 31.4356ms
+2025-03-17 20:22:57.957 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/User/CreateUser - null null
+2025-03-17 20:22:57.963 +02:00 [INF] Executing endpoint 'PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL)'
+2025-03-17 20:22:57.964 +02:00 [INF] Route matched with {action = "CreateUser", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateUser() on controller PumpItUp.BLL.Controllers.UserController (PumpItUp.BLL).
+2025-03-17 20:22:57.970 +02:00 [INF] Executing ViewResult, running view CreateUser.
+2025-03-17 20:22:57.977 +02:00 [INF] Executed ViewResult - view CreateUser executed in 6.4406ms.
+2025-03-17 20:22:57.979 +02:00 [INF] Executed action PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL) in 12.6042ms
+2025-03-17 20:22:57.982 +02:00 [INF] Executed endpoint 'PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL)'
+2025-03-17 20:22:57.984 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/User/CreateUser - 200 null text/html; charset=utf-8 26.5752ms
+2025-03-17 20:22:58.228 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/User/CreateUser - null null
+2025-03-17 20:22:58.233 +02:00 [INF] Executing endpoint 'PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL)'
+2025-03-17 20:22:58.234 +02:00 [INF] Route matched with {action = "CreateUser", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateUser() on controller PumpItUp.BLL.Controllers.UserController (PumpItUp.BLL).
+2025-03-17 20:22:58.238 +02:00 [INF] Executing ViewResult, running view CreateUser.
+2025-03-17 20:22:58.243 +02:00 [INF] Executed ViewResult - view CreateUser executed in 4.7667ms.
+2025-03-17 20:22:58.245 +02:00 [INF] Executed action PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL) in 7.8726ms
+2025-03-17 20:22:58.248 +02:00 [INF] Executed endpoint 'PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL)'
+2025-03-17 20:22:58.250 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/User/CreateUser - 200 null text/html; charset=utf-8 22.4845ms
+2025-03-17 20:22:58.395 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/User/CreateUser - null null
+2025-03-17 20:22:58.398 +02:00 [INF] Executing endpoint 'PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL)'
+2025-03-17 20:22:58.400 +02:00 [INF] Route matched with {action = "CreateUser", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateUser() on controller PumpItUp.BLL.Controllers.UserController (PumpItUp.BLL).
+2025-03-17 20:22:58.403 +02:00 [INF] Executing ViewResult, running view CreateUser.
+2025-03-17 20:22:58.406 +02:00 [INF] Executed ViewResult - view CreateUser executed in 3.2411ms.
+2025-03-17 20:22:58.409 +02:00 [INF] Executed action PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL) in 5.8556ms
+2025-03-17 20:22:58.411 +02:00 [INF] Executed endpoint 'PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL)'
+2025-03-17 20:22:58.413 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/User/CreateUser - 200 null text/html; charset=utf-8 17.91ms
+2025-03-17 20:22:58.545 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/User/CreateUser - null null
+2025-03-17 20:22:58.548 +02:00 [INF] Executing endpoint 'PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL)'
+2025-03-17 20:22:58.550 +02:00 [INF] Route matched with {action = "CreateUser", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateUser() on controller PumpItUp.BLL.Controllers.UserController (PumpItUp.BLL).
+2025-03-17 20:22:58.553 +02:00 [INF] Executing ViewResult, running view CreateUser.
+2025-03-17 20:22:58.555 +02:00 [INF] Executed ViewResult - view CreateUser executed in 2.4708ms.
+2025-03-17 20:22:58.557 +02:00 [INF] Executed action PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL) in 4.8708ms
+2025-03-17 20:22:58.560 +02:00 [INF] Executed endpoint 'PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL)'
+2025-03-17 20:22:58.562 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/User/CreateUser - 200 null text/html; charset=utf-8 16.7239ms
+2025-03-17 20:22:58.706 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/User/CreateUser - null null
+2025-03-17 20:22:58.710 +02:00 [INF] Executing endpoint 'PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL)'
+2025-03-17 20:22:58.712 +02:00 [INF] Route matched with {action = "CreateUser", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateUser() on controller PumpItUp.BLL.Controllers.UserController (PumpItUp.BLL).
+2025-03-17 20:22:58.714 +02:00 [INF] Executing ViewResult, running view CreateUser.
+2025-03-17 20:22:58.717 +02:00 [INF] Executed ViewResult - view CreateUser executed in 2.6717ms.
+2025-03-17 20:22:58.719 +02:00 [INF] Executed action PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL) in 4.7088ms
+2025-03-17 20:22:58.720 +02:00 [INF] Executed endpoint 'PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL)'
+2025-03-17 20:22:58.722 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/User/CreateUser - 200 null text/html; charset=utf-8 16.5097ms
+2025-03-17 20:22:58.876 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/User/CreateUser - null null
+2025-03-17 20:22:58.931 +02:00 [INF] Executing endpoint 'PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL)'
+2025-03-17 20:22:58.933 +02:00 [INF] Route matched with {action = "CreateUser", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateUser() on controller PumpItUp.BLL.Controllers.UserController (PumpItUp.BLL).
+2025-03-17 20:22:58.937 +02:00 [INF] Executing ViewResult, running view CreateUser.
+2025-03-17 20:22:58.965 +02:00 [INF] Executed ViewResult - view CreateUser executed in 28.6916ms.
+2025-03-17 20:22:58.968 +02:00 [INF] Executed action PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL) in 31.6642ms
+2025-03-17 20:22:58.970 +02:00 [INF] Executed endpoint 'PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL)'
+2025-03-17 20:22:58.972 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/User/CreateUser - 200 null text/html; charset=utf-8 96.4722ms
+2025-03-17 20:22:59.022 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/User/CreateUser - null null
+2025-03-17 20:22:59.030 +02:00 [INF] Executing endpoint 'PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL)'
+2025-03-17 20:22:59.032 +02:00 [INF] Route matched with {action = "CreateUser", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateUser() on controller PumpItUp.BLL.Controllers.UserController (PumpItUp.BLL).
+2025-03-17 20:22:59.036 +02:00 [INF] Executing ViewResult, running view CreateUser.
+2025-03-17 20:22:59.039 +02:00 [INF] Executed ViewResult - view CreateUser executed in 3.1857ms.
+2025-03-17 20:22:59.042 +02:00 [INF] Executed action PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL) in 6.5954ms
+2025-03-17 20:22:59.044 +02:00 [INF] Executed endpoint 'PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL)'
+2025-03-17 20:22:59.046 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/User/CreateUser - 200 null text/html; charset=utf-8 23.7873ms
+2025-03-17 20:22:59.780 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/User/CreateUser - null null
+2025-03-17 20:22:59.784 +02:00 [INF] Executing endpoint 'PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL)'
+2025-03-17 20:22:59.785 +02:00 [INF] Route matched with {action = "CreateUser", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateUser() on controller PumpItUp.BLL.Controllers.UserController (PumpItUp.BLL).
+2025-03-17 20:22:59.789 +02:00 [INF] Executing ViewResult, running view CreateUser.
+2025-03-17 20:22:59.791 +02:00 [INF] Executed ViewResult - view CreateUser executed in 2.7309ms.
+2025-03-17 20:22:59.794 +02:00 [INF] Executed action PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL) in 5.391ms
+2025-03-17 20:22:59.795 +02:00 [INF] Executed endpoint 'PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL)'
+2025-03-17 20:22:59.798 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/User/CreateUser - 200 null text/html; charset=utf-8 17.6781ms
+2025-03-17 20:23:07.434 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/User/CreateUser - null null
+2025-03-17 20:23:07.439 +02:00 [INF] Executing endpoint 'PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL)'
+2025-03-17 20:23:07.441 +02:00 [INF] Route matched with {action = "CreateUser", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateUser() on controller PumpItUp.BLL.Controllers.UserController (PumpItUp.BLL).
+2025-03-17 20:23:07.444 +02:00 [INF] Executing ViewResult, running view CreateUser.
+2025-03-17 20:23:07.447 +02:00 [INF] Executed ViewResult - view CreateUser executed in 3.2216ms.
+2025-03-17 20:23:07.449 +02:00 [INF] Executed action PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL) in 5.7488ms
+2025-03-17 20:23:07.452 +02:00 [INF] Executed endpoint 'PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL)'
+2025-03-17 20:23:07.453 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/User/CreateUser - 200 null text/html; charset=utf-8 19.0807ms
+2025-03-17 20:23:07.889 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/User/CreateUser - null null
+2025-03-17 20:23:07.893 +02:00 [INF] Executing endpoint 'PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL)'
+2025-03-17 20:23:07.894 +02:00 [INF] Route matched with {action = "CreateUser", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateUser() on controller PumpItUp.BLL.Controllers.UserController (PumpItUp.BLL).
+2025-03-17 20:23:07.896 +02:00 [INF] Executing ViewResult, running view CreateUser.
+2025-03-17 20:23:07.898 +02:00 [INF] Executed ViewResult - view CreateUser executed in 1.7059ms.
+2025-03-17 20:23:07.899 +02:00 [INF] Executed action PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL) in 3.7509ms
+2025-03-17 20:23:07.901 +02:00 [INF] Executed endpoint 'PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL)'
+2025-03-17 20:23:07.903 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/User/CreateUser - 200 null text/html; charset=utf-8 14.1025ms
+2025-03-17 20:23:08.313 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/User/CreateUser - null null
+2025-03-17 20:23:08.317 +02:00 [INF] Executing endpoint 'PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL)'
+2025-03-17 20:23:08.318 +02:00 [INF] Route matched with {action = "CreateUser", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateUser() on controller PumpItUp.BLL.Controllers.UserController (PumpItUp.BLL).
+2025-03-17 20:23:08.320 +02:00 [INF] Executing ViewResult, running view CreateUser.
+2025-03-17 20:23:08.323 +02:00 [INF] Executed ViewResult - view CreateUser executed in 2.1666ms.
+2025-03-17 20:23:08.325 +02:00 [INF] Executed action PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL) in 4.502ms
+2025-03-17 20:23:08.327 +02:00 [INF] Executed endpoint 'PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL)'
+2025-03-17 20:23:08.329 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/User/CreateUser - 200 null text/html; charset=utf-8 15.5396ms
+2025-03-17 20:24:15.009 +02:00 [INF] Application is shutting down...
+2025-03-17 20:24:21.331 +02:00 [INF] User profile is available. Using 'C:\Users\Green\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-17 20:24:21.441 +02:00 [INF] Now listening on: http://localhost:5227
+2025-03-17 20:24:21.445 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-17 20:24:21.447 +02:00 [INF] Hosting environment: Development
+2025-03-17 20:24:21.448 +02:00 [INF] Content root path: D:\WebProjectDotNetUni\PumpItUp\PumpItUp.BLL
+2025-03-17 20:24:21.688 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/ - null null
+2025-03-17 20:24:21.710 +02:00 [WRN] Failed to determine the https port for redirect.
+2025-03-17 20:24:21.735 +02:00 [INF] Executing endpoint 'PumpItUp.BLL.Controllers.HomeController.Index (PumpItUp.BLL)'
+2025-03-17 20:24:21.769 +02:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller PumpItUp.BLL.Controllers.HomeController (PumpItUp.BLL).
+2025-03-17 20:24:21.789 +02:00 [INF] Executing ViewResult, running view Index.
+2025-03-17 20:24:21.877 +02:00 [INF] Executed ViewResult - view Index executed in 95.4917ms.
+2025-03-17 20:24:21.885 +02:00 [INF] Executed action PumpItUp.BLL.Controllers.HomeController.Index (PumpItUp.BLL) in 112.133ms
+2025-03-17 20:24:21.888 +02:00 [INF] Executed endpoint 'PumpItUp.BLL.Controllers.HomeController.Index (PumpItUp.BLL)'
+2025-03-17 20:24:21.894 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/ - 200 null text/html; charset=utf-8 209.7443ms
+2025-03-17 20:24:21.921 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/PumpItUp.BLL.styles.css?v=GbSapkM_6-KSLkIOvEIwJB_Fn8xS8NioFjqXxTNHNic - null null
+2025-03-17 20:24:21.933 +02:00 [INF] The file /PumpItUp.BLL.styles.css was not modified
+2025-03-17 20:24:21.937 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/PumpItUp.BLL.styles.css?v=GbSapkM_6-KSLkIOvEIwJB_Fn8xS8NioFjqXxTNHNic - 304 null text/css 17.196ms
+2025-03-17 20:24:26.661 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/User/CreateUser - null null
+2025-03-17 20:24:26.666 +02:00 [INF] Executing endpoint 'PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL)'
+2025-03-17 20:24:26.670 +02:00 [INF] Route matched with {action = "CreateUser", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateUser() on controller PumpItUp.BLL.Controllers.UserController (PumpItUp.BLL).
+2025-03-17 20:24:26.758 +02:00 [INF] Executing ViewResult, running view CreateUser.
+2025-03-17 20:24:26.825 +02:00 [INF] Executed ViewResult - view CreateUser executed in 67.9882ms.
+2025-03-17 20:24:26.829 +02:00 [INF] Executed action PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL) in 155.0147ms
+2025-03-17 20:24:26.831 +02:00 [INF] Executed endpoint 'PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL)'
+2025-03-17 20:24:26.834 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/User/CreateUser - 200 null text/html; charset=utf-8 173.6376ms
+2025-03-17 20:24:43.102 +02:00 [INF] Application is shutting down...
+2025-03-17 20:24:47.020 +02:00 [INF] User profile is available. Using 'C:\Users\Green\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-17 20:24:47.121 +02:00 [INF] Now listening on: http://localhost:5227
+2025-03-17 20:24:47.125 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-17 20:24:47.128 +02:00 [INF] Hosting environment: Development
+2025-03-17 20:24:47.130 +02:00 [INF] Content root path: D:\WebProjectDotNetUni\PumpItUp\PumpItUp.BLL
+2025-03-17 20:24:47.744 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/ - null null
+2025-03-17 20:24:47.763 +02:00 [WRN] Failed to determine the https port for redirect.
+2025-03-17 20:24:47.784 +02:00 [INF] Executing endpoint 'PumpItUp.BLL.Controllers.HomeController.Index (PumpItUp.BLL)'
+2025-03-17 20:24:47.813 +02:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller PumpItUp.BLL.Controllers.HomeController (PumpItUp.BLL).
+2025-03-17 20:24:47.828 +02:00 [INF] Executing ViewResult, running view Index.
+2025-03-17 20:24:47.888 +02:00 [INF] Executed ViewResult - view Index executed in 64.6688ms.
+2025-03-17 20:24:47.894 +02:00 [INF] Executed action PumpItUp.BLL.Controllers.HomeController.Index (PumpItUp.BLL) in 76.8606ms
+2025-03-17 20:24:47.897 +02:00 [INF] Executed endpoint 'PumpItUp.BLL.Controllers.HomeController.Index (PumpItUp.BLL)'
+2025-03-17 20:24:47.902 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/ - 200 null text/html; charset=utf-8 160.429ms
+2025-03-17 20:24:49.788 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/User/CreateUser - null null
+2025-03-17 20:24:49.793 +02:00 [INF] Executing endpoint 'PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL)'
+2025-03-17 20:24:49.797 +02:00 [INF] Route matched with {action = "CreateUser", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateUser() on controller PumpItUp.BLL.Controllers.UserController (PumpItUp.BLL).
+2025-03-17 20:24:49.892 +02:00 [INF] Executing ViewResult, running view CreateUser.
+2025-03-17 20:24:49.960 +02:00 [INF] Executed ViewResult - view CreateUser executed in 69.1501ms.
+2025-03-17 20:24:49.964 +02:00 [INF] Executed action PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL) in 163.251ms
+2025-03-17 20:24:49.966 +02:00 [INF] Executed endpoint 'PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL)'
+2025-03-17 20:24:49.970 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/User/CreateUser - 200 null text/html; charset=utf-8 182.6911ms
+2025-03-17 20:24:50.820 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/User/CreateUser - null null
+2025-03-17 20:24:50.824 +02:00 [INF] Executing endpoint 'PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL)'
+2025-03-17 20:24:50.825 +02:00 [INF] Route matched with {action = "CreateUser", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateUser() on controller PumpItUp.BLL.Controllers.UserController (PumpItUp.BLL).
+2025-03-17 20:24:50.834 +02:00 [INF] Executing ViewResult, running view CreateUser.
+2025-03-17 20:24:50.838 +02:00 [INF] Executed ViewResult - view CreateUser executed in 4.9027ms.
+2025-03-17 20:24:50.840 +02:00 [INF] Executed action PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL) in 12.552ms
+2025-03-17 20:24:50.843 +02:00 [INF] Executed endpoint 'PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL)'
+2025-03-17 20:24:50.844 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/User/CreateUser - 200 null text/html; charset=utf-8 24.3441ms
+2025-03-17 20:26:03.997 +02:00 [INF] Application is shutting down...
+2025-03-17 20:26:08.309 +02:00 [INF] User profile is available. Using 'C:\Users\Green\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-17 20:26:08.406 +02:00 [INF] Now listening on: http://localhost:5227
+2025-03-17 20:26:08.410 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-17 20:26:08.413 +02:00 [INF] Hosting environment: Development
+2025-03-17 20:26:08.414 +02:00 [INF] Content root path: D:\WebProjectDotNetUni\PumpItUp\PumpItUp.BLL
+2025-03-17 20:26:09.028 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/ - null null
+2025-03-17 20:26:09.045 +02:00 [WRN] Failed to determine the https port for redirect.
+2025-03-17 20:26:09.070 +02:00 [INF] Executing endpoint 'PumpItUp.BLL.Controllers.HomeController.Index (PumpItUp.BLL)'
+2025-03-17 20:26:09.103 +02:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller PumpItUp.BLL.Controllers.HomeController (PumpItUp.BLL).
+2025-03-17 20:26:09.122 +02:00 [INF] Executing ViewResult, running view Index.
+2025-03-17 20:26:09.194 +02:00 [INF] Executed ViewResult - view Index executed in 80.171ms.
+2025-03-17 20:26:09.200 +02:00 [INF] Executed action PumpItUp.BLL.Controllers.HomeController.Index (PumpItUp.BLL) in 94.2617ms
+2025-03-17 20:26:09.203 +02:00 [INF] Executed endpoint 'PumpItUp.BLL.Controllers.HomeController.Index (PumpItUp.BLL)'
+2025-03-17 20:26:09.208 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/ - 200 null text/html; charset=utf-8 183.1565ms
+2025-03-17 20:26:09.232 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2025-03-17 20:26:09.235 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/lib/jquery/dist/jquery.min.js - null null
+2025-03-17 20:26:09.235 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - null null
+2025-03-17 20:26:09.237 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2025-03-17 20:26:09.237 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - null null
+2025-03-17 20:26:09.244 +02:00 [INF] The file /lib/jquery/dist/jquery.min.js was not modified
+2025-03-17 20:26:09.245 +02:00 [INF] The file /lib/bootstrap/dist/css/bootstrap.min.css was not modified
+2025-03-17 20:26:09.247 +02:00 [INF] The file /css/site.css was not modified
+2025-03-17 20:26:09.252 +02:00 [INF] The file /lib/bootstrap/dist/js/bootstrap.bundle.min.js was not modified
+2025-03-17 20:26:09.255 +02:00 [INF] The file /js/site.js was not modified
+2025-03-17 20:26:09.258 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/lib/jquery/dist/jquery.min.js - 304 null text/javascript 22.7258ms
+2025-03-17 20:26:09.259 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/lib/bootstrap/dist/css/bootstrap.min.css - 304 null text/css 27.8579ms
+2025-03-17 20:26:09.261 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - 304 null text/css 25.8996ms
+2025-03-17 20:26:09.263 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 304 null text/javascript 25.9614ms
+2025-03-17 20:26:09.265 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - 304 null text/javascript 27.9288ms
+2025-03-17 20:26:25.491 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/User/CreateUser - null null
+2025-03-17 20:26:25.496 +02:00 [INF] Executing endpoint 'PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL)'
+2025-03-17 20:26:25.500 +02:00 [INF] Route matched with {action = "CreateUser", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateUser() on controller PumpItUp.BLL.Controllers.UserController (PumpItUp.BLL).
+2025-03-17 20:26:25.586 +02:00 [INF] Executing ViewResult, running view CreateUser.
+2025-03-17 20:26:25.643 +02:00 [INF] Executed ViewResult - view CreateUser executed in 58.1588ms.
+2025-03-17 20:26:25.647 +02:00 [INF] Executed action PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL) in 143.5508ms
+2025-03-17 20:26:25.649 +02:00 [INF] Executed endpoint 'PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL)'
+2025-03-17 20:26:25.653 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/User/CreateUser - 200 null text/html; charset=utf-8 161.796ms
+2025-03-17 20:27:07.317 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/User/CreateUser - null null
+2025-03-17 20:27:07.321 +02:00 [INF] Executing endpoint 'PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL)'
+2025-03-17 20:27:07.323 +02:00 [INF] Route matched with {action = "CreateUser", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateUser() on controller PumpItUp.BLL.Controllers.UserController (PumpItUp.BLL).
+2025-03-17 20:27:07.330 +02:00 [INF] Executing ViewResult, running view CreateUser.
+2025-03-17 20:27:07.334 +02:00 [INF] Executed ViewResult - view CreateUser executed in 4.8021ms.
+2025-03-17 20:27:07.337 +02:00 [INF] Executed action PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL) in 12.8636ms
+2025-03-17 20:27:07.339 +02:00 [INF] Executed endpoint 'PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL)'
+2025-03-17 20:27:07.341 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/User/CreateUser - 200 null text/html; charset=utf-8 24.051ms
+2025-03-17 20:27:07.391 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/favicon.ico - null null
+2025-03-17 20:27:07.397 +02:00 [INF] The file /favicon.ico was not modified
+2025-03-17 20:27:07.400 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/favicon.ico - 304 null image/x-icon 8.991ms
+2025-03-17 20:27:07.832 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/User/CreateUser - null null
+2025-03-17 20:27:07.836 +02:00 [INF] Executing endpoint 'PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL)'
+2025-03-17 20:27:07.837 +02:00 [INF] Route matched with {action = "CreateUser", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateUser() on controller PumpItUp.BLL.Controllers.UserController (PumpItUp.BLL).
+2025-03-17 20:27:07.842 +02:00 [INF] Executing ViewResult, running view CreateUser.
+2025-03-17 20:27:07.845 +02:00 [INF] Executed ViewResult - view CreateUser executed in 3.4451ms.
+2025-03-17 20:27:07.848 +02:00 [INF] Executed action PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL) in 9.1875ms
+2025-03-17 20:27:07.850 +02:00 [INF] Executed endpoint 'PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL)'
+2025-03-17 20:27:07.852 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/User/CreateUser - 200 null text/html; charset=utf-8 20.1242ms
+2025-03-17 20:27:08.487 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/User/CreateUser - null null
+2025-03-17 20:27:08.491 +02:00 [INF] Executing endpoint 'PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL)'
+2025-03-17 20:27:08.492 +02:00 [INF] Route matched with {action = "CreateUser", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateUser() on controller PumpItUp.BLL.Controllers.UserController (PumpItUp.BLL).
+2025-03-17 20:27:08.496 +02:00 [INF] Executing ViewResult, running view CreateUser.
+2025-03-17 20:27:08.499 +02:00 [INF] Executed ViewResult - view CreateUser executed in 3.248ms.
+2025-03-17 20:27:08.501 +02:00 [INF] Executed action PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL) in 5.9174ms
+2025-03-17 20:27:08.503 +02:00 [INF] Executed endpoint 'PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL)'
+2025-03-17 20:27:08.505 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/User/CreateUser - 200 null text/html; charset=utf-8 18.0334ms
+2025-03-17 20:27:21.291 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/User/CreateUser - null null
+2025-03-17 20:27:21.296 +02:00 [INF] Executing endpoint 'PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL)'
+2025-03-17 20:27:21.298 +02:00 [INF] Route matched with {action = "CreateUser", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateUser() on controller PumpItUp.BLL.Controllers.UserController (PumpItUp.BLL).
+2025-03-17 20:27:21.300 +02:00 [INF] Executing ViewResult, running view CreateUser.
+2025-03-17 20:27:21.303 +02:00 [INF] Executed ViewResult - view CreateUser executed in 2.3393ms.
+2025-03-17 20:27:21.305 +02:00 [INF] Executed action PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL) in 4.5623ms
+2025-03-17 20:27:21.307 +02:00 [INF] Executed endpoint 'PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL)'
+2025-03-17 20:27:21.308 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/User/CreateUser - 200 null text/html; charset=utf-8 17.5127ms
+2025-03-17 20:27:21.764 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/User/CreateUser - null null
+2025-03-17 20:27:21.767 +02:00 [INF] Executing endpoint 'PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL)'
+2025-03-17 20:27:21.768 +02:00 [INF] Route matched with {action = "CreateUser", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateUser() on controller PumpItUp.BLL.Controllers.UserController (PumpItUp.BLL).
+2025-03-17 20:27:21.770 +02:00 [INF] Executing ViewResult, running view CreateUser.
+2025-03-17 20:27:21.772 +02:00 [INF] Executed ViewResult - view CreateUser executed in 1.9657ms.
+2025-03-17 20:27:21.774 +02:00 [INF] Executed action PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL) in 4.2235ms
+2025-03-17 20:27:21.777 +02:00 [INF] Executed endpoint 'PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL)'
+2025-03-17 20:27:21.779 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/User/CreateUser - 200 null text/html; charset=utf-8 15.1477ms
+2025-03-17 20:27:21.951 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/User/CreateUser - null null
+2025-03-17 20:27:21.954 +02:00 [INF] Executing endpoint 'PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL)'
+2025-03-17 20:27:21.955 +02:00 [INF] Route matched with {action = "CreateUser", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateUser() on controller PumpItUp.BLL.Controllers.UserController (PumpItUp.BLL).
+2025-03-17 20:27:21.958 +02:00 [INF] Executing ViewResult, running view CreateUser.
+2025-03-17 20:27:21.960 +02:00 [INF] Executed ViewResult - view CreateUser executed in 2.2489ms.
+2025-03-17 20:27:21.963 +02:00 [INF] Executed action PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL) in 4.7844ms
+2025-03-17 20:27:21.965 +02:00 [INF] Executed endpoint 'PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL)'
+2025-03-17 20:27:21.967 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/User/CreateUser - 200 null text/html; charset=utf-8 16.3714ms
+2025-03-17 20:27:22.095 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/User/CreateUser - null null
+2025-03-17 20:27:22.099 +02:00 [INF] Executing endpoint 'PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL)'
+2025-03-17 20:27:22.100 +02:00 [INF] Route matched with {action = "CreateUser", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateUser() on controller PumpItUp.BLL.Controllers.UserController (PumpItUp.BLL).
+2025-03-17 20:27:22.103 +02:00 [INF] Executing ViewResult, running view CreateUser.
+2025-03-17 20:27:22.105 +02:00 [INF] Executed ViewResult - view CreateUser executed in 2.3664ms.
+2025-03-17 20:27:22.107 +02:00 [INF] Executed action PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL) in 4.6723ms
+2025-03-17 20:27:22.110 +02:00 [INF] Executed endpoint 'PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL)'
+2025-03-17 20:27:22.111 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/User/CreateUser - 200 null text/html; charset=utf-8 16.2ms
+2025-03-17 20:27:22.266 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/User/CreateUser - null null
+2025-03-17 20:27:22.269 +02:00 [INF] Executing endpoint 'PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL)'
+2025-03-17 20:27:22.272 +02:00 [INF] Route matched with {action = "CreateUser", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateUser() on controller PumpItUp.BLL.Controllers.UserController (PumpItUp.BLL).
+2025-03-17 20:27:22.275 +02:00 [INF] Executing ViewResult, running view CreateUser.
+2025-03-17 20:27:22.278 +02:00 [INF] Executed ViewResult - view CreateUser executed in 2.5537ms.
+2025-03-17 20:27:22.280 +02:00 [INF] Executed action PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL) in 5.0969ms
+2025-03-17 20:27:22.283 +02:00 [INF] Executed endpoint 'PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL)'
+2025-03-17 20:27:22.285 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/User/CreateUser - 200 null text/html; charset=utf-8 18.8129ms
+2025-03-17 20:27:24.628 +02:00 [INF] Application is shutting down...
+2025-03-17 20:27:28.676 +02:00 [INF] User profile is available. Using 'C:\Users\Green\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-17 20:27:28.775 +02:00 [INF] Now listening on: http://localhost:5227
+2025-03-17 20:27:28.779 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-17 20:27:28.782 +02:00 [INF] Hosting environment: Development
+2025-03-17 20:27:28.785 +02:00 [INF] Content root path: D:\WebProjectDotNetUni\PumpItUp\PumpItUp.BLL
+2025-03-17 20:27:29.426 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/ - null null
+2025-03-17 20:27:29.449 +02:00 [WRN] Failed to determine the https port for redirect.
+2025-03-17 20:27:29.473 +02:00 [INF] Executing endpoint 'PumpItUp.BLL.Controllers.HomeController.Index (PumpItUp.BLL)'
+2025-03-17 20:27:29.509 +02:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller PumpItUp.BLL.Controllers.HomeController (PumpItUp.BLL).
+2025-03-17 20:27:29.528 +02:00 [INF] Executing ViewResult, running view Index.
+2025-03-17 20:27:29.611 +02:00 [INF] Executed ViewResult - view Index executed in 90.7218ms.
+2025-03-17 20:27:29.617 +02:00 [INF] Executed action PumpItUp.BLL.Controllers.HomeController.Index (PumpItUp.BLL) in 104.9117ms
+2025-03-17 20:27:29.619 +02:00 [INF] Executed endpoint 'PumpItUp.BLL.Controllers.HomeController.Index (PumpItUp.BLL)'
+2025-03-17 20:27:29.625 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/ - 200 null text/html; charset=utf-8 200.7286ms
+2025-03-17 20:27:33.488 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/User/CreateUser - null null
+2025-03-17 20:27:33.495 +02:00 [INF] Executing endpoint 'PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL)'
+2025-03-17 20:27:33.500 +02:00 [INF] Route matched with {action = "CreateUser", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateUser() on controller PumpItUp.BLL.Controllers.UserController (PumpItUp.BLL).
+2025-03-17 20:27:33.598 +02:00 [INF] Executing ViewResult, running view CreateUser.
+2025-03-17 20:27:33.673 +02:00 [INF] Executed ViewResult - view CreateUser executed in 75.8074ms.
+2025-03-17 20:27:33.675 +02:00 [INF] Executed action PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL) in 172.0666ms
+2025-03-17 20:27:33.679 +02:00 [INF] Executed endpoint 'PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL)'
+2025-03-17 20:27:33.683 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/User/CreateUser - 200 null text/html; charset=utf-8 195.5747ms
+2025-03-17 20:27:34.480 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/User/CreateUser - null null
+2025-03-17 20:27:34.485 +02:00 [INF] Executing endpoint 'PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL)'
+2025-03-17 20:27:34.486 +02:00 [INF] Route matched with {action = "CreateUser", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateUser() on controller PumpItUp.BLL.Controllers.UserController (PumpItUp.BLL).
+2025-03-17 20:27:34.494 +02:00 [INF] Executing ViewResult, running view CreateUser.
+2025-03-17 20:27:34.500 +02:00 [INF] Executed ViewResult - view CreateUser executed in 5.9647ms.
+2025-03-17 20:27:34.502 +02:00 [INF] Executed action PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL) in 13.6502ms
+2025-03-17 20:27:34.505 +02:00 [INF] Executed endpoint 'PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL)'
+2025-03-17 20:27:34.507 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/User/CreateUser - 200 null text/html; charset=utf-8 27.4011ms
+2025-03-17 20:28:12.188 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/User/CreateUser - null null
+2025-03-17 20:28:12.192 +02:00 [INF] Executing endpoint 'PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL)'
+2025-03-17 20:28:12.194 +02:00 [INF] Route matched with {action = "CreateUser", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateUser() on controller PumpItUp.BLL.Controllers.UserController (PumpItUp.BLL).
+2025-03-17 20:28:12.199 +02:00 [INF] Executing ViewResult, running view CreateUser.
+2025-03-17 20:28:12.203 +02:00 [INF] Executed ViewResult - view CreateUser executed in 4.187ms.
+2025-03-17 20:28:12.206 +02:00 [INF] Executed action PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL) in 9.689ms
+2025-03-17 20:28:12.208 +02:00 [INF] Executed endpoint 'PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL)'
+2025-03-17 20:28:12.210 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/User/CreateUser - 200 null text/html; charset=utf-8 22.1828ms
+2025-03-17 20:28:12.699 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/User/CreateUser - null null
+2025-03-17 20:28:12.703 +02:00 [INF] Executing endpoint 'PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL)'
+2025-03-17 20:28:12.705 +02:00 [INF] Route matched with {action = "CreateUser", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateUser() on controller PumpItUp.BLL.Controllers.UserController (PumpItUp.BLL).
+2025-03-17 20:28:12.707 +02:00 [INF] Executing ViewResult, running view CreateUser.
+2025-03-17 20:28:12.709 +02:00 [INF] Executed ViewResult - view CreateUser executed in 2.1808ms.
+2025-03-17 20:28:12.712 +02:00 [INF] Executed action PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL) in 4.9528ms
+2025-03-17 20:28:12.714 +02:00 [INF] Executed endpoint 'PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL)'
+2025-03-17 20:28:12.716 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/User/CreateUser - 200 null text/html; charset=utf-8 17.1362ms
+2025-03-17 20:29:52.362 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/User/CreateUser - null null
+2025-03-17 20:29:52.365 +02:00 [INF] Executing endpoint 'PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL)'
+2025-03-17 20:29:52.366 +02:00 [INF] Route matched with {action = "CreateUser", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateUser() on controller PumpItUp.BLL.Controllers.UserController (PumpItUp.BLL).
+2025-03-17 20:29:52.369 +02:00 [INF] Executing ViewResult, running view CreateUser.
+2025-03-17 20:29:52.371 +02:00 [INF] Executed ViewResult - view CreateUser executed in 2.7701ms.
+2025-03-17 20:29:52.374 +02:00 [INF] Executed action PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL) in 5.6944ms
+2025-03-17 20:29:52.376 +02:00 [INF] Executed endpoint 'PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL)'
+2025-03-17 20:29:52.377 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/User/CreateUser - 200 null text/html; charset=utf-8 14.9268ms
+2025-03-17 20:29:56.474 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/User/CreateUser - null null
+2025-03-17 20:29:56.479 +02:00 [INF] Executing endpoint 'PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL)'
+2025-03-17 20:29:56.480 +02:00 [INF] Route matched with {action = "CreateUser", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateUser() on controller PumpItUp.BLL.Controllers.UserController (PumpItUp.BLL).
+2025-03-17 20:29:56.483 +02:00 [INF] Executing ViewResult, running view CreateUser.
+2025-03-17 20:29:56.485 +02:00 [INF] Executed ViewResult - view CreateUser executed in 2.3346ms.
+2025-03-17 20:29:56.487 +02:00 [INF] Executed action PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL) in 4.6601ms
+2025-03-17 20:29:56.490 +02:00 [INF] Executed endpoint 'PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL)'
+2025-03-17 20:29:56.492 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/User/CreateUser - 200 null text/html; charset=utf-8 17.5628ms
+2025-03-17 20:29:57.065 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/User/CreateUser - null null
+2025-03-17 20:29:57.069 +02:00 [INF] Executing endpoint 'PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL)'
+2025-03-17 20:29:57.071 +02:00 [INF] Route matched with {action = "CreateUser", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateUser() on controller PumpItUp.BLL.Controllers.UserController (PumpItUp.BLL).
+2025-03-17 20:29:57.074 +02:00 [INF] Executing ViewResult, running view CreateUser.
+2025-03-17 20:29:57.077 +02:00 [INF] Executed ViewResult - view CreateUser executed in 3.0212ms.
+2025-03-17 20:29:57.079 +02:00 [INF] Executed action PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL) in 5.223ms
+2025-03-17 20:29:57.081 +02:00 [INF] Executed endpoint 'PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL)'
+2025-03-17 20:29:57.082 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/User/CreateUser - 200 null text/html; charset=utf-8 16.9045ms
+2025-03-17 20:30:17.550 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/User/CreateUser - null null
+2025-03-17 20:30:17.554 +02:00 [INF] Executing endpoint 'PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL)'
+2025-03-17 20:30:17.556 +02:00 [INF] Route matched with {action = "CreateUser", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateUser() on controller PumpItUp.BLL.Controllers.UserController (PumpItUp.BLL).
+2025-03-17 20:30:17.558 +02:00 [INF] Executing ViewResult, running view CreateUser.
+2025-03-17 20:30:17.560 +02:00 [INF] Executed ViewResult - view CreateUser executed in 1.974ms.
+2025-03-17 20:30:17.562 +02:00 [INF] Executed action PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL) in 3.9249ms
+2025-03-17 20:30:17.564 +02:00 [INF] Executed endpoint 'PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL)'
+2025-03-17 20:30:17.565 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/User/CreateUser - 200 null text/html; charset=utf-8 15.6783ms
+2025-03-17 20:30:18.134 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/User/CreateUser - null null
+2025-03-17 20:30:18.139 +02:00 [INF] Executing endpoint 'PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL)'
+2025-03-17 20:30:18.141 +02:00 [INF] Route matched with {action = "CreateUser", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateUser() on controller PumpItUp.BLL.Controllers.UserController (PumpItUp.BLL).
+2025-03-17 20:30:18.144 +02:00 [INF] Executing ViewResult, running view CreateUser.
+2025-03-17 20:30:18.146 +02:00 [INF] Executed ViewResult - view CreateUser executed in 2.4784ms.
+2025-03-17 20:30:18.148 +02:00 [INF] Executed action PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL) in 4.6416ms
+2025-03-17 20:30:18.150 +02:00 [INF] Executed endpoint 'PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL)'
+2025-03-17 20:30:18.152 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/User/CreateUser - 200 null text/html; charset=utf-8 18.1359ms
+2025-03-17 20:30:18.438 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/User/CreateUser - null null
+2025-03-17 20:30:18.442 +02:00 [INF] Executing endpoint 'PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL)'
+2025-03-17 20:30:18.445 +02:00 [INF] Route matched with {action = "CreateUser", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateUser() on controller PumpItUp.BLL.Controllers.UserController (PumpItUp.BLL).
+2025-03-17 20:30:18.448 +02:00 [INF] Executing ViewResult, running view CreateUser.
+2025-03-17 20:30:18.451 +02:00 [INF] Executed ViewResult - view CreateUser executed in 2.6705ms.
+2025-03-17 20:30:18.453 +02:00 [INF] Executed action PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL) in 5.0053ms
+2025-03-17 20:30:18.455 +02:00 [INF] Executed endpoint 'PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL)'
+2025-03-17 20:30:18.457 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/User/CreateUser - 200 null text/html; charset=utf-8 19.2598ms
+2025-03-17 20:30:21.090 +02:00 [INF] Application is shutting down...
+2025-03-17 20:30:25.733 +02:00 [INF] User profile is available. Using 'C:\Users\Green\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-17 20:30:25.828 +02:00 [INF] Now listening on: http://localhost:5227
+2025-03-17 20:30:25.832 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-17 20:30:25.834 +02:00 [INF] Hosting environment: Development
+2025-03-17 20:30:25.836 +02:00 [INF] Content root path: D:\WebProjectDotNetUni\PumpItUp\PumpItUp.BLL
+2025-03-17 20:30:26.420 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/ - null null
+2025-03-17 20:30:26.440 +02:00 [WRN] Failed to determine the https port for redirect.
+2025-03-17 20:30:26.464 +02:00 [INF] Executing endpoint 'PumpItUp.BLL.Controllers.HomeController.Index (PumpItUp.BLL)'
+2025-03-17 20:30:26.498 +02:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller PumpItUp.BLL.Controllers.HomeController (PumpItUp.BLL).
+2025-03-17 20:30:26.515 +02:00 [INF] Executing ViewResult, running view Index.
+2025-03-17 20:30:26.608 +02:00 [INF] Executed ViewResult - view Index executed in 95.4648ms.
+2025-03-17 20:30:26.618 +02:00 [INF] Executed action PumpItUp.BLL.Controllers.HomeController.Index (PumpItUp.BLL) in 115.6491ms
+2025-03-17 20:30:26.625 +02:00 [INF] Executed endpoint 'PumpItUp.BLL.Controllers.HomeController.Index (PumpItUp.BLL)'
+2025-03-17 20:30:26.643 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/ - 200 null text/html; charset=utf-8 225.1956ms
+2025-03-17 20:30:26.672 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/PumpItUp.BLL.styles.css?v=GbSapkM_6-KSLkIOvEIwJB_Fn8xS8NioFjqXxTNHNic - null null
+2025-03-17 20:30:26.684 +02:00 [INF] The file /PumpItUp.BLL.styles.css was not modified
+2025-03-17 20:30:26.687 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/PumpItUp.BLL.styles.css?v=GbSapkM_6-KSLkIOvEIwJB_Fn8xS8NioFjqXxTNHNic - 304 null text/css 15.3807ms
+2025-03-17 20:30:29.833 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/User/CreateUser - null null
+2025-03-17 20:30:29.840 +02:00 [INF] Executing endpoint 'PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL)'
+2025-03-17 20:30:29.843 +02:00 [INF] Route matched with {action = "CreateUser", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateUser() on controller PumpItUp.BLL.Controllers.UserController (PumpItUp.BLL).
+2025-03-17 20:30:29.940 +02:00 [INF] Executing ViewResult, running view CreateUser.
+2025-03-17 20:30:30.023 +02:00 [INF] Executed ViewResult - view CreateUser executed in 83.6646ms.
+2025-03-17 20:30:30.027 +02:00 [INF] Executed action PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL) in 180.1231ms
+2025-03-17 20:30:30.029 +02:00 [INF] Executed endpoint 'PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL)'
+2025-03-17 20:30:30.034 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/User/CreateUser - 200 null text/html; charset=utf-8 200.3566ms
+2025-03-17 20:34:23.784 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/User/CreateUser - null null
+2025-03-17 20:34:23.790 +02:00 [INF] Executing endpoint 'PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL)'
+2025-03-17 20:34:23.792 +02:00 [INF] Route matched with {action = "CreateUser", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateUser() on controller PumpItUp.BLL.Controllers.UserController (PumpItUp.BLL).
+2025-03-17 20:34:23.800 +02:00 [INF] Executing ViewResult, running view CreateUser.
+2025-03-17 20:34:23.808 +02:00 [INF] Executed ViewResult - view CreateUser executed in 7.6881ms.
+2025-03-17 20:34:23.811 +02:00 [INF] Executed action PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL) in 16.289ms
+2025-03-17 20:34:23.813 +02:00 [INF] Executed endpoint 'PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL)'
+2025-03-17 20:34:23.815 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/User/CreateUser - 200 null text/html; charset=utf-8 30.9801ms
+2025-03-17 20:34:24.258 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/User/CreateUser - null null
+2025-03-17 20:34:24.262 +02:00 [INF] Executing endpoint 'PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL)'
+2025-03-17 20:34:24.263 +02:00 [INF] Route matched with {action = "CreateUser", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateUser() on controller PumpItUp.BLL.Controllers.UserController (PumpItUp.BLL).
+2025-03-17 20:34:24.268 +02:00 [INF] Executing ViewResult, running view CreateUser.
+2025-03-17 20:34:24.273 +02:00 [INF] Executed ViewResult - view CreateUser executed in 4.6838ms.
+2025-03-17 20:34:24.276 +02:00 [INF] Executed action PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL) in 11.1214ms
+2025-03-17 20:34:24.279 +02:00 [INF] Executed endpoint 'PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL)'
+2025-03-17 20:34:24.281 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/User/CreateUser - 200 null text/html; charset=utf-8 23.419ms
+2025-03-17 20:34:27.205 +02:00 [INF] Application is shutting down...
+2025-03-17 20:34:31.070 +02:00 [INF] User profile is available. Using 'C:\Users\Green\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-17 20:34:31.158 +02:00 [INF] Now listening on: http://localhost:5227
+2025-03-17 20:34:31.162 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-17 20:34:31.165 +02:00 [INF] Hosting environment: Development
+2025-03-17 20:34:31.167 +02:00 [INF] Content root path: D:\WebProjectDotNetUni\PumpItUp\PumpItUp.BLL
+2025-03-17 20:34:31.838 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/ - null null
+2025-03-17 20:34:31.855 +02:00 [WRN] Failed to determine the https port for redirect.
+2025-03-17 20:34:31.877 +02:00 [INF] Executing endpoint 'PumpItUp.BLL.Controllers.HomeController.Index (PumpItUp.BLL)'
+2025-03-17 20:34:31.907 +02:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller PumpItUp.BLL.Controllers.HomeController (PumpItUp.BLL).
+2025-03-17 20:34:31.921 +02:00 [INF] Executing ViewResult, running view Index.
+2025-03-17 20:34:31.987 +02:00 [INF] Executed ViewResult - view Index executed in 70.5152ms.
+2025-03-17 20:34:31.994 +02:00 [INF] Executed action PumpItUp.BLL.Controllers.HomeController.Index (PumpItUp.BLL) in 83.6724ms
+2025-03-17 20:34:31.997 +02:00 [INF] Executed endpoint 'PumpItUp.BLL.Controllers.HomeController.Index (PumpItUp.BLL)'
+2025-03-17 20:34:32.002 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/ - 200 null text/html; charset=utf-8 165.9659ms
+2025-03-17 20:34:32.017 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2025-03-17 20:34:32.029 +02:00 [INF] The file /lib/bootstrap/dist/css/bootstrap.min.css was not modified
+2025-03-17 20:34:32.029 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/lib/jquery/dist/jquery.min.js - null null
+2025-03-17 20:34:32.030 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2025-03-17 20:34:32.030 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - null null
+2025-03-17 20:34:32.030 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - null null
+2025-03-17 20:34:32.033 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/lib/bootstrap/dist/css/bootstrap.min.css - 304 null text/css 16.836ms
+2025-03-17 20:34:32.038 +02:00 [INF] The file /lib/jquery/dist/jquery.min.js was not modified
+2025-03-17 20:34:32.041 +02:00 [INF] The file /lib/bootstrap/dist/js/bootstrap.bundle.min.js was not modified
+2025-03-17 20:34:32.045 +02:00 [INF] The file /css/site.css was not modified
+2025-03-17 20:34:32.049 +02:00 [INF] The file /js/site.js was not modified
+2025-03-17 20:34:32.055 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/lib/jquery/dist/jquery.min.js - 304 null text/javascript 25.9648ms
+2025-03-17 20:34:32.057 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 304 null text/javascript 26.9694ms
+2025-03-17 20:34:32.059 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - 304 null text/css 28.5522ms
+2025-03-17 20:34:32.060 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - 304 null text/javascript 29.9401ms
+2025-03-17 20:34:33.580 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/User/CreateUser - null null
+2025-03-17 20:34:33.586 +02:00 [INF] Executing endpoint 'PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL)'
+2025-03-17 20:34:33.589 +02:00 [INF] Route matched with {action = "CreateUser", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateUser() on controller PumpItUp.BLL.Controllers.UserController (PumpItUp.BLL).
+2025-03-17 20:34:33.682 +02:00 [INF] Executing ViewResult, running view CreateUser.
+2025-03-17 20:34:33.756 +02:00 [INF] Executed ViewResult - view CreateUser executed in 74.1167ms.
+2025-03-17 20:34:33.759 +02:00 [INF] Executed action PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL) in 168.1233ms
+2025-03-17 20:34:33.762 +02:00 [INF] Executed endpoint 'PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL)'
+2025-03-17 20:34:33.765 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/User/CreateUser - 200 null text/html; charset=utf-8 184.3388ms
+2025-03-17 20:35:00.135 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:5227/User/CreateUser - application/x-www-form-urlencoded 586
+2025-03-17 20:35:00.142 +02:00 [INF] Executing endpoint 'PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL)'
+2025-03-17 20:35:00.158 +02:00 [INF] Route matched with {action = "CreateUser", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateUser(PumpItUp.DAL.DTOs.UserRequest) on controller PumpItUp.BLL.Controllers.UserController (PumpItUp.BLL).
+2025-03-17 20:35:00.188 +02:00 [INF] Executed action PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL) in 24.7611ms
+2025-03-17 20:35:00.191 +02:00 [INF] Executed endpoint 'PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL)'
+2025-03-17 20:35:00.194 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at PumpItUp.BLL.Services.UserService.CreateUserAsync(UserRequest userRequest) in D:\WebProjectDotNetUni\PumpItUp\PumpItUp.BLL\Services\UserService.cs:line 14
+   at PumpItUp.BLL.Controllers.UserController.CreateUser(UserRequest userRequest) in D:\WebProjectDotNetUni\PumpItUp\PumpItUp.BLL\Controllers\UserController.cs:line 25
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-03-17 20:35:00.231 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:5227/User/CreateUser - 500 null text/html; charset=utf-8 96.5116ms
+2025-03-17 20:37:36.203 +02:00 [INF] Application is shutting down...
+2025-03-17 20:37:39.859 +02:00 [INF] User profile is available. Using 'C:\Users\Green\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-17 20:37:39.958 +02:00 [INF] Now listening on: http://localhost:5227
+2025-03-17 20:37:39.962 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-17 20:37:39.964 +02:00 [INF] Hosting environment: Development
+2025-03-17 20:37:39.967 +02:00 [INF] Content root path: D:\WebProjectDotNetUni\PumpItUp\PumpItUp.BLL
+2025-03-17 20:37:40.141 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/ - null null
+2025-03-17 20:37:40.161 +02:00 [WRN] Failed to determine the https port for redirect.
+2025-03-17 20:37:40.187 +02:00 [INF] Executing endpoint 'PumpItUp.BLL.Controllers.HomeController.Index (PumpItUp.BLL)'
+2025-03-17 20:37:40.224 +02:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller PumpItUp.BLL.Controllers.HomeController (PumpItUp.BLL).
+2025-03-17 20:37:40.241 +02:00 [INF] Executing ViewResult, running view Index.
+2025-03-17 20:37:40.316 +02:00 [INF] Executed ViewResult - view Index executed in 79.2917ms.
+2025-03-17 20:37:40.323 +02:00 [INF] Executed action PumpItUp.BLL.Controllers.HomeController.Index (PumpItUp.BLL) in 95.9606ms
+2025-03-17 20:37:40.326 +02:00 [INF] Executed endpoint 'PumpItUp.BLL.Controllers.HomeController.Index (PumpItUp.BLL)'
+2025-03-17 20:37:40.333 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/ - 200 null text/html; charset=utf-8 193.7587ms
+2025-03-17 20:37:40.357 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/PumpItUp.BLL.styles.css?v=GbSapkM_6-KSLkIOvEIwJB_Fn8xS8NioFjqXxTNHNic - null null
+2025-03-17 20:37:40.368 +02:00 [INF] The file /PumpItUp.BLL.styles.css was not modified
+2025-03-17 20:37:40.371 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/PumpItUp.BLL.styles.css?v=GbSapkM_6-KSLkIOvEIwJB_Fn8xS8NioFjqXxTNHNic - 304 null text/css 14.562ms
+2025-03-17 20:37:46.982 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/User/CreateUser - null null
+2025-03-17 20:37:46.990 +02:00 [INF] Executing endpoint 'PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL)'
+2025-03-17 20:37:46.995 +02:00 [INF] Route matched with {action = "CreateUser", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateUser() on controller PumpItUp.BLL.Controllers.UserController (PumpItUp.BLL).
+2025-03-17 20:37:47.097 +02:00 [INF] Executing ViewResult, running view CreateUser.
+2025-03-17 20:37:47.165 +02:00 [INF] Executed ViewResult - view CreateUser executed in 69.4624ms.
+2025-03-17 20:37:47.168 +02:00 [INF] Executed action PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL) in 168.6439ms
+2025-03-17 20:37:47.170 +02:00 [INF] Executed endpoint 'PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL)'
+2025-03-17 20:37:47.174 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/User/CreateUser - 200 null text/html; charset=utf-8 191.8185ms
+2025-03-17 20:38:13.722 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:5227/User/CreateUser - application/x-www-form-urlencoded 586
+2025-03-17 20:38:13.728 +02:00 [INF] Executing endpoint 'PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL)'
+2025-03-17 20:38:13.749 +02:00 [INF] Route matched with {action = "CreateUser", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateUser(PumpItUp.DAL.DTOs.UserRequest) on controller PumpItUp.BLL.Controllers.UserController (PumpItUp.BLL).
+2025-03-17 20:38:15.642 +02:00 [ERR] An error occurred using the connection to database '' on server ''.
+2025-03-17 20:38:15.659 +02:00 [ERR] An exception occurred in the database while saving changes for context type 'PumpItUp.DAL.Configuration.AppDbContext'.
+System.InvalidOperationException: The ConnectionString property has not been initialized.
+   at Microsoft.Data.SqlClient.SqlConnection.PermissionDemand()
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.PermissionDemand(DbConnection outerConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.InternalOpenAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+System.InvalidOperationException: The ConnectionString property has not been initialized.
+   at Microsoft.Data.SqlClient.SqlConnection.PermissionDemand()
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.PermissionDemand(DbConnection outerConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.InternalOpenAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2025-03-17 20:38:15.672 +02:00 [INF] Executed action PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL) in 1918.8315ms
+2025-03-17 20:38:15.675 +02:00 [INF] Executed endpoint 'PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL)'
+2025-03-17 20:38:15.676 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The ConnectionString property has not been initialized.
+   at Microsoft.Data.SqlClient.SqlConnection.PermissionDemand()
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.PermissionDemand(DbConnection outerConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.InternalOpenAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at PumpItUp.BLL.Services.UserService.CreateUserAsync(UserRequest userRequest) in D:\WebProjectDotNetUni\PumpItUp\PumpItUp.BLL\Services\UserService.cs:line 23
+   at PumpItUp.BLL.Controllers.UserController.CreateUser(UserRequest userRequest) in D:\WebProjectDotNetUni\PumpItUp\PumpItUp.BLL\Controllers\UserController.cs:line 25
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-03-17 20:38:15.725 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:5227/User/CreateUser - 500 null text/html; charset=utf-8 2003.2489ms
+2025-03-17 20:39:29.794 +02:00 [INF] Application is shutting down...
+2025-03-17 20:39:33.820 +02:00 [INF] User profile is available. Using 'C:\Users\Green\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-17 20:39:33.904 +02:00 [INF] Now listening on: http://localhost:5227
+2025-03-17 20:39:33.908 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-17 20:39:33.911 +02:00 [INF] Hosting environment: Development
+2025-03-17 20:39:33.914 +02:00 [INF] Content root path: D:\WebProjectDotNetUni\PumpItUp\PumpItUp.BLL
+2025-03-17 20:39:34.332 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/ - null null
+2025-03-17 20:39:34.349 +02:00 [WRN] Failed to determine the https port for redirect.
+2025-03-17 20:39:34.366 +02:00 [INF] Executing endpoint 'PumpItUp.BLL.Controllers.HomeController.Index (PumpItUp.BLL)'
+2025-03-17 20:39:34.392 +02:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller PumpItUp.BLL.Controllers.HomeController (PumpItUp.BLL).
+2025-03-17 20:39:34.407 +02:00 [INF] Executing ViewResult, running view Index.
+2025-03-17 20:39:34.470 +02:00 [INF] Executed ViewResult - view Index executed in 66.9499ms.
+2025-03-17 20:39:34.477 +02:00 [INF] Executed action PumpItUp.BLL.Controllers.HomeController.Index (PumpItUp.BLL) in 81.1184ms
+2025-03-17 20:39:34.480 +02:00 [INF] Executed endpoint 'PumpItUp.BLL.Controllers.HomeController.Index (PumpItUp.BLL)'
+2025-03-17 20:39:34.486 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/ - 200 null text/html; charset=utf-8 156.232ms
+2025-03-17 20:39:44.456 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/User/CreateUser - null null
+2025-03-17 20:39:44.462 +02:00 [INF] Executing endpoint 'PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL)'
+2025-03-17 20:39:44.465 +02:00 [INF] Route matched with {action = "CreateUser", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateUser() on controller PumpItUp.BLL.Controllers.UserController (PumpItUp.BLL).
+2025-03-17 20:39:44.553 +02:00 [INF] Executing ViewResult, running view CreateUser.
+2025-03-17 20:39:44.612 +02:00 [INF] Executed ViewResult - view CreateUser executed in 59.9328ms.
+2025-03-17 20:39:44.615 +02:00 [INF] Executed action PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL) in 145.6061ms
+2025-03-17 20:39:44.618 +02:00 [INF] Executed endpoint 'PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL)'
+2025-03-17 20:39:44.621 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/User/CreateUser - 200 null text/html; charset=utf-8 165.7699ms
+2025-03-17 20:39:58.779 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:5227/User/CreateUser - application/x-www-form-urlencoded 586
+2025-03-17 20:39:58.785 +02:00 [INF] Executing endpoint 'PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL)'
+2025-03-17 20:39:58.806 +02:00 [INF] Route matched with {action = "CreateUser", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateUser(PumpItUp.DAL.DTOs.UserRequest) on controller PumpItUp.BLL.Controllers.UserController (PumpItUp.BLL).
+2025-03-17 20:39:59.590 +02:00 [ERR] An error occurred using the connection to database '' on server ''.
+2025-03-17 20:39:59.608 +02:00 [ERR] An exception occurred in the database while saving changes for context type 'PumpItUp.DAL.Configuration.AppDbContext'.
+System.InvalidOperationException: The ConnectionString property has not been initialized.
+   at Microsoft.Data.SqlClient.SqlConnection.PermissionDemand()
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.PermissionDemand(DbConnection outerConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.InternalOpenAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+System.InvalidOperationException: The ConnectionString property has not been initialized.
+   at Microsoft.Data.SqlClient.SqlConnection.PermissionDemand()
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.PermissionDemand(DbConnection outerConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.InternalOpenAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2025-03-17 20:39:59.621 +02:00 [INF] Executed action PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL) in 810.6113ms
+2025-03-17 20:39:59.623 +02:00 [INF] Executed endpoint 'PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL)'
+2025-03-17 20:39:59.625 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The ConnectionString property has not been initialized.
+   at Microsoft.Data.SqlClient.SqlConnection.PermissionDemand()
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.PermissionDemand(DbConnection outerConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.InternalOpenAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at PumpItUp.BLL.Services.UserService.CreateUserAsync(UserRequest userRequest) in D:\WebProjectDotNetUni\PumpItUp\PumpItUp.BLL\Services\UserService.cs:line 23
+   at PumpItUp.BLL.Controllers.UserController.CreateUser(UserRequest userRequest) in D:\WebProjectDotNetUni\PumpItUp\PumpItUp.BLL\Controllers\UserController.cs:line 25
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-03-17 20:39:59.671 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:5227/User/CreateUser - 500 null text/html; charset=utf-8 892.3056ms
+2025-03-17 20:50:27.182 +02:00 [INF] Application is shutting down...
+2025-03-17 20:50:41.358 +02:00 [INF] User profile is available. Using 'C:\Users\Green\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-17 20:50:41.446 +02:00 [INF] Now listening on: http://localhost:5227
+2025-03-17 20:50:41.451 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-17 20:50:41.453 +02:00 [INF] Hosting environment: Development
+2025-03-17 20:50:41.454 +02:00 [INF] Content root path: D:\WebProjectDotNetUni\PumpItUp\PumpItUp.BLL
+2025-03-17 20:50:42.021 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/ - null null
+2025-03-17 20:50:42.040 +02:00 [WRN] Failed to determine the https port for redirect.
+2025-03-17 20:50:42.060 +02:00 [INF] Executing endpoint 'PumpItUp.BLL.Controllers.HomeController.Index (PumpItUp.BLL)'
+2025-03-17 20:50:42.090 +02:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller PumpItUp.BLL.Controllers.HomeController (PumpItUp.BLL).
+2025-03-17 20:50:42.104 +02:00 [INF] Executing ViewResult, running view Index.
+2025-03-17 20:50:42.173 +02:00 [INF] Executed ViewResult - view Index executed in 73.7846ms.
+2025-03-17 20:50:42.178 +02:00 [INF] Executed action PumpItUp.BLL.Controllers.HomeController.Index (PumpItUp.BLL) in 85.7038ms
+2025-03-17 20:50:42.180 +02:00 [INF] Executed endpoint 'PumpItUp.BLL.Controllers.HomeController.Index (PumpItUp.BLL)'
+2025-03-17 20:50:42.185 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/ - 200 null text/html; charset=utf-8 166.1183ms
+2025-03-17 20:50:42.215 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2025-03-17 20:50:42.224 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/PumpItUp.BLL.styles.css?v=GbSapkM_6-KSLkIOvEIwJB_Fn8xS8NioFjqXxTNHNic - null null
+2025-03-17 20:50:42.224 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - null null
+2025-03-17 20:50:42.225 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/lib/jquery/dist/jquery.min.js - null null
+2025-03-17 20:50:42.225 +02:00 [INF] The file /lib/bootstrap/dist/css/bootstrap.min.css was not modified
+2025-03-17 20:50:42.225 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2025-03-17 20:50:42.226 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - null null
+2025-03-17 20:50:42.230 +02:00 [INF] The file /PumpItUp.BLL.styles.css was not modified
+2025-03-17 20:50:42.233 +02:00 [INF] The file /css/site.css was not modified
+2025-03-17 20:50:42.237 +02:00 [INF] The file /lib/jquery/dist/jquery.min.js was not modified
+2025-03-17 20:50:42.240 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/lib/bootstrap/dist/css/bootstrap.min.css - 304 null text/css 25.2466ms
+2025-03-17 20:50:42.244 +02:00 [INF] The file /lib/bootstrap/dist/js/bootstrap.bundle.min.js was not modified
+2025-03-17 20:50:42.248 +02:00 [INF] The file /js/site.js was not modified
+2025-03-17 20:50:42.250 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/PumpItUp.BLL.styles.css?v=GbSapkM_6-KSLkIOvEIwJB_Fn8xS8NioFjqXxTNHNic - 304 null text/css 25.5702ms
+2025-03-17 20:50:42.252 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - 304 null text/css 27.4758ms
+2025-03-17 20:50:42.254 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/lib/jquery/dist/jquery.min.js - 304 null text/javascript 29.1999ms
+2025-03-17 20:50:42.261 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 304 null text/javascript 35.3237ms
+2025-03-17 20:50:42.263 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - 304 null text/javascript 36.8226ms
+2025-03-17 20:50:46.646 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/User/CreateUser - null null
+2025-03-17 20:50:46.651 +02:00 [INF] Executing endpoint 'PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL)'
+2025-03-17 20:50:46.654 +02:00 [INF] Route matched with {action = "CreateUser", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateUser() on controller PumpItUp.BLL.Controllers.UserController (PumpItUp.BLL).
+2025-03-17 20:50:47.576 +02:00 [INF] Executing ViewResult, running view CreateUser.
+2025-03-17 20:50:47.632 +02:00 [INF] Executed ViewResult - view CreateUser executed in 56.7545ms.
+2025-03-17 20:50:47.635 +02:00 [INF] Executed action PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL) in 978.0764ms
+2025-03-17 20:50:47.638 +02:00 [INF] Executed endpoint 'PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL)'
+2025-03-17 20:50:47.641 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/User/CreateUser - 200 null text/html; charset=utf-8 995.337ms
+2025-03-17 20:51:02.474 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:5227/User/CreateUser - application/x-www-form-urlencoded 587
+2025-03-17 20:51:02.481 +02:00 [INF] Executing endpoint 'PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL)'
+2025-03-17 20:51:02.500 +02:00 [INF] Route matched with {action = "CreateUser", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateUser(PumpItUp.DAL.DTOs.UserRequest) on controller PumpItUp.BLL.Controllers.UserController (PumpItUp.BLL).
+2025-03-17 20:51:03.548 +02:00 [ERR] An error occurred using the connection to database '' on server ''.
+2025-03-17 20:51:03.563 +02:00 [ERR] An exception occurred in the database while saving changes for context type 'PumpItUp.DAL.Configuration.AppDbContext'.
+System.InvalidOperationException: The ConnectionString property has not been initialized.
+   at Npgsql.ThrowHelper.ThrowInvalidOperationException(String message)
+   at Npgsql.NpgsqlConnection.Open(Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.OpenAsync(CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnectionAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+System.InvalidOperationException: The ConnectionString property has not been initialized.
+   at Npgsql.ThrowHelper.ThrowInvalidOperationException(String message)
+   at Npgsql.NpgsqlConnection.Open(Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.OpenAsync(CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnectionAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2025-03-17 20:51:03.572 +02:00 [INF] Executed action PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL) in 1067.3472ms
+2025-03-17 20:51:03.574 +02:00 [INF] Executed endpoint 'PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL)'
+2025-03-17 20:51:03.575 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The ConnectionString property has not been initialized.
+   at Npgsql.ThrowHelper.ThrowInvalidOperationException(String message)
+   at Npgsql.NpgsqlConnection.Open(Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.OpenAsync(CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnectionAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at PumpItUp.BLL.Services.UserService.CreateUserAsync(UserRequest userRequest) in D:\WebProjectDotNetUni\PumpItUp\PumpItUp.BLL\Services\UserService.cs:line 23
+   at PumpItUp.BLL.Controllers.UserController.CreateUser(UserRequest userRequest) in D:\WebProjectDotNetUni\PumpItUp\PumpItUp.BLL\Controllers\UserController.cs:line 25
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-03-17 20:51:03.622 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:5227/User/CreateUser - 500 null text/html; charset=utf-8 1147.3751ms

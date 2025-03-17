@@ -1,0 +1,2 @@
+2025-03-17 17:47:06.645 +02:00 [WRN] Failed to determine the https port for redirect.
+{"@t":"2025-03-17T17:27:50.2625598Z","@mt":"Failed to determine the https port for redirect.","@l":"Warning","@tr":"d1eaf353541f82fc5fdd477a85741c33","@sp":"1a7d477e42d6865c","EventId":{"Id":3,"Name":"FailedToDeterminePort"},"SourceContext":"Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware","RequestId":"0HNB5F45AI8U4:00000001","RequestPath":"/","ConnectionId":"0HNB5F45AI8U4","Application":"Your ASP.NET Core App","Environment":"Development"}
