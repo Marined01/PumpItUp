@@ -12,6 +12,8 @@ public class AppDbContext : DbContext
 
     public DbSet<User> Users { get; set; }
     public DbSet<BankData> BankData { get; set; }
+    // public DbSet<Post> Posts { get; set; }
+    public DbSet<Attachment> Attachments { get; set; }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
@@ -22,5 +24,13 @@ public class AppDbContext : DbContext
                 .HasForeignKey<BankData>(b => b.UserId)
                 .OnDelete(DeleteBehavior.Cascade);
         });
+
+        // modelBuilder.Entity<Post>(entity =>
+        // {
+        //     entity.HasMany(p => p.Attachments)
+        //         .WithOne(a => a.Post)
+        //         .HasForeignKey(a => a.PostId)
+        //         .OnDelete(DeleteBehavior.Cascade);
+        // });
     }
 }

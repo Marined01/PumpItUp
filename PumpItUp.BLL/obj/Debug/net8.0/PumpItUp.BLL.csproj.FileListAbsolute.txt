@@ -193,3 +193,4 @@ D:\WebProjectDotNetUni\PumpItUp\PumpItUp.BLL\bin\Debug\net8.0\xunit.abstractions
 D:\WebProjectDotNetUni\PumpItUp\PumpItUp.BLL\bin\Debug\net8.0\xunit.assert.dll
 D:\WebProjectDotNetUni\PumpItUp\PumpItUp.BLL\bin\Debug\net8.0\xunit.core.dll
 D:\WebProjectDotNetUni\PumpItUp\PumpItUp.BLL\bin\Debug\net8.0\xunit.execution.dotnet.dll
+D:\WebProjectDotNetUni\PumpItUp\PumpItUp.BLL\bin\Debug\net8.0\nunit.framework.dll
