@@ -186,3 +186,10 @@ D:\WebProjectDotNetUni\PumpItUp\PumpItUp.BLL\bin\Debug\net8.0\ru\Microsoft.CodeA
 D:\WebProjectDotNetUni\PumpItUp\PumpItUp.BLL\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 D:\WebProjectDotNetUni\PumpItUp\PumpItUp.BLL\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 D:\WebProjectDotNetUni\PumpItUp\PumpItUp.BLL\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\WebProjectDotNetUni\PumpItUp\PumpItUp.BLL\obj\Debug\net8.0\PumpItUp.BLL.sourcelink.json
+D:\WebProjectDotNetUni\PumpItUp\PumpItUp.BLL\bin\Debug\net8.0\Castle.Core.dll
+D:\WebProjectDotNetUni\PumpItUp\PumpItUp.BLL\bin\Debug\net8.0\Moq.dll
+D:\WebProjectDotNetUni\PumpItUp\PumpItUp.BLL\bin\Debug\net8.0\xunit.abstractions.dll
+D:\WebProjectDotNetUni\PumpItUp\PumpItUp.BLL\bin\Debug\net8.0\xunit.assert.dll
+D:\WebProjectDotNetUni\PumpItUp\PumpItUp.BLL\bin\Debug\net8.0\xunit.core.dll
+D:\WebProjectDotNetUni\PumpItUp\PumpItUp.BLL\bin\Debug\net8.0\xunit.execution.dotnet.dll

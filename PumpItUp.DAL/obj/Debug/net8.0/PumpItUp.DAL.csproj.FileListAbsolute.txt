@@ -12,3 +12,4 @@ D:\WebProjectDotNetUni\PumpItUp\PumpItUp.DAL\obj\Debug\net8.0\PumpItUp.DAL.pdb
 D:\WebProjectDotNetUni\PumpItUp\PumpItUp.DAL\obj\Debug\net8.0\ref\PumpItUp.DAL.dll
 D:\WebProjectDotNetUni\PumpItUp\PumpItUp.DAL\bin\Debug\net8.0\PumpItUp.DAL.runtimeconfig.json
 D:\WebProjectDotNetUni\PumpItUp\PumpItUp.DAL\obj\Debug\net8.0\PumpItUp.DAL.genruntimeconfig.cache
+D:\WebProjectDotNetUni\PumpItUp\PumpItUp.DAL\obj\Debug\net8.0\PumpItUp.DAL.sourcelink.json
