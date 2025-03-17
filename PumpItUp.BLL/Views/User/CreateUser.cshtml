@@ -1,0 +1,68 @@
+﻿@model PumpItUp.DAL.DTOs.UserRequest
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Add User</title>
+</head>
+<body>
+    <div>
+        <h2>Add User</h2>
+        <form asp-action="CreateUser" method="post">
+            <label asp-for="FirstName">First Name:</label>
+            <input asp-for="FirstName" required /><br/>
+            
+            <label asp-for="LastName">Last Name:</label>
+            <input asp-for="LastName" required /><br/>
+            
+            <label asp-for="Email">Email:</label>
+            <input asp-for="Email" type="email" required /><br/>
+            
+            <label asp-for="Password">Password:</label>
+            <input asp-for="Password" type="password" required /><br/>
+            
+            <label asp-for="AvatarUrl">Avatar URL:</label>
+            <input asp-for="AvatarUrl" /><br/>
+            
+            <label asp-for="FitnessLevel">Fitness Level:</label>
+            <select asp-for="FitnessLevel">
+                <option value="Beginner">Beginner</option>
+                <option value="Intermediate">Intermediate</option>
+                <option value="Advanced">Advanced</option>
+            </select><br/>
+            
+            <label asp-for="Age">Age:</label>
+            <input asp-for="Age" type="number" required /><br/>
+            
+            <label asp-for="Sex">Sex:</label>
+            <select asp-for="Sex">
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Other">Other</option>
+            </select><br/>
+            
+            <label asp-for="BankData">Bank Data:</label>
+            <input asp-for="BankData" /><br/>
+            
+            <label asp-for="HasPremiumSubscription">Premium Subscription:</label>
+            <input asp-for="HasPremiumSubscription" type="checkbox" /><br/>
+            
+            <label asp-for="Role">Role:</label>
+            <select asp-for="Role">
+                <option value="User">User</option>
+                <option value="Admin">Admin</option>
+                <option value="Trainer">Trainer</option>
+            </select><br/>
+            
+            <label asp-for="FollowingId">Following ID:</label>
+            <input asp-for="FollowingId" type="number" /><br/>
+            
+            <button type="submit">Add User</button>
+        </form>
+    </div>
+</body>
+</html>
