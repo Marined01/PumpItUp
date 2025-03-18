@@ -5445,26 +5445,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Green\\.nuget\\packages\\": {}
+    "/home/comp/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\WebProjectDotNetUni\\PumpItUp\\PumpItUp.UI\\PumpItUp.UI.csproj",
+      "projectUniqueName": "/home/comp/Desktop/PumpItUp/PumpItUp.UI/PumpItUp.UI.csproj",
       "projectName": "PumpItUp.UI",
-      "projectPath": "D:\\WebProjectDotNetUni\\PumpItUp\\PumpItUp.UI\\PumpItUp.UI.csproj",
-      "packagesPath": "C:\\Users\\Green\\.nuget\\packages\\",
-      "outputPath": "D:\\WebProjectDotNetUni\\PumpItUp\\PumpItUp.UI\\obj\\",
+      "projectPath": "/home/comp/Desktop/PumpItUp/PumpItUp.UI/PumpItUp.UI.csproj",
+      "packagesPath": "/home/comp/.nuget/packages/",
+      "outputPath": "/home/comp/Desktop/PumpItUp/PumpItUp.UI/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Green\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/home/comp/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -5477,7 +5475,13 @@
         "warnAsError": [
           "NU1605"
         ]
-      }
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.200"
     },
     "frameworks": {
       "net8.0": {
@@ -5535,12 +5539,22 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[8.0.14, 8.0.14]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[8.0.14, 8.0.14]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/home/comp/dotnet/sdk/9.0.201/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

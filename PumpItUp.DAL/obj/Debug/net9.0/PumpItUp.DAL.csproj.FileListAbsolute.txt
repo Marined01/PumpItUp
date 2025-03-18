@@ -1,0 +1,15 @@
+/home/comp/Desktop/PumpItUp/PumpItUp.DAL/obj/Debug/net9.0/PumpItUp.DAL.csproj.AssemblyReference.cache
+/home/comp/Desktop/PumpItUp/PumpItUp.DAL/obj/Debug/net9.0/PumpItUp.DAL.GeneratedMSBuildEditorConfig.editorconfig
+/home/comp/Desktop/PumpItUp/PumpItUp.DAL/obj/Debug/net9.0/PumpItUp.DAL.AssemblyInfoInputs.cache
+/home/comp/Desktop/PumpItUp/PumpItUp.DAL/obj/Debug/net9.0/PumpItUp.DAL.AssemblyInfo.cs
+/home/comp/Desktop/PumpItUp/PumpItUp.DAL/obj/Debug/net9.0/PumpItUp.DAL.csproj.CoreCompileInputs.cache
+/home/comp/Desktop/PumpItUp/PumpItUp.DAL/obj/Debug/net9.0/PumpItUp.DAL.sourcelink.json
+/home/comp/Desktop/PumpItUp/PumpItUp.DAL/bin/Debug/net9.0/PumpItUp.DAL.deps.json
+/home/comp/Desktop/PumpItUp/PumpItUp.DAL/bin/Debug/net9.0/PumpItUp.DAL.runtimeconfig.json
+/home/comp/Desktop/PumpItUp/PumpItUp.DAL/bin/Debug/net9.0/PumpItUp.DAL.dll
+/home/comp/Desktop/PumpItUp/PumpItUp.DAL/bin/Debug/net9.0/PumpItUp.DAL.pdb
+/home/comp/Desktop/PumpItUp/PumpItUp.DAL/obj/Debug/net9.0/PumpItUp.DAL.dll
+/home/comp/Desktop/PumpItUp/PumpItUp.DAL/obj/Debug/net9.0/refint/PumpItUp.DAL.dll
+/home/comp/Desktop/PumpItUp/PumpItUp.DAL/obj/Debug/net9.0/PumpItUp.DAL.pdb
+/home/comp/Desktop/PumpItUp/PumpItUp.DAL/obj/Debug/net9.0/PumpItUp.DAL.genruntimeconfig.cache
+/home/comp/Desktop/PumpItUp/PumpItUp.DAL/obj/Debug/net9.0/ref/PumpItUp.DAL.dll

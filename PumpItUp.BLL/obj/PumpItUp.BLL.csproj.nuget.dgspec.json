@@ -1,35 +1,33 @@
 {
   "format": 1,
   "restore": {
-    "D:\\WebProjectDotNetUni\\PumpItUp\\PumpItUp.BLL\\PumpItUp.BLL.csproj": {}
+    "/home/comp/Desktop/PumpItUp/PumpItUp.BLL/PumpItUp.BLL.csproj": {}
   },
   "projects": {
-    "D:\\WebProjectDotNetUni\\PumpItUp\\PumpItUp.BLL\\PumpItUp.BLL.csproj": {
+    "/home/comp/Desktop/PumpItUp/PumpItUp.BLL/PumpItUp.BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\WebProjectDotNetUni\\PumpItUp\\PumpItUp.BLL\\PumpItUp.BLL.csproj",
+        "projectUniqueName": "/home/comp/Desktop/PumpItUp/PumpItUp.BLL/PumpItUp.BLL.csproj",
         "projectName": "PumpItUp.BLL",
-        "projectPath": "D:\\WebProjectDotNetUni\\PumpItUp\\PumpItUp.BLL\\PumpItUp.BLL.csproj",
-        "packagesPath": "C:\\Users\\Green\\.nuget\\packages\\",
-        "outputPath": "D:\\WebProjectDotNetUni\\PumpItUp\\PumpItUp.BLL\\obj\\",
+        "projectPath": "/home/comp/Desktop/PumpItUp/PumpItUp.BLL/PumpItUp.BLL.csproj",
+        "packagesPath": "/home/comp/.nuget/packages/",
+        "outputPath": "/home/comp/Desktop/PumpItUp/PumpItUp.BLL/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Green\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/comp/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net8.0"
+          "net9.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
+          "net9.0": {
+            "targetAlias": "net9.0",
             "projectReferences": {
-              "D:\\WebProjectDotNetUni\\PumpItUp\\PumpItUp.DAL\\PumpItUp.DAL.csproj": {
-                "projectPath": "D:\\WebProjectDotNetUni\\PumpItUp\\PumpItUp.DAL\\PumpItUp.DAL.csproj"
+              "/home/comp/Desktop/PumpItUp/PumpItUp.DAL/PumpItUp.DAL.csproj": {
+                "projectPath": "/home/comp/Desktop/PumpItUp/PumpItUp.DAL/PumpItUp.DAL.csproj"
               }
             }
           }
@@ -38,11 +36,17 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
+        "net9.0": {
+          "targetAlias": "net9.0",
           "dependencies": {
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
@@ -62,13 +66,25 @@
               "target": "Package",
               "version": "[9.0.3, )"
             },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.3.0, )"
+            },
+            "Microsoft.TestPlatform": {
+              "target": "Package",
+              "version": "[17.13.0, )"
+            },
             "Moq": {
               "target": "Package",
               "version": "[4.20.72, )"
             },
             "NUnit": {
               "target": "Package",
-              "version": "[3.0.0, )"
+              "version": "[3.13.3, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
             },
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
@@ -102,7 +118,7 @@
             },
             "xunit": {
               "target": "Package",
-              "version": "[2.9.3, )"
+              "version": "[2.4.1, )"
             }
           },
           "imports": [
@@ -124,33 +140,31 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/home/comp/dotnet/sdk/9.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\WebProjectDotNetUni\\PumpItUp\\PumpItUp.DAL\\PumpItUp.DAL.csproj": {
+    "/home/comp/Desktop/PumpItUp/PumpItUp.DAL/PumpItUp.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\WebProjectDotNetUni\\PumpItUp\\PumpItUp.DAL\\PumpItUp.DAL.csproj",
+        "projectUniqueName": "/home/comp/Desktop/PumpItUp/PumpItUp.DAL/PumpItUp.DAL.csproj",
         "projectName": "PumpItUp.DAL",
-        "projectPath": "D:\\WebProjectDotNetUni\\PumpItUp\\PumpItUp.DAL\\PumpItUp.DAL.csproj",
-        "packagesPath": "C:\\Users\\Green\\.nuget\\packages\\",
-        "outputPath": "D:\\WebProjectDotNetUni\\PumpItUp\\PumpItUp.DAL\\obj\\",
+        "projectPath": "/home/comp/Desktop/PumpItUp/PumpItUp.DAL/PumpItUp.DAL.csproj",
+        "packagesPath": "/home/comp/.nuget/packages/",
+        "outputPath": "/home/comp/Desktop/PumpItUp/PumpItUp.DAL/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Green\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/comp/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net8.0"
+          "net9.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
+          "net9.0": {
+            "targetAlias": "net9.0",
             "projectReferences": {}
           }
         },
@@ -158,11 +172,17 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
+        "net9.0": {
+          "targetAlias": "net9.0",
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -221,7 +241,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/home/comp/dotnet/sdk/9.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

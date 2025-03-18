@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../buildMultiTargeting/PumpItUp.BLL.Tests.props" />
+</Project>
