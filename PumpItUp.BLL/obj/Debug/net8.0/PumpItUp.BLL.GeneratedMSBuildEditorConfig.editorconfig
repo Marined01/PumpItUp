@@ -30,12 +30,20 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXR0YWNobWVudFxDcmVhdGVBdHRhY2htZW50LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/WebProjectDotNetUni/PumpItUp/PumpItUp.BLL/Views/Following/CreateFollowing.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9sbG93aW5nXENyZWF0ZUZvbGxvd2luZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/WebProjectDotNetUni/PumpItUp/PumpItUp.BLL/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/WebProjectDotNetUni/PumpItUp/PumpItUp.BLL/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/WebProjectDotNetUni/PumpItUp/PumpItUp.BLL/Views/Role/CreateRole.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZVxDcmVhdGVSb2xlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/WebProjectDotNetUni/PumpItUp/PumpItUp.BLL/Views/Shared/Error.cshtml]

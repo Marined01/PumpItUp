@@ -1,5 +1,6 @@
 ﻿using PumpItUp.BLL.Models;
 using PumpItUp.DAL.Common;
+using PumpItUp.DAL.Models;
 
 namespace PumpItUp.DAL.DTOs
 {

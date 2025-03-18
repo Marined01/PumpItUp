@@ -28,6 +28,12 @@ namespace PumpItUp.BLL.Tests
         [Test]
         public async Task CreateUserAsync_ShouldAddUserToDatabase()
         {
+            var role = new Role
+            {
+                Id = 1,
+                Name = "User"
+            };
+
             var userRequest = new UserRequest
             {
                 FirstName = "John",
@@ -39,7 +45,7 @@ namespace PumpItUp.BLL.Tests
                 Age = 25,
                 Sex = Sex.Male,
                 HasPremiumSubscription = false,
-                Role = Role.UserRole,
+                Role = role,
                 FollowingId = 1
             };
 
@@ -54,7 +60,7 @@ namespace PumpItUp.BLL.Tests
                 Age = 25,
                 Sex = Sex.Male,
                 HasPremiumSubscription = false,
-                Role = Role.UserRole,
+                Role = role,
                 FollowingId = 1
             };
 

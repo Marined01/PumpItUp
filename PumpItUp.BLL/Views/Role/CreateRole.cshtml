@@ -1,0 +1,127 @@
+﻿@model PumpItUp.DAL.DTOs.RoleRequest
+       
+       @{
+           Layout = null;
+       }
+       
+       <!DOCTYPE html>
+       <html lang="en">
+       <head>
+           <meta charset="UTF-8">
+           <meta name="viewport" content="width=device-width, initial-scale=1.0">
+           <title>Add Role</title>
+       
+           <!-- Google Font for a clean, modern look -->
+           <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+       
+           <style>
+               body {
+                   background-color: #eaeaea;
+                   font-family: 'Roboto', sans-serif;
+                   color: #333;
+                   display: flex;
+                   justify-content: center;
+                   align-items: center;
+                   height: 100vh;
+                   margin: 0;
+               }
+       
+               .form-container {
+                   background-color: #fff;
+                   padding: 25px;
+                   border-radius: 10px;
+                   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+                   width: 100%;
+                   max-width: 380px;
+                   margin: 400px 15px 15px 15px;
+               }
+       
+               h2 {
+                   color: #333;
+                   font-size: 24px;
+                   margin-bottom: 20px;
+                   font-weight: 500;
+                   text-align: center;
+               }
+       
+               label {
+                   display: block;
+                   margin-bottom: 5px;
+                   font-size: 14px;
+                   color: #555;
+               }
+       
+               input {
+                   width: 100%;
+                   padding: 10px;
+                   margin-bottom: 15px;
+                   border: 1px solid #ccc;
+                   border-radius: 8px;
+                   font-size: 16px;
+                   background-color: #f7f7f7;
+                   transition: border-color 0.3s;
+               }
+       
+               input:focus {
+                   border-color: #4a90e2;
+                   outline: none;
+               }
+       
+               button {
+                   background-color: #4a90e2;
+                   color: #fff;
+                   border: none;
+                   padding: 12px;
+                   border-radius: 8px;
+                   font-size: 18px;
+                   cursor: pointer;
+                   width: 100%;
+                   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+                   transition: background-color 0.3s;
+               }
+       
+               button:hover {
+                   background-color: #357ab7;
+               }
+           </style>
+       </head>
+       <body>
+       
+       <div class="form-container">
+           <h2>Add Role</h2>
+           <form asp-action="CreateRole" method="post">
+               <label asp-for="Name">Role Name:</label>
+               <input asp-for="Name" required />
+       
+               <label asp-for="CreatedAt">Created At:</label>
+               <input asp-for="CreatedAt" type="datetime-local" required />
+       
+               <label asp-for="UpdatedAt">Updated At:</label>
+               <input asp-for="UpdatedAt" type="datetime-local" required />
+       
+               <label asp-for="UserId">User ID:</label>
+               <input asp-for="UserId" type="number" required />
+       
+               <button type="submit">Add Role</button>
+           </form>
+       </div>
+       
+       </body>
+       </html>
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>title</title>
+</head>
+<body>
+<div>
+      
+</div>
+</body>
+</html>

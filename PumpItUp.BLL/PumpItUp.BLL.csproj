@@ -33,4 +33,8 @@
         <ProjectReference Include="..\PumpItUp.DAL\PumpItUp.DAL.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="Pages\" />
+    </ItemGroup>
+
 </Project>
