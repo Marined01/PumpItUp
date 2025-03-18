@@ -22,6 +22,7 @@ builder.Services.AddControllersWithViews();
 
 builder.Services.AddScoped<UserService>();
 builder.Services.AddScoped<AttachmentService>();
+builder.Services.AddScoped<FollowingService>();
 
 var app = builder.Build();
 

@@ -1,0 +1,16 @@
+D:\University\PumpItUp\PumpItUp\PumpItUp.Infrastructure\bin\Debug\net8.0\PumpItUp.Infrastructure.deps.json
+D:\University\PumpItUp\PumpItUp\PumpItUp.Infrastructure\bin\Debug\net8.0\PumpItUp.Infrastructure.dll
+D:\University\PumpItUp\PumpItUp\PumpItUp.Infrastructure\bin\Debug\net8.0\PumpItUp.Infrastructure.pdb
+D:\University\PumpItUp\PumpItUp\PumpItUp.Infrastructure\bin\Debug\net8.0\PumpItUp.Core.dll
+D:\University\PumpItUp\PumpItUp\PumpItUp.Infrastructure\bin\Debug\net8.0\PumpItUp.Core.pdb
+D:\University\PumpItUp\PumpItUp\PumpItUp.Infrastructure\obj\Debug\net8.0\PumpItUp.Infrastructure.csproj.AssemblyReference.cache
+D:\University\PumpItUp\PumpItUp\PumpItUp.Infrastructure\obj\Debug\net8.0\PumpItUp.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\University\PumpItUp\PumpItUp\PumpItUp.Infrastructure\obj\Debug\net8.0\PumpItUp.Infrastructure.AssemblyInfoInputs.cache
+D:\University\PumpItUp\PumpItUp\PumpItUp.Infrastructure\obj\Debug\net8.0\PumpItUp.Infrastructure.AssemblyInfo.cs
+D:\University\PumpItUp\PumpItUp\PumpItUp.Infrastructure\obj\Debug\net8.0\PumpItUp.Infrastructure.csproj.CoreCompileInputs.cache
+D:\University\PumpItUp\PumpItUp\PumpItUp.Infrastructure\obj\Debug\net8.0\PumpItUp.Infrastructure.sourcelink.json
+D:\University\PumpItUp\PumpItUp\PumpItUp.Infrastructure\obj\Debug\net8.0\PumpItUp.835D5DA3.Up2Date
+D:\University\PumpItUp\PumpItUp\PumpItUp.Infrastructure\obj\Debug\net8.0\PumpItUp.Infrastructure.dll
+D:\University\PumpItUp\PumpItUp\PumpItUp.Infrastructure\obj\Debug\net8.0\refint\PumpItUp.Infrastructure.dll
+D:\University\PumpItUp\PumpItUp\PumpItUp.Infrastructure\obj\Debug\net8.0\PumpItUp.Infrastructure.pdb
+D:\University\PumpItUp\PumpItUp\PumpItUp.Infrastructure\obj\Debug\net8.0\ref\PumpItUp.Infrastructure.dll

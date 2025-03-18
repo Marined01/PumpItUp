@@ -1,0 +1,13 @@
+D:\University\PumpItUp\PumpItUp\PumpItUp.Application\bin\Debug\net8.0\PumpItUp.Application.deps.json
+D:\University\PumpItUp\PumpItUp\PumpItUp.Application\bin\Debug\net8.0\PumpItUp.Application.dll
+D:\University\PumpItUp\PumpItUp\PumpItUp.Application\bin\Debug\net8.0\PumpItUp.Application.pdb
+D:\University\PumpItUp\PumpItUp\PumpItUp.Application\obj\Debug\net8.0\PumpItUp.Application.csproj.AssemblyReference.cache
+D:\University\PumpItUp\PumpItUp\PumpItUp.Application\obj\Debug\net8.0\PumpItUp.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\University\PumpItUp\PumpItUp\PumpItUp.Application\obj\Debug\net8.0\PumpItUp.Application.AssemblyInfoInputs.cache
+D:\University\PumpItUp\PumpItUp\PumpItUp.Application\obj\Debug\net8.0\PumpItUp.Application.AssemblyInfo.cs
+D:\University\PumpItUp\PumpItUp\PumpItUp.Application\obj\Debug\net8.0\PumpItUp.Application.csproj.CoreCompileInputs.cache
+D:\University\PumpItUp\PumpItUp\PumpItUp.Application\obj\Debug\net8.0\PumpItUp.Application.sourcelink.json
+D:\University\PumpItUp\PumpItUp\PumpItUp.Application\obj\Debug\net8.0\PumpItUp.Application.dll
+D:\University\PumpItUp\PumpItUp\PumpItUp.Application\obj\Debug\net8.0\refint\PumpItUp.Application.dll
+D:\University\PumpItUp\PumpItUp\PumpItUp.Application\obj\Debug\net8.0\PumpItUp.Application.pdb
+D:\University\PumpItUp\PumpItUp\PumpItUp.Application\obj\Debug\net8.0\ref\PumpItUp.Application.dll

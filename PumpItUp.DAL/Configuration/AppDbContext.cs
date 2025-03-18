@@ -14,6 +14,7 @@ public class AppDbContext : DbContext
     public DbSet<BankData> BankData { get; set; }
     // public DbSet<Post> Posts { get; set; }
     public DbSet<Attachment> Attachments { get; set; }
+    public DbSet<Following> Followings { get; set; }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
