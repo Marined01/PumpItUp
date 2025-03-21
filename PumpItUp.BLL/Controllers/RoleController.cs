@@ -2,28 +2,27 @@
 using PumpItUp.BLL.Services;
 using PumpItUp.DAL.DTOs;
 
-namespace PumpItUp.BLL.Controllers
+namespace PumpItUp.BLL.Controllers;
+
+public class RoleController : Controller
 {
-    public class RoleController : Controller
+    private readonly RoleService _roleService;
+
+    public RoleController(RoleService roleService)
     {
-        private readonly RoleService _roleService;
+        _roleService = roleService;
+    }
 
-        public RoleController(RoleService roleService)
-        {
-            _roleService = roleService;
-        }
+    [HttpGet]
+    public IActionResult CreateRole()
+    {
+        return View();
+    }
 
-        [HttpGet]
-        public IActionResult CreateRole()
-        {
-            return View();
-        }
-
-        [HttpPost]
-        public async Task<IActionResult> CreateRole([FromBody] RoleRequest roleRequest)
-        {
-            await _roleService.CreateRoleAsync(roleRequest);
-            return View();
-        }
+    [HttpPost]
+    public async Task<IActionResult> CreateRole([FromForm] RoleRequest roleRequest)
+    {
+        await _roleService.CreateRoleAsync(roleRequest);
+        return View();
     }
 }

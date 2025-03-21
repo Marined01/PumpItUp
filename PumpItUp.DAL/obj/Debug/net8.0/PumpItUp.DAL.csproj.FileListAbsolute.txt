@@ -1,4 +1,5 @@
 D:\WebProjectDotNetUni\PumpItUp\PumpItUp.DAL\bin\Debug\net8.0\PumpItUp.DAL.deps.json
+D:\WebProjectDotNetUni\PumpItUp\PumpItUp.DAL\bin\Debug\net8.0\PumpItUp.DAL.runtimeconfig.json
 D:\WebProjectDotNetUni\PumpItUp\PumpItUp.DAL\bin\Debug\net8.0\PumpItUp.DAL.dll
 D:\WebProjectDotNetUni\PumpItUp\PumpItUp.DAL\bin\Debug\net8.0\PumpItUp.DAL.pdb
 D:\WebProjectDotNetUni\PumpItUp\PumpItUp.DAL\obj\Debug\net8.0\PumpItUp.DAL.csproj.AssemblyReference.cache
@@ -6,10 +7,9 @@ D:\WebProjectDotNetUni\PumpItUp\PumpItUp.DAL\obj\Debug\net8.0\PumpItUp.DAL.Gener
 D:\WebProjectDotNetUni\PumpItUp\PumpItUp.DAL\obj\Debug\net8.0\PumpItUp.DAL.AssemblyInfoInputs.cache
 D:\WebProjectDotNetUni\PumpItUp\PumpItUp.DAL\obj\Debug\net8.0\PumpItUp.DAL.AssemblyInfo.cs
 D:\WebProjectDotNetUni\PumpItUp\PumpItUp.DAL\obj\Debug\net8.0\PumpItUp.DAL.csproj.CoreCompileInputs.cache
+D:\WebProjectDotNetUni\PumpItUp\PumpItUp.DAL\obj\Debug\net8.0\PumpItUp.DAL.sourcelink.json
 D:\WebProjectDotNetUni\PumpItUp\PumpItUp.DAL\obj\Debug\net8.0\PumpItUp.DAL.dll
 D:\WebProjectDotNetUni\PumpItUp\PumpItUp.DAL\obj\Debug\net8.0\refint\PumpItUp.DAL.dll
 D:\WebProjectDotNetUni\PumpItUp\PumpItUp.DAL\obj\Debug\net8.0\PumpItUp.DAL.pdb
-D:\WebProjectDotNetUni\PumpItUp\PumpItUp.DAL\obj\Debug\net8.0\ref\PumpItUp.DAL.dll
-D:\WebProjectDotNetUni\PumpItUp\PumpItUp.DAL\bin\Debug\net8.0\PumpItUp.DAL.runtimeconfig.json
 D:\WebProjectDotNetUni\PumpItUp\PumpItUp.DAL\obj\Debug\net8.0\PumpItUp.DAL.genruntimeconfig.cache
-D:\WebProjectDotNetUni\PumpItUp\PumpItUp.DAL\obj\Debug\net8.0\PumpItUp.DAL.sourcelink.json
+D:\WebProjectDotNetUni\PumpItUp\PumpItUp.DAL\obj\Debug\net8.0\ref\PumpItUp.DAL.dll

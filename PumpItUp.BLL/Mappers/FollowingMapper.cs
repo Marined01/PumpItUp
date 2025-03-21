@@ -1,17 +1,16 @@
-﻿using PumpItUp.DAL.Models;
+﻿using PumpItUp.DAL.DTOs;
+using PumpItUp.DAL.Models;
 
 namespace PumpItUp.BLL.Mappers;
 
 public class FollowingMapper
 {
-    public Following MapToSubscription(Following subscriptionRequest)
+    public Following MapToSubscription(FollowingRequest subscriptionRequest)
     {
         return new Following
         {
-            follower = subscriptionRequest.follower,
-            following = subscriptionRequest.following,
-            CreatedAt = subscriptionRequest.CreatedAt,
-            UpdatedAt = subscriptionRequest.UpdatedAt
+            follower = subscriptionRequest.FollowerId,
+            following = subscriptionRequest.FollowingId
         };
     }
 }

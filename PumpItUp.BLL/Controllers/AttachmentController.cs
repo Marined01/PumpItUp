@@ -20,7 +20,7 @@ namespace PumpItUp.BLL.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> CreateAttachment([FromBody] AttachmentRequest attachmentRequest)
+        public async Task<IActionResult> CreateAttachment([FromForm] AttachmentRequest attachmentRequest)
         {
             await _attachmentService.CreateAttachmentAsync(attachmentRequest);
             return View();

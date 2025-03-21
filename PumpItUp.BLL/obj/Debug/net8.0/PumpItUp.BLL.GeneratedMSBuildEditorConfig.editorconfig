@@ -42,6 +42,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/WebProjectDotNetUni/PumpItUp/PumpItUp.BLL/Views/Post/CreatePost.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdFxDcmVhdGVQb3N0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/WebProjectDotNetUni/PumpItUp/PumpItUp.BLL/Views/Role/CreateRole.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZVxDcmVhdGVSb2xlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

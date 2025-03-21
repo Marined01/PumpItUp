@@ -18,7 +18,7 @@ namespace PumpItUp.BLL.Services
 
         public async Task<User> CreateUserAsync(UserRequest userRequest)
         {
-            User user = _userMapper.MapToUser(userRequest);
+            var user = _userMapper.MapToUser(userRequest);
             _context.Users.Add(user);
             await _context.SaveChangesAsync();
 

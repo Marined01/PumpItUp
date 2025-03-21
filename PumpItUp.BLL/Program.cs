@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using PumpItUp.BLL.Services;
+using PumpItUP.BLL.Services;
 using PumpItUp.DAL.Configuration;
 using Serilog;
 
@@ -15,17 +16,19 @@ Log.Logger = new LoggerConfiguration()
 builder.Host.UseSerilog();
 
 builder.Services.AddDbContext<AppDbContext>(options =>
-    options.UseNpgsql(builder.Configuration.GetConnectionString("DbConnectionString")));
+    options.UseNpgsql("Host=localhost;Port=5432;Database=pumpitup_db;Username=postgres;Password=root"));
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
 builder.Services.AddScoped<UserService>();
 builder.Services.AddScoped<AttachmentService>();
+builder.Services.AddScoped<PostService>();
+builder.Services.AddScoped<RoleService>();
+builder.Services.AddScoped<FollowingService>();
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Home/Error");

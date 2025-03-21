@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using PumpItUp.BLL.Services;
 using System.Security.Claims;
+using PumpItUp.DAL.DTOs;
 
 namespace PumpItUp.BLL.Controllers;
 
@@ -43,5 +44,18 @@ public class FollowingController : Controller
     private int GetCurrentUserId()
     {
         return int.Parse(User.FindFirstValue(ClaimTypes.NameIdentifier));
+    }
+
+    [HttpGet]
+    public IActionResult CreateFollowing()
+    {
+        return View();
+    }
+
+    [HttpPost]
+    public async Task<IActionResult> CreateFollowing([FromForm] FollowingRequest followingRequest)
+    {
+        await _subscriptionService.CreateFollowingAsync(followingRequest);
+        return View();
     }
 }

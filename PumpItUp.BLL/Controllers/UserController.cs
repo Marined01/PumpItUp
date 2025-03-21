@@ -20,7 +20,7 @@ public class UserController : Controller
     }
 
     [HttpPost]
-    public async Task<IActionResult> CreateUser([FromBody] UserRequest userRequest)
+    public async Task<IActionResult> CreateUser([FromForm] UserRequest userRequest)
     {
         await _userService.CreateUserAsync(userRequest);
 

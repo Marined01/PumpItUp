@@ -10,7 +10,7 @@ namespace PumpItUp.DAL.Repositories.Implementations
     {
         public async Task<User> GetByIdAsync(long userId)
         {
-            User? user = await context.Users
+            var user = await context.Users
                 .FirstOrDefaultAsync(u => u.Id == userId);
 
             if (user == null)

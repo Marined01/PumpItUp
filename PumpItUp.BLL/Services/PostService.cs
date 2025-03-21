@@ -1,31 +1,31 @@
-﻿using PumpItUP.DAL.DTOs;
+﻿using PumpItUp.BLL.Mappers;
+using PumpItUp.DAL.Configuration;
+using PumpItUP.DAL.DTOs;
 using PumpItUp.DAL.Models;
 using PumpItUp.DAL.Repositories.Interfaces;
 
 namespace PumpItUP.BLL.Services;
 
-public class PostService : IPostService
+public class PostService
 {
-    private readonly IPostRepository _postRepository;
     private readonly ILogger<PostService> _logger;
+    private readonly AppDbContext _context;
+    private readonly PostMapper _postMapper;
 
-    public PostService(IPostRepository postRepository, ILogger<PostService> logger)
+    public PostService(ILogger<PostService> logger, AppDbContext context)
     {
-        _postRepository = postRepository;
         _logger = logger;
+        _context = context;
+        _postMapper = new PostMapper();
     }
 
-    public async Task CreatePostAsync(PostRequest postRequest)
+    public async Task<Post> CreatePostAsync(PostRequest postRequest)
     {
-        var post = new Post
-        {
-            Title = postRequest.Title,
-            Content = postRequest.Content,
-            PostedBy = postRequest.PostedBy ?? 0 ,
-            AttachmentId = postRequest.AttachmentId 
-        };
+        var post = _postMapper.MapToPost(postRequest);
 
-        await _postRepository.CreatePostAsync(post);
+        _context.Posts.Add(post);
         _logger.LogInformation($"Post created: {post.Title}");
+        await _context.SaveChangesAsync();
+        return post;
     }
 }

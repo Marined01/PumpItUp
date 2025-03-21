@@ -6,10 +6,10 @@ namespace PumpItUP.BLL.Controllers;
 
 public class PostController : Controller
 {
-    private readonly IPostService _postService;
+    private readonly PostService _postService;
     private readonly ILogger<PostController> _logger;
 
-    public PostController(IPostService postService, ILogger<PostController> logger)
+    public PostController(PostService postService, ILogger<PostController> logger)
     {
         _postService = postService;
         _logger = logger;
@@ -31,6 +31,6 @@ public class PostController : Controller
 
         await _postService.CreatePostAsync(postRequest);
         _logger.LogInformation("New post created successfully.");
-        return RedirectToAction("Index", "Home");
+        return View(postRequest);
     }
 }

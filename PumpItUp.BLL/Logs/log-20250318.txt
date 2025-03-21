@@ -1,0 +1,89 @@
+2025-03-18 16:37:27.705 +02:00 [INF] User profile is available. Using 'C:\Users\Green\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-18 16:37:27.868 +02:00 [INF] Now listening on: http://localhost:5227
+2025-03-18 16:37:27.874 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-18 16:37:27.876 +02:00 [INF] Hosting environment: Development
+2025-03-18 16:37:27.877 +02:00 [INF] Content root path: D:\WebProjectDotNetUni\PumpItUp\PumpItUp.BLL
+2025-03-18 16:37:28.042 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/ - null null
+2025-03-18 16:37:28.054 +02:00 [WRN] Failed to determine the https port for redirect.
+2025-03-18 16:37:28.077 +02:00 [INF] Executing endpoint 'PumpItUp.BLL.Controllers.HomeController.Index (PumpItUp.BLL)'
+2025-03-18 16:37:28.108 +02:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller PumpItUp.BLL.Controllers.HomeController (PumpItUp.BLL).
+2025-03-18 16:37:28.125 +02:00 [INF] Executing ViewResult, running view Index.
+2025-03-18 16:37:28.302 +02:00 [INF] Executed ViewResult - view Index executed in 181.7375ms.
+2025-03-18 16:37:28.312 +02:00 [INF] Executed action PumpItUp.BLL.Controllers.HomeController.Index (PumpItUp.BLL) in 199.1091ms
+2025-03-18 16:37:28.316 +02:00 [INF] Executed endpoint 'PumpItUp.BLL.Controllers.HomeController.Index (PumpItUp.BLL)'
+2025-03-18 16:37:28.323 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/ - 200 null text/html; charset=utf-8 281.8099ms
+2025-03-18 16:37:28.370 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2025-03-18 16:37:28.372 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/lib/jquery/dist/jquery.min.js - null null
+2025-03-18 16:37:28.372 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/PumpItUp.BLL.styles.css?v=GbSapkM_6-KSLkIOvEIwJB_Fn8xS8NioFjqXxTNHNic - null null
+2025-03-18 16:37:28.371 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - null null
+2025-03-18 16:37:28.373 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2025-03-18 16:37:28.374 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - null null
+2025-03-18 16:37:28.400 +02:00 [INF] Sending file. Request path: '/PumpItUp.BLL.styles.css'. Physical path: 'D:\WebProjectDotNetUni\PumpItUp\PumpItUp.BLL\obj\Debug\net8.0\scopedcss\bundle\PumpItUp.BLL.styles.css'
+2025-03-18 16:37:28.400 +02:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'D:\WebProjectDotNetUni\PumpItUp\PumpItUp.BLL\wwwroot\css\site.css'
+2025-03-18 16:37:28.406 +02:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'D:\WebProjectDotNetUni\PumpItUp\PumpItUp.BLL\wwwroot\js\site.js'
+2025-03-18 16:37:28.408 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/PumpItUp.BLL.styles.css?v=GbSapkM_6-KSLkIOvEIwJB_Fn8xS8NioFjqXxTNHNic - 200 1130 text/css 35.6647ms
+2025-03-18 16:37:28.412 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - 200 362 text/css 40.3909ms
+2025-03-18 16:37:28.413 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - 200 231 text/javascript 39.5734ms
+2025-03-18 16:37:28.518 +02:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'D:\WebProjectDotNetUni\PumpItUp\PumpItUp.BLL\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+2025-03-18 16:37:28.523 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/lib/bootstrap/dist/css/bootstrap.min.css - 200 162726 text/css 153.3802ms
+2025-03-18 16:37:28.651 +02:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'D:\WebProjectDotNetUni\PumpItUp\PumpItUp.BLL\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js'
+2025-03-18 16:37:28.655 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 200 78474 text/javascript 282.3439ms
+2025-03-18 16:37:28.736 +02:00 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'D:\WebProjectDotNetUni\PumpItUp\PumpItUp.BLL\wwwroot\lib\jquery\dist\jquery.min.js'
+2025-03-18 16:37:28.740 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/lib/jquery/dist/jquery.min.js - 200 89503 text/javascript 368.3091ms
+2025-03-18 16:37:28.820 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/favicon.ico - null null
+2025-03-18 16:37:28.855 +02:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'D:\WebProjectDotNetUni\PumpItUp\PumpItUp.BLL\wwwroot\favicon.ico'
+2025-03-18 16:37:28.860 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/favicon.ico - 200 5430 image/x-icon 39.9278ms
+2025-03-18 16:37:32.420 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/User/CreateUser - null null
+2025-03-18 16:37:32.433 +02:00 [INF] Executing endpoint 'PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL)'
+2025-03-18 16:37:32.440 +02:00 [INF] Route matched with {action = "CreateUser", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateUser() on controller PumpItUp.BLL.Controllers.UserController (PumpItUp.BLL).
+2025-03-18 16:37:34.471 +02:00 [INF] Executing ViewResult, running view CreateUser.
+2025-03-18 16:37:34.549 +02:00 [INF] Executed ViewResult - view CreateUser executed in 77.6153ms.
+2025-03-18 16:37:34.555 +02:00 [INF] Executed action PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL) in 2108.5755ms
+2025-03-18 16:37:34.559 +02:00 [INF] Executed endpoint 'PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL)'
+2025-03-18 16:37:34.566 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/User/CreateUser - 200 null text/html; charset=utf-8 2145.2705ms
+2025-03-18 16:38:33.008 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/Attachment/CreateAttachment - null null
+2025-03-18 16:38:33.019 +02:00 [INF] Executing endpoint 'PumpItUp.BLL.Controllers.AttachmentController.CreateAttachment (PumpItUp.BLL)'
+2025-03-18 16:38:33.025 +02:00 [INF] Route matched with {action = "CreateAttachment", controller = "Attachment"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateAttachment() on controller PumpItUp.BLL.Controllers.AttachmentController (PumpItUp.BLL).
+2025-03-18 16:38:33.044 +02:00 [INF] Executing ViewResult, running view CreateAttachment.
+2025-03-18 16:38:33.068 +02:00 [INF] Executed ViewResult - view CreateAttachment executed in 24.913ms.
+2025-03-18 16:38:33.074 +02:00 [INF] Executed action PumpItUp.BLL.Controllers.AttachmentController.CreateAttachment (PumpItUp.BLL) in 41.2903ms
+2025-03-18 16:38:33.078 +02:00 [INF] Executed endpoint 'PumpItUp.BLL.Controllers.AttachmentController.CreateAttachment (PumpItUp.BLL)'
+2025-03-18 16:38:33.082 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/Attachment/CreateAttachment - 200 null text/html; charset=utf-8 74.2524ms
+2025-03-18 16:38:59.295 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/Role/CreateRole - null null
+2025-03-18 16:38:59.305 +02:00 [INF] Executing endpoint 'PumpItUp.BLL.Controllers.RoleController.CreateRole (PumpItUp.BLL)'
+2025-03-18 16:38:59.310 +02:00 [INF] Route matched with {action = "CreateRole", controller = "Role"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateRole() on controller PumpItUp.BLL.Controllers.RoleController (PumpItUp.BLL).
+2025-03-18 16:38:59.318 +02:00 [INF] Executed action PumpItUp.BLL.Controllers.RoleController.CreateRole (PumpItUp.BLL) in 2.8589ms
+2025-03-18 16:38:59.324 +02:00 [INF] Executed endpoint 'PumpItUp.BLL.Controllers.RoleController.CreateRole (PumpItUp.BLL)'
+2025-03-18 16:38:59.329 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'PumpItUp.BLL.Services.RoleService' while attempting to activate 'PumpItUp.BLL.Controllers.RoleController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method57(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-03-18 16:38:59.373 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/Role/CreateRole - 500 null text/html; charset=utf-8 77.8735ms
+2025-03-18 16:39:19.856 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/Post/CreateRole - null null
+2025-03-18 16:39:19.865 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/Post/CreateRole - 404 0 null 8.6691ms
+2025-03-18 16:39:19.874 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5227/Post/CreateRole, Response status code: 404
+2025-03-18 16:39:32.100 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/Following/CreteFollowing - null null
+2025-03-18 16:39:32.110 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/Following/CreteFollowing - 404 0 null 9.9965ms
+2025-03-18 16:39:32.119 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5227/Following/CreteFollowing, Response status code: 404
+2025-03-18 16:39:42.422 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/Following/CreateFollowing - null null
+2025-03-18 16:39:42.430 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/Following/CreateFollowing - 404 0 null 8.1963ms
+2025-03-18 16:39:42.438 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5227/Following/CreateFollowing, Response status code: 404
+2025-03-18 16:39:49.627 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/Following/CreatFollowing - null null
+2025-03-18 16:39:49.636 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/Following/CreatFollowing - 404 0 null 8.7095ms
+2025-03-18 16:39:49.645 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5227/Following/CreatFollowing, Response status code: 404
+2025-03-18 16:41:10.673 +02:00 [INF] Application is shutting down...
