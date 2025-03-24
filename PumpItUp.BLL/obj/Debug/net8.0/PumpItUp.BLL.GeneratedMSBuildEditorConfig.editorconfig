@@ -17,83 +17,83 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = PumpItUp.BLL
 build_property.RootNamespace = PumpItUp.BLL
-build_property.ProjectDir = D:\WebProjectDotNetUni\PumpItUp\PumpItUp.BLL\
+build_property.ProjectDir = /home/o/Desktop/LNU/PI/PumpItUp/PumpItUp.BLL/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\WebProjectDotNetUni\PumpItUp\PumpItUp.BLL
+build_property.MSBuildProjectDirectory = /home/o/Desktop/LNU/PI/PumpItUp/PumpItUp.BLL
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/WebProjectDotNetUni/PumpItUp/PumpItUp.BLL/Views/Attachment/AttachmentDetails.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXR0YWNobWVudFxBdHRhY2htZW50RGV0YWlscy5jc2h0bWw=
+[/home/o/Desktop/LNU/PI/PumpItUp/PumpItUp.BLL/Views/Attachment/AttachmentDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQXR0YWNobWVudC9BdHRhY2htZW50RGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/WebProjectDotNetUni/PumpItUp/PumpItUp.BLL/Views/Attachment/CreateAttachment.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXR0YWNobWVudFxDcmVhdGVBdHRhY2htZW50LmNzaHRtbA==
+[/home/o/Desktop/LNU/PI/PumpItUp/PumpItUp.BLL/Views/Attachment/CreateAttachment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQXR0YWNobWVudC9DcmVhdGVBdHRhY2htZW50LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/WebProjectDotNetUni/PumpItUp/PumpItUp.BLL/Views/Attachment/GetAllAttachments.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXR0YWNobWVudFxHZXRBbGxBdHRhY2htZW50cy5jc2h0bWw=
+[/home/o/Desktop/LNU/PI/PumpItUp/PumpItUp.BLL/Views/Attachment/GetAllAttachments.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQXR0YWNobWVudC9HZXRBbGxBdHRhY2htZW50cy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/WebProjectDotNetUni/PumpItUp/PumpItUp.BLL/Views/Attachment/GetAttachmentById.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXR0YWNobWVudFxHZXRBdHRhY2htZW50QnlJZC5jc2h0bWw=
+[/home/o/Desktop/LNU/PI/PumpItUp/PumpItUp.BLL/Views/Attachment/GetAttachmentById.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQXR0YWNobWVudC9HZXRBdHRhY2htZW50QnlJZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/WebProjectDotNetUni/PumpItUp/PumpItUp.BLL/Views/Following/CreateFollowing.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9sbG93aW5nXENyZWF0ZUZvbGxvd2luZy5jc2h0bWw=
+[/home/o/Desktop/LNU/PI/PumpItUp/PumpItUp.BLL/Views/Following/CreateFollowing.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRm9sbG93aW5nL0NyZWF0ZUZvbGxvd2luZy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/WebProjectDotNetUni/PumpItUp/PumpItUp.BLL/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+[/home/o/Desktop/LNU/PI/PumpItUp/PumpItUp.BLL/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/WebProjectDotNetUni/PumpItUp/PumpItUp.BLL/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+[/home/o/Desktop/LNU/PI/PumpItUp/PumpItUp.BLL/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/WebProjectDotNetUni/PumpItUp/PumpItUp.BLL/Views/Post/CreatePost.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdFxDcmVhdGVQb3N0LmNzaHRtbA==
+[/home/o/Desktop/LNU/PI/PumpItUp/PumpItUp.BLL/Views/Post/CreatePost.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUG9zdC9DcmVhdGVQb3N0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/WebProjectDotNetUni/PumpItUp/PumpItUp.BLL/Views/Role/CreateRole.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZVxDcmVhdGVSb2xlLmNzaHRtbA==
+[/home/o/Desktop/LNU/PI/PumpItUp/PumpItUp.BLL/Views/Role/CreateRole.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUm9sZS9DcmVhdGVSb2xlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/WebProjectDotNetUni/PumpItUp/PumpItUp.BLL/Views/Shared/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+[/home/o/Desktop/LNU/PI/PumpItUp/PumpItUp.BLL/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/WebProjectDotNetUni/PumpItUp/PumpItUp.BLL/Views/Shared/_ValidationScriptsPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+[/home/o/Desktop/LNU/PI/PumpItUp/PumpItUp.BLL/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/WebProjectDotNetUni/PumpItUp/PumpItUp.BLL/Views/User/CreateUser.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxDcmVhdGVVc2VyLmNzaHRtbA==
+[/home/o/Desktop/LNU/PI/PumpItUp/PumpItUp.BLL/Views/User/CreateUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlci9DcmVhdGVVc2VyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/WebProjectDotNetUni/PumpItUp/PumpItUp.BLL/Views/User/GetAllUsers.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxHZXRBbGxVc2Vycy5jc2h0bWw=
+[/home/o/Desktop/LNU/PI/PumpItUp/PumpItUp.BLL/Views/User/GetAllUsers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlci9HZXRBbGxVc2Vycy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/WebProjectDotNetUni/PumpItUp/PumpItUp.BLL/Views/User/GetUserById.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxHZXRVc2VyQnlJZC5jc2h0bWw=
+[/home/o/Desktop/LNU/PI/PumpItUp/PumpItUp.BLL/Views/User/GetUserById.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlci9HZXRVc2VyQnlJZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/WebProjectDotNetUni/PumpItUp/PumpItUp.BLL/Views/User/UserDetails.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxVc2VyRGV0YWlscy5jc2h0bWw=
+[/home/o/Desktop/LNU/PI/PumpItUp/PumpItUp.BLL/Views/User/UserDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlci9Vc2VyRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/WebProjectDotNetUni/PumpItUp/PumpItUp.BLL/Views/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+[/home/o/Desktop/LNU/PI/PumpItUp/PumpItUp.BLL/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/WebProjectDotNetUni/PumpItUp/PumpItUp.BLL/Views/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+[/home/o/Desktop/LNU/PI/PumpItUp/PumpItUp.BLL/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/WebProjectDotNetUni/PumpItUp/PumpItUp.BLL/Views/Shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = b-ixruk9d5bx
+[/home/o/Desktop/LNU/PI/PumpItUp/PumpItUp.BLL/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-xu45ic9czp

@@ -1,35 +1,33 @@
 {
   "format": 1,
   "restore": {
-    "D:\\WebProjectDotNetUni\\PumpItUp\\PumpItUp.BLL\\PumpItUp.BLL.csproj": {}
+    "/home/o/Desktop/LNU/PI/PumpItUp/PumpItUp.BLL/PumpItUp.BLL.csproj": {}
   },
   "projects": {
-    "D:\\WebProjectDotNetUni\\PumpItUp\\PumpItUp.BLL\\PumpItUp.BLL.csproj": {
+    "/home/o/Desktop/LNU/PI/PumpItUp/PumpItUp.BLL/PumpItUp.BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\WebProjectDotNetUni\\PumpItUp\\PumpItUp.BLL\\PumpItUp.BLL.csproj",
+        "projectUniqueName": "/home/o/Desktop/LNU/PI/PumpItUp/PumpItUp.BLL/PumpItUp.BLL.csproj",
         "projectName": "PumpItUp.BLL",
-        "projectPath": "D:\\WebProjectDotNetUni\\PumpItUp\\PumpItUp.BLL\\PumpItUp.BLL.csproj",
-        "packagesPath": "C:\\Users\\Green\\.nuget\\packages\\",
-        "outputPath": "D:\\WebProjectDotNetUni\\PumpItUp\\PumpItUp.BLL\\obj\\",
+        "projectPath": "/home/o/Desktop/LNU/PI/PumpItUp/PumpItUp.BLL/PumpItUp.BLL.csproj",
+        "packagesPath": "/home/o/.nuget/packages/",
+        "outputPath": "/home/o/Desktop/LNU/PI/PumpItUp/PumpItUp.BLL/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Green\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/o/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\WebProjectDotNetUni\\PumpItUp\\PumpItUp.DAL\\PumpItUp.DAL.csproj": {
-                "projectPath": "D:\\WebProjectDotNetUni\\PumpItUp\\PumpItUp.DAL\\PumpItUp.DAL.csproj"
+              "/home/o/Desktop/LNU/PI/PumpItUp/PumpItUp.DAL/PumpItUp.DAL.csproj": {
+                "projectPath": "/home/o/Desktop/LNU/PI/PumpItUp/PumpItUp.DAL/PumpItUp.DAL.csproj"
               }
             }
           }
@@ -128,28 +126,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.114/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\WebProjectDotNetUni\\PumpItUp\\PumpItUp.DAL\\PumpItUp.DAL.csproj": {
+    "/home/o/Desktop/LNU/PI/PumpItUp/PumpItUp.DAL/PumpItUp.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\WebProjectDotNetUni\\PumpItUp\\PumpItUp.DAL\\PumpItUp.DAL.csproj",
+        "projectUniqueName": "/home/o/Desktop/LNU/PI/PumpItUp/PumpItUp.DAL/PumpItUp.DAL.csproj",
         "projectName": "PumpItUp.DAL",
-        "projectPath": "D:\\WebProjectDotNetUni\\PumpItUp\\PumpItUp.DAL\\PumpItUp.DAL.csproj",
-        "packagesPath": "C:\\Users\\Green\\.nuget\\packages\\",
-        "outputPath": "D:\\WebProjectDotNetUni\\PumpItUp\\PumpItUp.DAL\\obj\\",
+        "projectPath": "/home/o/Desktop/LNU/PI/PumpItUp/PumpItUp.DAL/PumpItUp.DAL.csproj",
+        "packagesPath": "/home/o/.nuget/packages/",
+        "outputPath": "/home/o/Desktop/LNU/PI/PumpItUp/PumpItUp.DAL/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Green\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/o/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -221,7 +217,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.114/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

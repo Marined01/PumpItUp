@@ -1,10 +1,10 @@
 ﻿using PumpItUp.BLL.Mappers;
 using PumpItUp.DAL.Configuration;
-using PumpItUP.DAL.DTOs;
+using PumpItUp.DAL.DTOs;
 using PumpItUp.DAL.Models;
 using PumpItUp.DAL.Repositories.Interfaces;
 
-namespace PumpItUP.BLL.Services;
+namespace PumpItUp.BLL.Services;
 
 public class PostService
 {

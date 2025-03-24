@@ -1,6 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using PumpItUp.BLL.Services;
-using PumpItUP.BLL.Services;
+using PumpItUp.BLL.Services;
 using PumpItUp.DAL.Configuration;
 using Serilog;
 

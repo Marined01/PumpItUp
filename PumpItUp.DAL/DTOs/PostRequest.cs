@@ -1,4 +1,4 @@
-﻿namespace PumpItUP.DAL.DTOs;
+﻿namespace PumpItUp.DAL.DTOs;
 
 public class PostRequest
 {

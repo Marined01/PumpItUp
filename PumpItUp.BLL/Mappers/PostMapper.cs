@@ -1,4 +1,4 @@
-﻿using PumpItUP.DAL.DTOs;
+﻿using PumpItUp.DAL.DTOs;
 using PumpItUp.DAL.Models;
 
 namespace PumpItUp.BLL.Mappers;

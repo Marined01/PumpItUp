@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using PumpItUP.BLL.Services;
-using PumpItUP.DAL.DTOs;
+using PumpItUp.BLL.Services;
+using PumpItUp.DAL.DTOs;
 
-namespace PumpItUP.BLL.Controllers;
+namespace PumpItUp.BLL.Controllers;
 
 public class PostController : Controller
 {

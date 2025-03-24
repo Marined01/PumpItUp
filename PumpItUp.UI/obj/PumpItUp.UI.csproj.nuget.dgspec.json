@@ -1,27 +1,151 @@
 {
   "format": 1,
   "restore": {
-    "D:\\WebProjectDotNetUni\\PumpItUp\\PumpItUp.UI\\PumpItUp.UI.csproj": {}
+    "/home/o/Desktop/LNU/PI/PumpItUp/PumpItUp.UI/PumpItUp.UI.csproj": {}
   },
   "projects": {
-    "D:\\WebProjectDotNetUni\\PumpItUp\\PumpItUp.UI\\PumpItUp.UI.csproj": {
+    "/home/o/Desktop/LNU/PI/PumpItUp/PumpItUp.BLL/PumpItUp.BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\WebProjectDotNetUni\\PumpItUp\\PumpItUp.UI\\PumpItUp.UI.csproj",
-        "projectName": "PumpItUp.UI",
-        "projectPath": "D:\\WebProjectDotNetUni\\PumpItUp\\PumpItUp.UI\\PumpItUp.UI.csproj",
-        "packagesPath": "C:\\Users\\Green\\.nuget\\packages\\",
-        "outputPath": "D:\\WebProjectDotNetUni\\PumpItUp\\PumpItUp.UI\\obj\\",
+        "projectUniqueName": "/home/o/Desktop/LNU/PI/PumpItUp/PumpItUp.BLL/PumpItUp.BLL.csproj",
+        "projectName": "PumpItUp.BLL",
+        "projectPath": "/home/o/Desktop/LNU/PI/PumpItUp/PumpItUp.BLL/PumpItUp.BLL.csproj",
+        "packagesPath": "/home/o/.nuget/packages/",
+        "outputPath": "/home/o/Desktop/LNU/PI/PumpItUp/PumpItUp.BLL/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Green\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/o/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/o/Desktop/LNU/PI/PumpItUp/PumpItUp.DAL/PumpItUp.DAL.csproj": {
+                "projectPath": "/home/o/Desktop/LNU/PI/PumpItUp/PumpItUp.DAL/PumpItUp.DAL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.13.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.20.72, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "Roslynator.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[4.13.1, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Serilog.Settings.Configuration": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Serilog.Sinks.Console": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Serilog.Sinks.File": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Serilog.Sinks.Seq": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.9.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.114/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/o/Desktop/LNU/PI/PumpItUp/PumpItUp.DAL/PumpItUp.DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/o/Desktop/LNU/PI/PumpItUp/PumpItUp.DAL/PumpItUp.DAL.csproj",
+        "projectName": "PumpItUp.DAL",
+        "projectPath": "/home/o/Desktop/LNU/PI/PumpItUp/PumpItUp.DAL/PumpItUp.DAL.csproj",
+        "packagesPath": "/home/o/.nuget/packages/",
+        "outputPath": "/home/o/Desktop/LNU/PI/PumpItUp/PumpItUp.DAL/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/o/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -93,7 +217,108 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.114/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/o/Desktop/LNU/PI/PumpItUp/PumpItUp.UI/PumpItUp.UI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/o/Desktop/LNU/PI/PumpItUp/PumpItUp.UI/PumpItUp.UI.csproj",
+        "projectName": "PumpItUp.UI",
+        "projectPath": "/home/o/Desktop/LNU/PI/PumpItUp/PumpItUp.UI/PumpItUp.UI.csproj",
+        "packagesPath": "/home/o/.nuget/packages/",
+        "outputPath": "/home/o/Desktop/LNU/PI/PumpItUp/PumpItUp.UI/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/o/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/o/Desktop/LNU/PI/PumpItUp/PumpItUp.BLL/PumpItUp.BLL.csproj": {
+                "projectPath": "/home/o/Desktop/LNU/PI/PumpItUp/PumpItUp.BLL/PumpItUp.BLL.csproj"
+              },
+              "/home/o/Desktop/LNU/PI/PumpItUp/PumpItUp.DAL/PumpItUp.DAL.csproj": {
+                "projectPath": "/home/o/Desktop/LNU/PI/PumpItUp/PumpItUp.DAL/PumpItUp.DAL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "Roslynator.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[4.13.1, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Serilog.Sinks.Console": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Serilog.Sinks.File": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Serilog.Sinks.Seq": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.114/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
