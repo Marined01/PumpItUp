@@ -26,8 +26,20 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\WebProjectDotNetUni\PumpItUp\PumpItUp.BLL
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/WebProjectDotNetUni/PumpItUp/PumpItUp.BLL/Views/Attachment/AttachmentDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXR0YWNobWVudFxBdHRhY2htZW50RGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/WebProjectDotNetUni/PumpItUp/PumpItUp.BLL/Views/Attachment/CreateAttachment.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXR0YWNobWVudFxDcmVhdGVBdHRhY2htZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/WebProjectDotNetUni/PumpItUp/PumpItUp.BLL/Views/Attachment/GetAllAttachments.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXR0YWNobWVudFxHZXRBbGxBdHRhY2htZW50cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/WebProjectDotNetUni/PumpItUp/PumpItUp.BLL/Views/Attachment/GetAttachmentById.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXR0YWNobWVudFxHZXRBdHRhY2htZW50QnlJZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/WebProjectDotNetUni/PumpItUp/PumpItUp.BLL/Views/Following/CreateFollowing.cshtml]
@@ -60,6 +72,18 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/WebProjectDotNetUni/PumpItUp/PumpItUp.BLL/Views/User/CreateUser.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxDcmVhdGVVc2VyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/WebProjectDotNetUni/PumpItUp/PumpItUp.BLL/Views/User/GetAllUsers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxHZXRBbGxVc2Vycy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/WebProjectDotNetUni/PumpItUp/PumpItUp.BLL/Views/User/GetUserById.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxHZXRVc2VyQnlJZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/WebProjectDotNetUni/PumpItUp/PumpItUp.BLL/Views/User/UserDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxVc2VyRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/WebProjectDotNetUni/PumpItUp/PumpItUp.BLL/Views/_ViewImports.cshtml]

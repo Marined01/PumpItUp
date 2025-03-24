@@ -178,9 +178,6 @@ namespace PumpItUp.DAL.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("UserId")
-                        .IsUnique();
-
                     b.ToTable("role");
                 });
 
@@ -226,6 +223,9 @@ namespace PumpItUp.DAL.Migrations
                         .IsRequired()
                         .HasColumnType("text");
 
+                    b.Property<long>("RoleId")
+                        .HasColumnType("bigint");
+
                     b.Property<int>("Sex")
                         .HasColumnType("integer");
 
@@ -248,21 +248,9 @@ namespace PumpItUp.DAL.Migrations
                     b.Navigation("User");
                 });
 
-            modelBuilder.Entity("PumpItUp.DAL.Models.Role", b =>
-                {
-                    b.HasOne("PumpItUp.DAL.Models.User", null)
-                        .WithOne("Role")
-                        .HasForeignKey("PumpItUp.DAL.Models.Role", "UserId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-                });
-
             modelBuilder.Entity("PumpItUp.DAL.Models.User", b =>
                 {
                     b.Navigation("BankData");
-
-                    b.Navigation("Role")
-                        .IsRequired();
                 });
 #pragma warning restore 612, 618
         }

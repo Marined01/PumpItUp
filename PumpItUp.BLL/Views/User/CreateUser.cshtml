@@ -164,12 +164,9 @@
             <label asp-for="HasPremiumSubscription">Premium Subscription</label>
         </div>
 
-        <label asp-for="Role">Role:</label>
-        <select asp-for="Role">
-            <option value="User">User</option>
-            <option value="Admin">Admin</option>
-            <option value="Trainer">Trainer</option>
-        </select>
+        <label asp-for="RoleId">Role Id:</label>
+        <input asp-for="RoleId" type="number">
+
 
         <label asp-for="FollowingId">Following ID:</label>
         <input asp-for="FollowingId" type="number">

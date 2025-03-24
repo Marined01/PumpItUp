@@ -11,10 +11,6 @@ namespace PumpItUp.DAL.DTOs
         [Required]
         public FileType FileType { get; set; }
 
-        public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
-
-        public DateTime UpdatedAt { get; set; } = DateTime.UtcNow;
-
         [Required]
         public long PostId { get; set; }
     }

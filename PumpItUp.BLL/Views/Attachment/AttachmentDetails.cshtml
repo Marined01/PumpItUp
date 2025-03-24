@@ -1,0 +1,46 @@
+﻿@model PumpItUp.DAL.Models.Attachment
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>attachment Details</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h2 class="mb-4">attachment Details</h2>
+        
+        <form id="attachmentForm" action="@Url.Action("GetAttachmentById", "Attachment")" method="get" class="mb-4">
+            <div class="form-group">
+                <label for="attachmentId">Enter Attachment ID:</label>
+                <input type="number" name="attachmentId" id="attachmentId" class="form-control" required />
+            </div>
+            <button type="submit" class="btn btn-primary">Get attachment</button>
+        </form>
+
+        @if (Model != null)
+        {
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">@(Model.FileType) File</h5>
+                    <p class="card-text"><strong>File Url:</strong> @(Model.FileUrl)</p>
+                    <p class="card-text"><strong>File Type:</strong> @(Model.FileType)</p>
+                    <p class="card-text"><strong>Post ID:</strong> @(Model.PostId)</p>
+                </div>
+            </div>
+        }
+        else
+        {
+            <p class="text-danger">attachment not found.</p>
+        }
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</body>
+</html>

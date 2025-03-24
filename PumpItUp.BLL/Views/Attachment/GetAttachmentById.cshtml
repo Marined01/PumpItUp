@@ -1,0 +1,75 @@
+﻿@model PumpItUp.DAL.Models.Attachment
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attachment Details</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h2 class="mb-4">Get Attachment Details</h2>
+
+        <form id="attachmentForm" action="@Url.Action("GetAttachmentById", "Attachment")" method="get" class="mb-4">
+            <div class="form-group">
+                <label for="attachmentId">Enter attachment ID:</label>
+                <input type="number" name="attachmentId" id="attachmentId" class="form-control" required />
+            </div>
+            <button type="submit" class="btn btn-primary">Get attachment</button>
+        </form>
+
+        <div id="attachmentDetails" class="mt-4" style="display: none;">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title" id="attachmentName"></h5>
+                    <p class="card-text"><strong>File URL:</strong> <a id="attachmentFileUrl" href="#" target="_blank"></a></p>
+                    <p class="card-text"><strong>File Type:</strong> <span id="attachmentFileType"></span></p>
+                    <p class="card-text"><strong>Created At:</strong> <span id="attachmentCreatedAt"></span></p>
+                    <p class="card-text"><strong>Updated At:</strong> <span id="attachmentUpdatedAt"></span></p>
+                    <p class="card-text"><strong>Post ID:</strong> <span id="attachmentPostId"></span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#attachmentForm').submit(function (event) {
+                event.preventDefault();
+                let attachmentId = $('#attachmentId').val();
+
+                $.ajax({
+                    url: '@Url.Action("GetAttachmentById", "Attachment")',
+                    type: 'GET',
+                    data: { attachmentId: attachmentId },
+                    success: function (data) {
+                        if (data) {
+                            $('#attachmentDetails').show();
+                            $('#attachmentName').text(`Attachment ID: ${data.id}`);
+                            $('#attachmentFileUrl').attr('href', data.fileUrl).text(data.fileUrl || 'No File URL');
+                            $('#attachmentFileType').text(data.fileType || 'N/A');
+                            $('#attachmentCreatedAt').text(data.createdAt || 'N/A');
+                            $('#attachmentUpdatedAt').text(data.updatedAt || 'N/A');
+                            $('#attachmentPostId').text(data.postId || 'N/A');
+                        } else {
+                            alert(`Attachment with ID ${attachmentId} not found.`);
+                            $('#attachmentDetails').hide();
+                        }
+                    },
+                    error: function () {
+                        alert('Error fetching attachment data.');
+                        $('#attachmentDetails').hide();
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>

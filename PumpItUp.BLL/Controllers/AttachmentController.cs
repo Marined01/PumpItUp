@@ -25,5 +25,20 @@ namespace PumpItUp.BLL.Controllers
             await _attachmentService.CreateAttachmentAsync(attachmentRequest);
             return View();
         }
+
+        [HttpGet]
+        public async Task<IActionResult> GetAttachmentById(int attachmentId)
+        {
+            var attachment = await _attachmentService.GetAttachmentByIdAsync(attachmentId);
+
+            return View("AttachmentDetails", attachment);
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> GetAllAttachments()
+        {
+            var attachments = await _attachmentService.GetAllAttachments();
+            return View(attachments);
+        }
     }
 }

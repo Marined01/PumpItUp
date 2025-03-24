@@ -10,8 +10,6 @@ public class RoleMapper
         return new Role
         {
             Name = roleRequest.Name,
-            CreatedAt = roleRequest.CreatedAt,
-            UpdatedAt = roleRequest.UpdatedAt,
             UserId = roleRequest.UserId
         };
     }

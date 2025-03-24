@@ -28,8 +28,6 @@ namespace PumpItUp.BLL.Tests
             var roleRequest = new RoleRequest
             {
                 Name = "Admin",
-                CreatedAt = DateTime.UtcNow,
-                UpdatedAt = DateTime.UtcNow,
                 UserId = 1
             };
 

@@ -4,21 +4,20 @@ using PumpItUp.DAL.Exceptions;
 using PumpItUp.DAL.Models;
 using PumpItUp.DAL.Repositories.Interfaces;
 
-namespace PumpItUp.DAL.Repositories.Implementations
+namespace PumpItUp.DAL.Repositories.Implementations;
+
+public class UserRepository(AppDbContext context) : IUserRepository
 {
-    public abstract class UserRepository(AppDbContext context) : IUserRepository
+    public async Task<User> GetByIdAsync(long userId)
     {
-        public async Task<User> GetByIdAsync(long userId)
+        var user = await context.Users
+            .FirstOrDefaultAsync(u => u.Id == userId);
+
+        if (user == null)
         {
-            var user = await context.Users
-                .FirstOrDefaultAsync(u => u.Id == userId);
-
-            if (user == null)
-            {
-                throw new UserNotFoundException($"User with ID=[{userId}] not found.", userId);
-            }
-
-            return user;
+            throw new UserNotFoundException($"User with ID=[{userId}] not found.", userId);
         }
+
+        return user;
     }
 }

@@ -16,7 +16,7 @@ namespace PumpItUp.DAL.DTOs
         public Sex Sex { get; set; }
         public BankData? BankData { get; set; }
         public bool HasPremiumSubscription { get; set; }
-        public Role Role { get; set; }
+        public long RoleId { get; set; }
         public long FollowingId { get; set; }
     }
 }

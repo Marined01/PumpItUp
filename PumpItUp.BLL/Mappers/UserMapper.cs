@@ -19,7 +19,6 @@ namespace PumpItUp.BLL.Mappers
                 Sex = userRequest.Sex,
                 BankData = userRequest.BankData,
                 HasPremiumSubscription = userRequest.HasPremiumSubscription,
-                Role = userRequest.Role,
                 FollowingId = userRequest.FollowingId
             };
         }

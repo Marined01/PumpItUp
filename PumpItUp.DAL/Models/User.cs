@@ -57,7 +57,7 @@ namespace PumpItUp.DAL.Models
         public DateTime UpdatedAt { get; set; } = DateTime.UtcNow;
 
         [Required]
-        public Role Role { get; set; }
+        public long RoleId { get; set; }
 
         [Required]
         public long FollowingId { get; set; }

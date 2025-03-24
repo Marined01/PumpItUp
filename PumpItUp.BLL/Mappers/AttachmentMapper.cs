@@ -11,8 +11,6 @@ namespace PumpItUp.BLL.Mappers
             {
                 FileUrl = attachmentRequest.FileUrl,
                 FileType = attachmentRequest.FileType,
-                CreatedAt = attachmentRequest.CreatedAt,
-                UpdatedAt = attachmentRequest.UpdatedAt,
                 PostId = attachmentRequest.PostId
             };
         }
