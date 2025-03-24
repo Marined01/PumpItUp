@@ -1,0 +1,827 @@
+2025-03-22 21:52:58.830 +02:00 [INF] User profile is available. Using 'C:\Users\Green\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-22 21:52:58.973 +02:00 [INF] Now listening on: http://localhost:5227
+2025-03-22 21:52:58.978 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-22 21:52:58.979 +02:00 [INF] Hosting environment: Development
+2025-03-22 21:52:58.980 +02:00 [INF] Content root path: D:\WebProjectDotNetUni\PumpItUp\PumpItUp.BLL
+2025-03-22 21:52:59.033 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/ - null null
+2025-03-22 21:52:59.051 +02:00 [WRN] Failed to determine the https port for redirect.
+2025-03-22 21:52:59.077 +02:00 [INF] Executing endpoint 'PumpItUp.BLL.Controllers.HomeController.Index (PumpItUp.BLL)'
+2025-03-22 21:52:59.120 +02:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller PumpItUp.BLL.Controllers.HomeController (PumpItUp.BLL).
+2025-03-22 21:52:59.140 +02:00 [INF] Executing ViewResult, running view Index.
+2025-03-22 21:52:59.246 +02:00 [INF] Executed ViewResult - view Index executed in 115.6937ms.
+2025-03-22 21:52:59.252 +02:00 [INF] Executed action PumpItUp.BLL.Controllers.HomeController.Index (PumpItUp.BLL) in 127.5464ms
+2025-03-22 21:52:59.254 +02:00 [INF] Executed endpoint 'PumpItUp.BLL.Controllers.HomeController.Index (PumpItUp.BLL)'
+2025-03-22 21:52:59.261 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/ - 200 null text/html; charset=utf-8 230.7066ms
+2025-03-22 21:52:59.289 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2025-03-22 21:52:59.291 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - null null
+2025-03-22 21:52:59.292 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/PumpItUp.BLL.styles.css?v=GbSapkM_6-KSLkIOvEIwJB_Fn8xS8NioFjqXxTNHNic - null null
+2025-03-22 21:52:59.293 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2025-03-22 21:52:59.293 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - null null
+2025-03-22 21:52:59.293 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/lib/jquery/dist/jquery.min.js - null null
+2025-03-22 21:52:59.304 +02:00 [INF] The file /lib/bootstrap/dist/css/bootstrap.min.css was not modified
+2025-03-22 21:52:59.305 +02:00 [INF] The file /css/site.css was not modified
+2025-03-22 21:52:59.305 +02:00 [INF] The file /PumpItUp.BLL.styles.css was not modified
+2025-03-22 21:52:59.308 +02:00 [INF] The file /lib/bootstrap/dist/js/bootstrap.bundle.min.js was not modified
+2025-03-22 21:52:59.311 +02:00 [INF] The file /js/site.js was not modified
+2025-03-22 21:52:59.315 +02:00 [INF] The file /lib/jquery/dist/jquery.min.js was not modified
+2025-03-22 21:52:59.317 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/lib/bootstrap/dist/css/bootstrap.min.css - 304 null text/css 29.2182ms
+2025-03-22 21:52:59.318 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - 304 null text/css 26.7078ms
+2025-03-22 21:52:59.319 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/PumpItUp.BLL.styles.css?v=GbSapkM_6-KSLkIOvEIwJB_Fn8xS8NioFjqXxTNHNic - 304 null text/css 27.0319ms
+2025-03-22 21:52:59.321 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 304 null text/javascript 27.8886ms
+2025-03-22 21:52:59.323 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - 304 null text/javascript 29.6419ms
+2025-03-22 21:52:59.325 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/lib/jquery/dist/jquery.min.js - 304 null text/javascript 31.5792ms
+2025-03-22 21:52:59.485 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/favicon.ico - null null
+2025-03-22 21:52:59.491 +02:00 [INF] The file /favicon.ico was not modified
+2025-03-22 21:52:59.494 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/favicon.ico - 304 null image/x-icon 9.082ms
+2025-03-22 21:54:59.107 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/Post/CreatePost - null null
+2025-03-22 21:54:59.117 +02:00 [INF] Executing endpoint 'PumpItUP.BLL.Controllers.PostController.CreatePost (PumpItUp.BLL)'
+2025-03-22 21:54:59.123 +02:00 [INF] Route matched with {action = "CreatePost", controller = "Post"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreatePost() on controller PumpItUP.BLL.Controllers.PostController (PumpItUp.BLL).
+2025-03-22 21:55:01.302 +02:00 [INF] Executing ViewResult, running view CreatePost.
+2025-03-22 21:55:01.372 +02:00 [INF] Executed ViewResult - view CreatePost executed in 71.9978ms.
+2025-03-22 21:55:01.376 +02:00 [INF] Executed action PumpItUP.BLL.Controllers.PostController.CreatePost (PumpItUp.BLL) in 2249.6235ms
+2025-03-22 21:55:01.377 +02:00 [INF] Executed endpoint 'PumpItUP.BLL.Controllers.PostController.CreatePost (PumpItUp.BLL)'
+2025-03-22 21:55:01.381 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/Post/CreatePost - 200 null text/html; charset=utf-8 2273.6207ms
+2025-03-22 21:55:38.141 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:5227/Post/CreatePost - application/x-www-form-urlencoded 307
+2025-03-22 21:55:38.147 +02:00 [INF] Executing endpoint 'PumpItUP.BLL.Controllers.PostController.CreatePost (PumpItUp.BLL)'
+2025-03-22 21:55:38.162 +02:00 [INF] Route matched with {action = "CreatePost", controller = "Post"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreatePost(PumpItUP.DAL.DTOs.PostRequest) on controller PumpItUP.BLL.Controllers.PostController (PumpItUp.BLL).
+2025-03-22 21:55:39.230 +02:00 [INF] Post created: Training day
+2025-03-22 21:55:39.696 +02:00 [INF] Executed DbCommand (56ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?', @p2='?' (DbType = DateTime), @p3='?' (DbType = Int32), @p4='?' (DbType = Int32), @p5='?', @p6='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Posts" ("AttachmentId", "Content", "CreatedAt", "Likes", "PostedBy", "Title", "UpdatedAt")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6)
+RETURNING "Id";
+2025-03-22 21:55:39.737 +02:00 [INF] New post created successfully.
+2025-03-22 21:55:39.741 +02:00 [INF] Executing ViewResult, running view CreatePost.
+2025-03-22 21:55:39.745 +02:00 [INF] Executed ViewResult - view CreatePost executed in 3.9498ms.
+2025-03-22 21:55:39.748 +02:00 [INF] Executed action PumpItUP.BLL.Controllers.PostController.CreatePost (PumpItUp.BLL) in 1583.3579ms
+2025-03-22 21:55:39.750 +02:00 [INF] Executed endpoint 'PumpItUP.BLL.Controllers.PostController.CreatePost (PumpItUp.BLL)'
+2025-03-22 21:55:39.760 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:5227/Post/CreatePost - 200 null text/html; charset=utf-8 1619.1361ms
+2025-03-22 22:00:42.931 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/Role/CreateRole - null null
+2025-03-22 22:00:42.936 +02:00 [INF] Executing endpoint 'PumpItUp.BLL.Controllers.RoleController.CreateRole (PumpItUp.BLL)'
+2025-03-22 22:00:42.940 +02:00 [INF] Route matched with {action = "CreateRole", controller = "Role"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateRole() on controller PumpItUp.BLL.Controllers.RoleController (PumpItUp.BLL).
+2025-03-22 22:00:42.946 +02:00 [INF] Executing ViewResult, running view CreateRole.
+2025-03-22 22:00:42.967 +02:00 [INF] Executed ViewResult - view CreateRole executed in 21.4692ms.
+2025-03-22 22:00:42.970 +02:00 [INF] Executed action PumpItUp.BLL.Controllers.RoleController.CreateRole (PumpItUp.BLL) in 26.7449ms
+2025-03-22 22:00:42.973 +02:00 [INF] Executed endpoint 'PumpItUp.BLL.Controllers.RoleController.CreateRole (PumpItUp.BLL)'
+2025-03-22 22:00:42.975 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/Role/CreateRole - 200 null text/html; charset=utf-8 43.931ms
+2025-03-22 22:00:58.506 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:5227/Role/CreateRole - application/x-www-form-urlencoded 322
+2025-03-22 22:00:58.511 +02:00 [INF] Executing endpoint 'PumpItUp.BLL.Controllers.RoleController.CreateRole (PumpItUp.BLL)'
+2025-03-22 22:00:58.518 +02:00 [INF] Route matched with {action = "CreateRole", controller = "Role"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateRole(PumpItUp.DAL.DTOs.RoleRequest) on controller PumpItUp.BLL.Controllers.RoleController (PumpItUp.BLL).
+2025-03-22 22:00:58.674 +02:00 [ERR] Failed executing DbCommand (2ms) [Parameters=[@p0='?' (DbType = DateTime), @p1='?', @p2='?' (DbType = DateTime), @p3='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO role ("CreatedAt", "Name", "UpdatedAt", "UserId")
+VALUES (@p0, @p1, @p2, @p3)
+RETURNING "Id";
+2025-03-22 22:00:58.733 +02:00 [ERR] An exception occurred in the database while saving changes for context type 'PumpItUp.DAL.Configuration.AppDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> System.ArgumentException: Cannot write DateTime with Kind=Unspecified to PostgreSQL type 'timestamp with time zone', only UTC is supported. Note that it's not possible to mix DateTimes with different Kinds in an array, range, or multirange. (Parameter 'value')
+   at Npgsql.Internal.Converters.DateTimeConverterResolver`1.Get(DateTime value, Nullable`1 expectedPgTypeId, Boolean validateOnly)
+   at Npgsql.Internal.Converters.DateTimeConverterResolver.<>c.<CreateResolver>b__0_0(DateTimeConverterResolver`1 resolver, DateTime value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.Converters.DateTimeConverterResolver`1.Get(T value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgConverterResolver`1.GetAsObjectInternal(PgTypeInfo typeInfo, Object value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgResolverTypeInfo.GetResolutionAsObject(Object value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgTypeInfo.GetObjectResolution(Object value)
+   at Npgsql.NpgsqlParameter.ResolveConverter(PgTypeInfo typeInfo)
+   at Npgsql.NpgsqlParameter.ResolveTypeInfo(PgSerializerOptions options)
+   at Npgsql.NpgsqlParameterCollection.ProcessParameters(PgSerializerOptions options, Boolean validateValues, CommandType commandType)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> System.ArgumentException: Cannot write DateTime with Kind=Unspecified to PostgreSQL type 'timestamp with time zone', only UTC is supported. Note that it's not possible to mix DateTimes with different Kinds in an array, range, or multirange. (Parameter 'value')
+   at Npgsql.Internal.Converters.DateTimeConverterResolver`1.Get(DateTime value, Nullable`1 expectedPgTypeId, Boolean validateOnly)
+   at Npgsql.Internal.Converters.DateTimeConverterResolver.<>c.<CreateResolver>b__0_0(DateTimeConverterResolver`1 resolver, DateTime value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.Converters.DateTimeConverterResolver`1.Get(T value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgConverterResolver`1.GetAsObjectInternal(PgTypeInfo typeInfo, Object value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgResolverTypeInfo.GetResolutionAsObject(Object value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgTypeInfo.GetObjectResolution(Object value)
+   at Npgsql.NpgsqlParameter.ResolveConverter(PgTypeInfo typeInfo)
+   at Npgsql.NpgsqlParameter.ResolveTypeInfo(PgSerializerOptions options)
+   at Npgsql.NpgsqlParameterCollection.ProcessParameters(PgSerializerOptions options, Boolean validateValues, CommandType commandType)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2025-03-22 22:00:58.745 +02:00 [INF] Executed action PumpItUp.BLL.Controllers.RoleController.CreateRole (PumpItUp.BLL) in 224.284ms
+2025-03-22 22:00:58.748 +02:00 [INF] Executed endpoint 'PumpItUp.BLL.Controllers.RoleController.CreateRole (PumpItUp.BLL)'
+2025-03-22 22:00:58.750 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> System.ArgumentException: Cannot write DateTime with Kind=Unspecified to PostgreSQL type 'timestamp with time zone', only UTC is supported. Note that it's not possible to mix DateTimes with different Kinds in an array, range, or multirange. (Parameter 'value')
+   at Npgsql.Internal.Converters.DateTimeConverterResolver`1.Get(DateTime value, Nullable`1 expectedPgTypeId, Boolean validateOnly)
+   at Npgsql.Internal.Converters.DateTimeConverterResolver.<>c.<CreateResolver>b__0_0(DateTimeConverterResolver`1 resolver, DateTime value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.Converters.DateTimeConverterResolver`1.Get(T value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgConverterResolver`1.GetAsObjectInternal(PgTypeInfo typeInfo, Object value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgResolverTypeInfo.GetResolutionAsObject(Object value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgTypeInfo.GetObjectResolution(Object value)
+   at Npgsql.NpgsqlParameter.ResolveConverter(PgTypeInfo typeInfo)
+   at Npgsql.NpgsqlParameter.ResolveTypeInfo(PgSerializerOptions options)
+   at Npgsql.NpgsqlParameterCollection.ProcessParameters(PgSerializerOptions options, Boolean validateValues, CommandType commandType)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at PumpItUp.BLL.Services.RoleService.CreateRoleAsync(RoleRequest roleRequest) in D:\WebProjectDotNetUni\PumpItUp\PumpItUp.BLL\Services\RoleService.cs:line 23
+   at PumpItUp.BLL.Controllers.RoleController.CreateRole(RoleRequest roleRequest) in D:\WebProjectDotNetUni\PumpItUp\PumpItUp.BLL\Controllers\RoleController.cs:line 25
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-03-22 22:00:58.834 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:5227/Role/CreateRole - 500 null text/html; charset=utf-8 327.3526ms
+2025-03-22 22:01:59.336 +02:00 [INF] Application is shutting down...
+2025-03-22 22:02:09.875 +02:00 [INF] User profile is available. Using 'C:\Users\Green\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-22 22:02:10.007 +02:00 [INF] Now listening on: http://localhost:5227
+2025-03-22 22:02:10.012 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-22 22:02:10.014 +02:00 [INF] Hosting environment: Development
+2025-03-22 22:02:10.016 +02:00 [INF] Content root path: D:\WebProjectDotNetUni\PumpItUp\PumpItUp.BLL
+2025-03-22 22:02:10.282 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/ - null null
+2025-03-22 22:02:10.296 +02:00 [WRN] Failed to determine the https port for redirect.
+2025-03-22 22:02:10.317 +02:00 [INF] Executing endpoint 'PumpItUp.BLL.Controllers.HomeController.Index (PumpItUp.BLL)'
+2025-03-22 22:02:10.343 +02:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller PumpItUp.BLL.Controllers.HomeController (PumpItUp.BLL).
+2025-03-22 22:02:10.355 +02:00 [INF] Executing ViewResult, running view Index.
+2025-03-22 22:02:10.452 +02:00 [INF] Executed ViewResult - view Index executed in 100.9343ms.
+2025-03-22 22:02:10.460 +02:00 [INF] Executed action PumpItUp.BLL.Controllers.HomeController.Index (PumpItUp.BLL) in 114.3142ms
+2025-03-22 22:02:10.462 +02:00 [INF] Executed endpoint 'PumpItUp.BLL.Controllers.HomeController.Index (PumpItUp.BLL)'
+2025-03-22 22:02:10.467 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/ - 200 null text/html; charset=utf-8 187.0486ms
+2025-03-22 22:02:26.543 +02:00 [INF] Application is shutting down...
+2025-03-22 22:02:51.767 +02:00 [INF] User profile is available. Using 'C:\Users\Green\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-22 22:02:51.849 +02:00 [INF] Now listening on: http://localhost:5227
+2025-03-22 22:02:51.853 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-22 22:02:51.855 +02:00 [INF] Hosting environment: Development
+2025-03-22 22:02:51.856 +02:00 [INF] Content root path: D:\WebProjectDotNetUni\PumpItUp\PumpItUp.BLL
+2025-03-22 22:02:52.411 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/ - null null
+2025-03-22 22:02:52.426 +02:00 [WRN] Failed to determine the https port for redirect.
+2025-03-22 22:02:52.445 +02:00 [INF] Executing endpoint 'PumpItUp.BLL.Controllers.HomeController.Index (PumpItUp.BLL)'
+2025-03-22 22:02:52.468 +02:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller PumpItUp.BLL.Controllers.HomeController (PumpItUp.BLL).
+2025-03-22 22:02:52.483 +02:00 [INF] Executing ViewResult, running view Index.
+2025-03-22 22:02:52.547 +02:00 [INF] Executed ViewResult - view Index executed in 67.96ms.
+2025-03-22 22:02:52.553 +02:00 [INF] Executed action PumpItUp.BLL.Controllers.HomeController.Index (PumpItUp.BLL) in 80.6716ms
+2025-03-22 22:02:52.556 +02:00 [INF] Executed endpoint 'PumpItUp.BLL.Controllers.HomeController.Index (PumpItUp.BLL)'
+2025-03-22 22:02:52.561 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/ - 200 null text/html; charset=utf-8 151.0842ms
+2025-03-22 22:02:55.959 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/Role/CreateRole - null null
+2025-03-22 22:02:55.967 +02:00 [INF] Executing endpoint 'PumpItUp.BLL.Controllers.RoleController.CreateRole (PumpItUp.BLL)'
+2025-03-22 22:02:55.971 +02:00 [INF] Route matched with {action = "CreateRole", controller = "Role"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateRole() on controller PumpItUp.BLL.Controllers.RoleController (PumpItUp.BLL).
+2025-03-22 22:02:56.579 +02:00 [INF] Executing ViewResult, running view CreateRole.
+2025-03-22 22:02:56.605 +02:00 [INF] Executed ViewResult - view CreateRole executed in 25.9939ms.
+2025-03-22 22:02:56.607 +02:00 [INF] Executed action PumpItUp.BLL.Controllers.RoleController.CreateRole (PumpItUp.BLL) in 633.0066ms
+2025-03-22 22:02:56.609 +02:00 [INF] Executed endpoint 'PumpItUp.BLL.Controllers.RoleController.CreateRole (PumpItUp.BLL)'
+2025-03-22 22:02:56.611 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/Role/CreateRole - 200 null text/html; charset=utf-8 652.0089ms
+2025-03-22 22:03:00.124 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:5227/Role/CreateRole - application/x-www-form-urlencoded 220
+2025-03-22 22:03:00.130 +02:00 [INF] Executing endpoint 'PumpItUp.BLL.Controllers.RoleController.CreateRole (PumpItUp.BLL)'
+2025-03-22 22:03:00.141 +02:00 [INF] Route matched with {action = "CreateRole", controller = "Role"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateRole(PumpItUp.DAL.DTOs.RoleRequest) on controller PumpItUp.BLL.Controllers.RoleController (PumpItUp.BLL).
+2025-03-22 22:03:01.068 +02:00 [INF] Executed DbCommand (54ms) [Parameters=[@p0='?' (DbType = DateTime), @p1='?', @p2='?' (DbType = DateTime), @p3='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO role ("CreatedAt", "Name", "UpdatedAt", "UserId")
+VALUES (@p0, @p1, @p2, @p3)
+RETURNING "Id";
+2025-03-22 22:03:01.106 +02:00 [INF] Executing ViewResult, running view CreateRole.
+2025-03-22 22:03:01.111 +02:00 [INF] Executed ViewResult - view CreateRole executed in 4.3541ms.
+2025-03-22 22:03:01.113 +02:00 [INF] Executed action PumpItUp.BLL.Controllers.RoleController.CreateRole (PumpItUp.BLL) in 968.3145ms
+2025-03-22 22:03:01.116 +02:00 [INF] Executed endpoint 'PumpItUp.BLL.Controllers.RoleController.CreateRole (PumpItUp.BLL)'
+2025-03-22 22:03:01.122 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:5227/Role/CreateRole - 200 null text/html; charset=utf-8 998.0243ms
+2025-03-22 22:18:58.465 +02:00 [INF] Application is shutting down...
+2025-03-22 22:53:44.634 +02:00 [INF] User profile is available. Using 'C:\Users\Green\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-22 22:53:44.719 +02:00 [INF] Now listening on: http://localhost:5227
+2025-03-22 22:53:44.723 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-22 22:53:44.724 +02:00 [INF] Hosting environment: Development
+2025-03-22 22:53:44.725 +02:00 [INF] Content root path: D:\WebProjectDotNetUni\PumpItUp\PumpItUp.BLL
+2025-03-22 22:53:45.157 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/ - null null
+2025-03-22 22:53:45.173 +02:00 [WRN] Failed to determine the https port for redirect.
+2025-03-22 22:53:45.193 +02:00 [INF] Executing endpoint 'PumpItUp.BLL.Controllers.HomeController.Index (PumpItUp.BLL)'
+2025-03-22 22:53:45.217 +02:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller PumpItUp.BLL.Controllers.HomeController (PumpItUp.BLL).
+2025-03-22 22:53:45.230 +02:00 [INF] Executing ViewResult, running view Index.
+2025-03-22 22:53:45.318 +02:00 [INF] Executed ViewResult - view Index executed in 90.8215ms.
+2025-03-22 22:53:45.325 +02:00 [INF] Executed action PumpItUp.BLL.Controllers.HomeController.Index (PumpItUp.BLL) in 104.5625ms
+2025-03-22 22:53:45.328 +02:00 [INF] Executed endpoint 'PumpItUp.BLL.Controllers.HomeController.Index (PumpItUp.BLL)'
+2025-03-22 22:53:45.335 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/ - 200 null text/html; charset=utf-8 179.5767ms
+2025-03-22 22:53:48.843 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/User/CreateUser - null null
+2025-03-22 22:53:48.849 +02:00 [INF] Executing endpoint 'PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL)'
+2025-03-22 22:53:48.853 +02:00 [INF] Route matched with {action = "CreateUser", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateUser() on controller PumpItUp.BLL.Controllers.UserController (PumpItUp.BLL).
+2025-03-22 22:53:49.462 +02:00 [INF] Executing ViewResult, running view CreateUser.
+2025-03-22 22:53:49.523 +02:00 [INF] Executed ViewResult - view CreateUser executed in 62.5424ms.
+2025-03-22 22:53:49.526 +02:00 [INF] Executed action PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL) in 669.4366ms
+2025-03-22 22:53:49.529 +02:00 [INF] Executed endpoint 'PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL)'
+2025-03-22 22:53:49.532 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/User/CreateUser - 200 null text/html; charset=utf-8 689.756ms
+2025-03-22 22:54:30.472 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:5227/User/CreateUser - application/x-www-form-urlencoded 421
+2025-03-22 22:54:30.479 +02:00 [INF] Executing endpoint 'PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL)'
+2025-03-22 22:54:30.496 +02:00 [INF] Route matched with {action = "CreateUser", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateUser(PumpItUp.DAL.DTOs.UserRequest) on controller PumpItUp.BLL.Controllers.UserController (PumpItUp.BLL).
+2025-03-22 22:54:31.722 +02:00 [INF] Executed DbCommand (49ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?', @p2='?' (DbType = DateTime), @p3='?', @p4='?', @p5='?' (DbType = Int32), @p6='?' (DbType = Int64), @p7='?' (DbType = Boolean), @p8='?', @p9='?', @p10='?' (DbType = Int32), @p11='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO users ("Age", "AvatarUrl", "CreatedAt", "Email", "FirstName", "FitnessLevel", "FollowingId", "HasPremiumSubscription", "LastName", "Password", "Sex", "UpdatedAt")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11)
+RETURNING "Id";
+2025-03-22 22:54:31.760 +02:00 [INF] Executing ViewResult, running view CreateUser.
+2025-03-22 22:54:31.771 +02:00 [INF] Executed ViewResult - view CreateUser executed in 11.0286ms.
+2025-03-22 22:54:31.775 +02:00 [INF] Executed action PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL) in 1274.6499ms
+2025-03-22 22:54:31.777 +02:00 [INF] Executed endpoint 'PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL)'
+2025-03-22 22:54:31.786 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:5227/User/CreateUser - 200 null text/html; charset=utf-8 1314.6851ms
+2025-03-22 22:54:49.187 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/User/GetUserById - null null
+2025-03-22 22:54:49.207 +02:00 [INF] Executing endpoint 'PumpItUp.BLL.Controllers.UserController.GetUserById (PumpItUp.BLL)'
+2025-03-22 22:54:49.221 +02:00 [INF] Route matched with {action = "GetUserById", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserById(Int32) on controller PumpItUp.BLL.Controllers.UserController (PumpItUp.BLL).
+2025-03-22 22:54:49.846 +02:00 [INF] Executed DbCommand (3ms) [Parameters=[@__userId_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."Age", u."AvatarUrl", u."CreatedAt", u."Email", u."FirstName", u."FitnessLevel", u."FollowingId", u."HasPremiumSubscription", u."LastName", u."Password", u."Sex", u."UpdatedAt"
+FROM users AS u
+WHERE u."Id" = @__userId_0
+LIMIT 1
+2025-03-22 22:54:49.853 +02:00 [INF] Executed action PumpItUp.BLL.Controllers.UserController.GetUserById (PumpItUp.BLL) in 627.0616ms
+2025-03-22 22:54:49.855 +02:00 [INF] Executed endpoint 'PumpItUp.BLL.Controllers.UserController.GetUserById (PumpItUp.BLL)'
+2025-03-22 22:54:49.857 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+PumpItUp.DAL.Exceptions.UserNotFoundException: User with ID=[0] not found.
+   at PumpItUp.DAL.Repositories.Implementations.UserRepository.GetByIdAsync(Int64 userId) in D:\WebProjectDotNetUni\PumpItUp\PumpItUp.DAL\Repositories\Implementations\UserRepository.cs:line 18
+   at PumpItUp.BLL.Services.UserService.GetUserByIdAsync(Int32 userId) in D:\WebProjectDotNetUni\PumpItUp\PumpItUp.BLL\Services\UserService.cs:line 34
+   at PumpItUp.BLL.Controllers.UserController.GetUserById(Int32 userId) in D:\WebProjectDotNetUni\PumpItUp\PumpItUp.BLL\Controllers\UserController.cs:line 33
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-03-22 22:54:49.901 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/User/GetUserById - 500 null text/html; charset=utf-8 713.853ms
+2025-03-22 22:56:00.895 +02:00 [INF] Application is shutting down...
+2025-03-22 22:56:05.117 +02:00 [INF] User profile is available. Using 'C:\Users\Green\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-22 22:56:05.197 +02:00 [INF] Now listening on: http://localhost:5227
+2025-03-22 22:56:05.201 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-22 22:56:05.202 +02:00 [INF] Hosting environment: Development
+2025-03-22 22:56:05.203 +02:00 [INF] Content root path: D:\WebProjectDotNetUni\PumpItUp\PumpItUp.BLL
+2025-03-22 22:56:05.400 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/ - null null
+2025-03-22 22:56:05.416 +02:00 [WRN] Failed to determine the https port for redirect.
+2025-03-22 22:56:05.442 +02:00 [INF] Executing endpoint 'PumpItUp.BLL.Controllers.HomeController.Index (PumpItUp.BLL)'
+2025-03-22 22:56:05.468 +02:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller PumpItUp.BLL.Controllers.HomeController (PumpItUp.BLL).
+2025-03-22 22:56:05.482 +02:00 [INF] Executing ViewResult, running view Index.
+2025-03-22 22:56:05.553 +02:00 [INF] Executed ViewResult - view Index executed in 74.2111ms.
+2025-03-22 22:56:05.558 +02:00 [INF] Executed action PumpItUp.BLL.Controllers.HomeController.Index (PumpItUp.BLL) in 87.1339ms
+2025-03-22 22:56:05.560 +02:00 [INF] Executed endpoint 'PumpItUp.BLL.Controllers.HomeController.Index (PumpItUp.BLL)'
+2025-03-22 22:56:05.564 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/ - 200 null text/html; charset=utf-8 166.4803ms
+2025-03-22 22:56:16.985 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/User/GetUserById - null null
+2025-03-22 22:56:16.990 +02:00 [INF] Executing endpoint 'PumpItUp.BLL.Controllers.UserController.GetUserById (PumpItUp.BLL)'
+2025-03-22 22:56:17.002 +02:00 [INF] Route matched with {action = "GetUserById", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserById(Int32) on controller PumpItUp.BLL.Controllers.UserController (PumpItUp.BLL).
+2025-03-22 22:56:18.096 +02:00 [INF] Executed DbCommand (43ms) [Parameters=[@__userId_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."Age", u."AvatarUrl", u."CreatedAt", u."Email", u."FirstName", u."FitnessLevel", u."FollowingId", u."HasPremiumSubscription", u."LastName", u."Password", u."Sex", u."UpdatedAt"
+FROM users AS u
+WHERE u."Id" = @__userId_0
+LIMIT 1
+2025-03-22 22:56:18.118 +02:00 [INF] Executed action PumpItUp.BLL.Controllers.UserController.GetUserById (PumpItUp.BLL) in 1112.8592ms
+2025-03-22 22:56:18.121 +02:00 [INF] Executed endpoint 'PumpItUp.BLL.Controllers.UserController.GetUserById (PumpItUp.BLL)'
+2025-03-22 22:56:18.124 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+PumpItUp.DAL.Exceptions.UserNotFoundException: User with ID=[0] not found.
+   at PumpItUp.DAL.Repositories.Implementations.UserRepository.GetByIdAsync(Int64 userId) in D:\WebProjectDotNetUni\PumpItUp\PumpItUp.DAL\Repositories\Implementations\UserRepository.cs:line 18
+   at PumpItUp.BLL.Services.UserService.GetUserByIdAsync(Int32 userId) in D:\WebProjectDotNetUni\PumpItUp\PumpItUp.BLL\Services\UserService.cs:line 34
+   at PumpItUp.BLL.Controllers.UserController.GetUserById(Int32 userId) in D:\WebProjectDotNetUni\PumpItUp\PumpItUp.BLL\Controllers\UserController.cs:line 33
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-03-22 22:56:18.169 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/User/GetUserById - 500 null text/html; charset=utf-8 1184.4988ms
+2025-03-22 22:57:02.559 +02:00 [INF] Application is shutting down...
+2025-03-22 22:57:06.683 +02:00 [INF] User profile is available. Using 'C:\Users\Green\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-22 22:57:06.765 +02:00 [INF] Now listening on: http://localhost:5227
+2025-03-22 22:57:06.769 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-22 22:57:06.771 +02:00 [INF] Hosting environment: Development
+2025-03-22 22:57:06.772 +02:00 [INF] Content root path: D:\WebProjectDotNetUni\PumpItUp\PumpItUp.BLL
+2025-03-22 22:57:06.955 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/ - null null
+2025-03-22 22:57:06.971 +02:00 [WRN] Failed to determine the https port for redirect.
+2025-03-22 22:57:06.993 +02:00 [INF] Executing endpoint 'PumpItUp.BLL.Controllers.HomeController.Index (PumpItUp.BLL)'
+2025-03-22 22:57:07.016 +02:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller PumpItUp.BLL.Controllers.HomeController (PumpItUp.BLL).
+2025-03-22 22:57:07.028 +02:00 [INF] Executing ViewResult, running view Index.
+2025-03-22 22:57:07.100 +02:00 [INF] Executed ViewResult - view Index executed in 76.3355ms.
+2025-03-22 22:57:07.106 +02:00 [INF] Executed action PumpItUp.BLL.Controllers.HomeController.Index (PumpItUp.BLL) in 88.0689ms
+2025-03-22 22:57:07.108 +02:00 [INF] Executed endpoint 'PumpItUp.BLL.Controllers.HomeController.Index (PumpItUp.BLL)'
+2025-03-22 22:57:07.114 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/ - 200 null text/html; charset=utf-8 159.8829ms
+2025-03-22 22:57:18.987 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/User/GetUserById - null null
+2025-03-22 22:57:18.994 +02:00 [INF] Executing endpoint 'PumpItUp.BLL.Controllers.UserController.GetUserById (PumpItUp.BLL)'
+2025-03-22 22:57:19.004 +02:00 [INF] Route matched with {action = "GetUserById", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserById(Int32) on controller PumpItUp.BLL.Controllers.UserController (PumpItUp.BLL).
+2025-03-22 22:57:20.098 +02:00 [INF] Executed DbCommand (44ms) [Parameters=[@__userId_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."Age", u."AvatarUrl", u."CreatedAt", u."Email", u."FirstName", u."FitnessLevel", u."FollowingId", u."HasPremiumSubscription", u."LastName", u."Password", u."Sex", u."UpdatedAt"
+FROM users AS u
+WHERE u."Id" = @__userId_0
+LIMIT 1
+2025-03-22 22:57:20.149 +02:00 [INF] Executing ViewResult, running view GetUserById.
+2025-03-22 22:57:20.159 +02:00 [INF] Executed ViewResult - view GetUserById executed in 10.4966ms.
+2025-03-22 22:57:20.163 +02:00 [INF] Executed action PumpItUp.BLL.Controllers.UserController.GetUserById (PumpItUp.BLL) in 1153.7633ms
+2025-03-22 22:57:20.165 +02:00 [INF] Executed endpoint 'PumpItUp.BLL.Controllers.UserController.GetUserById (PumpItUp.BLL)'
+2025-03-22 22:57:20.173 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/User/GetUserById - 200 null text/html; charset=utf-8 1186.0793ms
+2025-03-22 22:57:22.853 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/User/GetUserById?userId=2 - null null
+2025-03-22 22:57:22.858 +02:00 [INF] Executing endpoint 'PumpItUp.BLL.Controllers.UserController.GetUserById (PumpItUp.BLL)'
+2025-03-22 22:57:22.861 +02:00 [INF] Route matched with {action = "GetUserById", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserById(Int32) on controller PumpItUp.BLL.Controllers.UserController (PumpItUp.BLL).
+2025-03-22 22:57:22.930 +02:00 [INF] Executed DbCommand (3ms) [Parameters=[@__userId_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."Age", u."AvatarUrl", u."CreatedAt", u."Email", u."FirstName", u."FitnessLevel", u."FollowingId", u."HasPremiumSubscription", u."LastName", u."Password", u."Sex", u."UpdatedAt"
+FROM users AS u
+WHERE u."Id" = @__userId_0
+LIMIT 1
+2025-03-22 22:57:23.008 +02:00 [INF] Executing ViewResult, running view GetUserById.
+2025-03-22 22:57:23.015 +02:00 [INF] Executed action PumpItUp.BLL.Controllers.UserController.GetUserById (PumpItUp.BLL) in 151.4183ms
+2025-03-22 22:57:23.017 +02:00 [INF] Executed endpoint 'PumpItUp.BLL.Controllers.UserController.GetUserById (PumpItUp.BLL)'
+2025-03-22 22:57:23.018 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at AspNetCoreGeneratedDocument.Views_User_GetUserById.<ExecuteAsync>b__13_1() in D:\WebProjectDotNetUni\PumpItUp\PumpItUp.BLL\Views\User\GetUserById.cshtml:line 27
+   at Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.SetOutputContentAsync()
+   at AspNetCoreGeneratedDocument.Views_User_GetUserById.ExecuteAsync() in D:\WebProjectDotNetUni\PumpItUp\PumpItUp.BLL\Views\User\GetUserById.cshtml:line 4
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-03-22 22:57:23.065 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/User/GetUserById?userId=2 - 500 null text/html; charset=utf-8 212.2742ms
+2025-03-22 23:10:12.855 +02:00 [INF] Application is shutting down...
+2025-03-22 23:12:36.344 +02:00 [INF] User profile is available. Using 'C:\Users\Green\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-22 23:12:36.426 +02:00 [INF] Now listening on: http://localhost:5227
+2025-03-22 23:12:36.431 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-22 23:12:36.432 +02:00 [INF] Hosting environment: Development
+2025-03-22 23:12:36.433 +02:00 [INF] Content root path: D:\WebProjectDotNetUni\PumpItUp\PumpItUp.BLL
+2025-03-22 23:12:37.005 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/ - null null
+2025-03-22 23:12:37.020 +02:00 [WRN] Failed to determine the https port for redirect.
+2025-03-22 23:12:37.036 +02:00 [INF] Executing endpoint 'PumpItUp.BLL.Controllers.HomeController.Index (PumpItUp.BLL)'
+2025-03-22 23:12:37.058 +02:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller PumpItUp.BLL.Controllers.HomeController (PumpItUp.BLL).
+2025-03-22 23:12:37.070 +02:00 [INF] Executing ViewResult, running view Index.
+2025-03-22 23:12:37.137 +02:00 [INF] Executed ViewResult - view Index executed in 70.6378ms.
+2025-03-22 23:12:37.143 +02:00 [INF] Executed action PumpItUp.BLL.Controllers.HomeController.Index (PumpItUp.BLL) in 82.3185ms
+2025-03-22 23:12:37.145 +02:00 [INF] Executed endpoint 'PumpItUp.BLL.Controllers.HomeController.Index (PumpItUp.BLL)'
+2025-03-22 23:12:37.149 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/ - 200 null text/html; charset=utf-8 145.1886ms
+2025-03-22 23:12:42.688 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/User/GetUserById - null null
+2025-03-22 23:12:42.696 +02:00 [INF] Executing endpoint 'PumpItUp.BLL.Controllers.UserController.GetUserById (PumpItUp.BLL)'
+2025-03-22 23:12:42.707 +02:00 [INF] Route matched with {action = "GetUserById", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserById(Int32) on controller PumpItUp.BLL.Controllers.UserController (PumpItUp.BLL).
+2025-03-22 23:12:44.319 +02:00 [INF] Executed DbCommand (44ms) [Parameters=[@__userId_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."Age", u."AvatarUrl", u."CreatedAt", u."Email", u."FirstName", u."FitnessLevel", u."FollowingId", u."HasPremiumSubscription", u."LastName", u."Password", u."Sex", u."UpdatedAt"
+FROM users AS u
+WHERE u."Id" = @__userId_0
+LIMIT 1
+2025-03-22 23:12:44.341 +02:00 [INF] Executed action PumpItUp.BLL.Controllers.UserController.GetUserById (PumpItUp.BLL) in 1630.124ms
+2025-03-22 23:12:44.344 +02:00 [INF] Executed endpoint 'PumpItUp.BLL.Controllers.UserController.GetUserById (PumpItUp.BLL)'
+2025-03-22 23:12:44.347 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+PumpItUp.DAL.Exceptions.UserNotFoundException: User with ID=[0] not found.
+   at PumpItUp.DAL.Repositories.Implementations.UserRepository.GetByIdAsync(Int64 userId) in D:\WebProjectDotNetUni\PumpItUp\PumpItUp.DAL\Repositories\Implementations\UserRepository.cs:line 18
+   at PumpItUp.BLL.Services.UserService.GetUserByIdAsync(Int32 userId) in D:\WebProjectDotNetUni\PumpItUp\PumpItUp.BLL\Services\UserService.cs:line 34
+   at PumpItUp.BLL.Controllers.UserController.GetUserById(Int32 userId) in D:\WebProjectDotNetUni\PumpItUp\PumpItUp.BLL\Controllers\UserController.cs:line 33
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-03-22 23:12:44.396 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/User/GetUserById - 500 null text/html; charset=utf-8 1708.8661ms
+2025-03-22 23:13:24.242 +02:00 [INF] Application is shutting down...
+2025-03-22 23:13:28.682 +02:00 [INF] User profile is available. Using 'C:\Users\Green\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-22 23:13:28.776 +02:00 [INF] Now listening on: http://localhost:5227
+2025-03-22 23:13:28.780 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-22 23:13:28.782 +02:00 [INF] Hosting environment: Development
+2025-03-22 23:13:28.783 +02:00 [INF] Content root path: D:\WebProjectDotNetUni\PumpItUp\PumpItUp.BLL
+2025-03-22 23:13:28.933 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/ - null null
+2025-03-22 23:13:28.947 +02:00 [WRN] Failed to determine the https port for redirect.
+2025-03-22 23:13:28.965 +02:00 [INF] Executing endpoint 'PumpItUp.BLL.Controllers.HomeController.Index (PumpItUp.BLL)'
+2025-03-22 23:13:28.991 +02:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller PumpItUp.BLL.Controllers.HomeController (PumpItUp.BLL).
+2025-03-22 23:13:29.003 +02:00 [INF] Executing ViewResult, running view Index.
+2025-03-22 23:13:29.075 +02:00 [INF] Executed ViewResult - view Index executed in 74.8176ms.
+2025-03-22 23:13:29.081 +02:00 [INF] Executed action PumpItUp.BLL.Controllers.HomeController.Index (PumpItUp.BLL) in 87.3582ms
+2025-03-22 23:13:29.082 +02:00 [INF] Executed endpoint 'PumpItUp.BLL.Controllers.HomeController.Index (PumpItUp.BLL)'
+2025-03-22 23:13:29.090 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/ - 200 null text/html; charset=utf-8 158.83ms
+2025-03-22 23:13:40.238 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/User/GetUserById - null null
+2025-03-22 23:13:40.244 +02:00 [INF] Executing endpoint 'PumpItUp.BLL.Controllers.UserController.GetUserById (PumpItUp.BLL)'
+2025-03-22 23:13:40.255 +02:00 [INF] Route matched with {action = "GetUserById", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserById(Int32) on controller PumpItUp.BLL.Controllers.UserController (PumpItUp.BLL).
+2025-03-22 23:13:41.446 +02:00 [INF] Executed DbCommand (42ms) [Parameters=[@__userId_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."Age", u."AvatarUrl", u."CreatedAt", u."Email", u."FirstName", u."FitnessLevel", u."FollowingId", u."HasPremiumSubscription", u."LastName", u."Password", u."Sex", u."UpdatedAt"
+FROM users AS u
+WHERE u."Id" = @__userId_0
+LIMIT 1
+2025-03-22 23:13:41.487 +02:00 [INF] Executing ViewResult, running view GetUserById.
+2025-03-22 23:13:41.496 +02:00 [INF] Executed ViewResult - view GetUserById executed in 9.5738ms.
+2025-03-22 23:13:41.500 +02:00 [INF] Executed action PumpItUp.BLL.Controllers.UserController.GetUserById (PumpItUp.BLL) in 1241.1927ms
+2025-03-22 23:13:41.504 +02:00 [INF] Executed endpoint 'PumpItUp.BLL.Controllers.UserController.GetUserById (PumpItUp.BLL)'
+2025-03-22 23:13:41.511 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/User/GetUserById - 200 null text/html; charset=utf-8 1274.0417ms
+2025-03-22 23:13:43.735 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/User/GetUserById?userId=2 - null null
+2025-03-22 23:13:43.754 +02:00 [INF] Executing endpoint 'PumpItUp.BLL.Controllers.UserController.GetUserById (PumpItUp.BLL)'
+2025-03-22 23:13:43.758 +02:00 [INF] Route matched with {action = "GetUserById", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserById(Int32) on controller PumpItUp.BLL.Controllers.UserController (PumpItUp.BLL).
+2025-03-22 23:13:43.784 +02:00 [INF] Executed DbCommand (3ms) [Parameters=[@__userId_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."Age", u."AvatarUrl", u."CreatedAt", u."Email", u."FirstName", u."FitnessLevel", u."FollowingId", u."HasPremiumSubscription", u."LastName", u."Password", u."Sex", u."UpdatedAt"
+FROM users AS u
+WHERE u."Id" = @__userId_0
+LIMIT 1
+2025-03-22 23:13:43.862 +02:00 [INF] Executing ViewResult, running view GetUserById.
+2025-03-22 23:13:43.866 +02:00 [INF] Executed ViewResult - view GetUserById executed in 3.9381ms.
+2025-03-22 23:13:43.868 +02:00 [INF] Executed action PumpItUp.BLL.Controllers.UserController.GetUserById (PumpItUp.BLL) in 105.9132ms
+2025-03-22 23:13:43.870 +02:00 [INF] Executed endpoint 'PumpItUp.BLL.Controllers.UserController.GetUserById (PumpItUp.BLL)'
+2025-03-22 23:13:43.871 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/User/GetUserById?userId=2 - 200 null text/html; charset=utf-8 135.963ms
+2025-03-22 23:13:49.527 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/User/GetUserById?userId=1 - null null
+2025-03-22 23:13:49.531 +02:00 [INF] Executing endpoint 'PumpItUp.BLL.Controllers.UserController.GetUserById (PumpItUp.BLL)'
+2025-03-22 23:13:49.532 +02:00 [INF] Route matched with {action = "GetUserById", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserById(Int32) on controller PumpItUp.BLL.Controllers.UserController (PumpItUp.BLL).
+2025-03-22 23:13:49.588 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."Age", u."AvatarUrl", u."CreatedAt", u."Email", u."FirstName", u."FitnessLevel", u."FollowingId", u."HasPremiumSubscription", u."LastName", u."Password", u."Sex", u."UpdatedAt"
+FROM users AS u
+WHERE u."Id" = @__userId_0
+LIMIT 1
+2025-03-22 23:13:49.591 +02:00 [INF] Executing ViewResult, running view GetUserById.
+2025-03-22 23:13:49.593 +02:00 [INF] Executed ViewResult - view GetUserById executed in 1.6002ms.
+2025-03-22 23:13:49.594 +02:00 [INF] Executed action PumpItUp.BLL.Controllers.UserController.GetUserById (PumpItUp.BLL) in 59.9215ms
+2025-03-22 23:13:49.595 +02:00 [INF] Executed endpoint 'PumpItUp.BLL.Controllers.UserController.GetUserById (PumpItUp.BLL)'
+2025-03-22 23:13:49.596 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/User/GetUserById?userId=1 - 200 null text/html; charset=utf-8 68.8376ms
+2025-03-22 23:13:52.877 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/User/GetUserById?userId=3 - null null
+2025-03-22 23:13:52.881 +02:00 [INF] Executing endpoint 'PumpItUp.BLL.Controllers.UserController.GetUserById (PumpItUp.BLL)'
+2025-03-22 23:13:52.882 +02:00 [INF] Route matched with {action = "GetUserById", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserById(Int32) on controller PumpItUp.BLL.Controllers.UserController (PumpItUp.BLL).
+2025-03-22 23:13:52.888 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."Age", u."AvatarUrl", u."CreatedAt", u."Email", u."FirstName", u."FitnessLevel", u."FollowingId", u."HasPremiumSubscription", u."LastName", u."Password", u."Sex", u."UpdatedAt"
+FROM users AS u
+WHERE u."Id" = @__userId_0
+LIMIT 1
+2025-03-22 23:13:52.891 +02:00 [INF] Executing ViewResult, running view GetUserById.
+2025-03-22 23:13:52.892 +02:00 [INF] Executed ViewResult - view GetUserById executed in 1.4181ms.
+2025-03-22 23:13:52.894 +02:00 [INF] Executed action PumpItUp.BLL.Controllers.UserController.GetUserById (PumpItUp.BLL) in 8.6487ms
+2025-03-22 23:13:52.896 +02:00 [INF] Executed endpoint 'PumpItUp.BLL.Controllers.UserController.GetUserById (PumpItUp.BLL)'
+2025-03-22 23:13:52.897 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/User/GetUserById?userId=3 - 200 null text/html; charset=utf-8 19.3632ms
+2025-03-22 23:14:57.206 +02:00 [INF] Application is shutting down...
+2025-03-22 23:21:30.142 +02:00 [INF] User profile is available. Using 'C:\Users\Green\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-22 23:21:30.231 +02:00 [INF] Now listening on: http://localhost:5227
+2025-03-22 23:21:30.235 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-22 23:21:30.236 +02:00 [INF] Hosting environment: Development
+2025-03-22 23:21:30.237 +02:00 [INF] Content root path: D:\WebProjectDotNetUni\PumpItUp\PumpItUp.BLL
+2025-03-22 23:21:30.794 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/ - null null
+2025-03-22 23:21:30.809 +02:00 [WRN] Failed to determine the https port for redirect.
+2025-03-22 23:21:30.830 +02:00 [INF] Executing endpoint 'PumpItUp.BLL.Controllers.HomeController.Index (PumpItUp.BLL)'
+2025-03-22 23:21:30.854 +02:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller PumpItUp.BLL.Controllers.HomeController (PumpItUp.BLL).
+2025-03-22 23:21:30.870 +02:00 [INF] Executing ViewResult, running view Index.
+2025-03-22 23:21:30.946 +02:00 [INF] Executed ViewResult - view Index executed in 83.4426ms.
+2025-03-22 23:21:30.951 +02:00 [INF] Executed action PumpItUp.BLL.Controllers.HomeController.Index (PumpItUp.BLL) in 94.4811ms
+2025-03-22 23:21:30.953 +02:00 [INF] Executed endpoint 'PumpItUp.BLL.Controllers.HomeController.Index (PumpItUp.BLL)'
+2025-03-22 23:21:30.957 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/ - 200 null text/html; charset=utf-8 164.9738ms
+2025-03-22 23:21:36.731 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/User/CreateUser - null null
+2025-03-22 23:21:36.739 +02:00 [INF] Executing endpoint 'PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL)'
+2025-03-22 23:21:36.743 +02:00 [INF] Route matched with {action = "CreateUser", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateUser() on controller PumpItUp.BLL.Controllers.UserController (PumpItUp.BLL).
+2025-03-22 23:21:36.842 +02:00 [INF] Executing ViewResult, running view CreateUser.
+2025-03-22 23:21:36.902 +02:00 [INF] Executed ViewResult - view CreateUser executed in 60.4138ms.
+2025-03-22 23:21:36.905 +02:00 [INF] Executed action PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL) in 159.349ms
+2025-03-22 23:21:36.908 +02:00 [INF] Executed endpoint 'PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL)'
+2025-03-22 23:21:36.911 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/User/CreateUser - 200 null text/html; charset=utf-8 179.938ms
+2025-03-22 23:21:40.197 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/User/GetUserById - null null
+2025-03-22 23:21:40.206 +02:00 [INF] Executing endpoint 'PumpItUp.BLL.Controllers.UserController.GetUserById (PumpItUp.BLL)'
+2025-03-22 23:21:40.217 +02:00 [INF] Route matched with {action = "GetUserById", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserById(Int32) on controller PumpItUp.BLL.Controllers.UserController (PumpItUp.BLL).
+2025-03-22 23:21:41.209 +02:00 [INF] Executed DbCommand (43ms) [Parameters=[@__userId_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."Age", u."AvatarUrl", u."CreatedAt", u."Email", u."FirstName", u."FitnessLevel", u."FollowingId", u."HasPremiumSubscription", u."LastName", u."Password", u."Sex", u."UpdatedAt"
+FROM users AS u
+WHERE u."Id" = @__userId_0
+LIMIT 1
+2025-03-22 23:21:41.231 +02:00 [INF] Executing JsonResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-22 23:21:41.338 +02:00 [INF] Executed action PumpItUp.BLL.Controllers.UserController.GetUserById (PumpItUp.BLL) in 1117.1028ms
+2025-03-22 23:21:41.341 +02:00 [INF] Executed endpoint 'PumpItUp.BLL.Controllers.UserController.GetUserById (PumpItUp.BLL)'
+2025-03-22 23:21:41.348 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/User/GetUserById - 200 null application/json; charset=utf-8 1150.6738ms
+2025-03-22 23:22:14.926 +02:00 [INF] Application is shutting down...
+2025-03-22 23:23:23.214 +02:00 [INF] User profile is available. Using 'C:\Users\Green\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-22 23:23:23.294 +02:00 [INF] Now listening on: http://localhost:5227
+2025-03-22 23:23:23.298 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-22 23:23:23.299 +02:00 [INF] Hosting environment: Development
+2025-03-22 23:23:23.300 +02:00 [INF] Content root path: D:\WebProjectDotNetUni\PumpItUp\PumpItUp.BLL
+2025-03-22 23:23:23.773 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/ - null null
+2025-03-22 23:23:23.787 +02:00 [WRN] Failed to determine the https port for redirect.
+2025-03-22 23:23:23.805 +02:00 [INF] Executing endpoint 'PumpItUp.BLL.Controllers.HomeController.Index (PumpItUp.BLL)'
+2025-03-22 23:23:23.829 +02:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller PumpItUp.BLL.Controllers.HomeController (PumpItUp.BLL).
+2025-03-22 23:23:23.842 +02:00 [INF] Executing ViewResult, running view Index.
+2025-03-22 23:23:23.908 +02:00 [INF] Executed ViewResult - view Index executed in 68.8789ms.
+2025-03-22 23:23:23.914 +02:00 [INF] Executed action PumpItUp.BLL.Controllers.HomeController.Index (PumpItUp.BLL) in 81.3472ms
+2025-03-22 23:23:23.917 +02:00 [INF] Executed endpoint 'PumpItUp.BLL.Controllers.HomeController.Index (PumpItUp.BLL)'
+2025-03-22 23:23:23.921 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/ - 200 null text/html; charset=utf-8 149.3148ms
+2025-03-22 23:23:26.144 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/User/GetUserById - null null
+2025-03-22 23:23:26.150 +02:00 [INF] Executing endpoint 'PumpItUp.BLL.Controllers.UserController.GetUserById (PumpItUp.BLL)'
+2025-03-22 23:23:26.160 +02:00 [INF] Route matched with {action = "GetUserById", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserById(Int32) on controller PumpItUp.BLL.Controllers.UserController (PumpItUp.BLL).
+2025-03-22 23:23:27.257 +02:00 [INF] Executed DbCommand (46ms) [Parameters=[@__userId_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."Age", u."AvatarUrl", u."CreatedAt", u."Email", u."FirstName", u."FitnessLevel", u."FollowingId", u."HasPremiumSubscription", u."LastName", u."Password", u."Sex", u."UpdatedAt"
+FROM users AS u
+WHERE u."Id" = @__userId_0
+LIMIT 1
+2025-03-22 23:23:27.279 +02:00 [INF] Executed action PumpItUp.BLL.Controllers.UserController.GetUserById (PumpItUp.BLL) in 1116.273ms
+2025-03-22 23:23:27.283 +02:00 [INF] Executed endpoint 'PumpItUp.BLL.Controllers.UserController.GetUserById (PumpItUp.BLL)'
+2025-03-22 23:23:27.286 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+PumpItUp.DAL.Exceptions.UserNotFoundException: User with ID=[0] not found.
+   at PumpItUp.DAL.Repositories.Implementations.UserRepository.GetByIdAsync(Int64 userId) in D:\WebProjectDotNetUni\PumpItUp\PumpItUp.DAL\Repositories\Implementations\UserRepository.cs:line 18
+   at PumpItUp.BLL.Services.UserService.GetUserByIdAsync(Int32 userId) in D:\WebProjectDotNetUni\PumpItUp\PumpItUp.BLL\Services\UserService.cs:line 34
+   at PumpItUp.BLL.Controllers.UserController.GetUserById(Int32 userId) in D:\WebProjectDotNetUni\PumpItUp\PumpItUp.BLL\Controllers\UserController.cs:line 35
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-03-22 23:23:27.326 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/User/GetUserById - 500 null text/html; charset=utf-8 1183.1287ms
+2025-03-22 23:23:29.026 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/User/GetUserById - null null
+2025-03-22 23:23:29.039 +02:00 [INF] Executing endpoint 'PumpItUp.BLL.Controllers.UserController.GetUserById (PumpItUp.BLL)'
+2025-03-22 23:23:29.041 +02:00 [INF] Route matched with {action = "GetUserById", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserById(Int32) on controller PumpItUp.BLL.Controllers.UserController (PumpItUp.BLL).
+2025-03-22 23:23:29.063 +02:00 [INF] Executed DbCommand (3ms) [Parameters=[@__userId_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."Age", u."AvatarUrl", u."CreatedAt", u."Email", u."FirstName", u."FitnessLevel", u."FollowingId", u."HasPremiumSubscription", u."LastName", u."Password", u."Sex", u."UpdatedAt"
+FROM users AS u
+WHERE u."Id" = @__userId_0
+LIMIT 1
+2025-03-22 23:23:29.068 +02:00 [INF] Executed action PumpItUp.BLL.Controllers.UserController.GetUserById (PumpItUp.BLL) in 26.0119ms
+2025-03-22 23:23:29.071 +02:00 [INF] Executed endpoint 'PumpItUp.BLL.Controllers.UserController.GetUserById (PumpItUp.BLL)'
+2025-03-22 23:23:29.072 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+PumpItUp.DAL.Exceptions.UserNotFoundException: User with ID=[0] not found.
+   at PumpItUp.DAL.Repositories.Implementations.UserRepository.GetByIdAsync(Int64 userId) in D:\WebProjectDotNetUni\PumpItUp\PumpItUp.DAL\Repositories\Implementations\UserRepository.cs:line 18
+   at PumpItUp.BLL.Services.UserService.GetUserByIdAsync(Int32 userId) in D:\WebProjectDotNetUni\PumpItUp\PumpItUp.BLL\Services\UserService.cs:line 34
+   at PumpItUp.BLL.Controllers.UserController.GetUserById(Int32 userId) in D:\WebProjectDotNetUni\PumpItUp\PumpItUp.BLL\Controllers\UserController.cs:line 35
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-03-22 23:23:29.082 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/User/GetUserById - 500 null text/html; charset=utf-8 55.2158ms
+2025-03-22 23:23:33.134 +02:00 [INF] Application is shutting down...
+2025-03-22 23:23:36.977 +02:00 [INF] User profile is available. Using 'C:\Users\Green\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-22 23:23:37.056 +02:00 [INF] Now listening on: http://localhost:5227
+2025-03-22 23:23:37.060 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-22 23:23:37.062 +02:00 [INF] Hosting environment: Development
+2025-03-22 23:23:37.062 +02:00 [INF] Content root path: D:\WebProjectDotNetUni\PumpItUp\PumpItUp.BLL
+2025-03-22 23:23:37.716 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/ - null null
+2025-03-22 23:23:37.732 +02:00 [WRN] Failed to determine the https port for redirect.
+2025-03-22 23:23:37.752 +02:00 [INF] Executing endpoint 'PumpItUp.BLL.Controllers.HomeController.Index (PumpItUp.BLL)'
+2025-03-22 23:23:37.775 +02:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller PumpItUp.BLL.Controllers.HomeController (PumpItUp.BLL).
+2025-03-22 23:23:37.788 +02:00 [INF] Executing ViewResult, running view Index.
+2025-03-22 23:23:37.855 +02:00 [INF] Executed ViewResult - view Index executed in 71.2017ms.
+2025-03-22 23:23:37.860 +02:00 [INF] Executed action PumpItUp.BLL.Controllers.HomeController.Index (PumpItUp.BLL) in 81.6735ms
+2025-03-22 23:23:37.861 +02:00 [INF] Executed endpoint 'PumpItUp.BLL.Controllers.HomeController.Index (PumpItUp.BLL)'
+2025-03-22 23:23:37.866 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/ - 200 null text/html; charset=utf-8 151.1917ms
+2025-03-22 23:23:40.500 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/User/GetUserById - null null
+2025-03-22 23:23:40.507 +02:00 [INF] Executing endpoint 'PumpItUp.BLL.Controllers.UserController.GetUserById (PumpItUp.BLL)'
+2025-03-22 23:23:40.518 +02:00 [INF] Route matched with {action = "GetUserById", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserById(Int32) on controller PumpItUp.BLL.Controllers.UserController (PumpItUp.BLL).
+2025-03-22 23:23:41.607 +02:00 [INF] Executed DbCommand (44ms) [Parameters=[@__userId_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."Age", u."AvatarUrl", u."CreatedAt", u."Email", u."FirstName", u."FitnessLevel", u."FollowingId", u."HasPremiumSubscription", u."LastName", u."Password", u."Sex", u."UpdatedAt"
+FROM users AS u
+WHERE u."Id" = @__userId_0
+LIMIT 1
+2025-03-22 23:23:41.648 +02:00 [INF] Executing ViewResult, running view GetUserById.
+2025-03-22 23:23:41.657 +02:00 [INF] Executed ViewResult - view GetUserById executed in 9.6246ms.
+2025-03-22 23:23:41.661 +02:00 [INF] Executed action PumpItUp.BLL.Controllers.UserController.GetUserById (PumpItUp.BLL) in 1139.8851ms
+2025-03-22 23:23:41.664 +02:00 [INF] Executed endpoint 'PumpItUp.BLL.Controllers.UserController.GetUserById (PumpItUp.BLL)'
+2025-03-22 23:23:41.671 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/User/GetUserById - 200 null text/html; charset=utf-8 1172.2229ms
+2025-03-22 23:23:43.469 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/User/GetUserById?userId=2 - null null
+2025-03-22 23:23:43.475 +02:00 [INF] Executing endpoint 'PumpItUp.BLL.Controllers.UserController.GetUserById (PumpItUp.BLL)'
+2025-03-22 23:23:43.476 +02:00 [INF] Route matched with {action = "GetUserById", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserById(Int32) on controller PumpItUp.BLL.Controllers.UserController (PumpItUp.BLL).
+2025-03-22 23:23:43.502 +02:00 [INF] Executed DbCommand (3ms) [Parameters=[@__userId_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."Age", u."AvatarUrl", u."CreatedAt", u."Email", u."FirstName", u."FitnessLevel", u."FollowingId", u."HasPremiumSubscription", u."LastName", u."Password", u."Sex", u."UpdatedAt"
+FROM users AS u
+WHERE u."Id" = @__userId_0
+LIMIT 1
+2025-03-22 23:23:43.574 +02:00 [INF] Executing ViewResult, running view GetUserById.
+2025-03-22 23:23:43.577 +02:00 [INF] Executed ViewResult - view GetUserById executed in 3.6598ms.
+2025-03-22 23:23:43.580 +02:00 [INF] Executed action PumpItUp.BLL.Controllers.UserController.GetUserById (PumpItUp.BLL) in 100.2219ms
+2025-03-22 23:23:43.583 +02:00 [INF] Executed endpoint 'PumpItUp.BLL.Controllers.UserController.GetUserById (PumpItUp.BLL)'
+2025-03-22 23:23:43.584 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/User/GetUserById?userId=2 - 200 null text/html; charset=utf-8 114.6024ms
+2025-03-22 23:31:50.508 +02:00 [INF] Application is shutting down...
+2025-03-22 23:35:32.873 +02:00 [INF] User profile is available. Using 'C:\Users\Green\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-22 23:35:32.954 +02:00 [INF] Now listening on: http://localhost:5227
+2025-03-22 23:35:32.958 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-22 23:35:32.960 +02:00 [INF] Hosting environment: Development
+2025-03-22 23:35:32.961 +02:00 [INF] Content root path: D:\WebProjectDotNetUni\PumpItUp\PumpItUp.BLL
+2025-03-22 23:35:33.414 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/ - null null
+2025-03-22 23:35:33.428 +02:00 [WRN] Failed to determine the https port for redirect.
+2025-03-22 23:35:33.450 +02:00 [INF] Executing endpoint 'PumpItUp.BLL.Controllers.HomeController.Index (PumpItUp.BLL)'
+2025-03-22 23:35:33.473 +02:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller PumpItUp.BLL.Controllers.HomeController (PumpItUp.BLL).
+2025-03-22 23:35:33.486 +02:00 [INF] Executing ViewResult, running view Index.
+2025-03-22 23:35:33.557 +02:00 [INF] Executed ViewResult - view Index executed in 74.5026ms.
+2025-03-22 23:35:33.562 +02:00 [INF] Executed action PumpItUp.BLL.Controllers.HomeController.Index (PumpItUp.BLL) in 85.6124ms
+2025-03-22 23:35:33.564 +02:00 [INF] Executed endpoint 'PumpItUp.BLL.Controllers.HomeController.Index (PumpItUp.BLL)'
+2025-03-22 23:35:33.568 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/ - 200 null text/html; charset=utf-8 156.5168ms
+2025-03-22 23:35:40.285 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/User/CreateUser - null null
+2025-03-22 23:35:40.298 +02:00 [INF] Executing endpoint 'PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL)'
+2025-03-22 23:35:40.304 +02:00 [INF] Route matched with {action = "CreateUser", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateUser() on controller PumpItUp.BLL.Controllers.UserController (PumpItUp.BLL).
+2025-03-22 23:35:40.403 +02:00 [INF] Executing ViewResult, running view CreateUser.
+2025-03-22 23:35:40.462 +02:00 [INF] Executed ViewResult - view CreateUser executed in 59.6149ms.
+2025-03-22 23:35:40.465 +02:00 [INF] Executed action PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL) in 157.5454ms
+2025-03-22 23:35:40.467 +02:00 [INF] Executed endpoint 'PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL)'
+2025-03-22 23:35:40.470 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/User/CreateUser - 200 null text/html; charset=utf-8 186.5969ms
+2025-03-22 23:36:13.530 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:5227/User/CreateUser - application/x-www-form-urlencoded 515
+2025-03-22 23:36:13.537 +02:00 [INF] Executing endpoint 'PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL)'
+2025-03-22 23:36:13.555 +02:00 [INF] Route matched with {action = "CreateUser", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateUser(PumpItUp.DAL.DTOs.UserRequest) on controller PumpItUp.BLL.Controllers.UserController (PumpItUp.BLL).
+2025-03-22 23:36:14.507 +02:00 [INF] Executed DbCommand (47ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?', @p2='?' (DbType = DateTime), @p3='?', @p4='?', @p5='?' (DbType = Int32), @p6='?' (DbType = Int64), @p7='?' (DbType = Boolean), @p8='?', @p9='?', @p10='?' (DbType = Int32), @p11='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO users ("Age", "AvatarUrl", "CreatedAt", "Email", "FirstName", "FitnessLevel", "FollowingId", "HasPremiumSubscription", "LastName", "Password", "Sex", "UpdatedAt")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11)
+RETURNING "Id";
+2025-03-22 23:36:14.545 +02:00 [INF] Executing JsonResult, writing value of type 'PumpItUp.DAL.Models.User'.
+2025-03-22 23:36:14.648 +02:00 [INF] Executed action PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL) in 1089.9696ms
+2025-03-22 23:36:14.652 +02:00 [INF] Executed endpoint 'PumpItUp.BLL.Controllers.UserController.CreateUser (PumpItUp.BLL)'
+2025-03-22 23:36:14.660 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:5227/User/CreateUser - 200 null application/json; charset=utf-8 1129.6253ms
+2025-03-22 23:36:28.172 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/User/GetUserById - null null
+2025-03-22 23:36:28.188 +02:00 [INF] Executing endpoint 'PumpItUp.BLL.Controllers.UserController.GetUserById (PumpItUp.BLL)'
+2025-03-22 23:36:28.197 +02:00 [INF] Route matched with {action = "GetUserById", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserById(Int32) on controller PumpItUp.BLL.Controllers.UserController (PumpItUp.BLL).
+2025-03-22 23:36:28.453 +02:00 [INF] Executed DbCommand (3ms) [Parameters=[@__userId_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."Age", u."AvatarUrl", u."CreatedAt", u."Email", u."FirstName", u."FitnessLevel", u."FollowingId", u."HasPremiumSubscription", u."LastName", u."Password", u."Sex", u."UpdatedAt"
+FROM users AS u
+WHERE u."Id" = @__userId_0
+LIMIT 1
+2025-03-22 23:36:28.472 +02:00 [INF] Executing NotFoundObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-22 23:36:28.483 +02:00 [INF] Executed action PumpItUp.BLL.Controllers.UserController.GetUserById (PumpItUp.BLL) in 281.5557ms
+2025-03-22 23:36:28.487 +02:00 [INF] Executed endpoint 'PumpItUp.BLL.Controllers.UserController.GetUserById (PumpItUp.BLL)'
+2025-03-22 23:36:28.489 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/User/GetUserById - 404 null application/json; charset=utf-8 317.0249ms
+2025-03-22 23:36:49.027 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/User/GetUserById - null null
+2025-03-22 23:36:49.041 +02:00 [INF] Executing endpoint 'PumpItUp.BLL.Controllers.UserController.GetUserById (PumpItUp.BLL)'
+2025-03-22 23:36:49.044 +02:00 [INF] Route matched with {action = "GetUserById", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserById(Int32) on controller PumpItUp.BLL.Controllers.UserController (PumpItUp.BLL).
+2025-03-22 23:36:49.067 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."Age", u."AvatarUrl", u."CreatedAt", u."Email", u."FirstName", u."FitnessLevel", u."FollowingId", u."HasPremiumSubscription", u."LastName", u."Password", u."Sex", u."UpdatedAt"
+FROM users AS u
+WHERE u."Id" = @__userId_0
+LIMIT 1
+2025-03-22 23:36:49.071 +02:00 [INF] Executing NotFoundObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-22 23:36:49.073 +02:00 [INF] Executed action PumpItUp.BLL.Controllers.UserController.GetUserById (PumpItUp.BLL) in 22.8829ms
+2025-03-22 23:36:49.074 +02:00 [INF] Executed endpoint 'PumpItUp.BLL.Controllers.UserController.GetUserById (PumpItUp.BLL)'
+2025-03-22 23:36:49.076 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/User/GetUserById - 404 null application/json; charset=utf-8 48.3621ms
+2025-03-22 23:37:19.252 +02:00 [INF] Application is shutting down...
+2025-03-22 23:37:24.015 +02:00 [INF] User profile is available. Using 'C:\Users\Green\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-22 23:37:24.097 +02:00 [INF] Now listening on: http://localhost:5227
+2025-03-22 23:37:24.101 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-22 23:37:24.102 +02:00 [INF] Hosting environment: Development
+2025-03-22 23:37:24.103 +02:00 [INF] Content root path: D:\WebProjectDotNetUni\PumpItUp\PumpItUp.BLL
+2025-03-22 23:37:24.264 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/ - null null
+2025-03-22 23:37:24.281 +02:00 [WRN] Failed to determine the https port for redirect.
+2025-03-22 23:37:24.306 +02:00 [INF] Executing endpoint 'PumpItUp.BLL.Controllers.HomeController.Index (PumpItUp.BLL)'
+2025-03-22 23:37:24.330 +02:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller PumpItUp.BLL.Controllers.HomeController (PumpItUp.BLL).
+2025-03-22 23:37:24.345 +02:00 [INF] Executing ViewResult, running view Index.
+2025-03-22 23:37:24.414 +02:00 [INF] Executed ViewResult - view Index executed in 75.3214ms.
+2025-03-22 23:37:24.421 +02:00 [INF] Executed action PumpItUp.BLL.Controllers.HomeController.Index (PumpItUp.BLL) in 88.3581ms
+2025-03-22 23:37:24.423 +02:00 [INF] Executed endpoint 'PumpItUp.BLL.Controllers.HomeController.Index (PumpItUp.BLL)'
+2025-03-22 23:37:24.428 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/ - 200 null text/html; charset=utf-8 166.0724ms
+2025-03-22 23:37:29.224 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/User/GetUserById - null null
+2025-03-22 23:37:29.234 +02:00 [INF] Executing endpoint 'PumpItUp.BLL.Controllers.UserController.GetUserById (PumpItUp.BLL)'
+2025-03-22 23:37:29.246 +02:00 [INF] Route matched with {action = "GetUserById", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserById(Int64) on controller PumpItUp.BLL.Controllers.UserController (PumpItUp.BLL).
+2025-03-22 23:37:30.357 +02:00 [INF] Executed DbCommand (43ms) [Parameters=[@__userId_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."Age", u."AvatarUrl", u."CreatedAt", u."Email", u."FirstName", u."FitnessLevel", u."FollowingId", u."HasPremiumSubscription", u."LastName", u."Password", u."Sex", u."UpdatedAt"
+FROM users AS u
+WHERE u."Id" = @__userId_0
+LIMIT 1
+2025-03-22 23:37:30.389 +02:00 [INF] Executing NotFoundObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-22 23:37:30.426 +02:00 [INF] Executed action PumpItUp.BLL.Controllers.UserController.GetUserById (PumpItUp.BLL) in 1176.2848ms
+2025-03-22 23:37:30.429 +02:00 [INF] Executed endpoint 'PumpItUp.BLL.Controllers.UserController.GetUserById (PumpItUp.BLL)'
+2025-03-22 23:37:30.437 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/User/GetUserById - 404 null application/json; charset=utf-8 1213.3272ms
+2025-03-22 23:39:46.705 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/User/GetUserById - null null
+2025-03-22 23:39:46.716 +02:00 [INF] Executing endpoint 'PumpItUp.BLL.Controllers.UserController.GetUserById (PumpItUp.BLL)'
+2025-03-22 23:39:46.719 +02:00 [INF] Route matched with {action = "GetUserById", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserById(Int64) on controller PumpItUp.BLL.Controllers.UserController (PumpItUp.BLL).
+2025-03-22 23:39:46.746 +02:00 [INF] Executed DbCommand (3ms) [Parameters=[@__userId_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."Age", u."AvatarUrl", u."CreatedAt", u."Email", u."FirstName", u."FitnessLevel", u."FollowingId", u."HasPremiumSubscription", u."LastName", u."Password", u."Sex", u."UpdatedAt"
+FROM users AS u
+WHERE u."Id" = @__userId_0
+LIMIT 1
+2025-03-22 23:39:46.753 +02:00 [INF] Executing NotFoundObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-22 23:39:46.755 +02:00 [INF] Executed action PumpItUp.BLL.Controllers.UserController.GetUserById (PumpItUp.BLL) in 32.0522ms
+2025-03-22 23:39:46.758 +02:00 [INF] Executed endpoint 'PumpItUp.BLL.Controllers.UserController.GetUserById (PumpItUp.BLL)'
+2025-03-22 23:39:46.760 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/User/GetUserById - 404 null application/json; charset=utf-8 55.335ms
+2025-03-22 23:54:13.963 +02:00 [INF] Application is shutting down...
+2025-03-22 23:56:14.038 +02:00 [INF] User profile is available. Using 'C:\Users\Green\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-22 23:56:14.120 +02:00 [INF] Now listening on: http://localhost:5227
+2025-03-22 23:56:14.125 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-22 23:56:14.127 +02:00 [INF] Hosting environment: Development
+2025-03-22 23:56:14.128 +02:00 [INF] Content root path: D:\WebProjectDotNetUni\PumpItUp\PumpItUp.BLL
+2025-03-22 23:56:14.426 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/ - null null
+2025-03-22 23:56:14.440 +02:00 [WRN] Failed to determine the https port for redirect.
+2025-03-22 23:56:14.458 +02:00 [INF] Executing endpoint 'PumpItUp.BLL.Controllers.HomeController.Index (PumpItUp.BLL)'
+2025-03-22 23:56:14.484 +02:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller PumpItUp.BLL.Controllers.HomeController (PumpItUp.BLL).
+2025-03-22 23:56:14.497 +02:00 [INF] Executing ViewResult, running view Index.
+2025-03-22 23:56:14.564 +02:00 [INF] Executed ViewResult - view Index executed in 71.7598ms.
+2025-03-22 23:56:14.569 +02:00 [INF] Executed action PumpItUp.BLL.Controllers.HomeController.Index (PumpItUp.BLL) in 83.4526ms
+2025-03-22 23:56:14.571 +02:00 [INF] Executed endpoint 'PumpItUp.BLL.Controllers.HomeController.Index (PumpItUp.BLL)'
+2025-03-22 23:56:14.576 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/ - 200 null text/html; charset=utf-8 151.9397ms
+2025-03-22 23:56:25.628 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/User/GetAllUser - null null
+2025-03-22 23:56:25.635 +02:00 [INF] Executing endpoint 'PumpItUp.BLL.Controllers.UserController.GetAllUser (PumpItUp.BLL)'
+2025-03-22 23:56:25.642 +02:00 [INF] Route matched with {action = "GetAllUser", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllUser() on controller PumpItUp.BLL.Controllers.UserController (PumpItUp.BLL).
+2025-03-22 23:56:26.500 +02:00 [INF] Executing ViewResult, running view GetAllUser.
+2025-03-22 23:56:26.646 +02:00 [INF] Executed DbCommand (17ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."Age", u."AvatarUrl", u."CreatedAt", u."Email", u."FirstName", u."FitnessLevel", u."FollowingId", u."HasPremiumSubscription", u."LastName", u."Password", u."Sex", u."UpdatedAt"
+FROM users AS u
+2025-03-22 23:56:26.762 +02:00 [INF] Executed ViewResult - view GetAllUser executed in 262.1903ms.
+2025-03-22 23:56:26.765 +02:00 [INF] Executed action PumpItUp.BLL.Controllers.UserController.GetAllUser (PumpItUp.BLL) in 1120.1612ms
+2025-03-22 23:56:26.767 +02:00 [INF] Executed endpoint 'PumpItUp.BLL.Controllers.UserController.GetAllUser (PumpItUp.BLL)'
+2025-03-22 23:56:26.775 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/User/GetAllUser - 200 null text/html; charset=utf-8 1147.673ms
+2025-03-22 23:57:23.029 +02:00 [INF] Application is shutting down...
+2025-03-22 23:57:28.510 +02:00 [INF] User profile is available. Using 'C:\Users\Green\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-22 23:57:28.590 +02:00 [INF] Now listening on: http://localhost:5227
+2025-03-22 23:57:28.594 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-22 23:57:28.596 +02:00 [INF] Hosting environment: Development
+2025-03-22 23:57:28.598 +02:00 [INF] Content root path: D:\WebProjectDotNetUni\PumpItUp\PumpItUp.BLL
+2025-03-22 23:57:29.020 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/ - null null
+2025-03-22 23:57:29.034 +02:00 [WRN] Failed to determine the https port for redirect.
+2025-03-22 23:57:29.054 +02:00 [INF] Executing endpoint 'PumpItUp.BLL.Controllers.HomeController.Index (PumpItUp.BLL)'
+2025-03-22 23:57:29.078 +02:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller PumpItUp.BLL.Controllers.HomeController (PumpItUp.BLL).
+2025-03-22 23:57:29.091 +02:00 [INF] Executing ViewResult, running view Index.
+2025-03-22 23:57:29.156 +02:00 [INF] Executed ViewResult - view Index executed in 68.5928ms.
+2025-03-22 23:57:29.162 +02:00 [INF] Executed action PumpItUp.BLL.Controllers.HomeController.Index (PumpItUp.BLL) in 80.4934ms
+2025-03-22 23:57:29.164 +02:00 [INF] Executed endpoint 'PumpItUp.BLL.Controllers.HomeController.Index (PumpItUp.BLL)'
+2025-03-22 23:57:29.169 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/ - 200 null text/html; charset=utf-8 150.6514ms
+2025-03-22 23:57:31.160 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5227/User/GetAllUser - null null
+2025-03-22 23:57:31.166 +02:00 [INF] Executing endpoint 'PumpItUp.BLL.Controllers.UserController.GetAllUser (PumpItUp.BLL)'
+2025-03-22 23:57:31.173 +02:00 [INF] Route matched with {action = "GetAllUser", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllUser() on controller PumpItUp.BLL.Controllers.UserController (PumpItUp.BLL).
+2025-03-22 23:57:32.072 +02:00 [INF] Executing ViewResult, running view GetAllUser.
+2025-03-22 23:57:32.332 +02:00 [INF] Executed DbCommand (19ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."Age", u."AvatarUrl", u."CreatedAt", u."Email", u."FirstName", u."FitnessLevel", u."FollowingId", u."HasPremiumSubscription", u."LastName", u."Password", u."Sex", u."UpdatedAt"
+FROM users AS u
+2025-03-22 23:57:32.451 +02:00 [INF] Executed ViewResult - view GetAllUser executed in 379.5261ms.
+2025-03-22 23:57:32.454 +02:00 [INF] Executed action PumpItUp.BLL.Controllers.UserController.GetAllUser (PumpItUp.BLL) in 1278.1388ms
+2025-03-22 23:57:32.457 +02:00 [INF] Executed endpoint 'PumpItUp.BLL.Controllers.UserController.GetAllUser (PumpItUp.BLL)'
+2025-03-22 23:57:32.464 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5227/User/GetAllUser - 200 null text/html; charset=utf-8 1304.3362ms
