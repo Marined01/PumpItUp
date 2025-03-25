@@ -1,0 +1,666 @@
+2025-03-24 22:38:09.583 +00:00 [INF] User profile is available. Using '/home/o/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2025-03-24 22:38:09.801 +00:00 [WRN] The WebRootPath was not found: /home/o/Desktop/LNU/PI/PumpItUp/PumpItUp.UI/wwwroot. Static files may be unavailable.
+2025-03-24 22:38:09.846 +00:00 [INF] Now listening on: http://localhost:5000
+2025-03-24 22:38:09.853 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-24 22:38:09.855 +00:00 [INF] Hosting environment: Production
+2025-03-24 22:38:09.855 +00:00 [INF] Content root path: /home/o/Desktop/LNU/PI/PumpItUp/PumpItUp.UI
+2025-03-24 22:38:13.948 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/ - null null
+2025-03-24 22:38:13.973 +00:00 [WRN] Failed to determine the https port for redirect.
+2025-03-24 22:38:14.040 +00:00 [INF] Executing endpoint 'PumpItUp.BLL.Controllers.HomeController.Index (PumpItUp.BLL)'
+2025-03-24 22:38:14.104 +00:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller PumpItUp.BLL.Controllers.HomeController (PumpItUp.BLL).
+2025-03-24 22:38:14.156 +00:00 [INF] Executing ViewResult, running view Index.
+2025-03-24 22:38:14.315 +00:00 [INF] Executed ViewResult - view Index executed in 179.234ms.
+2025-03-24 22:38:14.322 +00:00 [INF] Executed action PumpItUp.BLL.Controllers.HomeController.Index (PumpItUp.BLL) in 216.5976ms
+2025-03-24 22:38:14.323 +00:00 [INF] Executed endpoint 'PumpItUp.BLL.Controllers.HomeController.Index (PumpItUp.BLL)'
+2025-03-24 22:38:14.329 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/ - 200 null text/html; charset=utf-8 384.3802ms
+2025-03-24 22:38:14.368 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2025-03-24 22:38:14.379 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/css/site.css - null null
+2025-03-24 22:38:14.381 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/jquery/dist/jquery.min.js - null null
+2025-03-24 22:38:14.381 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2025-03-24 22:38:14.380 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/PumpItUp.BLL.styles.css - null null
+2025-03-24 22:38:14.380 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/js/site.js - null null
+2025-03-24 22:38:14.385 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/css/site.css - 404 0 null 6.2811ms
+2025-03-24 22:38:14.385 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/lib/jquery/dist/jquery.min.js - 404 0 null 4.2594ms
+2025-03-24 22:38:14.385 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/js/site.js - 404 0 null 5.1381ms
+2025-03-24 22:38:14.381 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/lib/bootstrap/dist/css/bootstrap.min.css - 404 0 null 13.9503ms
+2025-03-24 22:38:14.385 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 404 0 null 3.8648ms
+2025-03-24 22:38:14.389 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/lib/jquery/dist/jquery.min.js, Response status code: 404
+2025-03-24 22:38:14.385 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/PumpItUp.BLL.styles.css - 404 0 null 5.4914ms
+2025-03-24 22:38:14.389 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/lib/bootstrap/dist/css/bootstrap.min.css, Response status code: 404
+2025-03-24 22:38:14.389 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/css/site.css, Response status code: 404
+2025-03-24 22:38:14.389 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/lib/bootstrap/dist/js/bootstrap.bundle.min.js, Response status code: 404
+2025-03-24 22:38:14.389 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/js/site.js, Response status code: 404
+2025-03-24 22:38:14.390 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/PumpItUp.BLL.styles.css, Response status code: 404
+2025-03-24 22:38:14.457 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/favicon.ico - null null
+2025-03-24 22:38:14.460 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/favicon.ico - 404 0 null 3.3112ms
+2025-03-24 22:38:14.461 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/favicon.ico, Response status code: 404
+2025-03-24 22:38:17.700 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/GetUser - null null
+2025-03-24 22:38:17.702 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/GetUser - 404 0 null 2.2298ms
+2025-03-24 22:38:17.703 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/GetUser, Response status code: 404
+2025-03-24 22:38:32.770 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/GetAllUsers - null null
+2025-03-24 22:38:32.772 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/GetAllUsers - 404 0 null 0.8601ms
+2025-03-24 22:38:32.772 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/GetAllUsers, Response status code: 404
+2025-03-24 22:38:34.560 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/GetAllUsers - null null
+2025-03-24 22:38:34.561 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/GetAllUsers - 404 0 null 0.6846ms
+2025-03-24 22:38:34.561 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/GetAllUsers, Response status code: 404
+2025-03-24 22:38:46.058 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/User/GetAllUsers - null null
+2025-03-24 22:38:46.059 +00:00 [INF] Executing endpoint 'PumpItUp.BLL.Controllers.UserController.GetAllUsers (PumpItUp.BLL)'
+2025-03-24 22:38:46.076 +00:00 [INF] Route matched with {action = "GetAllUsers", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllUsers() on controller PumpItUp.BLL.Controllers.UserController (PumpItUp.BLL).
+2025-03-24 22:38:48.972 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/User - null null
+2025-03-24 22:38:48.973 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/User - 404 0 null 0.9713ms
+2025-03-24 22:38:48.973 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/User, Response status code: 404
+2025-03-24 22:38:49.273 +00:00 [ERR] Failed executing DbCommand (82ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."Age", u."AvatarUrl", u."CreatedAt", u."Email", u."FirstName", u."FitnessLevel", u."FollowingId", u."HasPremiumSubscription", u."LastName", u."Password", u."RoleId", u."Sex", u."UpdatedAt"
+FROM users AS u
+2025-03-24 22:38:49.363 +00:00 [ERR] An exception occurred while iterating over the results of a query for context type 'PumpItUp.DAL.Configuration.AppDbContext'.
+Npgsql.PostgresException (0x80004005): 42703: column u.RoleId does not exist
+
+POSITION: 172
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+  Exception data:
+    Severity: ERROR
+    SqlState: 42703
+    MessageText: column u.RoleId does not exist
+    Position: 172
+    File: parse_relation.c
+    Line: 3722
+    Routine: errorMissingColumn
+Npgsql.PostgresException (0x80004005): 42703: column u.RoleId does not exist
+
+POSITION: 172
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+  Exception data:
+    Severity: ERROR
+    SqlState: 42703
+    MessageText: column u.RoleId does not exist
+    Position: 172
+    File: parse_relation.c
+    Line: 3722
+    Routine: errorMissingColumn
+2025-03-24 22:38:49.392 +00:00 [INF] Executed action PumpItUp.BLL.Controllers.UserController.GetAllUsers (PumpItUp.BLL) in 3316.143ms
+2025-03-24 22:38:49.395 +00:00 [INF] Executed endpoint 'PumpItUp.BLL.Controllers.UserController.GetAllUsers (PumpItUp.BLL)'
+2025-03-24 22:38:49.401 +00:00 [ERR] An unhandled exception has occurred while executing the request.
+Npgsql.PostgresException (0x80004005): 42703: column u.RoleId does not exist
+
+POSITION: 172
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at PumpItUp.BLL.Services.UserService.GetAllUsers() in /home/o/Desktop/LNU/PI/PumpItUp/PumpItUp.BLL/Services/UserService.cs:line 41
+   at PumpItUp.BLL.Controllers.UserController.GetAllUsers() in /home/o/Desktop/LNU/PI/PumpItUp/PumpItUp.BLL/Controllers/UserController.cs:line 45
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+  Exception data:
+    Severity: ERROR
+    SqlState: 42703
+    MessageText: column u.RoleId does not exist
+    Position: 172
+    File: parse_relation.c
+    Line: 3722
+    Routine: errorMissingColumn
+2025-03-24 22:38:49.453 +00:00 [INF] Executing endpoint 'PumpItUp.BLL.Controllers.HomeController.Error (PumpItUp.BLL)'
+2025-03-24 22:38:49.459 +00:00 [INF] Route matched with {action = "Error", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Error() on controller PumpItUp.BLL.Controllers.HomeController (PumpItUp.BLL).
+2025-03-24 22:38:49.470 +00:00 [INF] Executing ViewResult, running view Error.
+2025-03-24 22:38:49.495 +00:00 [INF] Executed ViewResult - view Error executed in 28.238ms.
+2025-03-24 22:38:49.496 +00:00 [INF] Executed action PumpItUp.BLL.Controllers.HomeController.Error (PumpItUp.BLL) in 35.387ms
+2025-03-24 22:38:49.496 +00:00 [INF] Executed endpoint 'PumpItUp.BLL.Controllers.HomeController.Error (PumpItUp.BLL)'
+2025-03-24 22:38:49.525 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/User/GetAllUsers - 500 null text/html; charset=utf-8 3466.5358ms
+2025-03-24 22:38:54.240 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/User/GetAllUsers - null null
+2025-03-24 22:38:54.244 +00:00 [INF] Executing endpoint 'PumpItUp.BLL.Controllers.UserController.GetAllUsers (PumpItUp.BLL)'
+2025-03-24 22:38:54.245 +00:00 [INF] Route matched with {action = "GetAllUsers", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllUsers() on controller PumpItUp.BLL.Controllers.UserController (PumpItUp.BLL).
+2025-03-24 22:38:54.325 +00:00 [ERR] Failed executing DbCommand (16ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."Age", u."AvatarUrl", u."CreatedAt", u."Email", u."FirstName", u."FitnessLevel", u."FollowingId", u."HasPremiumSubscription", u."LastName", u."Password", u."RoleId", u."Sex", u."UpdatedAt"
+FROM users AS u
+2025-03-24 22:38:54.333 +00:00 [ERR] An exception occurred while iterating over the results of a query for context type 'PumpItUp.DAL.Configuration.AppDbContext'.
+Npgsql.PostgresException (0x80004005): 42703: column u.RoleId does not exist
+
+POSITION: 172
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+  Exception data:
+    Severity: ERROR
+    SqlState: 42703
+    MessageText: column u.RoleId does not exist
+    Position: 172
+    File: parse_relation.c
+    Line: 3722
+    Routine: errorMissingColumn
+Npgsql.PostgresException (0x80004005): 42703: column u.RoleId does not exist
+
+POSITION: 172
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+  Exception data:
+    Severity: ERROR
+    SqlState: 42703
+    MessageText: column u.RoleId does not exist
+    Position: 172
+    File: parse_relation.c
+    Line: 3722
+    Routine: errorMissingColumn
+2025-03-24 22:38:54.351 +00:00 [INF] Executed action PumpItUp.BLL.Controllers.UserController.GetAllUsers (PumpItUp.BLL) in 105.3951ms
+2025-03-24 22:38:54.352 +00:00 [INF] Executed endpoint 'PumpItUp.BLL.Controllers.UserController.GetAllUsers (PumpItUp.BLL)'
+2025-03-24 22:38:54.354 +00:00 [ERR] An unhandled exception has occurred while executing the request.
+Npgsql.PostgresException (0x80004005): 42703: column u.RoleId does not exist
+
+POSITION: 172
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at PumpItUp.BLL.Services.UserService.GetAllUsers() in /home/o/Desktop/LNU/PI/PumpItUp/PumpItUp.BLL/Services/UserService.cs:line 41
+   at PumpItUp.BLL.Controllers.UserController.GetAllUsers() in /home/o/Desktop/LNU/PI/PumpItUp/PumpItUp.BLL/Controllers/UserController.cs:line 45
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+  Exception data:
+    Severity: ERROR
+    SqlState: 42703
+    MessageText: column u.RoleId does not exist
+    Position: 172
+    File: parse_relation.c
+    Line: 3722
+    Routine: errorMissingColumn
+2025-03-24 22:38:54.379 +00:00 [INF] Executing endpoint 'PumpItUp.BLL.Controllers.HomeController.Error (PumpItUp.BLL)'
+2025-03-24 22:38:54.380 +00:00 [INF] Route matched with {action = "Error", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Error() on controller PumpItUp.BLL.Controllers.HomeController (PumpItUp.BLL).
+2025-03-24 22:38:54.381 +00:00 [INF] Executing ViewResult, running view Error.
+2025-03-24 22:38:54.384 +00:00 [INF] Executed ViewResult - view Error executed in 3.1003ms.
+2025-03-24 22:38:54.384 +00:00 [INF] Executed action PumpItUp.BLL.Controllers.HomeController.Error (PumpItUp.BLL) in 4.0357ms
+2025-03-24 22:38:54.384 +00:00 [INF] Executed endpoint 'PumpItUp.BLL.Controllers.HomeController.Error (PumpItUp.BLL)'
+2025-03-24 22:38:54.385 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/User/GetAllUsers - 500 null text/html; charset=utf-8 145.1683ms
+2025-03-24 22:38:54.508 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2025-03-24 22:38:54.510 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/lib/bootstrap/dist/css/bootstrap.min.css - 404 0 null 1.2771ms
+2025-03-24 22:38:54.511 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/lib/bootstrap/dist/css/bootstrap.min.css, Response status code: 404
+2025-03-24 22:38:54.524 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/css/site.css - null null
+2025-03-24 22:38:54.524 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/PumpItUp.BLL.styles.css - null null
+2025-03-24 22:38:54.524 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2025-03-24 22:38:54.526 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/css/site.css - 404 0 null 1.5626ms
+2025-03-24 22:38:54.524 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/jquery/dist/jquery.min.js - null null
+2025-03-24 22:38:54.525 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/js/site.js - null null
+2025-03-24 22:38:54.526 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/PumpItUp.BLL.styles.css - 404 0 null 1.6432ms
+2025-03-24 22:38:54.526 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 404 0 null 1.9625ms
+2025-03-24 22:38:54.527 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/css/site.css, Response status code: 404
+2025-03-24 22:38:54.529 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/lib/bootstrap/dist/js/bootstrap.bundle.min.js, Response status code: 404
+2025-03-24 22:38:54.529 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/js/site.js - 404 0 null 3.6038ms
+2025-03-24 22:38:54.529 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/PumpItUp.BLL.styles.css, Response status code: 404
+2025-03-24 22:38:54.528 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/lib/jquery/dist/jquery.min.js - 404 0 null 3.556ms
+2025-03-24 22:38:54.530 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/js/site.js, Response status code: 404
+2025-03-24 22:38:54.532 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/lib/jquery/dist/jquery.min.js, Response status code: 404
+2025-03-24 22:39:07.649 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/css/site.css - null null
+2025-03-24 22:39:07.649 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/PumpItUp.BLL.styles.css - null null
+2025-03-24 22:39:07.649 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2025-03-24 22:39:07.650 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/css/site.css - 404 0 null 0.9329ms
+2025-03-24 22:39:07.651 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/PumpItUp.BLL.styles.css - 404 0 null 1.3378ms
+2025-03-24 22:39:07.651 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/lib/bootstrap/dist/css/bootstrap.min.css - 404 0 null 1.37ms
+2025-03-24 22:39:07.652 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/css/site.css, Response status code: 404
+2025-03-24 22:39:07.653 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/lib/bootstrap/dist/css/bootstrap.min.css, Response status code: 404
+2025-03-24 22:39:07.652 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/PumpItUp.BLL.styles.css, Response status code: 404
+2025-03-24 22:39:35.255 +00:00 [INF] Application is shutting down...
+2025-03-24 22:39:48.264 +00:00 [INF] User profile is available. Using '/home/o/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2025-03-24 22:39:48.627 +00:00 [INF] Now listening on: http://localhost:5000
+2025-03-24 22:39:48.636 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-24 22:39:48.640 +00:00 [INF] Hosting environment: Development
+2025-03-24 22:39:48.642 +00:00 [INF] Content root path: /home/o/Desktop/LNU/PI/PumpItUp/PumpItUp.UI
+2025-03-24 22:39:50.818 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/ - null null
+2025-03-24 22:39:50.865 +00:00 [WRN] Failed to determine the https port for redirect.
+2025-03-24 22:39:50.966 +00:00 [INF] Executing endpoint 'PumpItUp.BLL.Controllers.HomeController.Index (PumpItUp.BLL)'
+2025-03-24 22:39:51.057 +00:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller PumpItUp.BLL.Controllers.HomeController (PumpItUp.BLL).
+2025-03-24 22:39:51.118 +00:00 [INF] Executing ViewResult, running view Index.
+2025-03-24 22:39:51.394 +00:00 [INF] Executed ViewResult - view Index executed in 291.8731ms.
+2025-03-24 22:39:51.415 +00:00 [INF] Executed action PumpItUp.BLL.Controllers.HomeController.Index (PumpItUp.BLL) in 354.6418ms
+2025-03-24 22:39:51.417 +00:00 [INF] Executed endpoint 'PumpItUp.BLL.Controllers.HomeController.Index (PumpItUp.BLL)'
+2025-03-24 22:39:51.435 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/ - 200 null text/html; charset=utf-8 624.0543ms
+2025-03-24 22:39:51.486 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2025-03-24 22:39:51.486 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/css/site.css - null null
+2025-03-24 22:39:51.486 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/jquery/dist/jquery.min.js - null null
+2025-03-24 22:39:51.486 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/js/site.js - null null
+2025-03-24 22:39:51.487 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/PumpItUp.BLL.styles.css - null null
+2025-03-24 22:39:51.486 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2025-03-24 22:39:51.499 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/lib/jquery/dist/jquery.min.js - 404 0 null 12.4452ms
+2025-03-24 22:39:51.499 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 404 0 null 12.7634ms
+2025-03-24 22:39:51.499 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/css/site.css - 404 0 null 12.687ms
+2025-03-24 22:39:51.500 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/js/site.js - 404 0 null 13.1694ms
+2025-03-24 22:39:51.511 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/lib/jquery/dist/jquery.min.js, Response status code: 404
+2025-03-24 22:39:51.511 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/lib/bootstrap/dist/js/bootstrap.bundle.min.js, Response status code: 404
+2025-03-24 22:39:51.512 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/css/site.css, Response status code: 404
+2025-03-24 22:39:51.500 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/PumpItUp.BLL.styles.css - 404 0 null 15.4806ms
+2025-03-24 22:39:51.513 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/PumpItUp.BLL.styles.css, Response status code: 404
+2025-03-24 22:39:51.514 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/js/site.js, Response status code: 404
+2025-03-24 22:39:51.501 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/lib/bootstrap/dist/css/bootstrap.min.css - 404 0 null 19.7072ms
+2025-03-24 22:39:51.518 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/lib/bootstrap/dist/css/bootstrap.min.css, Response status code: 404
+2025-03-24 22:39:56.784 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/Post/CreatePost - null null
+2025-03-24 22:39:56.789 +00:00 [INF] Executing endpoint 'PumpItUp.BLL.Controllers.PostController.CreatePost (PumpItUp.BLL)'
+2025-03-24 22:39:56.795 +00:00 [INF] Route matched with {action = "CreatePost", controller = "Post"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreatePost() on controller PumpItUp.BLL.Controllers.PostController (PumpItUp.BLL).
+2025-03-24 22:39:57.240 +00:00 [INF] Executing ViewResult, running view CreatePost.
+2025-03-24 22:39:57.390 +00:00 [INF] Executed ViewResult - view CreatePost executed in 153.1741ms.
+2025-03-24 22:39:57.391 +00:00 [INF] Executed action PumpItUp.BLL.Controllers.PostController.CreatePost (PumpItUp.BLL) in 595.1148ms
+2025-03-24 22:39:57.391 +00:00 [INF] Executed endpoint 'PumpItUp.BLL.Controllers.PostController.CreatePost (PumpItUp.BLL)'
+2025-03-24 22:39:57.396 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/Post/CreatePost - 200 null text/html; charset=utf-8 612.3008ms
+2025-03-24 22:40:00.409 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/User - null null
+2025-03-24 22:40:00.412 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/User - 404 0 null 2.5697ms
+2025-03-24 22:40:00.413 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/User, Response status code: 404
+2025-03-24 22:40:04.941 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/User/GetAllUsers - null null
+2025-03-24 22:40:04.942 +00:00 [INF] Executing endpoint 'PumpItUp.BLL.Controllers.UserController.GetAllUsers (PumpItUp.BLL)'
+2025-03-24 22:40:04.958 +00:00 [INF] Route matched with {action = "GetAllUsers", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllUsers() on controller PumpItUp.BLL.Controllers.UserController (PumpItUp.BLL).
+2025-03-24 22:40:08.648 +00:00 [ERR] Failed executing DbCommand (62ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."Age", u."AvatarUrl", u."CreatedAt", u."Email", u."FirstName", u."FitnessLevel", u."FollowingId", u."HasPremiumSubscription", u."LastName", u."Password", u."RoleId", u."Sex", u."UpdatedAt"
+FROM users AS u
+2025-03-24 22:40:08.730 +00:00 [ERR] An exception occurred while iterating over the results of a query for context type 'PumpItUp.DAL.Configuration.AppDbContext'.
+Npgsql.PostgresException (0x80004005): 42703: column u.RoleId does not exist
+
+POSITION: 172
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+  Exception data:
+    Severity: ERROR
+    SqlState: 42703
+    MessageText: column u.RoleId does not exist
+    Position: 172
+    File: parse_relation.c
+    Line: 3722
+    Routine: errorMissingColumn
+Npgsql.PostgresException (0x80004005): 42703: column u.RoleId does not exist
+
+POSITION: 172
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+  Exception data:
+    Severity: ERROR
+    SqlState: 42703
+    MessageText: column u.RoleId does not exist
+    Position: 172
+    File: parse_relation.c
+    Line: 3722
+    Routine: errorMissingColumn
+2025-03-24 22:40:08.761 +00:00 [INF] Executed action PumpItUp.BLL.Controllers.UserController.GetAllUsers (PumpItUp.BLL) in 3802.3618ms
+2025-03-24 22:40:08.764 +00:00 [INF] Executed endpoint 'PumpItUp.BLL.Controllers.UserController.GetAllUsers (PumpItUp.BLL)'
+2025-03-24 22:40:08.770 +00:00 [ERR] An unhandled exception has occurred while executing the request.
+Npgsql.PostgresException (0x80004005): 42703: column u.RoleId does not exist
+
+POSITION: 172
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at PumpItUp.BLL.Services.UserService.GetAllUsers() in /home/o/Desktop/LNU/PI/PumpItUp/PumpItUp.BLL/Services/UserService.cs:line 41
+   at PumpItUp.BLL.Controllers.UserController.GetAllUsers() in /home/o/Desktop/LNU/PI/PumpItUp/PumpItUp.BLL/Controllers/UserController.cs:line 45
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+  Exception data:
+    Severity: ERROR
+    SqlState: 42703
+    MessageText: column u.RoleId does not exist
+    Position: 172
+    File: parse_relation.c
+    Line: 3722
+    Routine: errorMissingColumn
+2025-03-24 22:40:08.912 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/User/GetAllUsers - 500 null text/html; charset=utf-8 3969.6696ms
+2025-03-24 22:46:10.691 +00:00 [INF] Application is shutting down...
+2025-03-24 22:51:32.913 +00:00 [INF] User profile is available. Using '/home/o/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2025-03-24 22:51:33.191 +00:00 [INF] Now listening on: http://localhost:5000
+2025-03-24 22:51:33.200 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-24 22:51:33.202 +00:00 [INF] Hosting environment: Development
+2025-03-24 22:51:33.202 +00:00 [INF] Content root path: /home/o/Desktop/LNU/PI/PumpItUp/PumpItUp.UI
+2025-03-24 22:51:35.582 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/ - null null
+2025-03-24 22:51:35.626 +00:00 [WRN] Failed to determine the https port for redirect.
+2025-03-24 22:51:35.695 +00:00 [INF] Executing endpoint 'PumpItUp.BLL.Controllers.HomeController.Index (PumpItUp.BLL)'
+2025-03-24 22:51:35.767 +00:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller PumpItUp.BLL.Controllers.HomeController (PumpItUp.BLL).
+2025-03-24 22:51:35.834 +00:00 [INF] Executing ViewResult, running view Index.
+2025-03-24 22:51:36.101 +00:00 [INF] Executed ViewResult - view Index executed in 286.5137ms.
+2025-03-24 22:51:36.119 +00:00 [INF] Executed action PumpItUp.BLL.Controllers.HomeController.Index (PumpItUp.BLL) in 349.2157ms
+2025-03-24 22:51:36.120 +00:00 [INF] Executed endpoint 'PumpItUp.BLL.Controllers.HomeController.Index (PumpItUp.BLL)'
+2025-03-24 22:51:36.135 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/ - 200 null text/html; charset=utf-8 558.7135ms
+2025-03-24 22:51:36.184 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2025-03-24 22:51:36.194 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/css/site.css - null null
+2025-03-24 22:51:36.203 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/lib/bootstrap/dist/css/bootstrap.min.css - 404 0 null 21.563ms
+2025-03-24 22:51:36.204 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/css/site.css - 404 0 null 9.2525ms
+2025-03-24 22:51:36.204 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/PumpItUp.BLL.styles.css - null null
+2025-03-24 22:51:36.205 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/jquery/dist/jquery.min.js - null null
+2025-03-24 22:51:36.206 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/js/site.js - null null
+2025-03-24 22:51:36.215 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/lib/jquery/dist/jquery.min.js - 404 0 null 9.7048ms
+2025-03-24 22:51:36.212 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/lib/bootstrap/dist/css/bootstrap.min.css, Response status code: 404
+2025-03-24 22:51:36.212 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/css/site.css, Response status code: 404
+2025-03-24 22:51:36.214 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/PumpItUp.BLL.styles.css - 404 0 null 9.817ms
+2025-03-24 22:51:36.218 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/PumpItUp.BLL.styles.css, Response status code: 404
+2025-03-24 22:51:36.207 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2025-03-24 22:51:36.220 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 404 0 null 13.5362ms
+2025-03-24 22:51:36.222 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/lib/bootstrap/dist/js/bootstrap.bundle.min.js, Response status code: 404
+2025-03-24 22:51:36.216 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/lib/jquery/dist/jquery.min.js, Response status code: 404
+2025-03-24 22:51:36.215 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/js/site.js - 404 0 null 8.6751ms
+2025-03-24 22:51:36.225 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/js/site.js, Response status code: 404
+2025-03-24 22:51:39.745 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/User - null null
+2025-03-24 22:51:39.750 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/User - 404 0 null 4.8149ms
+2025-03-24 22:51:39.751 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/User, Response status code: 404
+2025-03-24 22:51:45.963 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/User/GetAllUsers - null null
+2025-03-24 22:51:45.964 +00:00 [INF] Executing endpoint 'PumpItUp.BLL.Controllers.UserController.GetAllUsers (PumpItUp.BLL)'
+2025-03-24 22:51:45.980 +00:00 [INF] Route matched with {action = "GetAllUsers", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllUsers() on controller PumpItUp.BLL.Controllers.UserController (PumpItUp.BLL).
+2025-03-24 22:51:48.889 +00:00 [ERR] Failed executing DbCommand (94ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."Age", u."AvatarUrl", u."CreatedAt", u."Email", u."FirstName", u."FitnessLevel", u."FollowingId", u."HasPremiumSubscription", u."LastName", u."Password", u."RoleId", u."Sex", u."UpdatedAt"
+FROM users AS u
+2025-03-24 22:51:48.966 +00:00 [ERR] An exception occurred while iterating over the results of a query for context type 'PumpItUp.DAL.Configuration.AppDbContext'.
+Npgsql.PostgresException (0x80004005): 42703: column u.RoleId does not exist
+
+POSITION: 172
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+  Exception data:
+    Severity: ERROR
+    SqlState: 42703
+    MessageText: column u.RoleId does not exist
+    Position: 172
+    File: parse_relation.c
+    Line: 3722
+    Routine: errorMissingColumn
+Npgsql.PostgresException (0x80004005): 42703: column u.RoleId does not exist
+
+POSITION: 172
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+  Exception data:
+    Severity: ERROR
+    SqlState: 42703
+    MessageText: column u.RoleId does not exist
+    Position: 172
+    File: parse_relation.c
+    Line: 3722
+    Routine: errorMissingColumn
+2025-03-24 22:51:48.999 +00:00 [INF] Executed action PumpItUp.BLL.Controllers.UserController.GetAllUsers (PumpItUp.BLL) in 3018.8435ms
+2025-03-24 22:51:49.002 +00:00 [INF] Executed endpoint 'PumpItUp.BLL.Controllers.UserController.GetAllUsers (PumpItUp.BLL)'
+2025-03-24 22:51:49.009 +00:00 [ERR] An unhandled exception has occurred while executing the request.
+Npgsql.PostgresException (0x80004005): 42703: column u.RoleId does not exist
+
+POSITION: 172
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at PumpItUp.BLL.Services.UserService.GetAllUsers() in /home/o/Desktop/LNU/PI/PumpItUp/PumpItUp.BLL/Services/UserService.cs:line 41
+   at PumpItUp.BLL.Controllers.UserController.GetAllUsers() in /home/o/Desktop/LNU/PI/PumpItUp/PumpItUp.BLL/Controllers/UserController.cs:line 45
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+  Exception data:
+    Severity: ERROR
+    SqlState: 42703
+    MessageText: column u.RoleId does not exist
+    Position: 172
+    File: parse_relation.c
+    Line: 3722
+    Routine: errorMissingColumn
+2025-03-24 22:51:49.175 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/User/GetAllUsers - 500 null text/html; charset=utf-8 3212.7122ms
+2025-03-24 22:53:09.063 +00:00 [INF] Application is shutting down...
+2025-03-24 23:05:18.919 +00:00 [INF] User profile is available. Using '/home/o/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2025-03-24 23:05:19.191 +00:00 [INF] Now listening on: http://localhost:5000
+2025-03-24 23:05:19.201 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-24 23:05:19.207 +00:00 [INF] Hosting environment: Development
+2025-03-24 23:05:19.207 +00:00 [INF] Content root path: /home/o/Desktop/LNU/PI/PumpItUp/PumpItUp.UI
+2025-03-24 23:05:25.770 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/ - null null
+2025-03-24 23:05:25.810 +00:00 [WRN] Failed to determine the https port for redirect.
+2025-03-24 23:05:25.891 +00:00 [INF] Executing endpoint 'PumpItUp.BLL.Controllers.HomeController.Index (PumpItUp.BLL)'
+2025-03-24 23:05:25.969 +00:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller PumpItUp.BLL.Controllers.HomeController (PumpItUp.BLL).
+2025-03-24 23:05:26.021 +00:00 [INF] Executing ViewResult, running view Index.
+2025-03-24 23:05:26.287 +00:00 [INF] Executed ViewResult - view Index executed in 279.3731ms.
+2025-03-24 23:05:26.301 +00:00 [INF] Executed action PumpItUp.BLL.Controllers.HomeController.Index (PumpItUp.BLL) in 329.5251ms
+2025-03-24 23:05:26.302 +00:00 [INF] Executed endpoint 'PumpItUp.BLL.Controllers.HomeController.Index (PumpItUp.BLL)'
+2025-03-24 23:05:26.314 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/ - 200 null text/html; charset=utf-8 549.8881ms
+2025-03-24 23:05:26.403 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2025-03-24 23:05:26.406 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/jquery/dist/jquery.min.js - null null
+2025-03-24 23:05:26.406 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/js/site.js - null null
+2025-03-24 23:05:26.406 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2025-03-24 23:05:26.407 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/css/site.css - null null
+2025-03-24 23:05:26.407 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/PumpItUp.BLL.styles.css - null null
+2025-03-24 23:05:26.418 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/lib/bootstrap/dist/css/bootstrap.min.css - 404 0 null 16.9933ms
+2025-03-24 23:05:26.419 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/lib/jquery/dist/jquery.min.js - 404 0 null 12.6914ms
+2025-03-24 23:05:26.419 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/js/site.js - 404 0 null 12.7601ms
+2025-03-24 23:05:26.433 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/js/site.js, Response status code: 404
+2025-03-24 23:05:26.420 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 404 0 null 13.6027ms
+2025-03-24 23:05:26.420 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/css/site.css - 404 0 null 13.0791ms
+2025-03-24 23:05:26.421 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/PumpItUp.BLL.styles.css - 404 0 null 14.2178ms
+2025-03-24 23:05:26.436 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/PumpItUp.BLL.styles.css, Response status code: 404
+2025-03-24 23:05:26.429 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/lib/jquery/dist/jquery.min.js, Response status code: 404
+2025-03-24 23:05:26.429 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/lib/bootstrap/dist/css/bootstrap.min.css, Response status code: 404
+2025-03-24 23:05:26.435 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/lib/bootstrap/dist/js/bootstrap.bundle.min.js, Response status code: 404
+2025-03-24 23:05:26.435 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/css/site.css, Response status code: 404
+2025-03-24 23:05:28.693 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/Post/CreatePost - null null
+2025-03-24 23:05:28.700 +00:00 [INF] Executing endpoint 'PumpItUp.BLL.Controllers.PostController.CreatePost (PumpItUp.BLL)'
+2025-03-24 23:05:28.707 +00:00 [INF] Route matched with {action = "CreatePost", controller = "Post"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreatePost() on controller PumpItUp.BLL.Controllers.PostController (PumpItUp.BLL).
+2025-03-24 23:05:29.089 +00:00 [INF] Executing ViewResult, running view CreatePost.
+2025-03-24 23:05:29.203 +00:00 [INF] Executed ViewResult - view CreatePost executed in 117.1404ms.
+2025-03-24 23:05:29.204 +00:00 [INF] Executed action PumpItUp.BLL.Controllers.PostController.CreatePost (PumpItUp.BLL) in 495.7988ms
+2025-03-24 23:05:29.204 +00:00 [INF] Executed endpoint 'PumpItUp.BLL.Controllers.PostController.CreatePost (PumpItUp.BLL)'
+2025-03-24 23:05:29.208 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/Post/CreatePost - 200 null text/html; charset=utf-8 514.9776ms
+2025-03-24 23:05:33.834 +00:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/Post/CreatePost - application/x-www-form-urlencoded 295
+2025-03-24 23:05:33.836 +00:00 [INF] Executing endpoint 'PumpItUp.BLL.Controllers.PostController.CreatePost (PumpItUp.BLL)'
+2025-03-24 23:05:33.895 +00:00 [INF] Route matched with {action = "CreatePost", controller = "Post"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreatePost(PumpItUp.DAL.DTOs.PostRequest) on controller PumpItUp.BLL.Controllers.PostController (PumpItUp.BLL).
+2025-03-24 23:05:35.602 +00:00 [INF] Post created: sdadsasdasdads
+2025-03-24 23:05:36.610 +00:00 [INF] Executed DbCommand (118ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?', @p2='?' (DbType = DateTime), @p3='?' (DbType = Int32), @p4='?' (DbType = Int32), @p5='?', @p6='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Posts" ("AttachmentId", "Content", "CreatedAt", "Likes", "PostedBy", "Title", "UpdatedAt")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6)
+RETURNING "Id";
+2025-03-24 23:05:36.719 +00:00 [INF] New post created successfully.
+2025-03-24 23:05:36.724 +00:00 [INF] Executing ViewResult, running view CreatePost.
+2025-03-24 23:05:36.730 +00:00 [INF] Executed ViewResult - view CreatePost executed in 6.421ms.
+2025-03-24 23:05:36.732 +00:00 [INF] Executed action PumpItUp.BLL.Controllers.PostController.CreatePost (PumpItUp.BLL) in 2836.0581ms
+2025-03-24 23:05:36.733 +00:00 [INF] Executed endpoint 'PumpItUp.BLL.Controllers.PostController.CreatePost (PumpItUp.BLL)'
+2025-03-24 23:05:36.749 +00:00 [INF] Request finished HTTP/1.1 POST http://localhost:5000/Post/CreatePost - 200 null text/html; charset=utf-8 2914.8123ms
+2025-03-24 23:07:25.918 +00:00 [INF] Application is shutting down...
+2025-03-24 23:08:26.897 +00:00 [INF] User profile is available. Using '/home/o/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2025-03-24 23:08:27.181 +00:00 [INF] Now listening on: http://localhost:5000
+2025-03-24 23:08:27.191 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-24 23:08:27.194 +00:00 [INF] Hosting environment: Development
+2025-03-24 23:08:27.195 +00:00 [INF] Content root path: /home/o/Desktop/LNU/PI/PumpItUp/PumpItUp.UI
+2025-03-24 23:08:29.161 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/User/GetAllUsers - null null
+2025-03-24 23:08:29.213 +00:00 [WRN] Failed to determine the https port for redirect.
+2025-03-24 23:08:29.307 +00:00 [INF] Executing endpoint 'PumpItUp.BLL.Controllers.UserController.GetAllUsers (PumpItUp.BLL)'
+2025-03-24 23:08:29.436 +00:00 [INF] Route matched with {action = "GetAllUsers", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllUsers() on controller PumpItUp.BLL.Controllers.UserController (PumpItUp.BLL).
+2025-03-24 23:08:32.314 +00:00 [INF] Executed DbCommand (41ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."Age", u."AvatarUrl", u."CreatedAt", u."Email", u."FirstName", u."FitnessLevel", u."FollowingId", u."HasPremiumSubscription", u."LastName", u."Password", u."RoleId", u."Sex", u."UpdatedAt"
+FROM users AS u
+2025-03-24 23:08:32.427 +00:00 [INF] Executing ViewResult, running view GetAllUsers.
+2025-03-24 23:08:32.519 +00:00 [INF] Executed ViewResult - view GetAllUsers executed in 96.765ms.
+2025-03-24 23:08:32.524 +00:00 [INF] Executed action PumpItUp.BLL.Controllers.UserController.GetAllUsers (PumpItUp.BLL) in 3085.8495ms
+2025-03-24 23:08:32.526 +00:00 [INF] Executed endpoint 'PumpItUp.BLL.Controllers.UserController.GetAllUsers (PumpItUp.BLL)'
+2025-03-24 23:08:32.553 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/User/GetAllUsers - 200 null text/html; charset=utf-8 3398.4864ms
+2025-03-24 23:09:00.415 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/User/GetAllUsers - null null
+2025-03-24 23:09:00.421 +00:00 [INF] Executing endpoint 'PumpItUp.BLL.Controllers.UserController.GetAllUsers (PumpItUp.BLL)'
+2025-03-24 23:09:00.422 +00:00 [INF] Route matched with {action = "GetAllUsers", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllUsers() on controller PumpItUp.BLL.Controllers.UserController (PumpItUp.BLL).
+2025-03-24 23:09:00.494 +00:00 [INF] Executed DbCommand (15ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."Age", u."AvatarUrl", u."CreatedAt", u."Email", u."FirstName", u."FitnessLevel", u."FollowingId", u."HasPremiumSubscription", u."LastName", u."Password", u."RoleId", u."Sex", u."UpdatedAt"
+FROM users AS u
+2025-03-24 23:09:00.497 +00:00 [INF] Executing ViewResult, running view GetAllUsers.
+2025-03-24 23:09:00.512 +00:00 [INF] Executed ViewResult - view GetAllUsers executed in 15.65ms.
+2025-03-24 23:09:00.513 +00:00 [INF] Executed action PumpItUp.BLL.Controllers.UserController.GetAllUsers (PumpItUp.BLL) in 90.7557ms
+2025-03-24 23:09:00.514 +00:00 [INF] Executed endpoint 'PumpItUp.BLL.Controllers.UserController.GetAllUsers (PumpItUp.BLL)'
+2025-03-24 23:09:00.516 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/User/GetAllUsers - 200 null text/html; charset=utf-8 101.1228ms
+2025-03-24 23:09:00.690 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/favicon.ico - null null
+2025-03-24 23:09:00.696 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/favicon.ico - 404 0 null 6.3141ms
+2025-03-24 23:09:00.700 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/favicon.ico, Response status code: 404
+2025-03-24 23:09:01.558 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/User/GetAllUsers - null null
+2025-03-24 23:09:01.559 +00:00 [INF] Executing endpoint 'PumpItUp.BLL.Controllers.UserController.GetAllUsers (PumpItUp.BLL)'
+2025-03-24 23:09:01.559 +00:00 [INF] Route matched with {action = "GetAllUsers", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllUsers() on controller PumpItUp.BLL.Controllers.UserController (PumpItUp.BLL).
+2025-03-24 23:09:01.780 +00:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."Age", u."AvatarUrl", u."CreatedAt", u."Email", u."FirstName", u."FitnessLevel", u."FollowingId", u."HasPremiumSubscription", u."LastName", u."Password", u."RoleId", u."Sex", u."UpdatedAt"
+FROM users AS u
+2025-03-24 23:09:01.781 +00:00 [INF] Executing ViewResult, running view GetAllUsers.
+2025-03-24 23:09:01.785 +00:00 [INF] Executed ViewResult - view GetAllUsers executed in 3.9608ms.
+2025-03-24 23:09:01.785 +00:00 [INF] Executed action PumpItUp.BLL.Controllers.UserController.GetAllUsers (PumpItUp.BLL) in 225.5458ms
+2025-03-24 23:09:01.785 +00:00 [INF] Executed endpoint 'PumpItUp.BLL.Controllers.UserController.GetAllUsers (PumpItUp.BLL)'
+2025-03-24 23:09:01.786 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/User/GetAllUsers - 200 null text/html; charset=utf-8 228.2521ms
+2025-03-24 23:09:01.931 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/favicon.ico - null null
+2025-03-24 23:09:01.932 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/favicon.ico - 404 0 null 1.5305ms
+2025-03-24 23:09:01.933 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/favicon.ico, Response status code: 404

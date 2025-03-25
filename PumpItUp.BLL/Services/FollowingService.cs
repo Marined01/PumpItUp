@@ -30,4 +30,14 @@ public class FollowingService
         await _context.SaveChangesAsync();
         return following;
     }
+
+    public async Task<IEnumerable<Following>> GetAllFollowingsAsync()
+    {
+        return await _context.Followings.ToListAsync();
+    }
+
+    public async Task<Following?> GetFollowingByIdAsync(long id)
+    {
+        return await _context.Followings.FindAsync(id);
+    }
 }

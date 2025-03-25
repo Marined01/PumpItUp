@@ -58,4 +58,23 @@ public class FollowingController : Controller
         await _subscriptionService.CreateFollowingAsync(followingRequest);
         return View();
     }
+
+    [HttpGet("all")]
+    public async Task<IActionResult> GetAllFollowings()
+    {
+        var followings = await _subscriptionService.GetAllFollowingsAsync();
+        return Ok(followings);
+    }
+
+    [HttpGet("GetById/{id}")]
+    public async Task<IActionResult> GetFollowingById(long id)
+    {
+        var following = await _subscriptionService.GetFollowingByIdAsync(id);
+        if (following == null)
+        {
+            return NotFound($"Following з ID {id} не знайдено.");
+        }
+
+        return Ok(following);
+    }
 }
