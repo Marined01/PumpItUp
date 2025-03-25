@@ -10,15 +10,14 @@ Log.Logger = new LoggerConfiguration()
     .ReadFrom.Configuration(builder.Configuration)
     .Enrich.FromLogContext()
     .WriteTo.Console()
-    .WriteTo.File("D://WebProjectDotNetUni//PumpItUp//PumpItUp.BLL//Logs//log-.txt", rollingInterval: RollingInterval.Day)
+    .WriteTo.File("/home/o/PumpItUpLogs/log-.txt", rollingInterval: RollingInterval.Day)
     .CreateLogger();
 
 builder.Host.UseSerilog();
 
 builder.Services.AddDbContext<AppDbContext>(options =>
-    options.UseNpgsql("Host=localhost;Port=5432;Database=pumpitup_db;Username=postgres;Password=root"));
+    options.UseNpgsql("Host=localhost;Port=5432;Database=pumpitup_db;Username=postgres;Password=postgres;SslMode=Disable"));
 
-// Add services to the container.
 builder.Services.AddControllersWithViews();
 
 builder.Services.AddScoped<UserService>();

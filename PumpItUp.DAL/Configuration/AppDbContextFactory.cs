@@ -10,7 +10,7 @@ public class AppDbContextFactory : IDesignTimeDbContextFactory<AppDbContext>
     {
         var configuration = new ConfigurationBuilder()
             .SetBasePath(Directory.GetCurrentDirectory())
-            .AddJsonFile("D://WebProjectDotNetUni//PumpItUp//PumpItUp.DAL//appsettings.json",
+            .AddJsonFile("appsettings.json",
                 optional: false, reloadOnChange: true)
             .Build();
 

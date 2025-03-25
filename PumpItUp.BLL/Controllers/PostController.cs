@@ -33,4 +33,20 @@ public class PostController : Controller
         _logger.LogInformation("New post created successfully.");
         return View(postRequest);
     }
+    [HttpGet]
+    public async Task<IActionResult> Index()
+    {
+        var posts = await _postService.GetAllPostsAsync();
+        return View(posts);
+    }
+    [HttpGet]
+    public async Task<IActionResult> Details(int id)
+    {
+        var post = await _postService.GetPostByIdAsync(id);
+        if (post == null)
+        {
+            return View("PostNotFound");
+        }
+        return View(post);
+    }
 }

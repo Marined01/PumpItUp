@@ -15,4 +15,15 @@ public class PostRepository : IPostRepository
         _posts.Add(post);
         await Task.CompletedTask;
     }
+    
+    public async Task<Post> GetPostByIdAsync(int id)
+    {
+        var post = _posts.FirstOrDefault(p => p.Id == id);
+        return await Task.FromResult(post);
+    }
+
+    public async Task<IEnumerable<Post>> GetAllPostsAsync()
+    {
+        return await Task.FromResult(_posts.AsEnumerable());
+    }
 }

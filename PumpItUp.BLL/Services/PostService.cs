@@ -3,6 +3,7 @@ using PumpItUp.DAL.Configuration;
 using PumpItUp.DAL.DTOs;
 using PumpItUp.DAL.Models;
 using PumpItUp.DAL.Repositories.Interfaces;
+using Microsoft.EntityFrameworkCore;
 
 namespace PumpItUp.BLL.Services;
 
@@ -27,5 +28,15 @@ public class PostService
         _logger.LogInformation($"Post created: {post.Title}");
         await _context.SaveChangesAsync();
         return post;
+    }
+
+    public async Task<Post> GetPostByIdAsync(int id)
+    {
+        return await _context.Posts.FirstOrDefaultAsync(p => p.Id == id);
+    }
+
+    public async Task<IEnumerable<Post>> GetAllPostsAsync()
+    {
+        return await _context.Posts.ToListAsync();
     }
 }
