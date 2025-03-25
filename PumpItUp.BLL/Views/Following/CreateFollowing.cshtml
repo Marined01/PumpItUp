@@ -97,6 +97,17 @@
 
             <button type="submit">Follow</button>
         </form>
+        <h3>Find a Following</h3>
+        <form method="get" action="/api/Following/GetById">
+            <label for="id">Enter Following ID:</label>
+            <input type="number" id="id" name="id" required>
+            <button type="submit">Search</button>
+        </form>
+
+        <h3>All Followings</h3>
+        <form method="get" action="/api/Following/GetAll">
+            <button type="submit">View All</button>
+        </form>
     </div>
 
 </body>

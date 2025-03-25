@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\WebProjectDotNetUni\\PumpItUp\\PumpItUp.BLL\\PumpItUp.BLL.csproj": {}
+    "D:\\University\\PumpItUp\\PumpItUp\\PumpItUp.BLL\\PumpItUp.BLL.csproj": {}
   },
   "projects": {
-    "D:\\WebProjectDotNetUni\\PumpItUp\\PumpItUp.BLL\\PumpItUp.BLL.csproj": {
+    "D:\\University\\PumpItUp\\PumpItUp\\PumpItUp.BLL\\PumpItUp.BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\WebProjectDotNetUni\\PumpItUp\\PumpItUp.BLL\\PumpItUp.BLL.csproj",
+        "projectUniqueName": "D:\\University\\PumpItUp\\PumpItUp\\PumpItUp.BLL\\PumpItUp.BLL.csproj",
         "projectName": "PumpItUp.BLL",
-        "projectPath": "D:\\WebProjectDotNetUni\\PumpItUp\\PumpItUp.BLL\\PumpItUp.BLL.csproj",
-        "packagesPath": "C:\\Users\\Green\\.nuget\\packages\\",
-        "outputPath": "D:\\WebProjectDotNetUni\\PumpItUp\\PumpItUp.BLL\\obj\\",
+        "projectPath": "D:\\University\\PumpItUp\\PumpItUp\\PumpItUp.BLL\\PumpItUp.BLL.csproj",
+        "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
+        "outputPath": "D:\\University\\PumpItUp\\PumpItUp\\PumpItUp.BLL\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Green\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +32,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\WebProjectDotNetUni\\PumpItUp\\PumpItUp.DAL\\PumpItUp.DAL.csproj": {
-                "projectPath": "D:\\WebProjectDotNetUni\\PumpItUp\\PumpItUp.DAL\\PumpItUp.DAL.csproj"
+              "D:\\University\\PumpItUp\\PumpItUp\\PumpItUp.DAL\\PumpItUp.DAL.csproj": {
+                "projectPath": "D:\\University\\PumpItUp\\PumpItUp\\PumpItUp.DAL\\PumpItUp.DAL.csproj"
               }
             }
           }
@@ -38,7 +42,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -128,21 +138,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\WebProjectDotNetUni\\PumpItUp\\PumpItUp.DAL\\PumpItUp.DAL.csproj": {
+    "D:\\University\\PumpItUp\\PumpItUp\\PumpItUp.DAL\\PumpItUp.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\WebProjectDotNetUni\\PumpItUp\\PumpItUp.DAL\\PumpItUp.DAL.csproj",
+        "projectUniqueName": "D:\\University\\PumpItUp\\PumpItUp\\PumpItUp.DAL\\PumpItUp.DAL.csproj",
         "projectName": "PumpItUp.DAL",
-        "projectPath": "D:\\WebProjectDotNetUni\\PumpItUp\\PumpItUp.DAL\\PumpItUp.DAL.csproj",
-        "packagesPath": "C:\\Users\\Green\\.nuget\\packages\\",
-        "outputPath": "D:\\WebProjectDotNetUni\\PumpItUp\\PumpItUp.DAL\\obj\\",
+        "projectPath": "D:\\University\\PumpItUp\\PumpItUp\\PumpItUp.DAL\\PumpItUp.DAL.csproj",
+        "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
+        "outputPath": "D:\\University\\PumpItUp\\PumpItUp\\PumpItUp.DAL\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Green\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -162,7 +176,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -221,7 +241,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
