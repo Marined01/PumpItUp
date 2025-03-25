@@ -3,6 +3,7 @@ using PumpItUp.BLL.Services;
 using PumpItUp.BLL.Services;
 using PumpItUp.DAL.Configuration;
 using Serilog;
+var logPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData), "PumpItUpLogs", "log-.txt");
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -10,7 +11,7 @@ Log.Logger = new LoggerConfiguration()
     .ReadFrom.Configuration(builder.Configuration)
     .Enrich.FromLogContext()
     .WriteTo.Console()
-    .WriteTo.File("/home/o/PumpItUpLogs/log-.txt", rollingInterval: RollingInterval.Day)
+    .WriteTo.File(logPath, rollingInterval: RollingInterval.Day)
     .CreateLogger();
 
 builder.Host.UseSerilog();
