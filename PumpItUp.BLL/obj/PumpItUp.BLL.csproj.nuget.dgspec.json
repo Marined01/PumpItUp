@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/o/Desktop/LNU/PI/PumpItUp/PumpItUp.BLL/PumpItUp.BLL.csproj": {}
+    "D:\\university\\6 semester\\software engineering\\WebProject\\PumpItUp.BLL\\PumpItUp.BLL.csproj": {}
   },
   "projects": {
-    "/home/o/Desktop/LNU/PI/PumpItUp/PumpItUp.BLL/PumpItUp.BLL.csproj": {
+    "D:\\university\\6 semester\\software engineering\\WebProject\\PumpItUp.BLL\\PumpItUp.BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/o/Desktop/LNU/PI/PumpItUp/PumpItUp.BLL/PumpItUp.BLL.csproj",
+        "projectUniqueName": "D:\\university\\6 semester\\software engineering\\WebProject\\PumpItUp.BLL\\PumpItUp.BLL.csproj",
         "projectName": "PumpItUp.BLL",
-        "projectPath": "/home/o/Desktop/LNU/PI/PumpItUp/PumpItUp.BLL/PumpItUp.BLL.csproj",
-        "packagesPath": "/home/o/.nuget/packages/",
-        "outputPath": "/home/o/Desktop/LNU/PI/PumpItUp/PumpItUp.BLL/obj/",
+        "projectPath": "D:\\university\\6 semester\\software engineering\\WebProject\\PumpItUp.BLL\\PumpItUp.BLL.csproj",
+        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
+        "outputPath": "D:\\university\\6 semester\\software engineering\\WebProject\\PumpItUp.BLL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/o/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -26,8 +26,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/home/o/Desktop/LNU/PI/PumpItUp/PumpItUp.DAL/PumpItUp.DAL.csproj": {
-                "projectPath": "/home/o/Desktop/LNU/PI/PumpItUp/PumpItUp.DAL/PumpItUp.DAL.csproj"
+              "D:\\university\\6 semester\\software engineering\\WebProject\\PumpItUp.DAL\\PumpItUp.DAL.csproj": {
+                "projectPath": "D:\\university\\6 semester\\software engineering\\WebProject\\PumpItUp.DAL\\PumpItUp.DAL.csproj"
               }
             }
           }
@@ -36,6 +36,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -126,21 +131,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.114/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Users\\Lenovo\\.dotnet\\sdk\\8.0.406/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/o/Desktop/LNU/PI/PumpItUp/PumpItUp.DAL/PumpItUp.DAL.csproj": {
+    "D:\\university\\6 semester\\software engineering\\WebProject\\PumpItUp.DAL\\PumpItUp.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/o/Desktop/LNU/PI/PumpItUp/PumpItUp.DAL/PumpItUp.DAL.csproj",
+        "projectUniqueName": "D:\\university\\6 semester\\software engineering\\WebProject\\PumpItUp.DAL\\PumpItUp.DAL.csproj",
         "projectName": "PumpItUp.DAL",
-        "projectPath": "/home/o/Desktop/LNU/PI/PumpItUp/PumpItUp.DAL/PumpItUp.DAL.csproj",
-        "packagesPath": "/home/o/.nuget/packages/",
-        "outputPath": "/home/o/Desktop/LNU/PI/PumpItUp/PumpItUp.DAL/obj/",
+        "projectPath": "D:\\university\\6 semester\\software engineering\\WebProject\\PumpItUp.DAL\\PumpItUp.DAL.csproj",
+        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
+        "outputPath": "D:\\university\\6 semester\\software engineering\\WebProject\\PumpItUp.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/o/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -158,6 +163,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -217,7 +227,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.114/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Users\\Lenovo\\.dotnet\\sdk\\8.0.406/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

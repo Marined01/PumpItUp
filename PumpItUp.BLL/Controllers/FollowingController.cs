@@ -7,13 +7,12 @@ namespace PumpItUp.BLL.Controllers;
 
 public class FollowingController : Controller
 {
-    private FollowingService _subscriptionService;
+    private readonly FollowingService _subscriptionService;
 
     public FollowingController(FollowingService subscriptionService)
     {
         _subscriptionService = subscriptionService;
     }
-
 
     [HttpPost("follow/{followingId}")]
     public async Task<IActionResult> FollowUser(int followingId)
@@ -59,14 +58,14 @@ public class FollowingController : Controller
         return View();
     }
 
-    [HttpGet("all")]
+    [HttpGet]
     public async Task<IActionResult> GetAllFollowings()
     {
         var followings = await _subscriptionService.GetAllFollowingsAsync();
         return Ok(followings);
     }
 
-    [HttpGet("GetById/{id}")]
+    [HttpGet]
     public async Task<IActionResult> GetFollowingById(long id)
     {
         var following = await _subscriptionService.GetFollowingByIdAsync(id);

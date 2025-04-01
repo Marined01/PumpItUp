@@ -28,3 +28,18 @@ D:/WebProjectDotNetUni/PumpItUp/PumpItUp.DAL/obj/Debug/net8.0/ref/PumpItUp.DAL.d
 /home/o/Desktop/LNU/PI/PumpItUp/PumpItUp.DAL/obj/Debug/net8.0/PumpItUp.DAL.pdb
 /home/o/Desktop/LNU/PI/PumpItUp/PumpItUp.DAL/obj/Debug/net8.0/PumpItUp.DAL.genruntimeconfig.cache
 /home/o/Desktop/LNU/PI/PumpItUp/PumpItUp.DAL/obj/Debug/net8.0/ref/PumpItUp.DAL.dll
+D:\university\6 semester\software engineering\WebProject\PumpItUp.DAL\bin\Debug\net8.0\PumpItUp.DAL.deps.json
+D:\university\6 semester\software engineering\WebProject\PumpItUp.DAL\bin\Debug\net8.0\PumpItUp.DAL.runtimeconfig.json
+D:\university\6 semester\software engineering\WebProject\PumpItUp.DAL\bin\Debug\net8.0\PumpItUp.DAL.dll
+D:\university\6 semester\software engineering\WebProject\PumpItUp.DAL\bin\Debug\net8.0\PumpItUp.DAL.pdb
+D:\university\6 semester\software engineering\WebProject\PumpItUp.DAL\obj\Debug\net8.0\PumpItUp.DAL.csproj.AssemblyReference.cache
+D:\university\6 semester\software engineering\WebProject\PumpItUp.DAL\obj\Debug\net8.0\PumpItUp.DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\university\6 semester\software engineering\WebProject\PumpItUp.DAL\obj\Debug\net8.0\PumpItUp.DAL.AssemblyInfoInputs.cache
+D:\university\6 semester\software engineering\WebProject\PumpItUp.DAL\obj\Debug\net8.0\PumpItUp.DAL.AssemblyInfo.cs
+D:\university\6 semester\software engineering\WebProject\PumpItUp.DAL\obj\Debug\net8.0\PumpItUp.DAL.csproj.CoreCompileInputs.cache
+D:\university\6 semester\software engineering\WebProject\PumpItUp.DAL\obj\Debug\net8.0\PumpItUp.DAL.sourcelink.json
+D:\university\6 semester\software engineering\WebProject\PumpItUp.DAL\obj\Debug\net8.0\PumpItUp.DAL.dll
+D:\university\6 semester\software engineering\WebProject\PumpItUp.DAL\obj\Debug\net8.0\refint\PumpItUp.DAL.dll
+D:\university\6 semester\software engineering\WebProject\PumpItUp.DAL\obj\Debug\net8.0\PumpItUp.DAL.pdb
+D:\university\6 semester\software engineering\WebProject\PumpItUp.DAL\obj\Debug\net8.0\PumpItUp.DAL.genruntimeconfig.cache
+D:\university\6 semester\software engineering\WebProject\PumpItUp.DAL\obj\Debug\net8.0\ref\PumpItUp.DAL.dll

@@ -1,6 +1,5 @@
 using Microsoft.EntityFrameworkCore;
 using PumpItUp.BLL.Services;
-using PumpItUp.BLL.Services;
 using PumpItUp.DAL.Configuration;
 using Serilog;
 var logPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData), "PumpItUpLogs", "log-.txt");
@@ -17,7 +16,7 @@ Log.Logger = new LoggerConfiguration()
 builder.Host.UseSerilog();
 
 builder.Services.AddDbContext<AppDbContext>(options =>
-    options.UseNpgsql("Host=localhost;Port=5432;Database=pumpitup_db;Username=postgres;Password=postgres;SslMode=Disable"));
+    options.UseNpgsql("Host=localhost;Port=5432;Database=pumpitup_db;Username=postgres;Password=root;SslMode=Disable"));
 
 builder.Services.AddControllersWithViews();
 

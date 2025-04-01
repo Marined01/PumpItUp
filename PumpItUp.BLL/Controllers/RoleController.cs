@@ -25,4 +25,23 @@ public class RoleController : Controller
         await _roleService.CreateRoleAsync(roleRequest);
         return View();
     }
+
+    [HttpGet]
+    public async Task<IActionResult> GetRoleById(long roleId)
+    {
+        var role = await _roleService.GetRoleByIdAsync(roleId);
+        if (role == null)
+        {
+            return NotFound();
+        }
+
+        return View("RoleDetails", role);
+    }
+
+    [HttpGet]
+    public async Task<IActionResult> GetAllRoles()
+    {
+        var roles = await _roleService.GetAllRolesAsync();
+        return View(roles);
+    }
 }

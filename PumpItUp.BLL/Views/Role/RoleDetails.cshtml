@@ -1,0 +1,45 @@
+﻿@model PumpItUp.DAL.Models.Role
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Role Details</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+<div class="container mt-5">
+    <h2 class="mb-4">Role Details</h2>
+        
+    <form id="roleForm" action="@Url.Action("GetRoleById", "Role")" method="get" class="mb-4">
+        <div class="form-group">
+            <label for="roleId">Enter Role ID:</label>
+            <input type="number" name="roleId" id="roleId" class="form-control" required />
+        </div>
+        <button type="submit" class="btn btn-primary">Get Role</button>
+    </form>
+
+    @if (Model != null)
+    {
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">@Model.Name</h5>
+                <p class="card-text"><strong>Role Name:</strong> @Model.Name</p>
+                <p class="card-text"><strong>User ID:</strong> @Model.UserId</p>
+            </div>
+        </div>
+    }
+    else
+    {
+        <p class="text-danger">Role not found.</p>
+    }
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</body>
+</html>

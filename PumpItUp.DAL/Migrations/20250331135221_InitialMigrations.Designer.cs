@@ -12,8 +12,8 @@ using PumpItUp.DAL.Configuration;
 namespace PumpItUp.DAL.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20250323135827_ChangeRoleColumn")]
-    partial class ChangeRoleColumn
+    [Migration("20250331135221_InitialMigrations")]
+    partial class InitialMigrations
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

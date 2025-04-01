@@ -16,6 +16,6 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = PumpItUp.DAL
-build_property.ProjectDir = /home/o/Desktop/LNU/PI/PumpItUp/PumpItUp.DAL/
+build_property.ProjectDir = D:\university\6 semester\software engineering\WebProject\PumpItUp.DAL\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
