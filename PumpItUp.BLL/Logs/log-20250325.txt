@@ -1,0 +1,30 @@
+2025-03-25 14:47:21.510 +02:00 [INF] User profile is available. Using 'C:\Users\Dell\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-25 14:47:22.110 +02:00 [INF] Now listening on: https://localhost:7172
+2025-03-25 14:47:22.114 +02:00 [INF] Now listening on: http://localhost:5227
+2025-03-25 14:47:22.200 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-25 14:47:22.202 +02:00 [INF] Hosting environment: Development
+2025-03-25 14:47:22.204 +02:00 [INF] Content root path: D:\University\PumpItUp\PumpItUp\PumpItUp.BLL
+2025-03-25 14:47:27.734 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7172/ - null null
+2025-03-25 14:47:28.095 +02:00 [INF] Executing endpoint 'PumpItUp.BLL.Controllers.HomeController.Index (PumpItUp.BLL)'
+2025-03-25 14:47:28.197 +02:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller PumpItUp.BLL.Controllers.HomeController (PumpItUp.BLL).
+2025-03-25 14:47:28.232 +02:00 [INF] Executing ViewResult, running view Index.
+2025-03-25 14:47:28.885 +02:00 [INF] Executed ViewResult - view Index executed in 667.3118ms.
+2025-03-25 14:47:28.898 +02:00 [INF] Executed action PumpItUp.BLL.Controllers.HomeController.Index (PumpItUp.BLL) in 697.4513ms
+2025-03-25 14:47:29.073 +02:00 [INF] Executed endpoint 'PumpItUp.BLL.Controllers.HomeController.Index (PumpItUp.BLL)'
+2025-03-25 14:47:29.345 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7172/ - 200 null text/html; charset=utf-8 1628.8356ms
+2025-03-25 14:47:29.423 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7172/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-25 14:47:29.424 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7172/_vs/browserLink - null null
+2025-03-25 14:47:29.458 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7172/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 35.5817ms
+2025-03-25 14:47:30.392 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7172/_vs/browserLink - 200 null text/javascript; charset=UTF-8 968.0361ms
+2025-03-25 14:47:36.572 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7172/Following/CreateFollowing - null null
+2025-03-25 14:47:36.591 +02:00 [INF] Executing endpoint 'PumpItUp.BLL.Controllers.FollowingController.CreateFollowing (PumpItUp.BLL)'
+2025-03-25 14:47:36.598 +02:00 [INF] Route matched with {action = "CreateFollowing", controller = "Following"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateFollowing() on controller PumpItUp.BLL.Controllers.FollowingController (PumpItUp.BLL).
+2025-03-25 14:47:37.004 +02:00 [INF] Executing ViewResult, running view CreateFollowing.
+2025-03-25 14:47:37.056 +02:00 [INF] Executed ViewResult - view CreateFollowing executed in 53.5303ms.
+2025-03-25 14:47:37.060 +02:00 [INF] Executed action PumpItUp.BLL.Controllers.FollowingController.CreateFollowing (PumpItUp.BLL) in 459.3469ms
+2025-03-25 14:47:37.063 +02:00 [INF] Executed endpoint 'PumpItUp.BLL.Controllers.FollowingController.CreateFollowing (PumpItUp.BLL)'
+2025-03-25 14:47:37.067 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7172/Following/CreateFollowing - 200 null text/html; charset=utf-8 495.9411ms
+2025-03-25 14:47:37.121 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7172/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-25 14:47:37.122 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7172/_vs/browserLink - null null
+2025-03-25 14:47:37.131 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7172/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 10.0323ms
+2025-03-25 14:47:37.171 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7172/_vs/browserLink - 200 null text/javascript; charset=UTF-8 49.7099ms

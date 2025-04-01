@@ -14,14 +14,14 @@ namespace PumpItUp.BLL.Tests
 
             var following = new Following
             {
-                follower = userOneId,
-                following = userFollowedById,
+                FollowerId = userOneId,
+                FollowingId = userFollowedById,
                 CreatedAt = createdAt,
                 UpdatedAt = createdAt
             };
 
-            Assert.Equal(userOneId, following.follower);
-            Assert.Equal(userFollowedById, following.following);
+            Assert.Equal(userOneId, following.FollowerId);
+            Assert.Equal(userFollowedById, following.FollowingId);
             Assert.Equal(createdAt, following.CreatedAt);
             Assert.Equal(createdAt, following.UpdatedAt);
         }

@@ -26,6 +26,7 @@ public class FollowingRepository : IFollowingRepository
 
     public async Task AddFollowingAsync(Following following)
     {
+        Console.WriteLine($"Adding to DB: FollowerId = {following.FollowerId}, FollowingId = {following.FollowingId}");
         _context.Followings.Add(following);
         await _context.SaveChangesAsync();
     }
@@ -43,6 +44,6 @@ public class FollowingRepository : IFollowingRepository
     public async Task<bool> IsFollowingExistsAsync(long userOneId, long userBeingFollowedId)
     {
         return await _context.Followings
-            .AnyAsync(f => f.follower == userOneId && f.following == userBeingFollowedId);
+            .AnyAsync(f => f.FollowerId == userOneId && f.FollowingId == userBeingFollowedId);
     }
 }

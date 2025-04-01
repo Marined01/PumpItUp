@@ -17,9 +17,9 @@ Log.Logger = new LoggerConfiguration()
 builder.Host.UseSerilog();
 
 builder.Services.AddDbContext<AppDbContext>(options =>
-    options.UseNpgsql("Host=localhost;Port=5432;Database=pumpitup_db;Username=postgres;Password=postgres;SslMode=Disable"));
+    options.UseNpgsql("Host=localhost;Port=5432;Database=pumpitupdb;Username=postgres;Password=1909;SslMode=Disable"));
 
-builder.Services.AddControllersWithViews();
+builder.Services.AddControllersWithViews(); 
 
 builder.Services.AddScoped<UserService>();
 builder.Services.AddScoped<AttachmentService>();

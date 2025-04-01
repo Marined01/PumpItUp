@@ -1,7 +1,9 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using PumpItUp.BLL.Services;
 using System.Security.Claims;
+using Microsoft.VisualStudio.TestPlatform.CommunicationUtilities;
 using PumpItUp.DAL.DTOs;
+
 
 namespace PumpItUp.BLL.Controllers;
 
@@ -14,67 +16,53 @@ public class FollowingController : Controller
         _subscriptionService = subscriptionService;
     }
 
-
-    [HttpPost("follow/{followingId}")]
-    public async Task<IActionResult> FollowUser(int followingId)
-    {
-        var followerId = GetCurrentUserId();
-
-        if (followerId == followingId)
-        {
-            return BadRequest("Не можна підписатися на себе.");
-        }
-
-        var success = await _subscriptionService.ExistingSubscriptions(followerId, followingId);
-
-        if (!success)
-        {
-            return Conflict("Ви вже підписані на цього користувача.");
-        }
-
-        return Ok("Успішно підписано!");
-    }
-
-    [HttpGet("subscription/{id}")]
-    public async Task<IActionResult> GetSubscription(long id)
-    {
-        return NoContent();
-    }
-
-    private int GetCurrentUserId()
-    {
-        return int.Parse(User.FindFirstValue(ClaimTypes.NameIdentifier));
-    }
-
     [HttpGet]
-    public IActionResult CreateFollowing()
+    public IActionResult CreateFollowing() 
     {
         return View();
     }
 
     [HttpPost]
-    public async Task<IActionResult> CreateFollowing([FromForm] FollowingRequest followingRequest)
+    public async Task<IActionResult> CreateFollowing([FromBody] FollowingRequest followingRequest)
     {
+        Console.WriteLine($"Received: FollowerId = {followingRequest.FollowerId}, FollowingId = {followingRequest.FollowingId}");
+
+        // if (followingRequest.FollowerId == 0 || followingRequest.FollowingId == 0)
+        // {
+        //     return BadRequest("Invalid request data");
+        // }
+
         await _subscriptionService.CreateFollowingAsync(followingRequest);
-        return View();
+        return Json(new { success = true });
     }
 
-    [HttpGet("all")]
+    [HttpGet]
+    [HttpGet]
+    public async Task<IActionResult> GetFollowingById(long id)
+    {
+        try
+        {
+            var followings = await _subscriptionService.GetFollowingByIdAsync(id);
+            return View("GetFollowingById", followings);
+        }
+        catch (Exception ex)
+        {
+            return NotFound(ex.Message);
+        }
+    }
+
+
+    [HttpGet]
     public async Task<IActionResult> GetAllFollowings()
     {
         var followings = await _subscriptionService.GetAllFollowingsAsync();
-        return Ok(followings);
+        return View(followings);
     }
 
-    [HttpGet("GetById/{id}")]
-    public async Task<IActionResult> GetFollowingById(long id)
+    [HttpGet]
+    public async Task<IActionResult> ExistingSubscriptions(long followerId, long followingId)
     {
-        var following = await _subscriptionService.GetFollowingByIdAsync(id);
-        if (following == null)
-        {
-            return NotFound($"Following з ID {id} не знайдено.");
-        }
-
-        return Ok(following);
+        var result = await _subscriptionService.ExistingSubscriptions(followerId, followingId);
+        return Json(result); 
     }
 }

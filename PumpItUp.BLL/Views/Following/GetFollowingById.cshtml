@@ -1,0 +1,105 @@
+﻿@model IEnumerable<PumpItUp.DAL.Models.Following>
+
+@{
+    ViewData["Title"] = "All Followings";
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Followings</title>
+    <style>
+        body {
+            background-color: #eaeaea;
+            font-family: 'Roboto', sans-serif;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            flex-direction: column;
+        }
+
+        .table-container {
+            background-color: #fff;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+            width: 80%;
+            max-width: 800px;
+            overflow-x: auto;
+        }
+
+        h2 {
+            text-align: center;
+            font-size: 22px;
+            margin-bottom: 15px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #4a90e2;
+            color: white;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        a {
+            display: block;
+            text-align: center;
+            margin-top: 15px;
+            text-decoration: none;
+            color: #4a90e2;
+            font-weight: bold;
+        }
+
+        a:hover {
+            color: #357ab7;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h2>Результати пошуку</h2>
+
+    @if (Model.Any())
+    {
+        <table>
+            <tr>
+                <th>ID</th>
+                <th>Follower ID</th>
+                <th>Following ID</th>
+                <th>Created At</th>
+            </tr>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Id</td>
+                    <td>@item.FollowerId</td>
+                    <td>@item.FollowingId</td>
+                    <td>@item.CreatedAt</td>
+                </tr>
+            }
+        </table>
+    }
+    else
+    {
+        <p>Нічого не знайдено.</p>
+    }
+</div>
+</body>
