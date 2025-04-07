@@ -61,4 +61,12 @@ public class FollowingService
         return followings;
     }
 
+    public async Task<bool> DeleteFollowing(long followerId, long followingId)
+    {
+        var following = await _context.Followings.FirstOrDefaultAsync(f => f.FollowerId == followerId && f.FollowingId == followingId);
+        if(following == null) return false;
+        _context.Followings.Remove(following);
+        await _context.SaveChangesAsync();
+        return true;
+    }
 }

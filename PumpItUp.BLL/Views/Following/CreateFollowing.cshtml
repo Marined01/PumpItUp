@@ -119,6 +119,17 @@
     <form method="get" action="/Following/GetAllFollowings">
         <button type="submit">View All</button>
     </form>
+
+    <h3>Unfollow User</h3>
+    <form id="unfollowForm">
+        <label for="UnfollowFollowerId">Your User ID:</label>
+        <input type="number" id="UnfollowFollowerId" required>
+
+        <label for="UnfollowFollowingId">User ID to Unfollow:</label>
+        <input type="number" id="UnfollowFollowingId" required>
+
+        <button type="submit">Unfollow</button>
+    </form>
 </div>
 
 <script>
@@ -144,6 +155,27 @@
                 },
                 error: function () {
                     $("#messageBox").text("Error adding following!")
+                        .css({ "background-color": "red", "color": "white" })
+                        .fadeIn().delay(3000).fadeOut();
+                }
+            });
+        });
+        $("#unfollowForm").submit(function (event) {
+            event.preventDefault();
+
+            const followerId = parseInt($("#UnfollowFollowerId").val(), 10);
+            const followingId = parseInt($("#UnfollowFollowingId").val(), 10);
+
+            $.ajax({
+                url: `/Following/DeleteFollowing?followerId=${followerId}&followingId=${followingId}`,
+                type: "DELETE",
+                success: function () {
+                    $("#messageBox").text("Unfollowed successfully!")
+                        .css({ "background-color": "green", "color": "white" })
+                        .fadeIn().delay(3000).fadeOut();
+                },
+                error: function () {
+                    $("#messageBox").text("Error unfollowing user!")
                         .css({ "background-color": "red", "color": "white" })
                         .fadeIn().delay(3000).fadeOut();
                 }

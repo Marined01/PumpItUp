@@ -65,4 +65,14 @@ public class FollowingController : Controller
         var result = await _subscriptionService.ExistingSubscriptions(followerId, followingId);
         return Json(result); 
     }
+
+    [HttpDelete]
+    public async Task<IActionResult> DeleteFollowing([FromQuery] long followerId, [FromQuery] long followingId)
+    {
+        var deleted = await _subscriptionService.DeleteFollowing(followerId, followingId);
+        if (!deleted)
+            return NotFound(new {message = "Following not found"});
+        return Ok(new{Message = "Following deleted"});
+    }
+        
 }
