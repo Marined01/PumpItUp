@@ -2,43 +2,62 @@
 using PumpItUp.BLL.Services;
 using PumpItUp.DAL.DTOs;
 
-namespace PumpItUp.BLL.Controllers
+namespace PumpItUp.BLL.Controllers;
+
+public class AttachmentController : Controller
 {
-    public class AttachmentController : Controller
+    private readonly AttachmentService _attachmentService;
+
+    public AttachmentController(AttachmentService attachmentService)
     {
-        private readonly AttachmentService _attachmentService;
+        _attachmentService = attachmentService;
+    }
 
-        public AttachmentController(AttachmentService attachmentService)
-        {
-            _attachmentService = attachmentService;
-        }
+    [HttpGet]
+    public IActionResult CreateAttachment()
+    {
+        return View();
+    }
 
-        [HttpGet]
-        public IActionResult CreateAttachment()
-        {
-            return View();
-        }
+    [HttpPost]
+    public async Task<IActionResult> CreateAttachment([FromForm] AttachmentRequest attachmentRequest)
+    {
+        await _attachmentService.CreateAttachmentAsync(attachmentRequest);
+        return View();
+    }
 
-        [HttpPost]
-        public async Task<IActionResult> CreateAttachment([FromForm] AttachmentRequest attachmentRequest)
-        {
-            await _attachmentService.CreateAttachmentAsync(attachmentRequest);
-            return View();
-        }
+    [HttpGet]
+    public async Task<IActionResult> GetAttachmentById(int attachmentId)
+    {
+        var attachment = await _attachmentService.GetAttachmentByIdAsync(attachmentId);
 
-        [HttpGet]
-        public async Task<IActionResult> GetAttachmentById(int attachmentId)
-        {
-            var attachment = await _attachmentService.GetAttachmentByIdAsync(attachmentId);
+        return View("AttachmentDetails", attachment);
+    }
 
-            return View("AttachmentDetails", attachment);
-        }
+    [HttpGet]
+    public async Task<IActionResult> GetAllAttachments()
+    {
+        var attachments = await _attachmentService.GetAllAttachments();
+        return View(attachments);
+    }
 
-        [HttpGet]
-        public async Task<IActionResult> GetAllAttachments()
-        {
-            var attachments = await _attachmentService.GetAllAttachments();
-            return View(attachments);
-        }
+    [HttpGet]
+    public async Task<IActionResult> DeleteAttachmentList()
+    {
+        var attachments = await _attachmentService.GetAllAttachments();
+        return View(attachments);
+    }
+
+    [HttpPost]
+    public async Task<IActionResult> DeleteAttachment(int attachmentId)
+    {
+        await _attachmentService.DeleteAttachmentAsync(attachmentId);
+        return RedirectToAction("AttachmentDeleted");
+    }
+
+    [HttpGet]
+    public IActionResult AttachmentDeleted()
+    {
+        return View();
     }
 }

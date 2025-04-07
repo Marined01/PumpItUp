@@ -13,73 +13,73 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 <body>
-    <div class="container mt-5">
-        <h2 class="mb-4">Get User Details</h2>
+<div class="container mt-5">
+    <h2 class="mb-4">Get User Details</h2>
 
-        <form id="userForm" action="@Url.Action("GetUserById", "User")" method="get" class="mb-4">
-            <div class="form-group">
-                <label for="userId">Enter User ID:</label>
-                <input type="number" name="userId" id="userId" class="form-control" required />
-            </div>
-            <button type="submit" class="btn btn-primary">Get User</button>
-        </form>
+    <form id="userForm" action="@Url.Action("GetUserById", "User")" method="get" class="mb-4">
+        <div class="form-group">
+            <label for="userId">Enter User ID:</label>
+            <input type="number" name="userId" id="userId" class="form-control" required/>
+        </div>
+        <button type="submit" class="btn btn-primary">Get User</button>
+    </form>
 
-        <div id="userDetails" class="mt-4" style="display: none;">
-            <div class="card">
-                <div class="card-body">
-                    <h5 class="card-title" id="userName"></h5>
-                    <p class="card-text"><strong>First Name:</strong> <span id="firstName"></span></p>
-                    <p class="card-text"><strong>Last Name:</strong> <span id="lastName"></span></p>
-                    <p class="card-text"><strong>Email:</strong> <span id="userEmail"></span></p>
-                    <p class="card-text"><strong>Avatar:</strong> <a id="userAvatar" href="#" target="_blank"></a></p>
-                    <p class="card-text"><strong>Fitness Level:</strong> <span id="userFitnessLevel"></span></p>
-                    <p class="card-text"><strong>Age:</strong> <span id="userAge"></span></p>
-                    <p class="card-text"><strong>Sex:</strong> <span id="userSex"></span></p>
-                    <p class="card-text"><strong>Premium Subscription:</strong> <span id="userPremium"></span></p>
-                    <p class="card-text"><strong>Role ID:</strong> <span id="userRole"></span></p>
-                    <p class="card-text"><strong>Following ID:</strong> <span id="userFollowing"></span></p>
-                </div>
+    <div id="userDetails" class="mt-4" style="display: none;">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title" id="userName"></h5>
+                <p class="card-text"><strong>First Name:</strong> <span id="firstName"></span></p>
+                <p class="card-text"><strong>Last Name:</strong> <span id="lastName"></span></p>
+                <p class="card-text"><strong>Email:</strong> <span id="userEmail"></span></p>
+                <p class="card-text"><strong>Avatar:</strong> <a id="userAvatar" href="#" target="_blank"></a></p>
+                <p class="card-text"><strong>Fitness Level:</strong> <span id="userFitnessLevel"></span></p>
+                <p class="card-text"><strong>Age:</strong> <span id="userAge"></span></p>
+                <p class="card-text"><strong>Sex:</strong> <span id="userSex"></span></p>
+                <p class="card-text"><strong>Premium Subscription:</strong> <span id="userPremium"></span></p>
+                <p class="card-text"><strong>Role ID:</strong> <span id="userRole"></span></p>
+                <p class="card-text"><strong>Following ID:</strong> <span id="userFollowing"></span></p>
             </div>
         </div>
     </div>
+</div>
 
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script>
-        $(document).ready(function () {
-            $('#userForm').submit(function (event) {
-                event.preventDefault();
-                let userId = $('#userId').val();
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $('#userForm').submit(function (event) {
+            event.preventDefault();
+            let userId = $('#userId').val();
 
-                $.ajax({
-                    url: '@Url.Action("GetUserById", "User")',
-                    type: 'GET',
-                    data: { userId: userId },
-                    success: function (data) {
-                        if (data) {
-                            $('#userDetails').show();
-                            $('#userName').text(`${data.firstName} ${data.lastName}`);
-                            $('#firstName').text(data.firstName);
-                            $('#lastName').text(data.lastName);
-                            $('#userEmail').text(data.email);
-                            $('#userAvatar').attr('href', data.avatarUrl).text(data.avatarUrl || 'No Avatar');
-                            $('#userFitnessLevel').text(data.fitnessLevel || 'N/A');
-                            $('#userAge').text(data.age || 'N/A');
-                            $('#userSex').text(data.sex || 'N/A');
-                            $('#userPremium').text(data.hasPremiumSubscription ? 'Yes' : 'No');
-                            $('#userRole').text(data.roleId || 'N/A');
-                            $('#userFollowing').text(data.followingId || 'N/A');
-                        } else {
-                            alert(`User with ID ${userId} not found.`);
-                            $('#userDetails').hide();
-                        }
-                    },
-                    error: function () {
-                        alert('Error fetching user data.');
+            $.ajax({
+                url: '@Url.Action("GetUserById", "User")',
+                type: 'GET',
+                data: {userId: userId},
+                success: function (data) {
+                    if (data) {
+                        $('#userDetails').show();
+                        $('#userName').text(`${data.firstName} ${data.lastName}`);
+                        $('#firstName').text(data.firstName);
+                        $('#lastName').text(data.lastName);
+                        $('#userEmail').text(data.email);
+                        $('#userAvatar').attr('href', data.avatarUrl).text(data.avatarUrl || 'No Avatar');
+                        $('#userFitnessLevel').text(data.fitnessLevel || 'N/A');
+                        $('#userAge').text(data.age || 'N/A');
+                        $('#userSex').text(data.sex || 'N/A');
+                        $('#userPremium').text(data.hasPremiumSubscription ? 'Yes' : 'No');
+                        $('#userRole').text(data.roleId || 'N/A');
+                        $('#userFollowing').text(data.followingId || 'N/A');
+                    } else {
+                        alert(`User with ID ${userId} not found.`);
                         $('#userDetails').hide();
                     }
-                });
+                },
+                error: function () {
+                    alert('Error fetching user data.');
+                    $('#userDetails').hide();
+                }
             });
         });
-    </script>
+    });
+</script>
 </body>
 </html>

@@ -1,4 +1,4 @@
-﻿@model PumpItUp.DAL.DTOs.RoleRequest
+﻿@model IEnumerable<PumpItUp.DAL.Models.User>
 
 @{
     Layout = null;
@@ -9,11 +9,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Add Role</title>
-
-    <!-- Google Font for a clean, modern look -->
+    <title>Delete User</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
-
     <style>
         body {
             background-color: #eaeaea;
@@ -26,14 +23,14 @@
             margin: 0;
         }
 
-        .form-container {
+        .container {
             background-color: #fff;
-            padding: 25px;
+            padding: 25px 45px;
             border-radius: 10px;
             box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
             width: 100%;
-            max-width: 380px;
-            margin: 400px 15px 15px 15px;
+            max-width: 600px;
+            margin: 20px;
         }
 
         h2 {
@@ -44,39 +41,30 @@
             text-align: center;
         }
 
-        label {
-            display: block;
-            margin-bottom: 5px;
-            font-size: 14px;
-            color: #555;
-        }
-
-        input {
+        table {
             width: 100%;
-            padding: 10px;
-            margin-bottom: 15px;
-            border: 1px solid #ccc;
-            border-radius: 8px;
-            font-size: 16px;
-            background-color: #f7f7f7;
-            transition: border-color 0.3s;
+            border-collapse: collapse;
+            margin-bottom: 20px;
         }
 
-        input:focus {
-            border-color: #4a90e2;
-            outline: none;
+        th, td {
+            padding: 10px;
+            border: 1px solid #ccc;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f7f7f7;
         }
 
         button {
             background-color: #4a90e2;
             color: #fff;
             border: none;
-            padding: 12px;
+            padding: 8px 12px;
             border-radius: 8px;
-            font-size: 18px;
+            font-size: 14px;
             cursor: pointer;
-            width: 100%;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
             transition: background-color 0.3s;
         }
 
@@ -87,17 +75,34 @@
 </head>
 <body>
 
-<div class="form-container">
-    <h2>Add Role</h2>
-    <form asp-action="CreateRole" method="post">
-        <label asp-for="Name">Role Name:</label>
-        <input asp-for="Name" required/>
-
-        <label asp-for="UserId">User ID:</label>
-        <input asp-for="UserId" type="number" required/>
-
-        <button type="submit">Add Role</button>
-    </form>
+<div class="container">
+    <h2>Delete User</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Email</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var user in Model)
+            {
+                <tr>
+                    <td>@user.FirstName</td>
+                    <td>@user.LastName</td>
+                    <td>@user.Email</td>
+                    <td>
+                        <form asp-action="DeleteUser" method="post">
+                            <input type="hidden" name="userId" value="@user.Id" />
+                            <button type="submit">Delete</button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
 </div>
 
 </body>

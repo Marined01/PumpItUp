@@ -61,10 +61,10 @@
             transition: border-color 0.3s;
         }
 
-            input:focus {
-                border-color: #4a90e2;
-                outline: none;
-            }
+        input:focus {
+            border-color: #4a90e2;
+            outline: none;
+        }
 
         button {
             background-color: #4a90e2;
@@ -79,25 +79,25 @@
             transition: background-color 0.3s;
         }
 
-            button:hover {
-                background-color: #357ab7;
-            }
+        button:hover {
+            background-color: #357ab7;
+        }
     </style>
 </head>
 <body>
 
-    <div class="form-container">
-        <h2>Follow User</h2>
-        <form asp-action="CreateFollowing" method="post">
-            <label asp-for="FollowerId">Your User ID:</label>
-            <input asp-for="FollowerId" type="number" required>
+<div class="form-container">
+    <h2>Follow User</h2>
+    <form asp-action="CreateFollowing" method="post">
+        <label asp-for="FollowerId">Your User ID:</label>
+        <input asp-for="FollowerId" type="number" required>
 
-            <label asp-for="FollowingId">User ID to Follow:</label>
-            <input asp-for="FollowingId" type="number" required>
+        <label asp-for="FollowingId">User ID to Follow:</label>
+        <input asp-for="FollowingId" type="number" required>
 
-            <button type="submit">Follow</button>
-        </form>
-    </div>
+        <button type="submit">Follow</button>
+    </form>
+</div>
 
 </body>
 </html>

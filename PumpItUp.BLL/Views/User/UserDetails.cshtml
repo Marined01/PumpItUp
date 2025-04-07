@@ -13,41 +13,43 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 <body>
-    <div class="container mt-5">
-        <h2 class="mb-4">User Details</h2>
-        
-        <form id="userForm" action="@Url.Action("GetUserById", "User")" method="get" class="mb-4">
-            <div class="form-group">
-                <label for="userId">Enter User ID:</label>
-                <input type="number" name="userId" id="userId" class="form-control" required />
-            </div>
-            <button type="submit" class="btn btn-primary">Get User</button>
-        </form>
+<div class="container mt-5">
+    <h2 class="mb-4">User Details</h2>
 
-        @if (Model != null)
-        {
-            <div class="card">
-                <div class="card-body">
-                    <h5 class="card-title">@Model.FirstName @Model.LastName</h5>
-                    <p class="card-text"><strong>First Name:</strong> @Model.FirstName</p>
-                    <p class="card-text"><strong>Last Name:</strong> @Model.LastName</p>
-                    <p class="card-text"><strong>Email:</strong> @Model.Email</p>
-                    <p class="card-text"><strong>Avatar:</strong> <a href="@Model.AvatarUrl" target="_blank">@Model.AvatarUrl</a></p>
-                    <p class="card-text"><strong>Fitness Level:</strong> @(Model.FitnessLevel)</p>
-                    <p class="card-text"><strong>Age:</strong> @(Model.Age)</p>
-                    <p class="card-text"><strong>Sex:</strong> @(Model.Sex)</p>
-                    <p class="card-text"><strong>Premium Subscription:</strong> @(Model.HasPremiumSubscription ? "Yes" : "No")</p>
-                    <p class="card-text"><strong>Role ID:</strong> @(Model.RoleId)</p>
-                    <p class="card-text"><strong>Following ID:</strong> @(Model.FollowingId)</p>
-                </div>
-            </div>
-        }
-        else
-        {
-            <p class="text-danger">User not found.</p>
-        }
-    </div>
+    <form id="userForm" action="@Url.Action("GetUserById", "User")" method="get" class="mb-4">
+        <div class="form-group">
+            <label for="userId">Enter User ID:</label>
+            <input type="number" name="userId" id="userId" class="form-control" required/>
+        </div>
+        <button type="submit" class="btn btn-primary">Get User</button>
+    </form>
 
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    @if (Model != null)
+    {
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">@Model.FirstName @Model.LastName</h5>
+                <p class="card-text"><strong>First Name:</strong> @Model.FirstName</p>
+                <p class="card-text"><strong>Last Name:</strong> @Model.LastName</p>
+                <p class="card-text"><strong>Email:</strong> @Model.Email</p>
+                <p class="card-text"><strong>Avatar:</strong> <a href="@Model.AvatarUrl"
+                                                                 target="_blank">@Model.AvatarUrl</a></p>
+                <p class="card-text"><strong>Fitness Level:</strong> @(Model.FitnessLevel)</p>
+                <p class="card-text"><strong>Age:</strong> @(Model.Age)</p>
+                <p class="card-text"><strong>Sex:</strong> @(Model.Sex)</p>
+                <p class="card-text"><strong>Premium
+                        Subscription:</strong> @(Model.HasPremiumSubscription ? "Yes" : "No")</p>
+                <p class="card-text"><strong>Role ID:</strong> @(Model.RoleId)</p>
+                <p class="card-text"><strong>Following ID:</strong> @(Model.FollowingId)</p>
+            </div>
+        </div>
+    }
+    else
+    {
+        <p class="text-danger">User not found.</p>
+    }
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </body>
 </html>

@@ -2,6 +2,7 @@
 using PumpItUp.BLL.Mappers;
 using PumpItUp.DAL.Configuration;
 using PumpItUp.DAL.DTOs;
+using PumpItUp.DAL.Exceptions;
 using PumpItUp.DAL.Models;
 using PumpItUp.DAL.Repositories.Implementations;
 
@@ -37,5 +38,17 @@ public class AttachmentService
     public async Task<List<Attachment>> GetAllAttachments()
     {
         return await _context.Attachments.ToListAsync();
+    }
+
+    public async Task DeleteAttachmentAsync(int attachmentId)
+    {
+        var attachment = await _attachmentRepository.GetByIdAsync(attachmentId);
+        if (attachment == null)
+        {
+            throw new AttachmentNotFoundException($"Attachment with ID={attachmentId} not found", attachmentId);
+        }
+
+        _context.Attachments.Remove(attachment);
+        await _context.SaveChangesAsync();
     }
 }

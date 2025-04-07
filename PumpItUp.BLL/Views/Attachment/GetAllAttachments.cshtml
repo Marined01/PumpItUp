@@ -16,10 +16,12 @@
             background-color: #f8f9fa;
             padding: 20px;
         }
+
         .table-container {
             max-width: 100%;
             overflow-x: auto;
         }
+
         .table th, .table td {
             text-align: center;
             vertical-align: middle;
@@ -49,7 +51,8 @@
                     <td>
                         @if (!string.IsNullOrEmpty(attachment.FileUrl))
                         {
-                            <img src="@attachment.FileUrl" alt="Avatar" class="img-fluid" style="width: 50px; height: 50px; border-radius: 50%;">
+                            <img src="@attachment.FileUrl" alt="Avatar" class="img-fluid"
+                                 style="width: 50px; height: 50px; border-radius: 50%;">
                         }
                     </td>
                     <td>@attachment.FileType</td>

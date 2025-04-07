@@ -45,4 +45,24 @@ public class UserController : Controller
         var users = await _userService.GetAllUsers();
         return View(users);
     }
+
+    [HttpGet]
+    public async Task<IActionResult> DeleteUserList()
+    {
+        var users = await _userService.GetAllUsers();
+        return View(users);
+    }
+
+    [HttpPost]
+    public async Task<IActionResult> DeleteUser(int userId)
+    {
+        await _userService.DeleteUserAsync(userId);
+        return RedirectToAction("UserDeleted");
+    }
+
+    [HttpGet]
+    public IActionResult UserDeleted()
+    {
+        return View();
+    }
 }
