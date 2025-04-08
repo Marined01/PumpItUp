@@ -74,6 +74,18 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUm9sZS9DcmVhdGVSb2xlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[/home/o/Desktop/LNU/PI/PumpItUp/PumpItUp.BLL/Views/Role/GetAllRoles.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUm9sZS9HZXRBbGxSb2xlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/o/Desktop/LNU/PI/PumpItUp/PumpItUp.BLL/Views/Role/GetRoleById.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUm9sZS9HZXRSb2xlQnlJZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/o/Desktop/LNU/PI/PumpItUp/PumpItUp.BLL/Views/Role/RoleDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUm9sZS9Sb2xlRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/home/o/Desktop/LNU/PI/PumpItUp/PumpItUp.BLL/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

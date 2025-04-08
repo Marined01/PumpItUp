@@ -39,4 +39,20 @@ public class PostService
     {
         return await _context.Posts.ToListAsync();
     }
+
+    public async Task<bool> DeletePostAsync(int id)
+    {
+        var post = await _context.Posts.FirstOrDefaultAsync(p => p.Id == id);
+        if (post == null)
+        {
+            _logger.LogWarning($"Post with ID {id} not found.");
+            return false; 
+        }
+
+        _context.Posts.Remove(post);
+        await _context.SaveChangesAsync();
+
+        _logger.LogInformation($"Post deleted: {post.Title}");
+        return true; 
+    }
 }

@@ -49,4 +49,21 @@ public class PostController : Controller
         }
         return View(post);
     }
+    [HttpPost]
+    [ValidateAntiForgeryToken]
+    public async Task<IActionResult> DeletePost(int id)
+    {
+        var result = await _postService.DeletePostAsync(id);
+        if (result)
+        {
+            _logger.LogInformation($"Post with ID {id} deleted successfully.");
+            return RedirectToAction("Index"); // Після видалення редіректимо на список постів
+        }
+        else
+        {
+            _logger.LogWarning($"Post with ID {id} not found.");
+            return NotFound(new { message = "Post not found." });
+        }
+    }
+
 }
