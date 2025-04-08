@@ -2,6 +2,7 @@
 using PumpItUp.BLL.Mappers;
 using PumpItUp.DAL.Configuration;
 using PumpItUp.DAL.DTOs;
+using PumpItUp.DAL.Exceptions;
 using PumpItUp.DAL.Models;
 using PumpItUp.DAL.Repositories.Implementations;
 
@@ -37,5 +38,17 @@ public class RoleService
     public async Task<List<Role>> GetAllRolesAsync()
     {
         return await _context.Roles.ToListAsync();
+    }
+
+    public async Task DeleteRoleAsync(long roleId)
+    {
+        var role = await _roleRepository.GetByIdAsync(roleId);
+        if (role == null)
+        {
+            throw new RoleNotFoundException($"Role with ID={roleId} not found", roleId);
+        }
+
+        _context.Roles.Remove(role);
+        await _context.SaveChangesAsync();
     }
 }

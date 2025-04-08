@@ -3577,19 +3577,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Lenovo\\.nuget\\packages\\": {}
+    "C:\\Users\\Admin\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\university\\6 semester\\software engineering\\WebProject\\PumpItUp.DAL\\PumpItUp.DAL.csproj",
+      "projectUniqueName": "C:\\Users\\Admin\\Documents\\GitHub\\PumpItUp\\PumpItUp.DAL\\PumpItUp.DAL.csproj",
       "projectName": "PumpItUp.DAL",
-      "projectPath": "D:\\university\\6 semester\\software engineering\\WebProject\\PumpItUp.DAL\\PumpItUp.DAL.csproj",
-      "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-      "outputPath": "D:\\university\\6 semester\\software engineering\\WebProject\\PumpItUp.DAL\\obj\\",
+      "projectPath": "C:\\Users\\Admin\\Documents\\GitHub\\PumpItUp\\PumpItUp.DAL\\PumpItUp.DAL.csproj",
+      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Admin\\Documents\\GitHub\\PumpItUp\\PumpItUp.DAL\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -3607,11 +3607,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -3671,7 +3666,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Users\\Lenovo\\.dotnet\\sdk\\8.0.406/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

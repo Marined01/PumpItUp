@@ -5413,19 +5413,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Lenovo\\.nuget\\packages\\": {}
+    "C:\\Users\\Admin\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\university\\6 semester\\software engineering\\WebProject\\PumpItUp.UI\\PumpItUp.UI.csproj",
+      "projectUniqueName": "C:\\Users\\Admin\\Documents\\GitHub\\PumpItUp\\PumpItUp.UI\\PumpItUp.UI.csproj",
       "projectName": "PumpItUp.UI",
-      "projectPath": "D:\\university\\6 semester\\software engineering\\WebProject\\PumpItUp.UI\\PumpItUp.UI.csproj",
-      "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-      "outputPath": "D:\\university\\6 semester\\software engineering\\WebProject\\PumpItUp.UI\\obj\\",
+      "projectPath": "C:\\Users\\Admin\\Documents\\GitHub\\PumpItUp\\PumpItUp.UI\\PumpItUp.UI.csproj",
+      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Admin\\Documents\\GitHub\\PumpItUp\\PumpItUp.UI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -5437,11 +5437,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\university\\6 semester\\software engineering\\WebProject\\PumpItUp.BLL\\PumpItUp.BLL.csproj": {
-              "projectPath": "D:\\university\\6 semester\\software engineering\\WebProject\\PumpItUp.BLL\\PumpItUp.BLL.csproj"
+            "C:\\Users\\Admin\\Documents\\GitHub\\PumpItUp\\PumpItUp.BLL\\PumpItUp.BLL.csproj": {
+              "projectPath": "C:\\Users\\Admin\\Documents\\GitHub\\PumpItUp\\PumpItUp.BLL\\PumpItUp.BLL.csproj"
             },
-            "D:\\university\\6 semester\\software engineering\\WebProject\\PumpItUp.DAL\\PumpItUp.DAL.csproj": {
-              "projectPath": "D:\\university\\6 semester\\software engineering\\WebProject\\PumpItUp.DAL\\PumpItUp.DAL.csproj"
+            "C:\\Users\\Admin\\Documents\\GitHub\\PumpItUp\\PumpItUp.DAL\\PumpItUp.DAL.csproj": {
+              "projectPath": "C:\\Users\\Admin\\Documents\\GitHub\\PumpItUp\\PumpItUp.DAL\\PumpItUp.DAL.csproj"
             }
           }
         }
@@ -5450,11 +5450,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -5517,7 +5512,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Users\\Lenovo\\.dotnet\\sdk\\8.0.406/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
       }
     }
   },
