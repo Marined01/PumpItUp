@@ -12,6 +12,7 @@
     <title>Follow User</title>
 
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
     <style>
         body {
@@ -27,20 +28,17 @@
 
         .form-container {
             background-color: #fff;
-            padding: 25px 45px 25px 25px;
+            padding: 25px;
             border-radius: 10px;
             box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
             width: 100%;
-            max-width: 380px;
-            margin: 400px 15px 15px 15px;
+            max-width: 400px;
         }
 
-        h2 {
-            color: #333;
-            font-size: 24px;
-            margin-bottom: 20px;
-            font-weight: 500;
+        h2, h3 {
             text-align: center;
+            font-size: 22px;
+            margin-bottom: 15px;
         }
 
         label {
@@ -82,22 +80,109 @@
         button:hover {
             background-color: #357ab7;
         }
+
+        #messageBox {
+            display: none;
+            padding: 10px;
+            margin-top: 10px;
+            border-radius: 5px;
+            text-align: center;
+            font-weight: bold;
+        }
     </style>
 </head>
 <body>
 
 <div class="form-container">
     <h2>Follow User</h2>
-    <form asp-action="CreateFollowing" method="post">
+
+    <form id="followForm">
         <label asp-for="FollowerId">Your User ID:</label>
-        <input asp-for="FollowerId" type="number" required>
+        <input asp-for="FollowerId" name='FollowerId' type="number" id="FollowerId" required>
 
         <label asp-for="FollowingId">User ID to Follow:</label>
-        <input asp-for="FollowingId" type="number" required>
+        <input asp-for="FollowingId" name='FollowingId' type="number" id="FollowingId" required>
 
         <button type="submit">Follow</button>
     </form>
+
+    <div id="messageBox"></div>
+
+    <h3>Find a Following</h3>
+    <form method="get" action="/Following/GetFollowingById">
+        <label for="id">Enter Following ID:</label>
+        <input type="number" id="id" name="id" required>
+        <button type="submit">Search</button>
+    </form>
+
+    <h3>All Followings</h3>
+    <form method="get" action="/Following/GetAllFollowings">
+        <button type="submit">View All</button>
+    </form>
+
+    <h3>Unfollow User</h3>
+    <form id="unfollowForm">
+        <label for="UnfollowFollowerId">Your User ID:</label>
+        <input type="number" id="UnfollowFollowerId" required>
+
+        <label for="UnfollowFollowingId">User ID to Unfollow:</label>
+        <input type="number" id="UnfollowFollowingId" required>
+
+        <button type="submit">Unfollow</button>
+    </form>
 </div>
+
+<script>
+    $(document).ready(function () {
+        $("#followForm").submit(function (event) {
+            event.preventDefault();
+
+            let formData = {
+                FollowerId: parseInt($("#FollowerId").val(), 10),
+                FollowingId: parseInt($("#FollowingId").val(), 10)
+            };
+            console.log("Відправляється:", formData);
+
+            $.ajax({
+                url: "/Following/CreateFollowing",
+                type: "POST",
+                contentType: "application/json",
+                data: JSON.stringify(formData),
+                success: function (response) {
+                    $("#messageBox").text("Following added successfully!")
+                        .css({ "background-color": "green", "color": "white" })
+                        .fadeIn().delay(3000).fadeOut();
+                },
+                error: function () {
+                    $("#messageBox").text("Error adding following!")
+                        .css({ "background-color": "red", "color": "white" })
+                        .fadeIn().delay(3000).fadeOut();
+                }
+            });
+        });
+        $("#unfollowForm").submit(function (event) {
+            event.preventDefault();
+
+            const followerId = parseInt($("#UnfollowFollowerId").val(), 10);
+            const followingId = parseInt($("#UnfollowFollowingId").val(), 10);
+
+            $.ajax({
+                url: `/Following/DeleteFollowing?followerId=${followerId}&followingId=${followingId}`,
+                type: "DELETE",
+                success: function () {
+                    $("#messageBox").text("Unfollowed successfully!")
+                        .css({ "background-color": "green", "color": "white" })
+                        .fadeIn().delay(3000).fadeOut();
+                },
+                error: function () {
+                    $("#messageBox").text("Error unfollowing user!")
+                        .css({ "background-color": "red", "color": "white" })
+                        .fadeIn().delay(3000).fadeOut();
+                }
+            });
+        });
+    });
+</script>
 
 </body>
 </html>

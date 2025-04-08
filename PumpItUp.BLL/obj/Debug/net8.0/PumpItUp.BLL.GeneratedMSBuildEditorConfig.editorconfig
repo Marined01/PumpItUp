@@ -94,12 +94,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZVxDcmVhdGVSb2xlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/university/6 semester/software engineering/WebProject/PumpItUp.BLL/Views/Role/DeleteRoleList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZVxEZWxldGVSb2xlTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/university/6 semester/software engineering/WebProject/PumpItUp.BLL/Views/Role/GetAllRoles.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZVxHZXRBbGxSb2xlcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/university/6 semester/software engineering/WebProject/PumpItUp.BLL/Views/Role/GetRoleById.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZVxHZXRSb2xlQnlJZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/university/6 semester/software engineering/WebProject/PumpItUp.BLL/Views/Role/RoleDeleted.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZVxSb2xlRGVsZXRlZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/university/6 semester/software engineering/WebProject/PumpItUp.BLL/Views/Role/RoleDetails.cshtml]

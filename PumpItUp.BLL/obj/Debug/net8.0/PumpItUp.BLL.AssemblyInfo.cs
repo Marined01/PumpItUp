@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PumpItUp.BLL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6796f974452f760f4143997a1d0068cb9a8b711b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+97632f122b34479567e86faed44ce6472db36984")]
 [assembly: System.Reflection.AssemblyProductAttribute("PumpItUp.BLL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PumpItUp.BLL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

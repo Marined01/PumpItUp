@@ -9,8 +9,8 @@ public class FollowingMapper
     {
         return new Following
         {
-            follower = subscriptionRequest.FollowerId,
-            following = subscriptionRequest.FollowingId
+            FollowerId = subscriptionRequest.FollowerId,
+            FollowingId = subscriptionRequest.FollowingId
         };
     }
 }

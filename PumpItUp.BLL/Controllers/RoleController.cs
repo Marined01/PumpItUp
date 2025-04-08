@@ -44,4 +44,24 @@ public class RoleController : Controller
         var roles = await _roleService.GetAllRolesAsync();
         return View(roles);
     }
+
+    [HttpGet]
+    public async Task<IActionResult> DeleteRoleList()
+    {
+        var roles = await _roleService.GetAllRolesAsync();
+        return View(roles);
+    }
+
+    [HttpPost]
+    public async Task<IActionResult> DeleteRole(long roleId)
+    {
+        await _roleService.DeleteRoleAsync(roleId);
+        return RedirectToAction("RoleDeleted");
+    }
+
+    [HttpGet]
+    public IActionResult RoleDeleted()
+    {
+        return View();
+    }
 }

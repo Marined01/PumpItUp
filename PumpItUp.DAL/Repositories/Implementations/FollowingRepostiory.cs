@@ -43,6 +43,6 @@ public class FollowingRepository : IFollowingRepository
     public async Task<bool> IsFollowingExistsAsync(long userOneId, long userBeingFollowedId)
     {
         return await _context.Followings
-            .AnyAsync(f => f.follower == userOneId && f.following == userBeingFollowedId);
+            .AnyAsync(f => f.FollowerId == userOneId && f.FollowingId == userBeingFollowedId);
     }
 }

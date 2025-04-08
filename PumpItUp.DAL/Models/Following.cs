@@ -12,11 +12,11 @@ public class Following
 
     [Required]
     [Column("user_one_id")]
-    public long follower { get; set; }
+    public long FollowerId { get; set; }
 
     [Required]
     [Column("user_one_followed_by_id")]
-    public long following { get; set; }
+    public long FollowingId { get; set; }
 
     [Column("crete_at")]
     public DateTime CreatedAt { get; set; } = DateTime.UtcNow;

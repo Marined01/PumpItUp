@@ -19,7 +19,7 @@ public class FollowingService
     public async Task<bool> ExistingSubscriptions(long followerId, long followingId)
     {
         var following = await _context.Followings
-            .FirstOrDefaultAsync(f => f.follower == followerId && f.following == followingId);
+            .FirstOrDefaultAsync(f => f.FollowerId == followerId && f.FollowingId == followingId);
         return true;
     }
 
@@ -39,5 +39,14 @@ public class FollowingService
     public async Task<Following?> GetFollowingByIdAsync(long id)
     {
         return await _context.Followings.FindAsync(id);
+    }
+
+    public async Task<bool> DeleteFollowing(long followerId, long followingId)
+    {
+        var following = await _context.Followings.FirstOrDefaultAsync(f => f.FollowerId == followerId && f.FollowingId == followingId);
+        if(following == null) return false;
+        _context.Followings.Remove(following);
+        await _context.SaveChangesAsync();
+        return true;
     }
 }
