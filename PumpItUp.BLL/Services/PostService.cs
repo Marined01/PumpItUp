@@ -39,7 +39,7 @@ public class PostService
     {
         return await _context.Posts.ToListAsync();
     }
-    
+
     public async Task<bool> DeletePostAsync(int id)
     {
         var post = await _context.Posts.FirstOrDefaultAsync(p => p.Id == id);

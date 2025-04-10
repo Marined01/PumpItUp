@@ -49,7 +49,6 @@ public class PostController : Controller
         }
         return View(post);
     }
-    
     [HttpPost]
     [ValidateAntiForgeryToken]
     public async Task<IActionResult> DeletePost(int id)
@@ -66,4 +65,5 @@ public class PostController : Controller
             return NotFound(new { message = "Post not found." });
         }
     }
+
 }
