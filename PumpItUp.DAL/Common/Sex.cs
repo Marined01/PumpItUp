@@ -1,10 +1,9 @@
-﻿namespace PumpItUp.DAL.Common
+﻿namespace PumpItUp.DAL.Common;
+
+public enum Sex
 {
-    public enum Sex
-    {
-        Male,
-        Female,
-        Other,
-        OptimusPrime
-    }
+    Male,
+    Female,
+    Other,
+    OptimusPrime
 }

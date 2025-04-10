@@ -1,0 +1,162 @@
+﻿@model PumpItUp.DAL.DTOs.LoginRequest
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>Login</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            margin: 0;
+            background-color: #f0f2f5;
+            color: #333;
+        }
+
+        header {
+            background-color: #6a0dad;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 40px;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+        }
+
+        header .left {
+            font-size: 26px;
+            font-weight: 600;
+        }
+
+        header .right ul {
+            list-style: none;
+            display: flex;
+            gap: 25px;
+            margin: 0;
+            padding: 0;
+        }
+
+        header .right ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+
+        header .right ul li a:hover {
+            color: #ddd;
+        }
+
+        .login-container {
+            max-width: 550px;
+            margin: 60px auto;
+            padding: 30px;
+            border-radius: 12px;
+            background-color: #fff;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        .login-container h2 {
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 28px;
+            color: #6a0dad;
+        }
+
+        .login-container label {
+            display: block;
+            margin-top: 15px;
+            font-weight: 500;
+        }
+
+        .login-container input {
+            width: 95%;
+            padding: 10px 12px;
+            margin-top: 6px;
+            border-radius: 6px;
+            border: 1px solid #ccc;
+            transition: border-color 0.3s;
+            font-size: 15px;
+        }
+
+        .login-container input:focus {
+            border-color: #6a0dad;
+            outline: none;
+        }
+
+        .login-container button {
+            margin-top: 30px;
+            width: 100%;
+            padding: 12px;
+            background-color: #6a0dad;
+            color: white;
+            font-weight: 600;
+            font-size: 16px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .login-container button:hover {
+            background-color: #5800a8;
+        }
+
+        .validation-summary {
+            color: #a10000;
+            margin: 10px 0;
+        }
+
+        .registration-reference {
+            text-align: right;
+            margin-top: 15px;
+        }
+
+        .registration-reference a {
+            text-decoration: none;
+            color: #6a0dad;
+            font-weight: 600;
+            transition: color 0.3s;
+        }
+
+        .registration-reference a:hover {
+            color: #5800a8;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <div class="left">PumpItUp</div>
+    <div class="right">
+        <ul>
+            <li><a href="/Home/Index">Головна</a></li>
+            <li><a href="/Training/Index">Тренування</a></li>
+            <li><a href="/Profile/Index">Моя сторінка</a></li>
+        </ul>
+    </div>
+</header>
+<div class="login-container">
+    <h2>Вхід</h2>
+    <form asp-action="Login" method="post">
+        @Html.AntiForgeryToken()
+        <div class="validation-summary">
+            @Html.ValidationSummary()
+        </div>
+        <label for="Email">Пошта</label>
+        <input type="email" id="Email" name="Email" value="@Model.Email" required/>
+        <label for="Password">Пароль</label>
+        <input type="password" id="Password" name="Password" value="@Model.Password" required/>
+        <button type="submit">Увійти</button>
+    </form>
+    <div class="registration-reference">
+        <a href="/Auth/SignUp">Не має акаунту? Зареєструйся</a>
+    </div>
+</div>
+</body>
+</html>
