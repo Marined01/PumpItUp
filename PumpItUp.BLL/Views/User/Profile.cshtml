@@ -38,16 +38,25 @@
     <div class="profile-container">
         <div class="profile-header">
             <div class="avatar-container">
-                @if (!string.IsNullOrEmpty(Model.AvatarUrl))
-                {
-                    <img src="@Model.AvatarUrl" alt="Profile Avatar" class="profile-avatar" />
-                }
-                else
-                {
-                    <div class="profile-avatar profile-avatar-placeholder">
-                        @Model.FirstName[0].ToString().ToUpper()
+                <div class="avatar-upload-wrapper">
+                    @if (!string.IsNullOrEmpty(Model.AvatarUrl))
+                    {
+                        <img src="@Model.AvatarUrl" alt="Profile Avatar" class="profile-avatar" id="profileAvatar" />
+                    }
+                    else
+                    {
+                        <div class="profile-avatar profile-avatar-placeholder" id="profileAvatar">
+                            @Model.FirstName[0].ToString().ToUpper()
+                        </div>
+                    }
+                    <div class="avatar-upload-overlay">
+                        <i class="fas fa-camera"></i>
+                        <span>Змінити фото</span>
                     </div>
-                }
+                    <form id="avatarUploadForm" action="/User/UploadAvatar" method="post" enctype="multipart/form-data">
+                        <input type="file" name="file" id="avatarUploadInput" accept="image/*" style="display: none;" />
+                    </form>
+                </div>
             </div>
             <div class="profile-info">
                 <h1>@Model.FirstName @Model.LastName</h1>
@@ -179,12 +188,18 @@
         margin-right: 30px;
     }
     
+    .avatar-upload-wrapper {
+        position: relative;
+        cursor: pointer;
+    }
+    
     .profile-avatar {
         width: 120px;
         height: 120px;
         border-radius: 50%;
         object-fit: cover;
         border: 4px solid white;
+        transition: filter 0.3s ease;
     }
     
     .profile-avatar-placeholder {
@@ -198,6 +213,43 @@
         justify-content: center;
         font-size: 48px;
         font-weight: 600;
+        transition: filter 0.3s ease;
+    }
+    
+    .avatar-upload-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        background-color: rgba(0, 0, 0, 0.6);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+        color: white;
+    }
+    
+    .avatar-upload-overlay i {
+        font-size: 24px;
+        margin-bottom: 5px;
+    }
+    
+    .avatar-upload-overlay span {
+        font-size: 12px;
+        text-align: center;
+    }
+    
+    .avatar-upload-wrapper:hover .avatar-upload-overlay {
+        opacity: 1;
+    }
+    
+    .avatar-upload-wrapper:hover .profile-avatar,
+    .avatar-upload-wrapper:hover .profile-avatar-placeholder {
+        filter: blur(2px);
     }
     
     .profile-info h1 {
@@ -253,3 +305,49 @@
         flex: 1;
     }
 </style>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const avatarWrapper = document.querySelector('.avatar-upload-wrapper');
+        const fileInput = document.getElementById('avatarUploadInput');
+        const form = document.getElementById('avatarUploadForm');
+        
+        if (avatarWrapper && fileInput && form) {
+            avatarWrapper.addEventListener('click', function() {
+                fileInput.click();
+            });
+            
+            fileInput.addEventListener('change', function() {
+                if (fileInput.files.length > 0) {
+                    form.submit();
+                }
+            });
+        }
+        
+        // If no avatar, generate one using avatar-generator.js
+        const profileAvatar = document.getElementById('profileAvatar');
+        if (!profileAvatar.src && profileAvatar.classList.contains('profile-avatar-placeholder')) {
+            const firstLetter = '@Model.FirstName[0].ToString().ToUpper()';
+            
+            // Check if the generateAvatar function exists (script is loaded)
+            if (typeof generateAvatar === 'function') {
+                const avatarDataUrl = generateAvatar(firstLetter, '#ffffff', '#6a0dad');
+                
+                // Replace the placeholder with the generated avatar
+                const img = document.createElement('img');
+                img.src = avatarDataUrl;
+                img.alt = 'Generated Avatar';
+                img.classList.add('profile-avatar');
+                img.id = 'profileAvatar';
+                
+                const placeholder = document.querySelector('.profile-avatar-placeholder');
+                if (placeholder && placeholder.parentNode) {
+                    placeholder.parentNode.replaceChild(img, placeholder);
+                }
+            }
+        }
+    });
+</script>
+
+<!-- Include the avatar-generator.js script -->
+<script src="/js/avatar-generator.js"></script>

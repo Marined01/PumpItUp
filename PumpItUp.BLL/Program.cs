@@ -2,6 +2,9 @@ using Microsoft.EntityFrameworkCore;
 using PumpItUp.BLL.Services;
 using PumpItUp.DAL.Configuration;
 using Serilog;
+using Microsoft.Extensions.FileProviders;
+using System.IO;
+
 var logPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData), "PumpItUpLogs", "log-.txt");
 
 var builder = WebApplication.CreateBuilder(args);
@@ -44,6 +47,19 @@ if (!app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
+
+// Configure static file middleware for serving images from the storage directory
+var imagesFolder = Path.Combine("D:", "university", "6 semester", "software engineering", "WebProject", "PumpItUp.DAL", "storage", "images");
+if (!Directory.Exists(imagesFolder))
+{
+    Directory.CreateDirectory(imagesFolder);
+}
+
+app.UseStaticFiles(new StaticFileOptions
+{
+    FileProvider = new PhysicalFileProvider(imagesFolder),
+    RequestPath = "/images"
+});
 
 app.UseRouting();
 

@@ -12,12 +12,20 @@ public class UserController : Controller
     private readonly UserService _userService;
     private readonly AppDbContext _dbContext;
     private readonly AuthService _authService;
+    private readonly string _imagesFolder;
 
-    public UserController(UserService userService, AppDbContext dbContext, AuthService authService)
+    public UserController(UserService userService, AppDbContext dbContext, AuthService authService, IWebHostEnvironment hostEnvironment)
     {
         _userService = userService;
         _dbContext = dbContext;
         _authService = authService;
+        _imagesFolder = Path.Combine("D:\\university\\6 semester\\software engineering\\WebProject\\PumpItUp.DAL\\storage\\images");
+        
+        // Ensure the directory exists
+        if (!Directory.Exists(_imagesFolder))
+        {
+            Directory.CreateDirectory(_imagesFolder);
+        }
     }
 
     [HttpGet]
@@ -88,5 +96,45 @@ public class UserController : Controller
         }
         
         return View(user);
+    }
+
+    [HttpPost]
+    public async Task<IActionResult> UploadAvatar(IFormFile file)
+    {
+        var userId = HttpContext.Session.GetInt32("UserId");
+        
+        if (userId == null)
+        {
+            return RedirectToAction("Login", "Auth");
+        }
+        
+        if (file != null && file.Length > 0)
+        {
+            var user = await _userService.GetUserByIdAsync(userId.Value);
+            
+            if (user == null)
+            {
+                return NotFound();
+            }
+            
+            // Generate a unique filename
+            var fileName = $"{userId}_{Guid.NewGuid()}{Path.GetExtension(file.FileName)}";
+            var filePath = Path.Combine(_imagesFolder, fileName);
+            
+            using (var stream = new FileStream(filePath, FileMode.Create))
+            {
+                await file.CopyToAsync(stream);
+            }
+            
+            // Update user's avatar URL to point to the new file
+            var fileUrl = $"/images/{fileName}";
+            user.AvatarUrl = fileUrl;
+            
+            await _dbContext.SaveChangesAsync();
+            
+            return RedirectToAction("Profile");
+        }
+        
+        return RedirectToAction("Profile");
     }
 }
