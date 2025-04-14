@@ -1,50 +1,131 @@
-﻿<!DOCTYPE html>
-<html lang="en">
+﻿@using Microsoft.AspNetCore.Http;
+<!DOCTYPE html>
+<html lang="uk">
 <head>
-    <meta charset="utf-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>@ViewData["Title"] - PumpItUp.BLL</title>
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css"/>
-    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true"/>
-    <link rel="stylesheet" href="~/PumpItUp.BLL.styles.css" asp-append-version="true"/>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - PumpItUp</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            margin: 0;
+            background-color: #f0f2f5;
+            color: #333;
+        }
+
+        header {
+            background-color: #6a0dad;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 40px;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+        }
+
+        header .left {
+            font-size: 26px;
+            font-weight: 600;
+        }
+
+        header .right ul {
+            list-style: none;
+            display: flex;
+            gap: 25px;
+            margin: 0;
+            padding: 0;
+        }
+
+        header .right ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+
+        header .right ul li a:hover {
+            color: #ddd;
+        }
+        
+        header .profile-link {
+            position: relative;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        header .profile-link .user-avatar {
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            background-color: #5800a8;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: 600;
+            font-size: 14px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        footer {
+            background-color: #f8f9fa;
+            text-align: center;
+            border-top: 1px solid #ddd;
+            color: #666;
+        }
+    </style>
+    @await RenderSectionAsync("Styles", required: false)
 </head>
 <body>
-<header>
-    <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-        <div class="container-fluid">
-            <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">PumpItUp.BLL</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse"
-                    aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                <ul class="navbar-nav flex-grow-1">
-                    <li class="nav-item">
-                        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-                    </li>
-                </ul>
-            </div>
+    <header>
+        <div class="left">PumpItUp</div>
+        <div class="right">
+            <ul>
+                <li><a href="/Home/Index">Головна</a></li>
+                <li><a href="/Training/Index">Тренування</a></li>
+                @{
+                    var userId = Context.Session.GetInt32("UserId");
+                    var userName = Context.Session.GetString("UserName") ?? "Профіль";
+                    
+                    if (userId.HasValue)
+                    {
+                        <li>
+                            <a href="/User/Profile" class="profile-link">
+                                <div class="user-avatar">
+                                    @(userName.Length > 0 ? userName[0].ToString().ToUpper() : "U")
+                                </div>
+                                <span>@userName</span>
+                            </a>
+                        </li>
+                        <li><a href="/Auth/Logout">Вийти</a></li>
+                    }
+                    else
+                    {
+                        <li><a href="/Auth/Login">Увійти</a></li>
+                        <li><a href="/Auth/SignUp">Зареєструватися</a></li>
+                    }
+                }
+            </ul>
         </div>
-    </nav>
-</header>
-<div class="container">
-    <main role="main" class="pb-3">
-        @RenderBody()
-    </main>
-</div>
+    </header>
 
-<footer class="border-top footer text-muted">
     <div class="container">
-        &copy; 2025 - PumpItUp.BLL - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        @RenderBody()
     </div>
-</footer>
-<script src="~/lib/jquery/dist/jquery.min.js"></script>
-<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-<script src="~/js/site.js" asp-append-version="true"></script>
-@await RenderSectionAsync("Scripts", required: false)
+
+    <footer>
+        <div class="container">
+            <p>&copy; @DateTime.Now.Year - PumpItUp - Fitness Application</p>
+        </div>
+    </footer>
+
+    @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>

@@ -65,7 +65,10 @@ public class AuthService
             Sex = model.Sex,
             Age = model.Age,
             FitnessLevel = model.FitnessLevel,
-            CreatedAt = DateTime.UtcNow
+            CreatedAt = DateTime.UtcNow,
+            RoleId = 1,
+            FollowingId = 1,
+            UpdatedAt = DateTime.UtcNow
         };
 
         _context.Users.Add(newUser);
@@ -75,8 +78,20 @@ public class AuthService
     public async Task<User?> LoginUserAsync(LoginRequest model)
     {
         var hashedPassword = HashPassword(model.Password);
-        return await _context.Users
+        var user = await _context.Users
             .FirstOrDefaultAsync(u => u.Email == model.Email && u.Password == hashedPassword);
+            
+        if (user != null && user.RoleId == 0)
+        {
+            user.RoleId = 1;
+        }
+        
+        if (user != null && user.FollowingId == 0)
+        {
+            user.FollowingId = 1;
+        }
+        
+        return user;
     }
 
     private string HashPassword(string password)

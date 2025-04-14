@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Http;
 using PumpItUp.BLL.Services;
 using PumpItUp.DAL.DTOs;
 using PumpItUp.DAL.Exceptions;
@@ -32,7 +33,7 @@ public class AuthController : Controller
         try
         {
             await _authService.RegisterUserAsync(model);
-            return RedirectToAction("Index", "Home");
+            return RedirectToAction("Login", "Auth");
         }
         catch (EmailAlreadyExists)
         {
@@ -63,10 +64,22 @@ public class AuthController : Controller
         var user = await _authService.LoginUserAsync(model);
         if (user != null)
         {
-            return RedirectToAction("Index", "Home");
+            HttpContext.Session.SetInt32("UserId", (int)user.Id!.Value);
+            HttpContext.Session.SetString("UserName", $"{user.FirstName} {user.LastName}");
+            
+            return RedirectToAction("Profile", "User");
         }
 
         ModelState.AddModelError("", "Неправильний емейл або пароль.");
         return View("LoginPage", model);
+    }
+    
+    [HttpGet]
+    public IActionResult Logout()
+    {
+        // Clear the session
+        HttpContext.Session.Clear();
+        
+        return RedirectToAction("Index", "Home");
     }
 }

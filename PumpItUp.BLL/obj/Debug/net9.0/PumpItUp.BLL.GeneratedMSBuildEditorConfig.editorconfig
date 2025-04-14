@@ -1,0 +1,169 @@
+is_global = true
+build_property.TargetFramework = net9.0
+build_property.TargetFramework = net9.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = PumpItUp.BLL
+build_property.RootNamespace = PumpItUp.BLL
+build_property.ProjectDir = D:\university\6 semester\software engineering\WebProject\PumpItUp.BLL\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 9.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\university\6 semester\software engineering\WebProject\PumpItUp.BLL
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 9.0
+build_property.EnableCodeStyleSeverity = 
+
+[D:/university/6 semester/software engineering/WebProject/PumpItUp.BLL/Views/Attachment/AttachmentDeleted.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXR0YWNobWVudFxBdHRhY2htZW50RGVsZXRlZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/university/6 semester/software engineering/WebProject/PumpItUp.BLL/Views/Attachment/AttachmentDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXR0YWNobWVudFxBdHRhY2htZW50RGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/university/6 semester/software engineering/WebProject/PumpItUp.BLL/Views/Attachment/CreateAttachment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXR0YWNobWVudFxDcmVhdGVBdHRhY2htZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/university/6 semester/software engineering/WebProject/PumpItUp.BLL/Views/Attachment/DeleteAttachmentList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXR0YWNobWVudFxEZWxldGVBdHRhY2htZW50TGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/university/6 semester/software engineering/WebProject/PumpItUp.BLL/Views/Attachment/GetAllAttachments.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXR0YWNobWVudFxHZXRBbGxBdHRhY2htZW50cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/university/6 semester/software engineering/WebProject/PumpItUp.BLL/Views/Attachment/GetAttachmentById.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXR0YWNobWVudFxHZXRBdHRhY2htZW50QnlJZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/university/6 semester/software engineering/WebProject/PumpItUp.BLL/Views/Auth/LoginPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxMb2dpblBhZ2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/university/6 semester/software engineering/WebProject/PumpItUp.BLL/Views/Auth/SignUpPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxTaWduVXBQYWdlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/university/6 semester/software engineering/WebProject/PumpItUp.BLL/Views/Following/CreateFollowing.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9sbG93aW5nXENyZWF0ZUZvbGxvd2luZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/university/6 semester/software engineering/WebProject/PumpItUp.BLL/Views/Following/FollowingDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9sbG93aW5nXEZvbGxvd2luZ0RldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/university/6 semester/software engineering/WebProject/PumpItUp.BLL/Views/Following/GetAllFollowings.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9sbG93aW5nXEdldEFsbEZvbGxvd2luZ3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/university/6 semester/software engineering/WebProject/PumpItUp.BLL/Views/Following/GetFollowingById.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9sbG93aW5nXEdldEZvbGxvd2luZ0J5SWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/university/6 semester/software engineering/WebProject/PumpItUp.BLL/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/university/6 semester/software engineering/WebProject/PumpItUp.BLL/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/university/6 semester/software engineering/WebProject/PumpItUp.BLL/Views/Post/CreatePost.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdFxDcmVhdGVQb3N0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/university/6 semester/software engineering/WebProject/PumpItUp.BLL/Views/Post/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdFxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/university/6 semester/software engineering/WebProject/PumpItUp.BLL/Views/Post/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/university/6 semester/software engineering/WebProject/PumpItUp.BLL/Views/Post/PostNotFound.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdFxQb3N0Tm90Rm91bmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/university/6 semester/software engineering/WebProject/PumpItUp.BLL/Views/Role/CreateRole.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZVxDcmVhdGVSb2xlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/university/6 semester/software engineering/WebProject/PumpItUp.BLL/Views/Role/DeleteRoleList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZVxEZWxldGVSb2xlTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/university/6 semester/software engineering/WebProject/PumpItUp.BLL/Views/Role/GetAllRoles.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZVxHZXRBbGxSb2xlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/university/6 semester/software engineering/WebProject/PumpItUp.BLL/Views/Role/GetRoleById.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZVxHZXRSb2xlQnlJZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/university/6 semester/software engineering/WebProject/PumpItUp.BLL/Views/Role/RoleDeleted.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZVxSb2xlRGVsZXRlZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/university/6 semester/software engineering/WebProject/PumpItUp.BLL/Views/Role/RoleDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZVxSb2xlRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/university/6 semester/software engineering/WebProject/PumpItUp.BLL/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/university/6 semester/software engineering/WebProject/PumpItUp.BLL/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/university/6 semester/software engineering/WebProject/PumpItUp.BLL/Views/User/CreateUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxDcmVhdGVVc2VyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/university/6 semester/software engineering/WebProject/PumpItUp.BLL/Views/User/DeleteUserList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxEZWxldGVVc2VyTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/university/6 semester/software engineering/WebProject/PumpItUp.BLL/Views/User/GetAllUsers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxHZXRBbGxVc2Vycy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/university/6 semester/software engineering/WebProject/PumpItUp.BLL/Views/User/GetUserById.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxHZXRVc2VyQnlJZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/university/6 semester/software engineering/WebProject/PumpItUp.BLL/Views/User/UserDeleted.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxVc2VyRGVsZXRlZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/university/6 semester/software engineering/WebProject/PumpItUp.BLL/Views/User/UserDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxVc2VyRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/university/6 semester/software engineering/WebProject/PumpItUp.BLL/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/university/6 semester/software engineering/WebProject/PumpItUp.BLL/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/university/6 semester/software engineering/WebProject/PumpItUp.BLL/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-ixruk9d5bx

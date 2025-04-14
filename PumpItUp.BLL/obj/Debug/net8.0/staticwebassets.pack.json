@@ -2,7 +2,7 @@
   "Files": [
     {
       "Id": "D:\\university\\6 semester\\software engineering\\WebProject\\PumpItUp.BLL\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\PumpItUp.BLL.bundle.scp.css",
-      "PackagePath": "staticwebassets\\PumpItUp.BLL.bundle.scp.css"
+      "PackagePath": "staticwebassets\\PumpItUp.BLL.o2tq34uw5v.bundle.scp.css"
     },
     {
       "Id": "D:\\university\\6 semester\\software engineering\\WebProject\\PumpItUp.BLL\\wwwroot\\css\\site.css",
@@ -11,6 +11,10 @@
     {
       "Id": "D:\\university\\6 semester\\software engineering\\WebProject\\PumpItUp.BLL\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\university\\6 semester\\software engineering\\WebProject\\PumpItUp.BLL\\wwwroot\\js\\avatar-generator.js",
+      "PackagePath": "staticwebassets\\js\\avatar-generator.js"
     },
     {
       "Id": "D:\\university\\6 semester\\software engineering\\WebProject\\PumpItUp.BLL\\wwwroot\\js\\site.js",
@@ -243,6 +247,10 @@
     {
       "Id": "D:\\university\\6 semester\\software engineering\\WebProject\\PumpItUp.BLL\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.PumpItUp.BLL.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.PumpItUp.BLL.Microsoft.AspNetCore.StaticWebAssets.props",
