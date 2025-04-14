@@ -71,6 +71,50 @@
         
         <div class="profile-details">
             <div class="detail-section">
+                <form asp-action="UpdateProfile" method="post" class="edit-profile-form">
+                    <h2>Редагування особистої інформації</h2>
+
+                    <div class="form-group">
+                        <label asp-for="FirstName">Ім'я</label>
+                        <input asp-for="FirstName" class="form-control" />
+                    </div>
+                    
+                    <div class="form-group">
+                        <label asp-for="LastName">Прізвище</label>
+                        <input asp-for="LastName" class="form-control" />
+                    </div>
+
+                    <div class="form-group">
+                        <label asp-for="Email">Email</label>
+                        <input asp-for="Email" class="form-control" />
+                    </div>
+
+                    <div class="form-group">
+                        <label asp-for="Age">Вік</label>
+                        <input asp-for="Age" type="number" class="form-control" />
+                    </div>
+
+                    <div class="form-group">
+                        <label asp-for="Sex">Стать</label>
+                        <select asp-for="Sex" class="form-control">
+                            <option value="Чоловіча">Чоловіча</option>
+                            <option value="Жіноча">Жіноча</option>
+                            <option value="Інше">Інше</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label asp-for="FitnessLevel">Рівень тренування</label>
+                        <select asp-for="FitnessLevel" class="form-control">
+                            <option>Початківець</option>
+                            <option>Середній</option>
+                            <option>Просунутий</option>
+                        </select>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Зберегти зміни</button>
+                </form>
+
                 <h2>Особиста інформація</h2>
                 <div class="detail-item">
                     <span class="label">Вік:</span>
@@ -228,126 +272,86 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        opacity: 0;
-        transition: opacity 0.3s ease;
         color: white;
-    }
-    
-    .avatar-upload-overlay i {
-        font-size: 24px;
-        margin-bottom: 5px;
-    }
-    
-    .avatar-upload-overlay span {
-        font-size: 12px;
-        text-align: center;
+        opacity: 0;
+        transition: opacity 0.3s;
     }
     
     .avatar-upload-wrapper:hover .avatar-upload-overlay {
         opacity: 1;
     }
     
-    .avatar-upload-wrapper:hover .profile-avatar,
-    .avatar-upload-wrapper:hover .profile-avatar-placeholder {
-        filter: blur(2px);
+    .profile-info {
+        flex-grow: 1;
     }
     
     .profile-info h1 {
-        margin: 0 0 5px 0;
-        font-size: 32px;
+        font-size: 24px;
+        margin: 0;
     }
     
     .profile-info .email {
-        margin: 0;
-        opacity: 0.9;
         font-size: 16px;
+        margin-top: 5px;
     }
     
     .premium-badge {
         display: inline-block;
-        background-color: gold;
+        background-color: #ffd700;
         color: #333;
-        padding: 3px 10px;
+        padding: 5px 10px;
         border-radius: 20px;
-        font-size: 14px;
         font-weight: 600;
+        font-size: 14px;
         margin-top: 10px;
     }
     
     .profile-details {
-        padding: 30px;
+        padding: 20px;
     }
     
-    .detail-section {
-        margin-bottom: 30px;
+    .profile-details h2 {
+        margin-top: 20px;
     }
     
-    .detail-section h2 {
-        color: #6a0dad;
-        margin-bottom: 15px;
-        font-size: 22px;
-        border-bottom: 1px solid #eee;
-        padding-bottom: 10px;
+    .form-group {
+        margin-bottom: 20px;
     }
     
-    .detail-item {
-        margin-bottom: 12px;
-        display: flex;
+    .form-group label {
+        font-weight: bold;
     }
     
-    .detail-item .label {
-        width: 185px;
-        font-weight: 600;
-        color: #555;
+    .form-control {
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid #ddd;
+        font-size: 16px;
+        margin-top: 5px;
+    }
+
+    select {
+        width: 100%;
     }
     
-    .detail-item .value {
-        flex: 1;
+    input {
+        width: 97%;
+    }
+
+    span.label {
+        font-weight: bold;
+    }
+    
+    .btn-primary {
+        background-color: #6a0dad;
+        color: white;
+        padding: 10px 20px;
+        border-radius: 5px;
+        border: none;
+        cursor: pointer;
+    }
+    
+    .btn-primary:hover {
+        background-color: #7b2cbf;
     }
 </style>
-
-<script>
-    document.addEventListener('DOMContentLoaded', function() {
-        const avatarWrapper = document.querySelector('.avatar-upload-wrapper');
-        const fileInput = document.getElementById('avatarUploadInput');
-        const form = document.getElementById('avatarUploadForm');
-        
-        if (avatarWrapper && fileInput && form) {
-            avatarWrapper.addEventListener('click', function() {
-                fileInput.click();
-            });
-            
-            fileInput.addEventListener('change', function() {
-                if (fileInput.files.length > 0) {
-                    form.submit();
-                }
-            });
-        }
-        
-        // If no avatar, generate one using avatar-generator.js
-        const profileAvatar = document.getElementById('profileAvatar');
-        if (!profileAvatar.src && profileAvatar.classList.contains('profile-avatar-placeholder')) {
-            const firstLetter = '@Model.FirstName[0].ToString().ToUpper()';
-            
-            // Check if the generateAvatar function exists (script is loaded)
-            if (typeof generateAvatar === 'function') {
-                const avatarDataUrl = generateAvatar(firstLetter, '#ffffff', '#6a0dad');
-                
-                // Replace the placeholder with the generated avatar
-                const img = document.createElement('img');
-                img.src = avatarDataUrl;
-                img.alt = 'Generated Avatar';
-                img.classList.add('profile-avatar');
-                img.id = 'profileAvatar';
-                
-                const placeholder = document.querySelector('.profile-avatar-placeholder');
-                if (placeholder && placeholder.parentNode) {
-                    placeholder.parentNode.replaceChild(img, placeholder);
-                }
-            }
-        }
-    });
-</script>
-
-<!-- Include the avatar-generator.js script -->
-<script src="/js/avatar-generator.js"></script>

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PumpItUp.DAL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+545bf3b39cee9804aaf8f135e3f96cb7d9ca00f9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fa277f6312e58160c6047fe11156fa8db8f5f940")]
 [assembly: System.Reflection.AssemblyProductAttribute("PumpItUp.DAL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PumpItUp.DAL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

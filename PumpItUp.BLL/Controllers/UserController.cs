@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Http;
 using PumpItUp.BLL.Services;
 using PumpItUp.DAL.Configuration;
 using PumpItUp.DAL.DTOs;
+using PumpItUp.DAL.Models;
 
 namespace PumpItUp.BLL.Controllers;
 
@@ -21,7 +22,6 @@ public class UserController : Controller
         _authService = authService;
         _imagesFolder = Path.Combine("D:\\university\\6 semester\\software engineering\\WebProject\\PumpItUp.DAL\\storage\\images");
         
-        // Ensure the directory exists
         if (!Directory.Exists(_imagesFolder))
         {
             Directory.CreateDirectory(_imagesFolder);
@@ -136,5 +136,30 @@ public class UserController : Controller
         }
         
         return RedirectToAction("Profile");
+    }
+
+    [HttpPost]
+    public async Task<IActionResult> UpdateProfile(User updatedUser)
+    {
+        var userId = HttpContext.Session.GetInt32("UserId");
+
+        if (userId == null) return RedirectToAction("Login", "Auth");
+
+        var user = await _dbContext.Users.FindAsync((long?)userId);
+
+        if (user == null) return NotFound();
+
+        user.FirstName = updatedUser.FirstName;
+        user.LastName = updatedUser.LastName;
+        user.Email = updatedUser.Email;
+        user.Age = updatedUser.Age;
+        user.Sex = updatedUser.Sex;
+        user.FitnessLevel = updatedUser.FitnessLevel;
+
+        await _dbContext.SaveChangesAsync();
+
+        TempData["Success"] = "Профіль оновлено успішно!";
+        
+        return View("Profile", user);
     }
 }
