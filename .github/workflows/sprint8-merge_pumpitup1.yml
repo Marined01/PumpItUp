@@ -1,4 +1,7 @@
-name: Build and deploy ASP.Net Core app to Azure Web App - PumpItUp
+# Docs for the Azure Web Apps Deploy action: https://github.com/Azure/webapps-deploy
+# More GitHub Actions for Azure: https://github.com/Azure/actions
+
+name: Build and deploy ASP.Net Core app to Azure Web App - Pumpitup1
 
 on:
   push:
@@ -10,51 +13,56 @@ jobs:
   build:
     runs-on: ubuntu-latest
     permissions:
-      contents: read
+      contents: read #This is required for actions/checkout
 
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      - name: Setup .NET 8.x
+      - name: Set up .NET Core
         uses: actions/setup-dotnet@v4
         with:
-          dotnet-version: '8.x'
+          dotnet-version: '8.0'
 
-      - name: Build
+      - name: Build with dotnet
         run: dotnet build --configuration Release
 
-      - name: Publish to folder
-        run: dotnet publish --configuration Release --output ./publish
+      - name: dotnet publish
+        run: dotnet publish -c Release -o ${{env.DOTNET_ROOT}}/myapp
 
-      - name: Upload publish artifact
+      - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v4
         with:
-          name: publish
-          path: ./publish
+          name: .net-app
+          path: ${{env.DOTNET_ROOT}}/myapp
 
   deploy:
     runs-on: ubuntu-latest
     needs: build
+    environment:
+      name: 'Production'
+      url: ${{ steps.deploy-to-webapp.outputs.webapp-url }}
     permissions:
-      contents: read
+      id-token: write #This is required for requesting the JWT
+      contents: read #This is required for actions/checkout
 
     steps:
-      - name: Download publish artifact
+      - name: Download artifact from build job
         uses: actions/download-artifact@v4
         with:
-          name: publish
-
-      - name: Debug: list files
-        run: |
-          echo "=== Working directory ==="
-          ls -R .
+          name: .net-app
+      
+      - name: Login to Azure
+        uses: azure/login@v2
+        with:
+          client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_FDBFC97CF90941A7A248AEBE69CBEF82 }}
+          tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_0B0022898C1747978B0382B17B82333C }}
+          subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_2910AEC3A86D4D80ACE0CE04A41FC700 }}
 
       - name: Deploy to Azure Web App
         id: deploy-to-webapp
         uses: azure/webapps-deploy@v3
         with:
-          app-name: PumpItUp
-          slot-name: Production
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_CC4DE440E6354E509C757CC76067D2CB }}
-          package: ./publish
+          app-name: 'Pumpitup1'
+          slot-name: 'Production'
+          package: .
+          
