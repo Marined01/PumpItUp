@@ -1,6 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using PumpItUp.BLL.Services;
 using PumpItUp.DAL.Configuration;
+using PumpItUp.DAL.Repositories;
 using Serilog;
 using Microsoft.Extensions.FileProviders;
 using System.IO;
@@ -30,12 +31,18 @@ builder.Services.AddSession(options =>
 
 builder.Services.AddControllersWithViews();
 
+// Register repositories
+builder.Services.AddScoped<ExerciseSetRepository>();
+
+// Register services
 builder.Services.AddScoped<UserService>();
 builder.Services.AddScoped<AttachmentService>();
 builder.Services.AddScoped<PostService>();
 builder.Services.AddScoped<RoleService>();
 builder.Services.AddScoped<FollowingService>();
 builder.Services.AddScoped<AuthService>();
+builder.Services.AddScoped<EmailService>();
+builder.Services.AddScoped<ExerciseService>(); // Register ExerciseService
 
 var app = builder.Build();
 

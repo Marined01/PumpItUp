@@ -12,10 +12,12 @@ namespace PumpItUp.BLL.Services;
 public class AuthService
 {
     private readonly AppDbContext _context;
+    private readonly EmailService _emailService;
 
-    public AuthService(AppDbContext context)
+    public AuthService(AppDbContext context, EmailService emailService)
     {
         _context = context;
+        _emailService = emailService;
     }
 
     public async Task<IEnumerable<SelectionItem>> GetSexOptionsAsync()
@@ -93,11 +95,54 @@ public class AuthService
         
         return user;
     }
+    
+    public async Task GeneratePasswordResetTokenAsync(string email)
+    {
+        var user = await _context.Users.FirstOrDefaultAsync(u => u.Email.ToLower() == email.ToLower());
+        
+        if (user == null)
+            return;
+        
+        var token = GenerateRandomToken();
+        
+        var tokenExpiry = DateTime.UtcNow.AddHours(24);
+        
+        user.ResetPasswordToken = token;
+        user.ResetPasswordTokenExpiry = tokenExpiry;
+        
+        await _context.SaveChangesAsync();
+        
+        await _emailService.SendPasswordResetEmailAsync(email, token);
+    }
+    
+    public async Task ResetPasswordAsync(string email, string token, string newPassword)
+    {
+        var user = await _context.Users.FirstOrDefaultAsync(u => 
+            u.Email.ToLower() == email.ToLower() && 
+            u.ResetPasswordToken == token &&
+            u.ResetPasswordTokenExpiry > DateTime.UtcNow);
+        
+        if (user == null)
+            throw new InvalidOperationException("Invalid or expired token");
+        
+        user.Password = HashPassword(newPassword);
+        
+        user.ResetPasswordToken = null;
+        user.ResetPasswordTokenExpiry = null;
+        
+        await _context.SaveChangesAsync();
+    }
 
     private string HashPassword(string password)
     {
         var bytes = Encoding.UTF8.GetBytes(password);
         var hash = SHA256.HashData(bytes);
         return BitConverter.ToString(hash).Replace("-", "").ToLowerInvariant();
+    }
+    
+    private string GenerateRandomToken()
+    {
+        var tokenBytes = RandomNumberGenerator.GetBytes(32);
+        return Convert.ToBase64String(tokenBytes);
     }
 }

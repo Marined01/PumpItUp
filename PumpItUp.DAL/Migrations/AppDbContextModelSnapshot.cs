@@ -90,6 +90,102 @@ namespace PumpItUp.DAL.Migrations
                     b.ToTable("attachment");
                 });
 
+            modelBuilder.Entity("PumpItUp.DAL.Models.Exercise", b =>
+                {
+                    b.Property<long>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bigint");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<long>("Id"));
+
+                    b.Property<int>("BodyPart")
+                        .HasColumnType("integer");
+
+                    b.Property<double>("CaloriesBurnedPerMinute")
+                        .HasColumnType("double precision");
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<int>("DifficultyLevel")
+                        .HasColumnType("integer");
+
+                    b.Property<long>("ExerciseSetId")
+                        .HasColumnType("bigint");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<int>("Type")
+                        .HasColumnType("integer");
+
+                    b.Property<DateTime>("UpdatedAt")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ExerciseSetId");
+
+                    b.ToTable("exercises");
+                });
+
+            modelBuilder.Entity("PumpItUp.DAL.Models.ExerciseSet", b =>
+                {
+                    b.Property<long>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bigint");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<long>("Id"));
+
+                    b.Property<int>("CaloriesBurned")
+                        .HasColumnType("integer");
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<int>("DifficultyLevel")
+                        .HasColumnType("integer");
+
+                    b.Property<string>("ImageUrl")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<int>("NumberOfExercises")
+                        .HasColumnType("integer");
+
+                    b.Property<int>("PrimaryBodyPart")
+                        .HasColumnType("integer");
+
+                    b.Property<int>("Ratings")
+                        .HasColumnType("integer");
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<int>("TrainingDurationMinutes")
+                        .HasColumnType("integer");
+
+                    b.Property<DateTime>("UpdatedAt")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<string>("VideoUrl")
+                        .HasColumnType("text");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("exercise_sets");
+                });
+
             modelBuilder.Entity("PumpItUp.DAL.Models.Following", b =>
                 {
                     b.Property<long>("Id")
@@ -252,6 +348,22 @@ namespace PumpItUp.DAL.Migrations
                         .IsRequired();
 
                     b.Navigation("User");
+                });
+
+            modelBuilder.Entity("PumpItUp.DAL.Models.Exercise", b =>
+                {
+                    b.HasOne("PumpItUp.DAL.Models.ExerciseSet", "ExerciseSet")
+                        .WithMany("Exercises")
+                        .HasForeignKey("ExerciseSetId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("ExerciseSet");
+                });
+
+            modelBuilder.Entity("PumpItUp.DAL.Models.ExerciseSet", b =>
+                {
+                    b.Navigation("Exercises");
                 });
 
             modelBuilder.Entity("PumpItUp.DAL.Models.User", b =>

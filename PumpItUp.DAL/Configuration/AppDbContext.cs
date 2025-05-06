@@ -11,12 +11,13 @@ public class AppDbContext : DbContext
     }
 
     public DbSet<User> Users { get; set; }
-
     public DbSet<BankData> BankData { get; set; }
     public DbSet<Post> Posts { get; set; }
     public DbSet<Attachment> Attachments { get; set; }
     public DbSet<Role> Roles { get; set; }
     public DbSet<Following> Followings { get; set; }
+    public DbSet<ExerciseSet> ExerciseSets { get; set; }
+    public DbSet<Exercise> Exercises { get; set; }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
@@ -24,6 +25,13 @@ public class AppDbContext : DbContext
             .HasOne(u => u.BankData)
             .WithOne(b => b.User)
             .HasForeignKey<BankData>(b => b.UserId)
+            .OnDelete(DeleteBehavior.Cascade);
+
+        // Configure ExerciseSet and Exercise relationship
+        modelBuilder.Entity<ExerciseSet>()
+            .HasMany(es => es.Exercises)
+            .WithOne(e => e.ExerciseSet)
+            .HasForeignKey(e => e.ExerciseSetId)
             .OnDelete(DeleteBehavior.Cascade);
 
         // modelBuilder.Entity<Post>()

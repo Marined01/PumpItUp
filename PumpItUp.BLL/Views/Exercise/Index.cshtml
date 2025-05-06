@@ -1,0 +1,308 @@
+@model PumpItUp.BLL.Models.ViewModels.ExercisePageViewModel
+
+@{
+    ViewData["Title"] = "Тренування";
+    var activeFilterStyle = "background-color: #e0cffc; border-color: #c7a7fc; color: #333; font-weight: 500;";
+    var inactiveFilterStyle = "";
+}
+
+<div class="container-fluid mt-4 px-lg-5">
+    <div class="wrap-container d-flex flex-wrap flex-md-nowrap gap-4">
+        <div class="filter-container mb-4 mb-md-0">
+            <h4 class="fw-bold mb-4">ФІЛЬТР</h4>
+            <form asp-action="Filter" method="post">
+                <div class="mb-4 filter-section">
+                    <h6 class="d-flex justify-content-between align-items-center fw-semibold mb-2 filter-header" data-bs-toggle="collapse" href="#bodyPartCollapse" role="button" aria-expanded="true" aria-controls="bodyPartCollapse">
+                        ЧАСТИНА ТІЛА
+                        <i class="bi bi-chevron-up"></i>
+                    </h6>
+                    <div class="collapse show" id="bodyPartCollapse">
+                        <div class="form-check mb-1">
+                            <input class="form-check-input" type="checkbox" id="fullBody" name="SelectedBodyParts" value="0" @(Model.Filter.SelectedBodyParts?.Contains(PumpItUp.DAL.Common.BodyPart.FullBody) ?? false ? "checked" : "")>
+                            <label class="form-check-label small" for="fullBody">Повне тіло</label>
+                        </div>
+                        <div class="form-check mb-1">
+                            <input class="form-check-input" type="checkbox" id="upperBody" name="SelectedBodyParts" value="1" @(Model.Filter.SelectedBodyParts?.Contains(PumpItUp.DAL.Common.BodyPart.UpperBody) ?? true ? "checked" : "")>
+                            <label class="form-check-label small" for="upperBody">Верхня частина тіла</label>
+                        </div>
+                        <div class="form-check mb-1">
+                            <input class="form-check-input" type="checkbox" id="lowerBody" name="SelectedBodyParts" value="2" @(Model.Filter.SelectedBodyParts?.Contains(PumpItUp.DAL.Common.BodyPart.LowerBody) ?? true ? "checked" : "")>
+                            <label class="form-check-label small" for="lowerBody">Нижня частина тіла</label>
+                        </div>
+                        <div class="form-check mb-1">
+                            <input class="form-check-input" type="checkbox" id="core" name="SelectedBodyParts" value="3" @(Model.Filter.SelectedBodyParts?.Contains(PumpItUp.DAL.Common.BodyPart.Core) ?? false ? "checked" : "")>
+                            <label class="form-check-label small" for="core">Корпус</label>
+                        </div>
+                    </div>
+                </div>
+                <hr class="my-3 filter-divider">
+                <div class="mb-4 filter-section">
+                    <h6 class="d-flex justify-content-between align-items-center fw-semibold mb-2 filter-header" data-bs-toggle="collapse" href="#difficultyCollapse" role="button" aria-expanded="true" aria-controls="difficultyCollapse">
+                        РІВЕНЬ СКЛАДНОСТІ
+                        <i class="bi bi-chevron-up"></i>
+                    </h6>
+                    <div class="collapse show" id="difficultyCollapse">
+                        <div class="form-check mb-1">
+                            <input class="form-check-input" type="checkbox" id="beginner" name="SelectedDifficultyLevels" value="0" @(Model.Filter.SelectedDifficultyLevels?.Contains(PumpItUp.DAL.Common.FitnessLevel.Beginner) ?? false ? "checked" : "")>
+                            <label class="form-check-label small" for="beginner">Початковий</label>
+                        </div>
+                        <div class="form-check mb-1">
+                            <input class="form-check-input" type="checkbox" id="intermediate" name="SelectedDifficultyLevels" value="1" @(Model.Filter.SelectedDifficultyLevels?.Contains(PumpItUp.DAL.Common.FitnessLevel.Lover) ?? true ? "checked" : "")>
+                            <label class="form-check-label small" for="intermediate">Середній</label>
+                        </div>
+                        <div class="form-check mb-1">
+                            <input class="form-check-input" type="checkbox" id="advanced" name="SelectedDifficultyLevels" value="2" @(Model.Filter.SelectedDifficultyLevels?.Contains(PumpItUp.DAL.Common.FitnessLevel.Advanced) ?? true ? "checked" : "")>
+                            <label class="form-check-label small" for="advanced">Просунутий</label>
+                        </div>
+                    </div>
+                </div>
+                <hr class="my-3 filter-divider">
+                <div class="mb-4 filter-section">
+                    <h6 class="d-flex justify-content-between align-items-center fw-semibold mb-2 filter-header" data-bs-toggle="collapse" href="#typeCollapse" role="button" aria-expanded="true" aria-controls="typeCollapse">
+                        ТИП НАВАНТАЖЕННЯ
+                        <i class="bi bi-chevron-up"></i>
+                    </h6>
+                    <div class="collapse show" id="typeCollapse">
+                        <div class="form-check mb-1">
+                            <input class="form-check-input" type="checkbox" id="cardio" name="SelectedExerciseTypes" value="0" @(Model.Filter.SelectedExerciseTypes?.Contains(PumpItUp.DAL.Common.ExerciseType.Cardio) ?? false ? "checked" : "")>
+                            <label class="form-check-label small" for="cardio">Кардіо</label>
+                        </div>
+                        <div class="form-check mb-1">
+                            <input class="form-check-input" type="checkbox" id="strength" name="SelectedExerciseTypes" value="1" @(Model.Filter.SelectedExerciseTypes?.Contains(PumpItUp.DAL.Common.ExerciseType.Strength) ?? true ? "checked" : "")>
+                            <label class="form-check-label small" for="strength">Силові</label>
+                        </div>
+                        <div class="form-check mb-1">
+                            <input class="form-check-input" type="checkbox" id="functional" name="SelectedExerciseTypes" value="2" @(Model.Filter.SelectedExerciseTypes?.Contains(PumpItUp.DAL.Common.ExerciseType.Functional) ?? false ? "checked" : "")>
+                            <label class="form-check-label small" for="functional">Функціональні</label>
+                        </div>
+                        <div class="form-check mb-1">
+                            <input class="form-check-input" type="checkbox" id="flexibility" name="SelectedExerciseTypes" value="3" @(Model.Filter.SelectedExerciseTypes?.Contains(PumpItUp.DAL.Common.ExerciseType.Flexibility) ?? true ? "checked" : "")>
+                            <label class="form-check-label small" for="flexibility">Гнучкість</label>
+                        </div>
+                    </div>
+                </div>
+
+                <button type="submit" class="btn btn-primary w-100 mt-3 d-md-none filter-apply-btn">Застосувати фільтр</button>
+            </form>
+        </div>
+
+        <div class="exercise-list-container flex-grow-1">
+            <div class="d-flex mb-4 gap-2 justify-content-start flex-wrap" style="padding: 10px;">
+                <button class="btn btn-filter rounded-pill px-4 py-1" 
+                        style="@(Model.Filter.FilterType == "All" ? activeFilterStyle : inactiveFilterStyle)" 
+                        onclick="location.href='@Url.Action("Index", new { filterType = "All" })'">Всі</button>
+                <button class="btn btn-filter rounded-pill px-4 py-1" 
+                        style="@(Model.Filter.FilterType == "Sets" ? activeFilterStyle : inactiveFilterStyle)" 
+                        onclick="location.href='@Url.Action("Index", new { filterType = "Sets" })'">Сети</button>
+                <button class="btn btn-filter rounded-pill px-4 py-1" 
+                        style="@(Model.Filter.FilterType == "Workouts" ? activeFilterStyle : inactiveFilterStyle)" 
+                        onclick="location.href='@Url.Action("Index", new { filterType = "Workouts" })'">Тренування</button>
+                <button class="btn btn-filter rounded-pill px-4 py-1" 
+                        style="@(Model.Filter.FilterType == "Programs" ? activeFilterStyle : inactiveFilterStyle)" 
+                        onclick="location.href='@Url.Action("Index", new { filterType = "Programs" })'">Вправи</button>
+            </div>
+
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-4">
+                @foreach (var exerciseSet in Model.ExerciseSets)
+                {
+                    <div class="col">
+                        <a href="@Url.Action("Details", new { id = exerciseSet.Id })" class="card-link">
+                            <div class="card h-100 position-relative border-0 shadow-sm overflow-hidden exercise-card">
+                                <button class="btn btn-star position-absolute top-0 end-0 m-2 rounded-circle p-1 shadow-sm z-index-1">
+                                    <i class="bi bi-star-fill"></i> <!-- Changed to bi-star-fill for filled star -->
+                                </button>
+                                <img src="@exerciseSet.ImageUrl" class="card-img-top exercise-card-img" alt="@exerciseSet.Title">
+                                <div class="card-body pb-2 px-3">
+                                    <h6 class="card-title fw-bold mb-2">@exerciseSet.Title</h6>
+                                    <div class="card-text small text-muted d-flex flex-wrap gap-2">
+                                        <span><i class="bi bi-clock me-1"></i>@exerciseSet.TrainingDurationMinutes хв</span>
+                                        <span><i class="bi bi-fire me-1"></i>@exerciseSet.CaloriesBurned ккал</span>
+                                        <span><i class="bi bi-lightning-charge me-1"></i>@exerciseSet.NumberOfExercises вправ</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Styles {
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <style>
+        body {
+            background-color: #f8f9fa; /* Light background for the page */
+        }
+        .wrap-container{
+            gap: 4rem; /* Space between filter and exercise list */
+        }
+        .filter-container {
+            flex: row;
+            align-self: flex-start;
+            width: 40%;
+        }
+
+        .exercise-list-container {
+            /* Takes remaining space */
+        }
+
+        .filter-header {
+            cursor: pointer;
+            font-size: 0.9rem; /* Slightly smaller filter headers */
+            color: #333;
+        }
+        .filter-header i {
+             font-size: 0.8rem;
+        }
+        
+        .filter-section .form-check-label.small {
+            font-size: 0.9rem; /* Slightly larger checkbox labels */
+            color: #555;
+        }
+        .filter-section .form-check-input {
+            margin-top: 0.25rem;
+            border-color: #adb5bd;
+        }
+        .filter-section .form-check-input:checked {
+            background-color: #a370f7; /* Purple color from image */
+            border-color: #a370f7;
+        }
+        
+        .filter-divider {
+            border-top: 1px solid #e9ecef; /* Lighter divider */
+        }
+        
+        .exercise-card-img {
+            height: 180px;
+            object-fit: cover;
+            border-radius: 0.75rem 0.75rem 0 0; /* Rounded top corners */
+        }
+        
+        .rounded-pill {
+            border-radius: 50px;
+        }
+        
+        .btn-filter {
+            border: 1px solid #dee2e6; /* Lighter border for filter buttons */
+            color: #495057;
+            background-color: #fff;
+            font-size: 0.9rem;
+            transition: all 0.2s ease-in-out;
+            padding: 0.4rem 1rem;
+        }
+        .btn-filter:hover {
+            background-color: #f1f3f5;
+            border-color: #ced4da;
+        }
+        
+        .card-link {
+            text-decoration: none;
+            color: inherit;
+        }
+        .exercise-card {
+            transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+            border-radius: 0.75rem !important; /* Rounded corners for the card */
+            background-color: #fff;
+        }
+        .exercise-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1) !important;
+        }
+        .z-index-1 { z-index: 1; }
+        
+        .btn-star {
+            background-color: rgba(255, 255, 255, 0.9);
+            border: none;
+            width: 32px;
+            height: 32px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1rem;
+            color: #ffc107; /* Yellow star color */
+            transition: background-color 0.2s ease;
+        }
+        .btn-star:hover {
+            background-color: rgba(255, 255, 255, 1);
+        }
+        
+        .card-title {
+             font-size: 1rem; /* Slightly larger card title */
+        }
+        .card-text.small {
+            font-size: 0.8rem; /* Smaller text for details */
+            color: #6c757d !important;
+        }
+        .card-text span {
+            white-space: nowrap;
+        }
+        
+        .d-flex.flex-md-nowrap {
+            display: flex;
+            flex-direction: row;
+        }
+        
+        @@media (max-width: 767.98px) {
+            .filter-container {
+                flex: 1 1 100%; /* Full width on smaller screens */
+                margin-right: 0;
+                width: auto;
+            }
+            .exercise-card-img {
+                height: 160px;
+            }
+            .d-flex.flex-md-nowrap {
+                gap: 1.5rem; /* Reduce gap on smaller screens */
+            }
+        }
+        
+        .exercise-list-container .row {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .exercise-list-container .col {
+            display: flex;
+            flex-direction: column;
+        }
+        .exercise-list-container .card {
+            flex-grow: 1; /* Make cards fill column height */
+        }
+
+        .filter-apply-btn {
+            background: linear-gradient(90deg, #a370f7 0%, #7f53ac 100%);
+            border: none;
+            color: #fff;
+            font-weight: 600;
+            font-size: 1.05rem;
+            border-radius: 2rem;
+            box-shadow: 0 2px 8px rgba(163, 112, 247, 0.15);
+            transition: background 0.2s, box-shadow 0.2s;
+            margin-top: 15px;
+            padding: 10px;
+        }
+        .filter-apply-btn:hover, .filter-apply-btn:focus {
+            background: linear-gradient(90deg, #7f53ac 0%, #a370f7 100%);
+            box-shadow: 0 4px 16px rgba(127, 83, 172, 0.18);
+        }
+    </style>
+}
+
+@section Scripts {
+    <script>
+        $(document).ready(function() {
+            // Toggle chevron icons for filter sections
+            $('.filter-header[data-bs-toggle="collapse"]').on('click', function() {
+                $(this).find('i').toggleClass('bi-chevron-down bi-chevron-up');
+            });
+
+            // Ensure initially collapsed sections have the correct icon
+            $('.filter-section .collapse:not(.show)').each(function() {
+                var header = $('[data-bs-toggle="collapse"][href="#' + $(this).attr('id') + '"]');
+                header.find('i').removeClass('bi-chevron-up').addClass('bi-chevron-down');
+            });
+        });
+    </script>
+}

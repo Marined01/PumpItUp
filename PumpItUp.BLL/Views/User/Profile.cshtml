@@ -355,3 +355,38 @@
         background-color: #7b2cbf;
     }
 </style>
+
+@section Scripts {
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const avatarWrapper = document.querySelector('.avatar-upload-wrapper');
+            const avatarInput = document.getElementById('avatarUploadInput');
+            const avatarForm = document.getElementById('avatarUploadForm');
+
+            if (avatarWrapper && avatarInput && avatarForm) {
+                avatarWrapper.addEventListener('click', function () {
+                    avatarInput.click(); // Trigger the file input when the avatar area is clicked
+                });
+
+                avatarInput.addEventListener('change', function () {
+                    if (this.files && this.files[0]) {
+                        // Optional: Preview the image locally before uploading
+                        // const reader = new FileReader();
+                        // reader.onload = function (e) {
+                        //     const avatarImage = document.getElementById('profileAvatar');
+                        //     if (avatarImage.tagName === 'IMG') {
+                        //         avatarImage.src = e.target.result;
+                        //     } else {
+                        //         // Handle placeholder case if needed, maybe replace it with an img tag
+                        //     }
+                        // }
+                        // reader.readAsDataURL(this.files[0]);
+
+                        // Automatically submit the form when a file is selected
+                        avatarForm.submit();
+                    }
+                });
+            }
+        });
+    </script>
+}

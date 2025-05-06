@@ -1,11 +1,11 @@
 ﻿using PumpItUp.DAL.Models;
-using Xunit;
+using NUnit.Framework;
 
 namespace PumpItUp.BLL.Tests
 {
     public class FollowingServiceTest
     {
-        [Fact]
+        [Test]
         public void Following_Creation_Should_Set_Correct_Values()
         {
             const long userOneId = 1L;
@@ -20,10 +20,10 @@ namespace PumpItUp.BLL.Tests
                 UpdatedAt = createdAt
             };
 
-            Assert.Equal(userOneId, following.FollowerId);
-            Assert.Equal(userFollowedById, following.FollowingId);
-            Assert.Equal(createdAt, following.CreatedAt);
-            Assert.Equal(createdAt, following.UpdatedAt);
+            Assert.That(following.FollowerId, Is.EqualTo(userOneId));
+            Assert.That(following.FollowingId, Is.EqualTo(userFollowedById));
+            Assert.That(following.CreatedAt, Is.EqualTo(createdAt));
+            Assert.That(following.UpdatedAt, Is.EqualTo(createdAt));
         }
     }
 }

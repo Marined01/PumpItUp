@@ -11,8 +11,8 @@ namespace PumpItUp.BLL.Tests
     [TestFixture]
     public class RoleServiceTest
     {
-        private Mock<AppDbContext> _mockContext;
-        private RoleService _roleService;
+        private Mock<AppDbContext> _mockContext = null!;
+        private RoleService _roleService = null!;
 
         [SetUp]
         public void SetUp()
@@ -43,7 +43,7 @@ namespace PumpItUp.BLL.Tests
             // Assert
             _mockContext.Verify(c => c.Roles.Add(It.Is<Role>(r => r.Name == expectedRoleName)), Times.Once);
             _mockContext.Verify(c => c.SaveChangesAsync(default), Times.Once);
-            Assert.AreEqual(expectedRoleName, result.Name);
+            Assert.That(result.Name, Is.EqualTo(expectedRoleName));
         }
     }
 }

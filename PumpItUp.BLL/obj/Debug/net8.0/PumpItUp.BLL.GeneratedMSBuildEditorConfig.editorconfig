@@ -52,12 +52,36 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXR0YWNobWVudFxHZXRBdHRhY2htZW50QnlJZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/university/6 semester/software engineering/WebProject/PumpItUp.BLL/Views/Auth/ForgotPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxGb3Jnb3RQYXNzd29yZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/university/6 semester/software engineering/WebProject/PumpItUp.BLL/Views/Auth/ForgotPasswordConfirmation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxGb3Jnb3RQYXNzd29yZENvbmZpcm1hdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/university/6 semester/software engineering/WebProject/PumpItUp.BLL/Views/Auth/LoginPage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxMb2dpblBhZ2UuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/university/6 semester/software engineering/WebProject/PumpItUp.BLL/Views/Auth/ResetPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxSZXNldFBhc3N3b3JkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/university/6 semester/software engineering/WebProject/PumpItUp.BLL/Views/Auth/ResetPasswordConfirmation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxSZXNldFBhc3N3b3JkQ29uZmlybWF0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/university/6 semester/software engineering/WebProject/PumpItUp.BLL/Views/Auth/SignUpPage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxTaWduVXBQYWdlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/university/6 semester/software engineering/WebProject/PumpItUp.BLL/Views/Exercise/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhlcmNpc2VcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/university/6 semester/software engineering/WebProject/PumpItUp.BLL/Views/Exercise/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhlcmNpc2VcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/university/6 semester/software engineering/WebProject/PumpItUp.BLL/Views/Following/CreateFollowing.cshtml]

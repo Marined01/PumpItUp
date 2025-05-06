@@ -12,9 +12,9 @@ namespace PumpItUp.BLL.Tests
 {
     public class UserServiceTest
     {
-        private Mock<UserRepository> _mockUserRepository;
-        private Mock<AppDbContext> _mockContext;
-        private UserService _userService;
+        private Mock<UserRepository> _mockUserRepository = null!;
+        private Mock<AppDbContext> _mockContext = null!;
+        private UserService _userService = null!;
 
         [SetUp]
         public void Setup()
@@ -65,8 +65,8 @@ namespace PumpItUp.BLL.Tests
             var createdUser = await _userService.CreateUserAsync(userRequest);
 
             // Assert
-            Assert.IsNotNull(createdUser);
-            Assert.AreEqual(userRequest.FirstName, createdUser.FirstName);
+            Assert.That(createdUser, Is.Not.Null);
+            Assert.That(createdUser.FirstName, Is.EqualTo(userRequest.FirstName));
             _mockContext.Verify(c => c.Users.Add(It.IsAny<User>()), Times.Once);
             _mockContext.Verify(c => c.SaveChangesAsync(It.IsAny<CancellationToken>()), Times.Once);
         }
@@ -97,10 +97,10 @@ namespace PumpItUp.BLL.Tests
             var result = await _userService.GetUserByIdAsync(userId);
 
             // Assert
-            Assert.IsNotNull(result);
-            Assert.AreEqual(userId, result.Id);
-            Assert.AreEqual("John", result.FirstName);
-            Assert.AreEqual("Doe", result.LastName);
+            Assert.That(result, Is.Not.Null);
+            Assert.That(result.Id, Is.EqualTo(userId));
+            Assert.That(result.FirstName, Is.EqualTo("John"));
+            Assert.That(result.LastName, Is.EqualTo("Doe"));
         }
 
         [Test]
@@ -118,10 +118,10 @@ namespace PumpItUp.BLL.Tests
             var result = await _userService.GetAllUsers();
 
             // Assert
-            Assert.IsNotNull(result);
-            Assert.AreEqual(2, result.Count);
-            Assert.AreEqual("John", result[0].FirstName);
-            Assert.AreEqual("Jane", result[1].FirstName);
+            Assert.That(result, Is.Not.Null);
+            Assert.That(result.Count, Is.EqualTo(2));
+            Assert.That(result[0].FirstName, Is.EqualTo("John"));
+            Assert.That(result[1].FirstName, Is.EqualTo("Jane"));
         }
     }
 }

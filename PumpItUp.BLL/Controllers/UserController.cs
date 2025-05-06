@@ -5,6 +5,8 @@ using PumpItUp.BLL.Services;
 using PumpItUp.DAL.Configuration;
 using PumpItUp.DAL.DTOs;
 using PumpItUp.DAL.Models;
+using Microsoft.AspNetCore.Hosting;
+using System.IO;
 
 namespace PumpItUp.BLL.Controllers;
 
@@ -13,18 +15,18 @@ public class UserController : Controller
     private readonly UserService _userService;
     private readonly AppDbContext _dbContext;
     private readonly AuthService _authService;
-    private readonly string _imagesFolder;
+    private readonly string _profileImagesFolder;
 
     public UserController(UserService userService, AppDbContext dbContext, AuthService authService, IWebHostEnvironment hostEnvironment)
     {
         _userService = userService;
         _dbContext = dbContext;
         _authService = authService;
-        _imagesFolder = Path.Combine("D:\\university\\6 semester\\software engineering\\WebProject\\PumpItUp.DAL\\storage\\images");
-        
-        if (!Directory.Exists(_imagesFolder))
+        _profileImagesFolder = Path.Combine("D:\\university\\6 semester\\software engineering\\WebProject\\PumpItUp.DAL\\storage\\images\\profiles");
+
+        if (!Directory.Exists(_profileImagesFolder))
         {
-            Directory.CreateDirectory(_imagesFolder);
+            Directory.CreateDirectory(_profileImagesFolder);
         }
     }
 
@@ -116,25 +118,41 @@ public class UserController : Controller
             {
                 return NotFound();
             }
+
+            if (!string.IsNullOrEmpty(user.AvatarUrl))
+            {
+                var oldFileName = Path.GetFileName(user.AvatarUrl);
+                var oldFilePath = Path.Combine(_profileImagesFolder, oldFileName);
+                if (System.IO.File.Exists(oldFilePath))
+                {
+                    try
+                    {
+                        System.IO.File.Delete(oldFilePath);
+                    }
+                    catch (IOException ex)
+                    {
+                        Console.WriteLine($"Error deleting old avatar: {ex.Message}");
+                    }
+                }
+            }
             
-            // Generate a unique filename
             var fileName = $"{userId}_{Guid.NewGuid()}{Path.GetExtension(file.FileName)}";
-            var filePath = Path.Combine(_imagesFolder, fileName);
+            var filePath = Path.Combine(_profileImagesFolder, fileName);
             
             using (var stream = new FileStream(filePath, FileMode.Create))
             {
                 await file.CopyToAsync(stream);
             }
             
-            // Update user's avatar URL to point to the new file
-            var fileUrl = $"/images/{fileName}";
+            var fileUrl = $"/images/profiles/{fileName}";
             user.AvatarUrl = fileUrl;
             
             await _dbContext.SaveChangesAsync();
             
             return RedirectToAction("Profile");
         }
-        
+
+        TempData["Error"] = "Please select a valid image file.";
         return RedirectToAction("Profile");
     }
 

@@ -12,9 +12,9 @@ namespace PumpItUp.BLL.Tests
     [TestFixture]
     public class AttachmentServiceTest
     {
-        private Mock<AppDbContext> _mockContext;
-        private Mock<AttachmentMapper> _mockAttachmentMapper;
-        private AttachmentService _attachmentService;
+        private Mock<AppDbContext> _mockContext = null!;
+        private Mock<AttachmentMapper> _mockAttachmentMapper = null!;
+        private AttachmentService _attachmentService = null!;
 
         [SetUp]
         public void SetUp()
@@ -45,7 +45,7 @@ namespace PumpItUp.BLL.Tests
             _mockAttachmentMapper.Verify(m => m.MapToAttachment(attachmentRequest), Times.Once);
             _mockContext.Verify(c => c.Attachments.Add(It.Is<Attachment>(a => a == attachment)), Times.Once);
             _mockContext.Verify(c => c.SaveChangesAsync(default), Times.Once);
-            Assert.AreEqual(attachment, result);
+            Assert.That(result, Is.EqualTo(attachment));
         }
     }
 }

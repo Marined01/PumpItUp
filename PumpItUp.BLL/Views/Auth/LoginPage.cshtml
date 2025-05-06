@@ -148,6 +148,23 @@
         .registration-reference a:hover {
             color: #5800a8;
         }
+        
+        .forgot-password {
+            text-align: left;
+            margin-top: 15px;
+        }
+        
+        .forgot-password a {
+            text-decoration: none;
+            color: #6a0dad;
+            font-size: 14px;
+            transition: color 0.3s;
+        }
+        
+        .forgot-password a:hover {
+            color: #5800a8;
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
@@ -180,6 +197,9 @@
     </form>
     <div class="registration-reference">
         <a href="/Auth/SignUp">Не має акаунту? Зареєструйся</a>
+    </div>
+    <div class="forgot-password">
+        <a href="/Auth/ForgotPassword">Забули пароль?</a>
     </div>
 </div>
 </body>
