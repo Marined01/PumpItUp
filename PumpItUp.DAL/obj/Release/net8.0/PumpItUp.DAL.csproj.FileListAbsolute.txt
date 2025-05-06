@@ -1,0 +1,15 @@
+/home/o/Desktop/LNU/PI/PumpItUp/PumpItUp.DAL/bin/Release/net8.0/PumpItUp.DAL.deps.json
+/home/o/Desktop/LNU/PI/PumpItUp/PumpItUp.DAL/bin/Release/net8.0/PumpItUp.DAL.runtimeconfig.json
+/home/o/Desktop/LNU/PI/PumpItUp/PumpItUp.DAL/bin/Release/net8.0/PumpItUp.DAL.dll
+/home/o/Desktop/LNU/PI/PumpItUp/PumpItUp.DAL/bin/Release/net8.0/PumpItUp.DAL.pdb
+/home/o/Desktop/LNU/PI/PumpItUp/PumpItUp.DAL/obj/Release/net8.0/PumpItUp.DAL.csproj.AssemblyReference.cache
+/home/o/Desktop/LNU/PI/PumpItUp/PumpItUp.DAL/obj/Release/net8.0/PumpItUp.DAL.GeneratedMSBuildEditorConfig.editorconfig
+/home/o/Desktop/LNU/PI/PumpItUp/PumpItUp.DAL/obj/Release/net8.0/PumpItUp.DAL.AssemblyInfoInputs.cache
+/home/o/Desktop/LNU/PI/PumpItUp/PumpItUp.DAL/obj/Release/net8.0/PumpItUp.DAL.AssemblyInfo.cs
+/home/o/Desktop/LNU/PI/PumpItUp/PumpItUp.DAL/obj/Release/net8.0/PumpItUp.DAL.csproj.CoreCompileInputs.cache
+/home/o/Desktop/LNU/PI/PumpItUp/PumpItUp.DAL/obj/Release/net8.0/PumpItUp.DAL.sourcelink.json
+/home/o/Desktop/LNU/PI/PumpItUp/PumpItUp.DAL/obj/Release/net8.0/PumpItUp.DAL.dll
+/home/o/Desktop/LNU/PI/PumpItUp/PumpItUp.DAL/obj/Release/net8.0/refint/PumpItUp.DAL.dll
+/home/o/Desktop/LNU/PI/PumpItUp/PumpItUp.DAL/obj/Release/net8.0/PumpItUp.DAL.pdb
+/home/o/Desktop/LNU/PI/PumpItUp/PumpItUp.DAL/obj/Release/net8.0/PumpItUp.DAL.genruntimeconfig.cache
+/home/o/Desktop/LNU/PI/PumpItUp/PumpItUp.DAL/obj/Release/net8.0/ref/PumpItUp.DAL.dll

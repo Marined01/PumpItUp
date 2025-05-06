@@ -5390,19 +5390,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Lenovo\\.nuget\\packages\\": {}
+    "/home/o/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\university\\6 semester\\software engineering\\WebProject\\PumpItUp.BLL\\PumpItUp.BLL.csproj",
+      "projectUniqueName": "/home/o/Desktop/LNU/PI/PumpItUp/PumpItUp.BLL/PumpItUp.BLL.csproj",
       "projectName": "PumpItUp.BLL",
-      "projectPath": "D:\\university\\6 semester\\software engineering\\WebProject\\PumpItUp.BLL\\PumpItUp.BLL.csproj",
-      "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-      "outputPath": "D:\\university\\6 semester\\software engineering\\WebProject\\PumpItUp.BLL\\obj\\",
+      "projectPath": "/home/o/Desktop/LNU/PI/PumpItUp/PumpItUp.BLL/PumpItUp.BLL.csproj",
+      "packagesPath": "/home/o/.nuget/packages/",
+      "outputPath": "/home/o/Desktop/LNU/PI/PumpItUp/PumpItUp.BLL/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/home/o/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -5414,8 +5414,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\university\\6 semester\\software engineering\\WebProject\\PumpItUp.DAL\\PumpItUp.DAL.csproj": {
-              "projectPath": "D:\\university\\6 semester\\software engineering\\WebProject\\PumpItUp.DAL\\PumpItUp.DAL.csproj"
+            "/home/o/Desktop/LNU/PI/PumpItUp/PumpItUp.DAL/PumpItUp.DAL.csproj": {
+              "projectPath": "/home/o/Desktop/LNU/PI/PumpItUp/PumpItUp.DAL/PumpItUp.DAL.csproj"
             }
           }
         }
@@ -5424,13 +5424,7 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
-      },
-      "SdkAnalysisLevel": "9.0.200"
+      }
     },
     "frameworks": {
       "net8.0": {
@@ -5520,7 +5514,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.115/PortableRuntimeIdentifierGraph.json"
       }
     }
   },
