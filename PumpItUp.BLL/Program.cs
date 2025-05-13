@@ -5,7 +5,6 @@ using PumpItUp.DAL.Repositories;
 using Serilog;
 using Microsoft.Extensions.FileProviders;
 using System.IO;
-using DotNetEnv;
 
 var logPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData), "PumpItUpLogs", "log-.txt");
 
@@ -20,14 +19,8 @@ Log.Logger = new LoggerConfiguration()
 
 builder.Host.UseSerilog();
 
-// Завантаження .env
-Env.Load();
-
-var connectionString = Environment.GetEnvironmentVariable("ConnectionStrings__PumpItUpDb") ??
-    builder.Configuration.GetConnectionString("DefaultConnection");
-
 builder.Services.AddDbContext<AppDbContext>(options =>
-    options.UseNpgsql(connectionString));
+    options.UseNpgsql("Host=localhost;Port=5432;Database=pumpitup_db;Username=postgres;Password=root;SslMode=Disable"));
 
 builder.Services.AddSession(options =>
 {

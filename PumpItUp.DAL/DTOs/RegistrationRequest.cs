@@ -5,21 +5,21 @@ namespace PumpItUp.DAL.DTOs;
 
 public class RegistrationRequest
 {
-    public string FullName { get; set; }
-    public string Email { get; set; }
-    public string Password { get; set; }
-    public string ConfirmPassword { get; set; }
+    public string FullName { get; set; } = string.Empty;
+    public string Email { get; set; } = string.Empty;
+    public string Password { get; set; } = string.Empty;
+    public string ConfirmPassword { get; set; } = string.Empty;
     public Sex Sex { get; set; }
     public int Age { get; set; }
     public FitnessLevel FitnessLevel { get; set; }
     [ValidateNever]
-    public IEnumerable<SelectionItem> SexOptions { get; set; }
+    public IEnumerable<SelectionItem> SexOptions { get; set; } = Enumerable.Empty<SelectionItem>();
     [ValidateNever]
-    public IEnumerable<SelectionItem> FitnessLevelOptions { get; set; }
+    public IEnumerable<SelectionItem> FitnessLevelOptions { get; set; } = Enumerable.Empty<SelectionItem>();
 }
 
 public class SelectionItem
 {
     public int Id { get; set; }
-    public string Name { get; set; }
+    public string Name { get; set; } = string.Empty;
 }

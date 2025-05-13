@@ -12,14 +12,14 @@ namespace PumpItUp.DAL.Models
         public long Id { get; set; }
         
         [Required]
-        public string Title { get; set; }
+        public string Title { get; set; } = string.Empty;
         
         [Required]
-        public string Description { get; set; }
+        public string Description { get; set; } = string.Empty;
         
         [Required]
         [Url]
-        public string ImageUrl { get; set; }
+        public string ImageUrl { get; set; } = string.Empty;
         
         [Url]
         public string? VideoUrl { get; set; }

@@ -16,7 +16,7 @@ public class PostRepository : IPostRepository
         await Task.CompletedTask;
     }
     
-    public async Task<Post> GetPostByIdAsync(int id)
+    public async Task<Post?> GetPostByIdAsync(int id)
     {
         var post = _posts.FirstOrDefault(p => p.Id == id);
         return await Task.FromResult(post);

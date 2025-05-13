@@ -14,7 +14,7 @@ namespace PumpItUp.BLL.Controllers
             _exerciseService = exerciseService;
         }
 
-        public async Task<IActionResult> Index(ExerciseFilterViewModel filter = null)
+        public async Task<IActionResult> Index(ExerciseFilterViewModel? filter = null)
         {
             var model = await _exerciseService.GetExercisesPageAsync(filter);
             return View(model);

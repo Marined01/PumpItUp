@@ -22,9 +22,9 @@ namespace PumpItUp.DAL.Repositories
         }
 
         public async Task<IEnumerable<ExerciseSet>> GetFilteredAsync(
-            IEnumerable<BodyPart> bodyParts = null,
-            IEnumerable<FitnessLevel> difficultyLevels = null,
-            IEnumerable<ExerciseType> exerciseTypes = null,
+            IEnumerable<BodyPart>? bodyParts = null!,
+            IEnumerable<FitnessLevel>? difficultyLevels = null!,
+            IEnumerable<ExerciseType>? exerciseTypes = null!,
             string filterType = "All")
         {
             var query = _context.ExerciseSets
@@ -49,7 +49,7 @@ namespace PumpItUp.DAL.Repositories
             return await query.ToListAsync();
         }
 
-        public async Task<ExerciseSet> GetByIdAsync(long id)
+        public async Task<ExerciseSet?> GetByIdAsync(long id)
         {
             return await _context.ExerciseSets
                 .Include(es => es.Exercises)

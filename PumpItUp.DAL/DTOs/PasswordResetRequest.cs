@@ -6,6 +6,6 @@ namespace PumpItUp.DAL.DTOs
     {
         [Required(ErrorMessage = "Електронна адреса обов'язкова")]
         [EmailAddress(ErrorMessage = "Невірний формат електронної адреси")]
-        public string Email { get; set; }
+        public string Email { get; set; } = string.Empty;
     }
 }

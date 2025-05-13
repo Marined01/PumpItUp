@@ -1375,3 +1375,5 @@ D:\University\PumpItUp\New\PumpItUp\PumpItUp.BLL\obj\Debug\net8.0\refint\PumpItU
 D:\University\PumpItUp\New\PumpItUp\PumpItUp.BLL\obj\Debug\net8.0\PumpItUp.BLL.pdb
 D:\University\PumpItUp\New\PumpItUp\PumpItUp.BLL\obj\Debug\net8.0\PumpItUp.BLL.genruntimeconfig.cache
 D:\University\PumpItUp\New\PumpItUp\PumpItUp.BLL\obj\Debug\net8.0\ref\PumpItUp.BLL.dll
+D:\university\6 semester\software engineering\WebProject\PumpItUp.BLL\bin\Debug\net8.0\DotNetEnv.dll
+D:\university\6 semester\software engineering\WebProject\PumpItUp.BLL\bin\Debug\net8.0\Sprache.dll

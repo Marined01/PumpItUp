@@ -12,10 +12,10 @@ namespace PumpItUp.DAL.Models
         public long Id { get; set; }
         
         [Required]
-        public string Name { get; set; }
+        public string Name { get; set; } = string.Empty;
         
         [Required]
-        public string Description { get; set; }
+        public string Description { get; set; } = string.Empty;
         
         [Required]
         public BodyPart BodyPart { get; set; }
@@ -34,7 +34,7 @@ namespace PumpItUp.DAL.Models
         
         // Navigation property
         [ForeignKey("ExerciseSetId")]
-        public ExerciseSet ExerciseSet { get; set; }
+        public ExerciseSet? ExerciseSet { get; set; }
         
         public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
         

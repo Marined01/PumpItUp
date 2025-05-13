@@ -14,7 +14,7 @@ namespace PumpItUp.BLL.Services
             _exerciseSetRepository = exerciseSetRepository;
         }
 
-        public async Task<ExercisePageViewModel> GetExercisesPageAsync(ExerciseFilterViewModel filter = null)
+        public async Task<ExercisePageViewModel> GetExercisesPageAsync(ExerciseFilterViewModel? filter = null)
         {
             if (filter == null)
             {
@@ -36,7 +36,7 @@ namespace PumpItUp.BLL.Services
             return viewModel;
         }
 
-        public async Task<ExerciseSetViewModel> GetExerciseSetByIdAsync(long id)
+        public async Task<ExerciseSetViewModel?> GetExerciseSetByIdAsync(long id)
         {
             var exerciseSet = await _exerciseSetRepository.GetByIdAsync(id);
             return exerciseSet != null ? MapToViewModel(exerciseSet) : null;

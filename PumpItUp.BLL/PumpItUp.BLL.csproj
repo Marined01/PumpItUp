@@ -10,7 +10,7 @@
     <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
     <PackageReference Include="MailKit" Version="4.5.0" />
     <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.4" />
-    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="8.0.4" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="8.0.3" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="8.0.4" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.4" /> <!-- Updated to match InMemory -->
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="9.0.4"> <!-- Updated for consistency -->
@@ -32,6 +32,7 @@
     <PackageReference Include="NLog.Web.AspNetCore" Version="5.3.9" />
     <PackageReference Include="NUnit" Version="4.1.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+    <PackageReference Include="DotNetEnv" Version="3.0.0" />
 
     <!-- Add Test SDK and NUnit runner -->
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.10.0" />
