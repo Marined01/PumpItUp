@@ -2,7 +2,9 @@
 using PumpItUp.BLL.Services;
 using PumpItUp.DAL.Configuration;
 using Serilog;
-var logPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData), "PumpItUpLogs", "log-.txt");
+using DotNetEnv;
+
+var logPath = Path.combine(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData), "PumpItUpLogs", "log-.txt");
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -15,8 +17,14 @@ Log.Logger = new LoggerConfiguration()
 
 builder.Host.UseSerilog();
 
+// Завантаження .env
+Env.Load();
+
+var connectionString = Environment.GetEnvironmentVariable("ConnectionStrings__PumpItUpDb") ??
+    builder.Configuration.GetConnectionString("DefaultConnection");
+
 builder.Services.AddDbContext<AppDbContext>(options =>
-    options.UseNpgsql("Host=localhost;Port=5432;Database=pumpitup_db;Username=postgres;Password=postgres"));
+    options.UseNpgsql(connectionString));
 
 builder.Services.AddControllersWithViews();
 builder.Services.AddScoped<UserService>();
