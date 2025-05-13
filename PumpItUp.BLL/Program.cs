@@ -49,7 +49,7 @@ builder.Services.AddScoped<RoleService>();
 builder.Services.AddScoped<FollowingService>();
 builder.Services.AddScoped<AuthService>();
 builder.Services.AddScoped<EmailService>();
-builder.Services.AddScoped<ExerciseService>(); // Register ExerciseService
+builder.Services.AddScoped<ExerciseService>();
 
 var app = builder.Build();
 
