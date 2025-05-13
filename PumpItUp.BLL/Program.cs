@@ -23,7 +23,7 @@ builder.Host.UseSerilog();
 // Завантаження .env
 Env.Load();
 
-var connectionString = Environment.GetEnvironmentVariable("ConnectionStrings__PumpItUpDb") ??
+var connectionString = Environment.GetEnvironmentVariable("POSTGRESQLCONNSTR_PumpItUpDb") ??
     builder.Configuration.GetConnectionString("DefaultConnection");
 
 builder.Services.AddDbContext<AppDbContext>(options =>
