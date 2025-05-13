@@ -1,4 +1,4 @@
-﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 using PumpItUp.BLL.Services;
 using PumpItUp.DAL.Configuration;
 using Serilog;
@@ -20,7 +20,7 @@ builder.Host.UseSerilog();
 // Завантаження .env
 Env.Load();
 
-var connectionString = Environment.GetEnvironmentVariable("ConnectionStrings__PumpItUpDb") ??
+var connectionString = Environment.GetEnvironmentVariable("POSTGRESQLCONNSTR_PumpItUpDb") ??
     builder.Configuration.GetConnectionString("DefaultConnection");
 
 builder.Services.AddDbContext<AppDbContext>(options =>
