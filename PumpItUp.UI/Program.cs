@@ -32,6 +32,7 @@ builder.Services.AddScoped<AttachmentService>();
 builder.Services.AddScoped<PostService>();
 builder.Services.AddScoped<RoleService>();
 builder.Services.AddScoped<FollowingService>();
+builder.Services.AddScoped<AuthService>();
 
 var app = builder.Build();
 
