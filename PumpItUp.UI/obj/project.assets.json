@@ -10433,35 +10433,42 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Lenovo\\.nuget\\packages\\": {}
+    "C:\\Users\\Dell\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\university\\6 semester\\software engineering\\WebProject\\PumpItUp.UI\\PumpItUp.UI.csproj",
+      "projectUniqueName": "D:\\University\\PumpItUp\\New\\PumpItUp\\PumpItUp.UI\\PumpItUp.UI.csproj",
       "projectName": "PumpItUp.UI",
-      "projectPath": "D:\\university\\6 semester\\software engineering\\WebProject\\PumpItUp.UI\\PumpItUp.UI.csproj",
-      "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-      "outputPath": "D:\\university\\6 semester\\software engineering\\WebProject\\PumpItUp.UI\\obj\\",
+      "projectPath": "D:\\University\\PumpItUp\\New\\PumpItUp\\PumpItUp.UI\\PumpItUp.UI.csproj",
+      "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
+      "outputPath": "D:\\University\\PumpItUp\\New\\PumpItUp\\PumpItUp.UI\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\university\\6 semester\\software engineering\\WebProject\\PumpItUp.BLL\\PumpItUp.BLL.csproj": {
-              "projectPath": "D:\\university\\6 semester\\software engineering\\WebProject\\PumpItUp.BLL\\PumpItUp.BLL.csproj"
+            "D:\\University\\PumpItUp\\New\\PumpItUp\\PumpItUp.BLL\\PumpItUp.BLL.csproj": {
+              "projectPath": "D:\\University\\PumpItUp\\New\\PumpItUp\\PumpItUp.BLL\\PumpItUp.BLL.csproj"
             },
-            "D:\\university\\6 semester\\software engineering\\WebProject\\PumpItUp.DAL\\PumpItUp.DAL.csproj": {
-              "projectPath": "D:\\university\\6 semester\\software engineering\\WebProject\\PumpItUp.DAL\\PumpItUp.DAL.csproj"
+            "D:\\University\\PumpItUp\\New\\PumpItUp\\PumpItUp.DAL\\PumpItUp.DAL.csproj": {
+              "projectPath": "D:\\University\\PumpItUp\\New\\PumpItUp\\PumpItUp.DAL\\PumpItUp.DAL.csproj"
             }
           }
         }
@@ -10474,9 +10481,9 @@
       "restoreAuditProperties": {
         "enableAudit": "true",
         "auditLevel": "low",
-        "auditMode": "direct"
+        "auditMode": "all"
       },
-      "SdkAnalysisLevel": "9.0.200"
+      "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
       "net8.0": {
@@ -10538,7 +10545,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

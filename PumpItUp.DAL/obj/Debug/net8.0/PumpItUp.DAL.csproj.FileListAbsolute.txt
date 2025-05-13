@@ -43,3 +43,18 @@ D:\university\6 semester\software engineering\WebProject\PumpItUp.DAL\obj\Debug\
 D:\university\6 semester\software engineering\WebProject\PumpItUp.DAL\obj\Debug\net8.0\PumpItUp.DAL.pdb
 D:\university\6 semester\software engineering\WebProject\PumpItUp.DAL\obj\Debug\net8.0\PumpItUp.DAL.genruntimeconfig.cache
 D:\university\6 semester\software engineering\WebProject\PumpItUp.DAL\obj\Debug\net8.0\ref\PumpItUp.DAL.dll
+D:\University\PumpItUp\New\PumpItUp\PumpItUp.DAL\bin\Debug\net8.0\PumpItUp.DAL.deps.json
+D:\University\PumpItUp\New\PumpItUp\PumpItUp.DAL\bin\Debug\net8.0\PumpItUp.DAL.runtimeconfig.json
+D:\University\PumpItUp\New\PumpItUp\PumpItUp.DAL\bin\Debug\net8.0\PumpItUp.DAL.dll
+D:\University\PumpItUp\New\PumpItUp\PumpItUp.DAL\bin\Debug\net8.0\PumpItUp.DAL.pdb
+D:\University\PumpItUp\New\PumpItUp\PumpItUp.DAL\obj\Debug\net8.0\PumpItUp.DAL.csproj.AssemblyReference.cache
+D:\University\PumpItUp\New\PumpItUp\PumpItUp.DAL\obj\Debug\net8.0\PumpItUp.DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\University\PumpItUp\New\PumpItUp\PumpItUp.DAL\obj\Debug\net8.0\PumpItUp.DAL.AssemblyInfoInputs.cache
+D:\University\PumpItUp\New\PumpItUp\PumpItUp.DAL\obj\Debug\net8.0\PumpItUp.DAL.AssemblyInfo.cs
+D:\University\PumpItUp\New\PumpItUp\PumpItUp.DAL\obj\Debug\net8.0\PumpItUp.DAL.csproj.CoreCompileInputs.cache
+D:\University\PumpItUp\New\PumpItUp\PumpItUp.DAL\obj\Debug\net8.0\PumpItUp.DAL.sourcelink.json
+D:\University\PumpItUp\New\PumpItUp\PumpItUp.DAL\obj\Debug\net8.0\PumpItUp.DAL.dll
+D:\University\PumpItUp\New\PumpItUp\PumpItUp.DAL\obj\Debug\net8.0\refint\PumpItUp.DAL.dll
+D:\University\PumpItUp\New\PumpItUp\PumpItUp.DAL\obj\Debug\net8.0\PumpItUp.DAL.pdb
+D:\University\PumpItUp\New\PumpItUp\PumpItUp.DAL\obj\Debug\net8.0\PumpItUp.DAL.genruntimeconfig.cache
+D:\University\PumpItUp\New\PumpItUp\PumpItUp.DAL\obj\Debug\net8.0\ref\PumpItUp.DAL.dll
